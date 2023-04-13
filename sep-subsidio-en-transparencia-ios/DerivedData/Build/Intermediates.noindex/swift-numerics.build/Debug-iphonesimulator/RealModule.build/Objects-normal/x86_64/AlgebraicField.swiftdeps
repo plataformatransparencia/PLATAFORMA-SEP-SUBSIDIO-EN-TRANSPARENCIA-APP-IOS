@@ -1,0 +1,60 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AlgebraicField"
+- "/="
+- "/"
+- "/"
+provides-nominal:
+- "10RealModule14AlgebraicFieldP"
+provides-member:
+- ["10RealModule14AlgebraicFieldP", ""]
+- ["10RealModule14AlgebraicFieldP", "/"]
+- ["10RealModule14AlgebraicFieldP", "reciprocal"]
+provides-dynamic-lookup:
+depends-top-level:
+- "/"
+- "/="
+- "AlgebraicField"
+- "Self"
+- "SignedNumeric"
+depends-member:
+- ["s18AdditiveArithmeticP", "/"]
+- ["s18AdditiveArithmeticP", "/="]
+- ["s18AdditiveArithmeticP", ""]
+- ["s18AdditiveArithmeticP", "reciprocal"]
+- ["10RealModule14AlgebraicFieldP", "/"]
+- ["10RealModule14AlgebraicFieldP", "/="]
+- ["10RealModule14AlgebraicFieldP", "IntegerLiteralType"]
+- ["10RealModule14AlgebraicFieldP", "Magnitude"]
+- ["10RealModule14AlgebraicFieldP", ""]
+- ["10RealModule14AlgebraicFieldP", "reciprocal"]
+- ["SQ", "/"]
+- ["SQ", "/="]
+- ["SQ", ""]
+- ["SQ", "reciprocal"]
+- ["s27ExpressibleByIntegerLiteralP", "/"]
+- ["s27ExpressibleByIntegerLiteralP", "/="]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "reciprocal"]
+- ["Sj", "/"]
+- ["Sj", "/="]
+- ["Sj", ""]
+- ["Sj", "reciprocal"]
+- ["s13SignedNumericP", "/"]
+- ["s13SignedNumericP", "/="]
+- ["s13SignedNumericP", ""]
+- ["s13SignedNumericP", "reciprocal"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "10RealModule14AlgebraicFieldP"
+- "SQ"
+- "s27ExpressibleByIntegerLiteralP"
+- "Sj"
+- "s13SignedNumericP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/_NumericsShims.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap"
+interface-hash: "42a6cd85dff91dc287fb2d52b2347ebf"

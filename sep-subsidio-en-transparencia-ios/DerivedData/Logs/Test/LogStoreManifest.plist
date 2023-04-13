@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>AC850121-7C11-45A4-8EE6-75C0AC43232D</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>3FE98CAA-F17D-468C-977B-2D5DFBCDF9C4</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Run-EnTransparencia-2021.07.01_11-37-37--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasCoverageData</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnTransparencia project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnTransparencia</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnTransparencia</string>
+			<key>timeStartedRecording</key>
+			<real>646850257.432742</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run EnTransparencia</string>
+			<key>uniqueIdentifier</key>
+			<string>AC850121-7C11-45A4-8EE6-75C0AC43232D</string>
+		</dict>
+		<key>C65FE6E1-8DF5-4C10-B3DE-AD45AB860AF6</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>3C90C253-5704-41EB-9460-B791997BB705</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Run-EnTransparencia-2021.07.01_10-53-55--0500.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasCoverageData</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EnTransparencia project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EnTransparencia</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run EnTransparencia</string>
+			<key>timeStartedRecording</key>
+			<real>646847635.33979106</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run EnTransparencia</string>
+			<key>uniqueIdentifier</key>
+			<string>C65FE6E1-8DF5-4C10-B3DE-AD45AB860AF6</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

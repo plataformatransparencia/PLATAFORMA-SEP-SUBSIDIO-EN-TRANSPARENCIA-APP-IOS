@@ -1,0 +1,125 @@
+commit 7eafcd8607a33efeb192fbbd18a92f644215e018
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Fri May 21 14:14:49 2021 -0500
+
+    Se agrega la segunda version de los cambios en la grafica
+
+commit ddb446e0b450d81e13f508c241cf72049234df46
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Thu May 20 20:07:06 2021 -0500
+
+    Se agrega la segunda version de los cambios en la grafica
+
+commit 28f8224b97f4eab69c20cb830a1c9cd0b563b676
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Thu May 20 16:28:10 2021 -0500
+
+    Se agregan primeros cambios de grafica
+
+commit 045087739ecf950108ebf0ab9bb45bdd65bb731c
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Thu May 20 14:40:29 2021 -0500
+
+    Se corrigen errores que detectaba Apple Store
+
+commit 2bdef9956811c42abc55d1d114f721fb085e5e18
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Wed May 19 19:31:19 2021 -0500
+
+    Se agregan modificaciones de incidencias en tableros, lista de unversidades
+
+commit 70204a410e32ad4d97f28653bcdc48d8b1682b3c
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Wed May 19 17:08:01 2021 -0500
+
+    Se agregan cambios
+
+commit d79168e80043a1e2532b386e378bf88c649f1b01
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Tue May 18 16:29:42 2021 -0500
+
+    Se agrega cambio en grafica y header
+
+commit 65b9821a9b8bc28206d5608fcff72f11acfa3a55
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Tue May 18 12:42:56 2021 -0500
+
+    Correccion de errores
+
+commit 8f1aa677f6924c93c6f089a95653993895cd4cb0
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Tue May 18 12:29:24 2021 -0500
+
+    Se corrige incidencia de grafica V1 y error en App Store Connect
+
+commit 6d745543de0a127c5b84af68428996a8f93ec1e3
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Fri May 14 11:16:55 2021 -0500
+
+    Se modifica el texto en barra de busqueda de universidad y markerInfoWindow
+
+commit e3004bd4837b352eebd78e5fd24868c9fe1fbc2d
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Thu May 13 13:05:40 2021 -0500
+
+    cambios completos de incidencias detectadas
+
+commit 798cecf3453bcece88f95888cb92d4d9a6f8249a
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Wed May 12 14:34:47 2021 -0500
+
+    Se agregan primeros cambios de las incidencias detectadas
+
+commit 3c3fef3bce48e1074dd41fc552a727b9f8b1475e
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Thu Apr 29 12:41:57 2021 -0500
+
+    Se agregan correcciones en titulos
+
+commit bed58b700a36c9088cf01db3821f80f998605b74
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Wed Apr 28 18:18:45 2021 -0500
+
+    Se realizan correcciones del script de pruebas
+
+commit abfa3292d127caa747efb4581dc3ecef6d1c3031
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Mon Apr 26 12:05:48 2021 -0500
+
+    Segunda parte de funcionalidad de modo oscuro
+
+commit 49eaf43af48fda705fbe956c45a8911ea83e65dd
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Thu Apr 22 18:52:03 2021 -0500
+
+    Se agrega correccion de grafica, deshacer filtro y primera parte de configuracion del modo oscuro
+
+commit 64d5b22ed67440f13b9056ee449f549f37db27ef
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Tue Apr 20 18:39:13 2021 -0500
+
+    Se agregan todas las funcionalidades BETA-1
+
+commit 6509cce00188fd7291b3321af31cf591c8e92dad
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Thu Mar 18 17:42:51 2021 -0600
+
+    restructurado
+
+commit c78e8015ef51125a97368d00ed43ccc27211ac3d
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Thu Mar 18 17:18:17 2021 -0600
+
+    inicio
+
+commit 89d96142393a73866c117a016e4f2bb18abce00c
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Thu Mar 18 17:14:15 2021 -0600
+
+    Commit inicial
+
+commit ab1ec9081805e734e5858d836d4941844df0d6c6
+Author: Jose Esquivel <jose.esquivel@mozcalti.com>
+Date:   Wed Feb 24 17:46:02 2021 -0600
+
+    Initial Commit

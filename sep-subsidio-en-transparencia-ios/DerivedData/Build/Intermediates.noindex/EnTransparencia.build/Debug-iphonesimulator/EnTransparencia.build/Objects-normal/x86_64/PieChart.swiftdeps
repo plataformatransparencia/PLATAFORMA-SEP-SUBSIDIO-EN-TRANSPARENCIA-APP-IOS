@@ -1,0 +1,1101 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PieChart"
+- "PieChart_Previews"
+provides-nominal:
+- "15EnTransparencia8PieChartV"
+- "15EnTransparencia17PieChart_PreviewsV"
+provides-member:
+- ["15EnTransparencia8PieChartV", ""]
+- ["15EnTransparencia17PieChart_PreviewsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "ChartDataSet"
+- !private "Color"
+- "Context"
+- !private "DefaultValueFormatter"
+- "Description"
+- !private "FloatLiteralType"
+- !private "Grafica"
+- !private "IntegerLiteralType"
+- "Legend"
+- !private "NumberFormatter"
+- "PieChart"
+- !private "PieChartData"
+- "PieChartDataEntry"
+- !private "PieChartDataSet"
+- "PieChartView"
+- "PieChart_Previews"
+- "PreviewProvider"
+- !private "StringLiteralType"
+- !private "UIColor"
+- !private "UIFont"
+- "UIViewRepresentable"
+- "View"
+- !private "configureChart"
+- !private "entries"
+- !private "formatCenter"
+- !private "formatDataSet"
+- !private "formatDescription"
+- !private "formatLegend"
+- !private "pieChart"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["6Charts16AnimatorDelegateP", "centerTextRadiusPercent"]
+- !private ["6Charts16AnimatorDelegateP", "chartDescription"]
+- !private ["6Charts16AnimatorDelegateP", "data"]
+- !private ["6Charts16AnimatorDelegateP", "drawEntryLabelsEnabled"]
+- !private ["6Charts16AnimatorDelegateP", "highlightValue"]
+- !private ["6Charts16AnimatorDelegateP", "holeColor"]
+- ["6Charts16AnimatorDelegateP", "init"]
+- !private ["6Charts16AnimatorDelegateP", "legend"]
+- !private ["6Charts16AnimatorDelegateP", "notifyDataSetChanged"]
+- !private ["6Charts16AnimatorDelegateP", "rotationEnabled"]
+- !private ["6Charts16AnimatorDelegateP", "usePercentValuesEnabled"]
+- ["SK", ""]
+- !private ["SK", "colors"]
+- !private ["SK", "drawValuesEnabled"]
+- !private ["SK", "init"]
+- !private ["SK", "setValueFormatter"]
+- !private ["SK", "white"]
+- !private ["So15CALayerDelegateP", "centerTextRadiusPercent"]
+- !private ["So15CALayerDelegateP", "chartDescription"]
+- !private ["So15CALayerDelegateP", "data"]
+- !private ["So15CALayerDelegateP", "drawEntryLabelsEnabled"]
+- !private ["So15CALayerDelegateP", "highlightValue"]
+- !private ["So15CALayerDelegateP", "holeColor"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "legend"]
+- !private ["So15CALayerDelegateP", "notifyDataSetChanged"]
+- !private ["So15CALayerDelegateP", "rotationEnabled"]
+- !private ["So15CALayerDelegateP", "usePercentValuesEnabled"]
+- !private ["So10CGColorRefa", "white"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "white"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "boldSystemFont"]
+- !private ["s7CVarArgP", "centerTextRadiusPercent"]
+- !private ["s7CVarArgP", "chartDescription"]
+- !private ["s7CVarArgP", "colors"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "drawEntryLabelsEnabled"]
+- !private ["s7CVarArgP", "drawValuesEnabled"]
+- !private ["s7CVarArgP", "enabled"]
+- !private ["s7CVarArgP", "font"]
+- !private ["s7CVarArgP", "highlightValue"]
+- !private ["s7CVarArgP", "holeColor"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "legend"]
+- !private ["s7CVarArgP", "maximumFractionDigits"]
+- !private ["s7CVarArgP", "minimumFractionDigits"]
+- !private ["s7CVarArgP", "multiplier"]
+- !private ["s7CVarArgP", "notifyDataSetChanged"]
+- !private ["s7CVarArgP", "numberStyle"]
+- !private ["s7CVarArgP", "rotationEnabled"]
+- !private ["s7CVarArgP", "setValueFormatter"]
+- !private ["s7CVarArgP", "textColor"]
+- !private ["s7CVarArgP", "usePercentValuesEnabled"]
+- !private ["s7CVarArgP", "white"]
+- !private ["15EnTransparencia7GraficaV9CategoriaO", "graficaPastel"]
+- ["6Charts16ChartBaseDataSetC", ""]
+- !private ["6Charts16ChartBaseDataSetC", "colors"]
+- !private ["6Charts16ChartBaseDataSetC", "drawValuesEnabled"]
+- !private ["6Charts16ChartBaseDataSetC", "init"]
+- ["6Charts9ChartDataC", ""]
+- !private ["6Charts9ChartDataC", "init"]
+- !private ["6Charts9ChartDataC", "setValueFormatter"]
+- ["6Charts14ChartDataEntryC", ""]
+- !private ["6Charts17ChartDataProviderP", "centerTextRadiusPercent"]
+- !private ["6Charts17ChartDataProviderP", "chartDescription"]
+- !private ["6Charts17ChartDataProviderP", "data"]
+- !private ["6Charts17ChartDataProviderP", "drawEntryLabelsEnabled"]
+- !private ["6Charts17ChartDataProviderP", "highlightValue"]
+- !private ["6Charts17ChartDataProviderP", "holeColor"]
+- ["6Charts17ChartDataProviderP", "init"]
+- !private ["6Charts17ChartDataProviderP", "legend"]
+- !private ["6Charts17ChartDataProviderP", "notifyDataSetChanged"]
+- !private ["6Charts17ChartDataProviderP", "rotationEnabled"]
+- !private ["6Charts17ChartDataProviderP", "usePercentValuesEnabled"]
+- ["6Charts12ChartDataSetC", ""]
+- !private ["6Charts12ChartDataSetC", "colors"]
+- !private ["6Charts12ChartDataSetC", "drawValuesEnabled"]
+- !private ["6Charts12ChartDataSetC", "init"]
+- !private ["6Charts20ChartDataSetProtocolP", ""]
+- !private ["6Charts20ChartDataSetProtocolP", "colors"]
+- !private ["6Charts20ChartDataSetProtocolP", "drawValuesEnabled"]
+- !private ["6Charts20ChartDataSetProtocolP", "init"]
+- ["6Charts13ChartViewBaseC", ""]
+- !private ["6Charts13ChartViewBaseC", "centerTextRadiusPercent"]
+- !private ["6Charts13ChartViewBaseC", "chartDescription"]
+- !private ["6Charts13ChartViewBaseC", "data"]
+- !private ["6Charts13ChartViewBaseC", "drawEntryLabelsEnabled"]
+- !private ["6Charts13ChartViewBaseC", "highlightValue"]
+- !private ["6Charts13ChartViewBaseC", "holeColor"]
+- ["6Charts13ChartViewBaseC", "init"]
+- !private ["6Charts13ChartViewBaseC", "legend"]
+- !private ["6Charts13ChartViewBaseC", "notifyDataSetChanged"]
+- !private ["6Charts13ChartViewBaseC", "rotationEnabled"]
+- !private ["6Charts13ChartViewBaseC", "usePercentValuesEnabled"]
+- ["Sl", ""]
+- !private ["Sl", "colors"]
+- !private ["Sl", "drawValuesEnabled"]
+- !private ["Sl", "init"]
+- !private ["Sl", "setValueFormatter"]
+- !private ["Sl", "white"]
+- !private ["7SwiftUI5ColorV", "init"]
+- ["SL", ""]
+- !private ["SL", "white"]
+- ["6Charts13ComponentBaseC", ""]
+- !private ["6Charts13ComponentBaseC", "enabled"]
+- !private ["6Charts13ComponentBaseC", "font"]
+- !private ["6Charts13ComponentBaseC", "textColor"]
+- !private ["s28CustomDebugStringConvertibleP", "boldSystemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "centerTextRadiusPercent"]
+- !private ["s28CustomDebugStringConvertibleP", "chartDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "colors"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "drawEntryLabelsEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "drawValuesEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "enabled"]
+- !private ["s28CustomDebugStringConvertibleP", "font"]
+- !private ["s28CustomDebugStringConvertibleP", "highlightValue"]
+- !private ["s28CustomDebugStringConvertibleP", "holeColor"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "legend"]
+- !private ["s28CustomDebugStringConvertibleP", "maximumFractionDigits"]
+- !private ["s28CustomDebugStringConvertibleP", "minimumFractionDigits"]
+- !private ["s28CustomDebugStringConvertibleP", "multiplier"]
+- !private ["s28CustomDebugStringConvertibleP", "notifyDataSetChanged"]
+- !private ["s28CustomDebugStringConvertibleP", "numberStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "rotationEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "setValueFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "textColor"]
+- !private ["s28CustomDebugStringConvertibleP", "usePercentValuesEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s17CustomReflectableP", "white"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "boldSystemFont"]
+- !private ["s23CustomStringConvertibleP", "centerTextRadiusPercent"]
+- !private ["s23CustomStringConvertibleP", "chartDescription"]
+- !private ["s23CustomStringConvertibleP", "colors"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "drawEntryLabelsEnabled"]
+- !private ["s23CustomStringConvertibleP", "drawValuesEnabled"]
+- !private ["s23CustomStringConvertibleP", "enabled"]
+- !private ["s23CustomStringConvertibleP", "font"]
+- !private ["s23CustomStringConvertibleP", "highlightValue"]
+- !private ["s23CustomStringConvertibleP", "holeColor"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "legend"]
+- !private ["s23CustomStringConvertibleP", "maximumFractionDigits"]
+- !private ["s23CustomStringConvertibleP", "minimumFractionDigits"]
+- !private ["s23CustomStringConvertibleP", "multiplier"]
+- !private ["s23CustomStringConvertibleP", "notifyDataSetChanged"]
+- !private ["s23CustomStringConvertibleP", "numberStyle"]
+- !private ["s23CustomStringConvertibleP", "rotationEnabled"]
+- !private ["s23CustomStringConvertibleP", "setValueFormatter"]
+- !private ["s23CustomStringConvertibleP", "textColor"]
+- !private ["s23CustomStringConvertibleP", "usePercentValuesEnabled"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["Se", "white"]
+- !private ["6Charts21DefaultValueFormatterC", "init"]
+- !private ["6Charts11DescriptionC", "font"]
+- !private ["6Charts11DescriptionC", "textColor"]
+- !private ["SE", "white"]
+- ["SQ", ""]
+- !private ["SQ", "boldSystemFont"]
+- !private ["SQ", "centerTextRadiusPercent"]
+- !private ["SQ", "chartDescription"]
+- !private ["SQ", "colors"]
+- !private ["SQ", "data"]
+- !private ["SQ", "drawEntryLabelsEnabled"]
+- !private ["SQ", "drawValuesEnabled"]
+- !private ["SQ", "enabled"]
+- !private ["SQ", "font"]
+- !private ["SQ", "graficaPastel"]
+- !private ["SQ", "highlightValue"]
+- !private ["SQ", "holeColor"]
+- ["SQ", "init"]
+- !private ["SQ", "legend"]
+- !private ["SQ", "maximumFractionDigits"]
+- !private ["SQ", "minimumFractionDigits"]
+- !private ["SQ", "multiplier"]
+- !private ["SQ", "notifyDataSetChanged"]
+- !private ["SQ", "numberStyle"]
+- !private ["SQ", "percent"]
+- !private ["SQ", "rotationEnabled"]
+- !private ["SQ", "setValueFormatter"]
+- !private ["SQ", "textColor"]
+- !private ["SQ", "usePercentValuesEnabled"]
+- !private ["SQ", "white"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "setValueFormatter"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "white"]
+- !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "white"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "white"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "white"]
+- !private ["SF", ""]
+- ["So11NSFormatterC", ""]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "maximumFractionDigits"]
+- !private ["So11NSFormatterC", "minimumFractionDigits"]
+- !private ["So11NSFormatterC", "multiplier"]
+- !private ["So11NSFormatterC", "numberStyle"]
+- !private ["15EnTransparencia7GraficaV", "entriesForWines"]
+- !private ["15EnTransparencia7GraficaV", "init"]
+- ["SH", ""]
+- !private ["SH", "boldSystemFont"]
+- !private ["SH", "centerTextRadiusPercent"]
+- !private ["SH", "chartDescription"]
+- !private ["SH", "colors"]
+- !private ["SH", "data"]
+- !private ["SH", "drawEntryLabelsEnabled"]
+- !private ["SH", "drawValuesEnabled"]
+- !private ["SH", "enabled"]
+- !private ["SH", "font"]
+- !private ["SH", "graficaPastel"]
+- !private ["SH", "highlightValue"]
+- !private ["SH", "holeColor"]
+- ["SH", "init"]
+- !private ["SH", "legend"]
+- !private ["SH", "maximumFractionDigits"]
+- !private ["SH", "minimumFractionDigits"]
+- !private ["SH", "multiplier"]
+- !private ["SH", "notifyDataSetChanged"]
+- !private ["SH", "numberStyle"]
+- !private ["SH", "percent"]
+- !private ["SH", "rotationEnabled"]
+- !private ["SH", "setValueFormatter"]
+- !private ["SH", "textColor"]
+- !private ["SH", "usePercentValuesEnabled"]
+- !private ["SH", "white"]
+- !private ["6Charts6LegendC", "enabled"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "white"]
+- !private ["s10MirrorPathP", "white"]
+- !private ["SM", "colors"]
+- !private ["SM", "drawValuesEnabled"]
+- !private ["SM", "init"]
+- !private ["SM", "setValueFormatter"]
+- !private ["SM", "subscript"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "centerTextRadiusPercent"]
+- !private ["So8NSCodingP", "chartDescription"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "drawEntryLabelsEnabled"]
+- !private ["So8NSCodingP", "highlightValue"]
+- !private ["So8NSCodingP", "holeColor"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "legend"]
+- !private ["So8NSCodingP", "maximumFractionDigits"]
+- !private ["So8NSCodingP", "minimumFractionDigits"]
+- !private ["So8NSCodingP", "multiplier"]
+- !private ["So8NSCodingP", "notifyDataSetChanged"]
+- !private ["So8NSCodingP", "numberStyle"]
+- !private ["So8NSCodingP", "rotationEnabled"]
+- !private ["So8NSCodingP", "usePercentValuesEnabled"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "boldSystemFont"]
+- !private ["So9NSCopyingP", "colors"]
+- !private ["So9NSCopyingP", "drawValuesEnabled"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "maximumFractionDigits"]
+- !private ["So9NSCopyingP", "minimumFractionDigits"]
+- !private ["So9NSCopyingP", "multiplier"]
+- !private ["So9NSCopyingP", "numberStyle"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "boldSystemFont"]
+- !private ["So8NSObjectC", "boldSystemFontOfSize"]
+- !private ["So8NSObjectC", "centerTextRadiusPercent"]
+- !private ["So8NSObjectC", "chartDescription"]
+- !private ["So8NSObjectC", "colorNamed"]
+- !private ["So8NSObjectC", "colorWithCGColor"]
+- !private ["So8NSObjectC", "colorWithCIColor"]
+- !private ["So8NSObjectC", "colorWithDisplayP3Red"]
+- !private ["So8NSObjectC", "colorWithDynamicProvider"]
+- !private ["So8NSObjectC", "colorWithHue"]
+- !private ["So8NSObjectC", "colorWithPatternImage"]
+- !private ["So8NSObjectC", "colorWithRed"]
+- !private ["So8NSObjectC", "colorWithWhite"]
+- !private ["So8NSObjectC", "colors"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "drawEntryLabelsEnabled"]
+- !private ["So8NSObjectC", "drawValuesEnabled"]
+- !private ["So8NSObjectC", "enabled"]
+- !private ["So8NSObjectC", "font"]
+- !private ["So8NSObjectC", "highlightValue"]
+- !private ["So8NSObjectC", "holeColor"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "legend"]
+- !private ["So8NSObjectC", "maximumFractionDigits"]
+- !private ["So8NSObjectC", "minimumFractionDigits"]
+- !private ["So8NSObjectC", "multiplier"]
+- !private ["So8NSObjectC", "notifyDataSetChanged"]
+- !private ["So8NSObjectC", "numberStyle"]
+- !private ["So8NSObjectC", "rotationEnabled"]
+- !private ["So8NSObjectC", "setValueFormatter"]
+- !private ["So8NSObjectC", "textColor"]
+- !private ["So8NSObjectC", "usePercentValuesEnabled"]
+- !private ["So8NSObjectC", "white"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "boldSystemFont"]
+- !private ["So8NSObjectP", "boldSystemFontOfSize"]
+- !private ["So8NSObjectP", "centerTextRadiusPercent"]
+- !private ["So8NSObjectP", "chartDescription"]
+- !private ["So8NSObjectP", "colorNamed"]
+- !private ["So8NSObjectP", "colorWithCGColor"]
+- !private ["So8NSObjectP", "colorWithCIColor"]
+- !private ["So8NSObjectP", "colorWithDisplayP3Red"]
+- !private ["So8NSObjectP", "colorWithDynamicProvider"]
+- !private ["So8NSObjectP", "colorWithHue"]
+- !private ["So8NSObjectP", "colorWithPatternImage"]
+- !private ["So8NSObjectP", "colorWithRed"]
+- !private ["So8NSObjectP", "colorWithWhite"]
+- !private ["So8NSObjectP", "colors"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "drawEntryLabelsEnabled"]
+- !private ["So8NSObjectP", "drawValuesEnabled"]
+- !private ["So8NSObjectP", "enabled"]
+- !private ["So8NSObjectP", "font"]
+- !private ["So8NSObjectP", "highlightValue"]
+- !private ["So8NSObjectP", "holeColor"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "legend"]
+- !private ["So8NSObjectP", "maximumFractionDigits"]
+- !private ["So8NSObjectP", "minimumFractionDigits"]
+- !private ["So8NSObjectP", "multiplier"]
+- !private ["So8NSObjectP", "notifyDataSetChanged"]
+- !private ["So8NSObjectP", "numberStyle"]
+- !private ["So8NSObjectP", "rotationEnabled"]
+- !private ["So8NSObjectP", "setValueFormatter"]
+- !private ["So8NSObjectP", "textColor"]
+- !private ["So8NSObjectP", "usePercentValuesEnabled"]
+- !private ["So8NSObjectP", "white"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "white"]
+- ["6Charts8NSUIViewC", ""]
+- !private ["6Charts8NSUIViewC", "centerTextRadiusPercent"]
+- !private ["6Charts8NSUIViewC", "chartDescription"]
+- !private ["6Charts8NSUIViewC", "data"]
+- !private ["6Charts8NSUIViewC", "drawEntryLabelsEnabled"]
+- !private ["6Charts8NSUIViewC", "highlightValue"]
+- !private ["6Charts8NSUIViewC", "holeColor"]
+- ["6Charts8NSUIViewC", "init"]
+- !private ["6Charts8NSUIViewC", "legend"]
+- !private ["6Charts8NSUIViewC", "notifyDataSetChanged"]
+- !private ["6Charts8NSUIViewC", "rotationEnabled"]
+- !private ["6Charts8NSUIViewC", "usePercentValuesEnabled"]
+- !private ["So17NSNumberFormatterC", "init"]
+- !private ["So17NSNumberFormatterC", "maximumFractionDigits"]
+- !private ["So17NSNumberFormatterC", "minimumFractionDigits"]
+- !private ["So17NSNumberFormatterC", "multiplier"]
+- !private ["So17NSNumberFormatterC", "numberStyle"]
+- !private ["Sj", ""]
+- ["15EnTransparencia8PieChartV", "Body"]
+- ["15EnTransparencia8PieChartV", "ChartDataSet"]
+- !private ["15EnTransparencia8PieChartV", "Color"]
+- ["15EnTransparencia8PieChartV", "Context"]
+- ["15EnTransparencia8PieChartV", "Coordinator"]
+- !private ["15EnTransparencia8PieChartV", "DefaultValueFormatter"]
+- ["15EnTransparencia8PieChartV", "Default_Body"]
+- ["15EnTransparencia8PieChartV", "Default_Coordinator"]
+- ["15EnTransparencia8PieChartV", "Default_UIViewType"]
+- ["15EnTransparencia8PieChartV", "Description"]
+- ["15EnTransparencia8PieChartV", "Legend"]
+- !private ["15EnTransparencia8PieChartV", "NumberFormatter"]
+- !private ["15EnTransparencia8PieChartV", "PieChartData"]
+- ["15EnTransparencia8PieChartV", "PieChartDataEntry"]
+- !private ["15EnTransparencia8PieChartV", "PieChartDataSet"]
+- ["15EnTransparencia8PieChartV", "PieChartView"]
+- !private ["15EnTransparencia8PieChartV", "UIColor"]
+- !private ["15EnTransparencia8PieChartV", "UIFont"]
+- ["15EnTransparencia8PieChartV", "UIViewType"]
+- ["15EnTransparencia8PieChartV", ""]
+- ["15EnTransparencia8PieChartV", "_Default_Body"]
+- ["15EnTransparencia8PieChartV", "_Default_Coordinator"]
+- ["15EnTransparencia8PieChartV", "_Default_UIViewType"]
+- ["15EnTransparencia8PieChartV", "_identifiedViewTree"]
+- ["15EnTransparencia8PieChartV", "_makeView"]
+- ["15EnTransparencia8PieChartV", "_makeViewList"]
+- ["15EnTransparencia8PieChartV", "_overrideLayoutTraits"]
+- ["15EnTransparencia8PieChartV", "_overrideSizeThatFits"]
+- ["15EnTransparencia8PieChartV", "_viewListCount"]
+- ["15EnTransparencia8PieChartV", "body"]
+- ["15EnTransparencia8PieChartV", "configureChart"]
+- ["15EnTransparencia8PieChartV", "dismantleUIView"]
+- ["15EnTransparencia8PieChartV", "entries"]
+- ["15EnTransparencia8PieChartV", "formatCenter"]
+- ["15EnTransparencia8PieChartV", "formatDataSet"]
+- ["15EnTransparencia8PieChartV", "formatDescription"]
+- ["15EnTransparencia8PieChartV", "formatLegend"]
+- !private ["15EnTransparencia8PieChartV", "frame"]
+- ["15EnTransparencia8PieChartV", "init"]
+- ["15EnTransparencia8PieChartV", "makeCoordinator"]
+- ["15EnTransparencia8PieChartV", "makeUIView"]
+- ["15EnTransparencia8PieChartV", "pieChart"]
+- ["15EnTransparencia8PieChartV", "updateUIView"]
+- !private ["6Charts12PieChartDataC", "init"]
+- !private ["6Charts12PieChartDataC", "setValueFormatter"]
+- !private ["6Charts15PieChartDataSetC", "colors"]
+- !private ["6Charts15PieChartDataSetC", "init"]
+- !private ["6Charts23PieChartDataSetProtocolP", "colors"]
+- !private ["6Charts23PieChartDataSetProtocolP", "init"]
+- !private ["6Charts12PieChartViewC", "centerTextRadiusPercent"]
+- !private ["6Charts12PieChartViewC", "chartDescription"]
+- !private ["6Charts12PieChartViewC", "data"]
+- !private ["6Charts12PieChartViewC", "drawEntryLabelsEnabled"]
+- !private ["6Charts12PieChartViewC", "highlightValue"]
+- !private ["6Charts12PieChartViewC", "holeColor"]
+- ["6Charts12PieChartViewC", "init"]
+- !private ["6Charts12PieChartViewC", "legend"]
+- !private ["6Charts12PieChartViewC", "notifyDataSetChanged"]
+- !private ["6Charts12PieChartViewC", "rotationEnabled"]
+- !private ["6Charts12PieChartViewC", "usePercentValuesEnabled"]
+- ["15EnTransparencia17PieChart_PreviewsV", "Default_Previews"]
+- !private ["15EnTransparencia17PieChart_PreviewsV", "Grafica"]
+- !private ["15EnTransparencia17PieChart_PreviewsV", "PieChart"]
+- ["15EnTransparencia17PieChart_PreviewsV", "Previews"]
+- ["15EnTransparencia17PieChart_PreviewsV", "View"]
+- ["15EnTransparencia17PieChart_PreviewsV", ""]
+- ["15EnTransparencia17PieChart_PreviewsV", "_Default_Previews"]
+- ["15EnTransparencia17PieChart_PreviewsV", "_platform"]
+- ["15EnTransparencia17PieChart_PreviewsV", "_previews"]
+- ["15EnTransparencia17PieChart_PreviewsV", "init"]
+- ["15EnTransparencia17PieChart_PreviewsV", "platform"]
+- ["15EnTransparencia17PieChart_PreviewsV", "previews"]
+- ["6Charts21PieRadarChartViewBaseC", ""]
+- !private ["6Charts21PieRadarChartViewBaseC", "centerTextRadiusPercent"]
+- !private ["6Charts21PieRadarChartViewBaseC", "chartDescription"]
+- !private ["6Charts21PieRadarChartViewBaseC", "data"]
+- !private ["6Charts21PieRadarChartViewBaseC", "drawEntryLabelsEnabled"]
+- !private ["6Charts21PieRadarChartViewBaseC", "highlightValue"]
+- !private ["6Charts21PieRadarChartViewBaseC", "holeColor"]
+- ["6Charts21PieRadarChartViewBaseC", "init"]
+- !private ["6Charts21PieRadarChartViewBaseC", "legend"]
+- !private ["6Charts21PieRadarChartViewBaseC", "notifyDataSetChanged"]
+- !private ["6Charts21PieRadarChartViewBaseC", "rotationEnabled"]
+- !private ["6Charts21PieRadarChartViewBaseC", "usePercentValuesEnabled"]
+- ["7SwiftUI15PreviewProviderP", "Default_Previews"]
+- !private ["7SwiftUI15PreviewProviderP", "Grafica"]
+- !private ["7SwiftUI15PreviewProviderP", "PieChart"]
+- ["7SwiftUI15PreviewProviderP", "Previews"]
+- ["7SwiftUI15PreviewProviderP", ""]
+- ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "_platform"]
+- ["7SwiftUI15PreviewProviderP", "_previews"]
+- ["7SwiftUI15PreviewProviderP", "platform"]
+- ["7SwiftUI15PreviewProviderP", "previews"]
+- !private ["Sk", "colors"]
+- !private ["Sk", "drawValuesEnabled"]
+- !private ["Sk", "init"]
+- !private ["Sk", "setValueFormatter"]
+- !private ["Sm", "_customRemoveLast"]
+- !private ["Sm", "append"]
+- !private ["Sm", "colors"]
+- !private ["Sm", "drawValuesEnabled"]
+- !private ["Sm", "init"]
+- !private ["Sm", "insert"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "removeFirst"]
+- !private ["Sm", "removeSubrange"]
+- !private ["Sm", "replaceSubrange"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "white"]
+- !private ["SY", "graficaPastel"]
+- !private ["SY", "percent"]
+- ["ST", ""]
+- !private ["ST", "colors"]
+- !private ["ST", "drawValuesEnabled"]
+- !private ["ST", "init"]
+- !private ["ST", "setValueFormatter"]
+- !private ["ST", "white"]
+- !private ["7SwiftUI10ShapeStyleP", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["Sx", ""]
+- !private ["SS", "white"]
+- !private ["Sy", "white"]
+- !private ["So22NSNumberFormatterStyleV", "percent"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "white"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "white"]
+- !private ["So29UIAccessibilityIdentificationP", "centerTextRadiusPercent"]
+- !private ["So29UIAccessibilityIdentificationP", "chartDescription"]
+- !private ["So29UIAccessibilityIdentificationP", "data"]
+- !private ["So29UIAccessibilityIdentificationP", "drawEntryLabelsEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "highlightValue"]
+- !private ["So29UIAccessibilityIdentificationP", "holeColor"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "legend"]
+- !private ["So29UIAccessibilityIdentificationP", "notifyDataSetChanged"]
+- !private ["So29UIAccessibilityIdentificationP", "rotationEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "usePercentValuesEnabled"]
+- !private ["So12UIAppearanceP", "centerTextRadiusPercent"]
+- !private ["So12UIAppearanceP", "chartDescription"]
+- !private ["So12UIAppearanceP", "data"]
+- !private ["So12UIAppearanceP", "drawEntryLabelsEnabled"]
+- !private ["So12UIAppearanceP", "highlightValue"]
+- !private ["So12UIAppearanceP", "holeColor"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "legend"]
+- !private ["So12UIAppearanceP", "notifyDataSetChanged"]
+- !private ["So12UIAppearanceP", "rotationEnabled"]
+- !private ["So12UIAppearanceP", "usePercentValuesEnabled"]
+- !private ["So21UIAppearanceContainerP", "centerTextRadiusPercent"]
+- !private ["So21UIAppearanceContainerP", "chartDescription"]
+- !private ["So21UIAppearanceContainerP", "data"]
+- !private ["So21UIAppearanceContainerP", "drawEntryLabelsEnabled"]
+- !private ["So21UIAppearanceContainerP", "highlightValue"]
+- !private ["So21UIAppearanceContainerP", "holeColor"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "legend"]
+- !private ["So21UIAppearanceContainerP", "notifyDataSetChanged"]
+- !private ["So21UIAppearanceContainerP", "rotationEnabled"]
+- !private ["So21UIAppearanceContainerP", "usePercentValuesEnabled"]
+- !private ["So7UIColorC", "init"]
+- !private ["So7UIColorC", "white"]
+- !private ["So17UICoordinateSpaceP", "centerTextRadiusPercent"]
+- !private ["So17UICoordinateSpaceP", "chartDescription"]
+- !private ["So17UICoordinateSpaceP", "data"]
+- !private ["So17UICoordinateSpaceP", "drawEntryLabelsEnabled"]
+- !private ["So17UICoordinateSpaceP", "highlightValue"]
+- !private ["So17UICoordinateSpaceP", "holeColor"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "legend"]
+- !private ["So17UICoordinateSpaceP", "notifyDataSetChanged"]
+- !private ["So17UICoordinateSpaceP", "rotationEnabled"]
+- !private ["So17UICoordinateSpaceP", "usePercentValuesEnabled"]
+- !private ["So13UIDynamicItemP", "centerTextRadiusPercent"]
+- !private ["So13UIDynamicItemP", "chartDescription"]
+- !private ["So13UIDynamicItemP", "data"]
+- !private ["So13UIDynamicItemP", "drawEntryLabelsEnabled"]
+- !private ["So13UIDynamicItemP", "highlightValue"]
+- !private ["So13UIDynamicItemP", "holeColor"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "legend"]
+- !private ["So13UIDynamicItemP", "notifyDataSetChanged"]
+- !private ["So13UIDynamicItemP", "rotationEnabled"]
+- !private ["So13UIDynamicItemP", "usePercentValuesEnabled"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "centerTextRadiusPercent"]
+- !private ["So18UIFocusEnvironmentP", "chartDescription"]
+- !private ["So18UIFocusEnvironmentP", "data"]
+- !private ["So18UIFocusEnvironmentP", "drawEntryLabelsEnabled"]
+- !private ["So18UIFocusEnvironmentP", "highlightValue"]
+- !private ["So18UIFocusEnvironmentP", "holeColor"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "legend"]
+- !private ["So18UIFocusEnvironmentP", "notifyDataSetChanged"]
+- !private ["So18UIFocusEnvironmentP", "rotationEnabled"]
+- !private ["So18UIFocusEnvironmentP", "usePercentValuesEnabled"]
+- !private ["So11UIFocusItemP", "centerTextRadiusPercent"]
+- !private ["So11UIFocusItemP", "chartDescription"]
+- !private ["So11UIFocusItemP", "data"]
+- !private ["So11UIFocusItemP", "drawEntryLabelsEnabled"]
+- !private ["So11UIFocusItemP", "highlightValue"]
+- !private ["So11UIFocusItemP", "holeColor"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "legend"]
+- !private ["So11UIFocusItemP", "notifyDataSetChanged"]
+- !private ["So11UIFocusItemP", "rotationEnabled"]
+- !private ["So11UIFocusItemP", "usePercentValuesEnabled"]
+- !private ["So20UIFocusItemContainerP", "centerTextRadiusPercent"]
+- !private ["So20UIFocusItemContainerP", "chartDescription"]
+- !private ["So20UIFocusItemContainerP", "data"]
+- !private ["So20UIFocusItemContainerP", "drawEntryLabelsEnabled"]
+- !private ["So20UIFocusItemContainerP", "highlightValue"]
+- !private ["So20UIFocusItemContainerP", "holeColor"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "legend"]
+- !private ["So20UIFocusItemContainerP", "notifyDataSetChanged"]
+- !private ["So20UIFocusItemContainerP", "rotationEnabled"]
+- !private ["So20UIFocusItemContainerP", "usePercentValuesEnabled"]
+- !private ["So6UIFontC", "boldSystemFont"]
+- !private ["So24UILargeContentViewerItemP", "centerTextRadiusPercent"]
+- !private ["So24UILargeContentViewerItemP", "chartDescription"]
+- !private ["So24UILargeContentViewerItemP", "data"]
+- !private ["So24UILargeContentViewerItemP", "drawEntryLabelsEnabled"]
+- !private ["So24UILargeContentViewerItemP", "highlightValue"]
+- !private ["So24UILargeContentViewerItemP", "holeColor"]
+- ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "legend"]
+- !private ["So24UILargeContentViewerItemP", "notifyDataSetChanged"]
+- !private ["So24UILargeContentViewerItemP", "rotationEnabled"]
+- !private ["So24UILargeContentViewerItemP", "usePercentValuesEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerTextRadiusPercent"]
+- !private ["So30UIPasteConfigurationSupportingP", "chartDescription"]
+- !private ["So30UIPasteConfigurationSupportingP", "data"]
+- !private ["So30UIPasteConfigurationSupportingP", "drawEntryLabelsEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "highlightValue"]
+- !private ["So30UIPasteConfigurationSupportingP", "holeColor"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "legend"]
+- !private ["So30UIPasteConfigurationSupportingP", "notifyDataSetChanged"]
+- !private ["So30UIPasteConfigurationSupportingP", "rotationEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "usePercentValuesEnabled"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "centerTextRadiusPercent"]
+- !private ["So11UIResponderC", "chartDescription"]
+- !private ["So11UIResponderC", "data"]
+- !private ["So11UIResponderC", "drawEntryLabelsEnabled"]
+- !private ["So11UIResponderC", "highlightValue"]
+- !private ["So11UIResponderC", "holeColor"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "legend"]
+- !private ["So11UIResponderC", "notifyDataSetChanged"]
+- !private ["So11UIResponderC", "rotationEnabled"]
+- !private ["So11UIResponderC", "usePercentValuesEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "centerTextRadiusPercent"]
+- !private ["So30UIResponderStandardEditActionsP", "chartDescription"]
+- !private ["So30UIResponderStandardEditActionsP", "data"]
+- !private ["So30UIResponderStandardEditActionsP", "drawEntryLabelsEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "highlightValue"]
+- !private ["So30UIResponderStandardEditActionsP", "holeColor"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "legend"]
+- !private ["So30UIResponderStandardEditActionsP", "notifyDataSetChanged"]
+- !private ["So30UIResponderStandardEditActionsP", "rotationEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "usePercentValuesEnabled"]
+- !private ["So18UITraitEnvironmentP", "centerTextRadiusPercent"]
+- !private ["So18UITraitEnvironmentP", "chartDescription"]
+- !private ["So18UITraitEnvironmentP", "data"]
+- !private ["So18UITraitEnvironmentP", "drawEntryLabelsEnabled"]
+- !private ["So18UITraitEnvironmentP", "highlightValue"]
+- !private ["So18UITraitEnvironmentP", "holeColor"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "legend"]
+- !private ["So18UITraitEnvironmentP", "notifyDataSetChanged"]
+- !private ["So18UITraitEnvironmentP", "rotationEnabled"]
+- !private ["So18UITraitEnvironmentP", "usePercentValuesEnabled"]
+- !private ["So23UIUserActivityRestoringP", "centerTextRadiusPercent"]
+- !private ["So23UIUserActivityRestoringP", "chartDescription"]
+- !private ["So23UIUserActivityRestoringP", "data"]
+- !private ["So23UIUserActivityRestoringP", "drawEntryLabelsEnabled"]
+- !private ["So23UIUserActivityRestoringP", "highlightValue"]
+- !private ["So23UIUserActivityRestoringP", "holeColor"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "legend"]
+- !private ["So23UIUserActivityRestoringP", "notifyDataSetChanged"]
+- !private ["So23UIUserActivityRestoringP", "rotationEnabled"]
+- !private ["So23UIUserActivityRestoringP", "usePercentValuesEnabled"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "centerTextRadiusPercent"]
+- !private ["So6UIViewC", "chartDescription"]
+- !private ["So6UIViewC", "data"]
+- !private ["So6UIViewC", "drawEntryLabelsEnabled"]
+- !private ["So6UIViewC", "highlightValue"]
+- !private ["So6UIViewC", "holeColor"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "legend"]
+- !private ["So6UIViewC", "notifyDataSetChanged"]
+- !private ["So6UIViewC", "rotationEnabled"]
+- !private ["So6UIViewC", "usePercentValuesEnabled"]
+- ["7SwiftUI19UIViewRepresentableP", "Body"]
+- !private ["7SwiftUI19UIViewRepresentableP", "Color"]
+- ["7SwiftUI19UIViewRepresentableP", "Context"]
+- ["7SwiftUI19UIViewRepresentableP", "Coordinator"]
+- !private ["7SwiftUI19UIViewRepresentableP", "DefaultValueFormatter"]
+- ["7SwiftUI19UIViewRepresentableP", "Default_Body"]
+- ["7SwiftUI19UIViewRepresentableP", "Default_Coordinator"]
+- ["7SwiftUI19UIViewRepresentableP", "Default_UIViewType"]
+- !private ["7SwiftUI19UIViewRepresentableP", "NumberFormatter"]
+- !private ["7SwiftUI19UIViewRepresentableP", "PieChartData"]
+- !private ["7SwiftUI19UIViewRepresentableP", "PieChartDataSet"]
+- ["7SwiftUI19UIViewRepresentableP", "PieChartView"]
+- !private ["7SwiftUI19UIViewRepresentableP", "UIColor"]
+- !private ["7SwiftUI19UIViewRepresentableP", "UIFont"]
+- ["7SwiftUI19UIViewRepresentableP", "UIViewType"]
+- ["7SwiftUI19UIViewRepresentableP", ""]
+- ["7SwiftUI19UIViewRepresentableP", "_Default_Body"]
+- ["7SwiftUI19UIViewRepresentableP", "_Default_Coordinator"]
+- ["7SwiftUI19UIViewRepresentableP", "_Default_UIViewType"]
+- ["7SwiftUI19UIViewRepresentableP", "_identifiedViewTree"]
+- ["7SwiftUI19UIViewRepresentableP", "_makeView"]
+- ["7SwiftUI19UIViewRepresentableP", "_makeViewList"]
+- ["7SwiftUI19UIViewRepresentableP", "_overrideLayoutTraits"]
+- ["7SwiftUI19UIViewRepresentableP", "_overrideSizeThatFits"]
+- ["7SwiftUI19UIViewRepresentableP", "_viewListCount"]
+- ["7SwiftUI19UIViewRepresentableP", "body"]
+- !private ["7SwiftUI19UIViewRepresentableP", "configureChart"]
+- ["7SwiftUI19UIViewRepresentableP", "dismantleUIView"]
+- !private ["7SwiftUI19UIViewRepresentableP", "entries"]
+- !private ["7SwiftUI19UIViewRepresentableP", "formatCenter"]
+- !private ["7SwiftUI19UIViewRepresentableP", "formatDataSet"]
+- !private ["7SwiftUI19UIViewRepresentableP", "formatDescription"]
+- !private ["7SwiftUI19UIViewRepresentableP", "formatLegend"]
+- !private ["7SwiftUI19UIViewRepresentableP", "frame"]
+- !private ["7SwiftUI19UIViewRepresentableP", "init"]
+- ["7SwiftUI19UIViewRepresentableP", "makeCoordinator"]
+- ["7SwiftUI19UIViewRepresentableP", "makeUIView"]
+- !private ["7SwiftUI19UIViewRepresentableP", "pieChart"]
+- ["7SwiftUI19UIViewRepresentableP", "updateUIView"]
+- !private ["6Charts14ValueFormatterP", "init"]
+- ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "Color"]
+- ["7SwiftUI4ViewP", "Context"]
+- ["7SwiftUI4ViewP", "Coordinator"]
+- !private ["7SwiftUI4ViewP", "DefaultValueFormatter"]
+- ["7SwiftUI4ViewP", "Default_Body"]
+- ["7SwiftUI4ViewP", "Default_Coordinator"]
+- ["7SwiftUI4ViewP", "Default_UIViewType"]
+- !private ["7SwiftUI4ViewP", "NumberFormatter"]
+- !private ["7SwiftUI4ViewP", "PieChartData"]
+- !private ["7SwiftUI4ViewP", "PieChartDataSet"]
+- ["7SwiftUI4ViewP", "PieChartView"]
+- !private ["7SwiftUI4ViewP", "UIColor"]
+- !private ["7SwiftUI4ViewP", "UIFont"]
+- ["7SwiftUI4ViewP", "UIViewType"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_Default_Coordinator"]
+- ["7SwiftUI4ViewP", "_Default_UIViewType"]
+- ["7SwiftUI4ViewP", "_identifiedViewTree"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "_overrideLayoutTraits"]
+- ["7SwiftUI4ViewP", "_overrideSizeThatFits"]
+- ["7SwiftUI4ViewP", "_viewListCount"]
+- ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "configureChart"]
+- ["7SwiftUI4ViewP", "dismantleUIView"]
+- !private ["7SwiftUI4ViewP", "entries"]
+- !private ["7SwiftUI4ViewP", "formatCenter"]
+- !private ["7SwiftUI4ViewP", "formatDataSet"]
+- !private ["7SwiftUI4ViewP", "formatDescription"]
+- !private ["7SwiftUI4ViewP", "formatLegend"]
+- !private ["7SwiftUI4ViewP", "frame"]
+- !private ["7SwiftUI4ViewP", "init"]
+- ["7SwiftUI4ViewP", "makeCoordinator"]
+- ["7SwiftUI4ViewP", "makeUIView"]
+- !private ["7SwiftUI4ViewP", "padding"]
+- !private ["7SwiftUI4ViewP", "pieChart"]
+- ["7SwiftUI4ViewP", "updateUIView"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
+- !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
+- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
+- !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
+- !private ["14CoreFoundation9_CFObjectP", "white"]
+- !private ["12CoreGraphics22_CGColorInitTrampolineP", "white"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "white"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "white"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "white"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "white"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s19_HasContiguousBytesP", "white"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "boldSystemFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerTextRadiusPercent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "chartDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "colors"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "drawEntryLabelsEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "drawValuesEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "highlightValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "holeColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "legend"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maximumFractionDigits"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minimumFractionDigits"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "multiplier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notifyDataSetChanged"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rotationEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValueFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "usePercentValuesEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "boldSystemFont"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "centerTextRadiusPercent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "chartDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "colors"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "drawEntryLabelsEnabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "drawValuesEnabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "enabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "font"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "highlightValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "holeColor"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "legend"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "maximumFractionDigits"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "minimumFractionDigits"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "multiplier"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "notifyDataSetChanged"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rotationEnabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setValueFormatter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "usePercentValuesEnabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "white"]
+- ["7SwiftUI16_PreviewProviderP", "Default_Previews"]
+- !private ["7SwiftUI16_PreviewProviderP", "Grafica"]
+- !private ["7SwiftUI16_PreviewProviderP", "PieChart"]
+- ["7SwiftUI16_PreviewProviderP", "Previews"]
+- ["7SwiftUI16_PreviewProviderP", ""]
+- ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "_platform"]
+- ["7SwiftUI16_PreviewProviderP", "_previews"]
+- ["7SwiftUI16_PreviewProviderP", "platform"]
+- ["7SwiftUI16_PreviewProviderP", "previews"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "centerTextRadiusPercent"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "chartDescription"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "data"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "drawEntryLabelsEnabled"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "highlightValue"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "holeColor"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "legend"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "notifyDataSetChanged"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rotationEnabled"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "usePercentValuesEnabled"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "6Charts16AnimatorDelegateP"
+- "SK"
+- "So15CALayerDelegateP"
+- !private "So10CGColorRefa"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "15EnTransparencia7GraficaV9CategoriaO"
+- "6Charts16ChartBaseDataSetC"
+- "6Charts9ChartDataC"
+- "6Charts14ChartDataEntryC"
+- "6Charts17ChartDataProviderP"
+- "6Charts12ChartDataSetC"
+- !private "6Charts20ChartDataSetProtocolP"
+- "6Charts13ChartViewBaseC"
+- "Sl"
+- !private "7SwiftUI5ColorV"
+- "SL"
+- "6Charts13ComponentBaseC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "6Charts21DefaultValueFormatterC"
+- !private "6Charts11DescriptionC"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "So11NSFormatterC"
+- !private "15EnTransparencia7GraficaV"
+- "SH"
+- !private "6Charts6LegendC"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "6Charts8NSUIViewC"
+- !private "So17NSNumberFormatterC"
+- !private "Sj"
+- "15EnTransparencia8PieChartV"
+- !private "6Charts12PieChartDataC"
+- !private "6Charts15PieChartDataSetC"
+- !private "6Charts23PieChartDataSetProtocolP"
+- "6Charts12PieChartViewC"
+- "15EnTransparencia17PieChart_PreviewsV"
+- "6Charts21PieRadarChartViewBaseC"
+- "7SwiftUI15PreviewProviderP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "ST"
+- !private "7SwiftUI10ShapeStyleP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "So22NSNumberFormatterStyleV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- !private "So6UIFontC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "7SwiftUI19UIViewRepresentableP"
+- !private "6Charts14ValueFormatterP"
+- "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- !private "14CoreFoundation9_CFObjectP"
+- !private "12CoreGraphics22_CGColorInitTrampolineP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "7SwiftUI16_PreviewProviderP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/_AVKit_SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Algorithms.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/Charts.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaSource.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStrokeStyle.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStyleSpan.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygonLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlayLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAccessibilityLabels.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "130fbdf6ed1b22d8afe046a1020ffa20"

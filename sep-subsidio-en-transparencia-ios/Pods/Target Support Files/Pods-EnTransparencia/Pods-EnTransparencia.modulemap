@@ -1,0 +1,6 @@
+module Pods_EnTransparencia {
+  umbrella header "Pods-EnTransparencia-umbrella.h"
+
+  export *
+  module * { export * }
+}

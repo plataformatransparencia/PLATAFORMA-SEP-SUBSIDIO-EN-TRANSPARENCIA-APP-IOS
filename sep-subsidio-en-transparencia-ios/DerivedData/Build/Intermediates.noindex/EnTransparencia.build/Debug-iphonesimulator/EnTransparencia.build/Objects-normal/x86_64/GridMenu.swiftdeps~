@@ -1,0 +1,543 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GridMenu"
+- "GridMenu_Previews"
+provides-nominal:
+- "15EnTransparencia8GridMenuV"
+- "15EnTransparencia17GridMenu_PreviewsV"
+provides-member:
+- ["15EnTransparencia8GridMenuV", ""]
+- ["15EnTransparencia17GridMenu_PreviewsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- !private "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "ConocePlataformaData"
+- "DetallePlataforma"
+- "DetalleProgramas"
+- "DispatchQueue"
+- "FloatLiteralType"
+- "GridCellPlataforma"
+- "GridCellProgramas"
+- "GridItem"
+- "GridMenu"
+- "GridMenu_Previews"
+- "IntegerLiteralType"
+- "JSONDecoder"
+- !private "LazyVGrid"
+- "NavigationLink"
+- "PreviewProvider"
+- "Programa"
+- "ProgramasData"
+- "State"
+- "String"
+- "StringLiteralType"
+- !private "URL"
+- !private "URLSession"
+- "VStack"
+- "View"
+- !private "layout"
+- "loadDataPlataforma"
+- "loadDataProgramas"
+- "print"
+- "uiDescripcion"
+- "uiTitulo"
+- "upeasDescripcion"
+depends-member:
+- ["Sa", "init"]
+- ["SK", ""]
+- ["SK", "init"]
+- ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "dataTask"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "shared"]
+- ["Sl", ""]
+- ["Sl", "init"]
+- !private ["15EnTransparencia20ConocePlataformaDataV", "Informacion_plataforma"]
+- !private ["15EnTransparencia20ConocePlataformaDataV", ""]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- ["10Foundation12DataProtocolP", ""]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "Informacion_plataforma"]
+- !private ["Se", "UI"]
+- !private ["Se", "UPE"]
+- !private ["Se", "UPEAS"]
+- !private ["Se", "descripcion"]
+- ["Se", "init"]
+- !private ["Se", "programa"]
+- !private ["Se", "titulo"]
+- !private ["Se", "video"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["15EnTransparencia17DetallePlataformaV", ""]
+- !private ["15EnTransparencia17DetallePlataformaV", "init"]
+- !private ["15EnTransparencia16DetalleProgramasV", ""]
+- !private ["15EnTransparencia16DetalleProgramasV", "init"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
+- ["SE", "init"]
+- ["SQ", ""]
+- !private ["SQ", "async"]
+- !private ["SQ", "dataTask"]
+- ["SQ", "init"]
+- !private ["SQ", "leading"]
+- !private ["SQ", "main"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "shared"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["15EnTransparencia18GridCellPlataformaV", ""]
+- !private ["15EnTransparencia18GridCellPlataformaV", "init"]
+- !private ["15EnTransparencia17GridCellProgramasV", ""]
+- !private ["15EnTransparencia17GridCellProgramasV", "init"]
+- !private ["7SwiftUI8GridItemV", "init"]
+- ["15EnTransparencia8GridMenuV", "$descripcionPlataforma"]
+- ["15EnTransparencia8GridMenuV", "$programa"]
+- ["15EnTransparencia8GridMenuV", "$tituloPlataforma"]
+- ["15EnTransparencia8GridMenuV", "$uiDescripcion"]
+- ["15EnTransparencia8GridMenuV", "$uiTitulo"]
+- ["15EnTransparencia8GridMenuV", "$upeDescripcion"]
+- ["15EnTransparencia8GridMenuV", "$upeTitulo"]
+- ["15EnTransparencia8GridMenuV", "$upeasDescripcion"]
+- ["15EnTransparencia8GridMenuV", "$upeasTitulo"]
+- ["15EnTransparencia8GridMenuV", "$videoPlataforma"]
+- ["15EnTransparencia8GridMenuV", "Body"]
+- !private ["15EnTransparencia8GridMenuV", "ConocePlataformaData"]
+- ["15EnTransparencia8GridMenuV", "Default_Body"]
+- !private ["15EnTransparencia8GridMenuV", "DetallePlataforma"]
+- !private ["15EnTransparencia8GridMenuV", "DetalleProgramas"]
+- !private ["15EnTransparencia8GridMenuV", "DispatchQueue"]
+- !private ["15EnTransparencia8GridMenuV", "GridCellPlataforma"]
+- !private ["15EnTransparencia8GridMenuV", "GridCellProgramas"]
+- ["15EnTransparencia8GridMenuV", "GridItem"]
+- !private ["15EnTransparencia8GridMenuV", "JSONDecoder"]
+- !private ["15EnTransparencia8GridMenuV", "LazyVGrid"]
+- !private ["15EnTransparencia8GridMenuV", "NavigationLink"]
+- ["15EnTransparencia8GridMenuV", "Programa"]
+- !private ["15EnTransparencia8GridMenuV", "ProgramasData"]
+- ["15EnTransparencia8GridMenuV", "State"]
+- ["15EnTransparencia8GridMenuV", "String"]
+- !private ["15EnTransparencia8GridMenuV", "URL"]
+- !private ["15EnTransparencia8GridMenuV", "URLSession"]
+- !private ["15EnTransparencia8GridMenuV", "VStack"]
+- ["15EnTransparencia8GridMenuV", "View"]
+- ["15EnTransparencia8GridMenuV", ""]
+- ["15EnTransparencia8GridMenuV", "_Default_Body"]
+- !private ["15EnTransparencia8GridMenuV", "_descripcionPlataforma"]
+- ["15EnTransparencia8GridMenuV", "_makeView"]
+- ["15EnTransparencia8GridMenuV", "_makeViewList"]
+- !private ["15EnTransparencia8GridMenuV", "_programa"]
+- !private ["15EnTransparencia8GridMenuV", "_tituloPlataforma"]
+- !private ["15EnTransparencia8GridMenuV", "_uiDescripcion"]
+- !private ["15EnTransparencia8GridMenuV", "_uiTitulo"]
+- !private ["15EnTransparencia8GridMenuV", "_upeDescripcion"]
+- !private ["15EnTransparencia8GridMenuV", "_upeTitulo"]
+- !private ["15EnTransparencia8GridMenuV", "_upeasDescripcion"]
+- !private ["15EnTransparencia8GridMenuV", "_upeasTitulo"]
+- !private ["15EnTransparencia8GridMenuV", "_videoPlataforma"]
+- ["15EnTransparencia8GridMenuV", "_viewListCount"]
+- ["15EnTransparencia8GridMenuV", "body"]
+- ["15EnTransparencia8GridMenuV", "descripcionPlataforma"]
+- ["15EnTransparencia8GridMenuV", "init"]
+- ["15EnTransparencia8GridMenuV", "layout"]
+- ["15EnTransparencia8GridMenuV", "loadDataPlataforma"]
+- ["15EnTransparencia8GridMenuV", "loadDataProgramas"]
+- !private ["15EnTransparencia8GridMenuV", "print"]
+- ["15EnTransparencia8GridMenuV", "programa"]
+- ["15EnTransparencia8GridMenuV", "tituloPlataforma"]
+- ["15EnTransparencia8GridMenuV", "uiDescripcion"]
+- ["15EnTransparencia8GridMenuV", "uiTitulo"]
+- ["15EnTransparencia8GridMenuV", "upeDescripcion"]
+- ["15EnTransparencia8GridMenuV", "upeTitulo"]
+- ["15EnTransparencia8GridMenuV", "upeasDescripcion"]
+- ["15EnTransparencia8GridMenuV", "upeasTitulo"]
+- ["15EnTransparencia8GridMenuV", "videoPlataforma"]
+- ["15EnTransparencia17GridMenu_PreviewsV", "Default_Previews"]
+- !private ["15EnTransparencia17GridMenu_PreviewsV", "GridItem"]
+- !private ["15EnTransparencia17GridMenu_PreviewsV", "GridMenu"]
+- ["15EnTransparencia17GridMenu_PreviewsV", "Previews"]
+- ["15EnTransparencia17GridMenu_PreviewsV", "View"]
+- ["15EnTransparencia17GridMenu_PreviewsV", ""]
+- ["15EnTransparencia17GridMenu_PreviewsV", "_Default_Previews"]
+- ["15EnTransparencia17GridMenu_PreviewsV", "_platform"]
+- ["15EnTransparencia17GridMenu_PreviewsV", "_previews"]
+- ["15EnTransparencia17GridMenu_PreviewsV", "init"]
+- ["15EnTransparencia17GridMenu_PreviewsV", "platform"]
+- ["15EnTransparencia17GridMenu_PreviewsV", "previews"]
+- !private ["SH", ""]
+- !private ["SH", "async"]
+- !private ["SH", "dataTask"]
+- ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "resume"]
+- !private ["SH", "shared"]
+- !private ["7SwiftUI19HorizontalAlignmentV", "leading"]
+- !private ["15EnTransparencia11InformacionV", "UI"]
+- !private ["15EnTransparencia11InformacionV", "UPE"]
+- !private ["15EnTransparencia11InformacionV", "UPEAS"]
+- !private ["15EnTransparencia11InformacionV", "descripcion"]
+- !private ["15EnTransparencia11InformacionV", "titulo"]
+- !private ["15EnTransparencia11InformacionV", "video"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["7SwiftUI9LazyVGridV", "init"]
+- !private ["7SwiftUI9LazyVGridV", "onAppear"]
+- ["SM", ""]
+- ["SM", "init"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["7SwiftUI14NavigationLinkV", "init"]
+- !private ["7SwiftUI14NavigationLinkV", "navigationBarHidden"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- ["7SwiftUI15PreviewProviderP", "Default_Previews"]
+- !private ["7SwiftUI15PreviewProviderP", "GridItem"]
+- !private ["7SwiftUI15PreviewProviderP", "GridMenu"]
+- ["7SwiftUI15PreviewProviderP", "Previews"]
+- ["7SwiftUI15PreviewProviderP", ""]
+- ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "_platform"]
+- ["7SwiftUI15PreviewProviderP", "_previews"]
+- ["7SwiftUI15PreviewProviderP", "platform"]
+- ["7SwiftUI15PreviewProviderP", "previews"]
+- ["15EnTransparencia8ProgramaV", ""]
+- !private ["15EnTransparencia13ProgramasDataV", ""]
+- !private ["15EnTransparencia13ProgramasDataV", "programa"]
+- !private ["So19NSProgressReportingP", "resume"]
+- ["Sk", ""]
+- ["Sk", "init"]
+- ["Sm", ""]
+- ["Sm", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "main"]
+- ["ST", ""]
+- ["ST", "init"]
+- !private ["7SwiftUI8GridItemV4SizeO", "adaptive"]
+- ["7SwiftUI5StateV", "init"]
+- ["7SwiftUI5StateV", "wrappedValue"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["15EnTransparencia2UIV", "descripcion"]
+- !private ["15EnTransparencia2UIV", "titulo"]
+- !private ["15EnTransparencia3UPEV", "descripcion"]
+- !private ["15EnTransparencia3UPEV", "titulo"]
+- !private ["15EnTransparencia5UPEASV", "descripcion"]
+- !private ["15EnTransparencia5UPEASV", "titulo"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- ["So16NSURLSessionTaskC", ""]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["7SwiftUI6VStackV", "init"]
+- ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "ConocePlataformaData"]
+- ["7SwiftUI4ViewP", "Default_Body"]
+- !private ["7SwiftUI4ViewP", "DetallePlataforma"]
+- !private ["7SwiftUI4ViewP", "DetalleProgramas"]
+- !private ["7SwiftUI4ViewP", "DispatchQueue"]
+- !private ["7SwiftUI4ViewP", "GridCellPlataforma"]
+- !private ["7SwiftUI4ViewP", "GridCellProgramas"]
+- !private ["7SwiftUI4ViewP", "JSONDecoder"]
+- !private ["7SwiftUI4ViewP", "LazyVGrid"]
+- !private ["7SwiftUI4ViewP", "NavigationLink"]
+- ["7SwiftUI4ViewP", "Programa"]
+- !private ["7SwiftUI4ViewP", "ProgramasData"]
+- ["7SwiftUI4ViewP", "State"]
+- !private ["7SwiftUI4ViewP", "URL"]
+- !private ["7SwiftUI4ViewP", "URLSession"]
+- !private ["7SwiftUI4ViewP", "VStack"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "_viewListCount"]
+- ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "descripcionPlataforma"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "layout"]
+- !private ["7SwiftUI4ViewP", "loadDataPlataforma"]
+- !private ["7SwiftUI4ViewP", "loadDataProgramas"]
+- !private ["7SwiftUI4ViewP", "navigationBarHidden"]
+- !private ["7SwiftUI4ViewP", "onAppear"]
+- !private ["7SwiftUI4ViewP", "print"]
+- !private ["7SwiftUI4ViewP", "programa"]
+- !private ["7SwiftUI4ViewP", "tituloPlataforma"]
+- !private ["7SwiftUI4ViewP", "uiDescripcion"]
+- !private ["7SwiftUI4ViewP", "uiTitulo"]
+- !private ["7SwiftUI4ViewP", "upeDescripcion"]
+- !private ["7SwiftUI4ViewP", "upeTitulo"]
+- !private ["7SwiftUI4ViewP", "upeasDescripcion"]
+- !private ["7SwiftUI4ViewP", "upeasTitulo"]
+- !private ["7SwiftUI4ViewP", "videoPlataforma"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
+- !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
+- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
+- !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s19_HasContiguousBytesP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resume"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["7SwiftUI16_PreviewProviderP", "Default_Previews"]
+- !private ["7SwiftUI16_PreviewProviderP", "GridItem"]
+- !private ["7SwiftUI16_PreviewProviderP", "GridMenu"]
+- ["7SwiftUI16_PreviewProviderP", "Previews"]
+- ["7SwiftUI16_PreviewProviderP", ""]
+- ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "_platform"]
+- ["7SwiftUI16_PreviewProviderP", "_previews"]
+- ["7SwiftUI16_PreviewProviderP", "platform"]
+- ["7SwiftUI16_PreviewProviderP", "previews"]
+depends-nominal:
+- "Sa"
+- "SK"
+- "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- "Sl"
+- !private "15EnTransparencia20ConocePlataformaDataV"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "15EnTransparencia17DetallePlataformaV"
+- !private "15EnTransparencia16DetalleProgramasV"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "7SwiftUI15DynamicPropertyP"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "15EnTransparencia18GridCellPlataformaV"
+- !private "15EnTransparencia17GridCellProgramasV"
+- !private "7SwiftUI8GridItemV"
+- "15EnTransparencia8GridMenuV"
+- "15EnTransparencia17GridMenu_PreviewsV"
+- "SH"
+- !private "7SwiftUI19HorizontalAlignmentV"
+- !private "15EnTransparencia11InformacionV"
+- !private "10Foundation11JSONDecoderC"
+- !private "7SwiftUI9LazyVGridV"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "7SwiftUI14NavigationLinkV"
+- !private "So9OS_objectC"
+- "7SwiftUI15PreviewProviderP"
+- "15EnTransparencia8ProgramaV"
+- !private "15EnTransparencia13ProgramasDataV"
+- !private "So19NSProgressReportingP"
+- "Sk"
+- "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "7Combine9SchedulerP"
+- "ST"
+- !private "7SwiftUI8GridItemV4SizeO"
+- "7SwiftUI5StateV"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "7Combine15TopLevelDecoderP"
+- !private "15EnTransparencia2UIV"
+- !private "15EnTransparencia3UPEV"
+- !private "15EnTransparencia5UPEASV"
+- !private "10Foundation3URLV"
+- !private "So12NSURLSessionC"
+- !private "So20NSURLSessionDataTaskC"
+- "So16NSURLSessionTaskC"
+- !private "7SwiftUI6VStackV"
+- "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "7SwiftUI16_PreviewProviderP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/_AVKit_SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Algorithms.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/Charts.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaSource.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStrokeStyle.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStyleSpan.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygonLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlayLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAccessibilityLabels.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "733b4a2637de2a0d0c77004be7c7c2a0"

@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "a579fccf68ef83988c307d6e0320c5c0"
+build_time: [1625157634, 320730000]
+inputs:
+  "/Users/bety/Documents/Mejorada/EnTransparencia/EnTransparenciaTests/EnTransparenciaTests.swift": [1625097486, 333694619]

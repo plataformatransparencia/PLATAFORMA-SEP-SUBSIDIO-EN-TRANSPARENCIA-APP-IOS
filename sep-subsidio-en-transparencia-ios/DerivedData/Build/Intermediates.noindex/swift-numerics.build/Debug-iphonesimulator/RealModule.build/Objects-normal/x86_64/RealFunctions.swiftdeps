@@ -1,0 +1,81 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RealFunctions"
+provides-nominal:
+- "10RealModule0A9FunctionsP"
+provides-member:
+- ["10RealModule0A9FunctionsP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ElementaryFunctions"
+- "FloatingPointSign"
+- "RealFunctions"
+- "Self"
+depends-member:
+- ["s18AdditiveArithmeticP", "FloatingPointSign"]
+- ["s18AdditiveArithmeticP", ""]
+- ["s18AdditiveArithmeticP", "_mulAdd"]
+- ["s18AdditiveArithmeticP", "atan2"]
+- ["s18AdditiveArithmeticP", "erf"]
+- ["s18AdditiveArithmeticP", "erfc"]
+- ["s18AdditiveArithmeticP", "exp10"]
+- ["s18AdditiveArithmeticP", "exp2"]
+- ["s18AdditiveArithmeticP", "gamma"]
+- ["s18AdditiveArithmeticP", "hypot"]
+- ["s18AdditiveArithmeticP", "log10"]
+- ["s18AdditiveArithmeticP", "log2"]
+- ["s18AdditiveArithmeticP", "logGamma"]
+- ["s18AdditiveArithmeticP", "signGamma"]
+- ["10RealModule19ElementaryFunctionsP", "FloatingPointSign"]
+- ["10RealModule19ElementaryFunctionsP", ""]
+- ["10RealModule19ElementaryFunctionsP", "_mulAdd"]
+- ["10RealModule19ElementaryFunctionsP", "atan2"]
+- ["10RealModule19ElementaryFunctionsP", "erf"]
+- ["10RealModule19ElementaryFunctionsP", "erfc"]
+- ["10RealModule19ElementaryFunctionsP", "exp10"]
+- ["10RealModule19ElementaryFunctionsP", "exp2"]
+- ["10RealModule19ElementaryFunctionsP", "gamma"]
+- ["10RealModule19ElementaryFunctionsP", "hypot"]
+- ["10RealModule19ElementaryFunctionsP", "log10"]
+- ["10RealModule19ElementaryFunctionsP", "log2"]
+- ["10RealModule19ElementaryFunctionsP", "logGamma"]
+- ["10RealModule19ElementaryFunctionsP", "signGamma"]
+- ["SQ", "FloatingPointSign"]
+- ["SQ", ""]
+- ["SQ", "_mulAdd"]
+- ["SQ", "atan2"]
+- ["SQ", "erf"]
+- ["SQ", "erfc"]
+- ["SQ", "exp10"]
+- ["SQ", "exp2"]
+- ["SQ", "gamma"]
+- ["SQ", "hypot"]
+- ["SQ", "log10"]
+- ["SQ", "log2"]
+- ["SQ", "logGamma"]
+- ["SQ", "signGamma"]
+- ["10RealModule0A9FunctionsP", "FloatingPointSign"]
+- ["10RealModule0A9FunctionsP", "_mulAdd"]
+- ["10RealModule0A9FunctionsP", "atan2"]
+- ["10RealModule0A9FunctionsP", "erf"]
+- ["10RealModule0A9FunctionsP", "erfc"]
+- ["10RealModule0A9FunctionsP", "exp10"]
+- ["10RealModule0A9FunctionsP", "exp2"]
+- ["10RealModule0A9FunctionsP", "gamma"]
+- ["10RealModule0A9FunctionsP", "hypot"]
+- ["10RealModule0A9FunctionsP", "log10"]
+- ["10RealModule0A9FunctionsP", "log2"]
+- ["10RealModule0A9FunctionsP", "logGamma"]
+- ["10RealModule0A9FunctionsP", "signGamma"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "10RealModule19ElementaryFunctionsP"
+- "SQ"
+- "10RealModule0A9FunctionsP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/_NumericsShims.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap"
+interface-hash: "31fb4b79aa21233b74985cd5ab11f7b8"

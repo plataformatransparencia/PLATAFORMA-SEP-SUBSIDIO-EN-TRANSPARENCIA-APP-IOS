@@ -1,0 +1,419 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MinistracionFederalData"
+- "MesesFederalData"
+- "DatosFederal"
+- "SepEstadoFederal"
+- "EjecucionEstadoFederal"
+- "EstadoUniversidadFederal"
+- "Informes"
+- "SubsidioOrdinario"
+- "RendicionCuentas"
+- "Matricula"
+- "Trimestre"
+- "Semestre"
+- "TotalesFederalAdeudo"
+- "FederalAdeudoFederal"
+provides-nominal:
+- "15EnTransparencia23MinistracionFederalDataV"
+- "15EnTransparencia16MesesFederalDataV"
+- "15EnTransparencia12DatosFederalV"
+- "15EnTransparencia16SepEstadoFederalV"
+- "15EnTransparencia22EjecucionEstadoFederalV"
+- "15EnTransparencia24EstadoUniversidadFederalV"
+- "15EnTransparencia8InformesV"
+- "15EnTransparencia17SubsidioOrdinarioV"
+- "15EnTransparencia16RendicionCuentasV"
+- "15EnTransparencia9MatriculaV"
+- "15EnTransparencia9TrimestreV"
+- "15EnTransparencia8SemestreV"
+- "15EnTransparencia20TotalesFederalAdeudoV"
+- "15EnTransparencia013FederalAdeudoC0V"
+provides-member:
+- ["15EnTransparencia23MinistracionFederalDataV", ""]
+- ["15EnTransparencia16MesesFederalDataV", ""]
+- ["15EnTransparencia12DatosFederalV", ""]
+- ["15EnTransparencia16SepEstadoFederalV", ""]
+- ["15EnTransparencia22EjecucionEstadoFederalV", ""]
+- ["15EnTransparencia24EstadoUniversidadFederalV", ""]
+- ["15EnTransparencia8InformesV", ""]
+- ["15EnTransparencia17SubsidioOrdinarioV", ""]
+- ["15EnTransparencia16RendicionCuentasV", ""]
+- ["15EnTransparencia9MatriculaV", ""]
+- ["15EnTransparencia9TrimestreV", ""]
+- ["15EnTransparencia8SemestreV", ""]
+- ["15EnTransparencia20TotalesFederalAdeudoV", ""]
+- ["15EnTransparencia013FederalAdeudoC0V", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "DatosFederal"
+- "Decodable"
+- "Double"
+- "EjecucionEstadoFederal"
+- "EstadoUniversidadFederal"
+- "FederalAdeudoFederal"
+- !private "FloatLiteralType"
+- "Informes"
+- !private "IntegerLiteralType"
+- "Matricula"
+- "MesesFederalData"
+- "MinistracionFederalData"
+- "RendicionCuentas"
+- "Semestre"
+- "SepEstadoFederal"
+- "String"
+- !private "StringLiteralType"
+- "SubsidioOrdinario"
+- "TotalesFederalAdeudo"
+- "Trimestre"
+- !private "~="
+depends-member:
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["15EnTransparencia12DatosFederalV", "CodingKeys"]
+- ["15EnTransparencia12DatosFederalV", "Double"]
+- ["15EnTransparencia12DatosFederalV", "EjecucionEstadoFederal"]
+- ["15EnTransparencia12DatosFederalV", "EstadoUniversidadFederal"]
+- ["15EnTransparencia12DatosFederalV", "SepEstadoFederal"]
+- ["15EnTransparencia12DatosFederalV", ""]
+- ["15EnTransparencia12DatosFederalV", "ejecucion_estado"]
+- ["15EnTransparencia12DatosFederalV", "estado_Universidad"]
+- ["15EnTransparencia12DatosFederalV", "init"]
+- ["15EnTransparencia12DatosFederalV", "monto"]
+- ["15EnTransparencia12DatosFederalV", "montoRecibido"]
+- ["15EnTransparencia12DatosFederalV", "sep_estado"]
+- !private ["Se", "Abril"]
+- !private ["Se", "Agosto"]
+- !private ["Se", "Diciembre"]
+- !private ["Se", "Enero"]
+- !private ["Se", "Febrero"]
+- !private ["Se", "Julio"]
+- !private ["Se", "Junio"]
+- !private ["Se", "Marzo"]
+- !private ["Se", "Mayo"]
+- !private ["Se", "Noviembre"]
+- !private ["Se", "Octubre"]
+- !private ["Se", "Septiembre"]
+- ["Se", ""]
+- !private ["Se", "adeudo"]
+- !private ["Se", "adeudoFederal"]
+- !private ["Se", "cumplimiento"]
+- !private ["Se", "ejecucion_estado"]
+- !private ["Se", "estado_Universidad"]
+- !private ["Se", "fecha"]
+- !private ["Se", "federal"]
+- !private ["Se", "informes"]
+- ["Se", "init"]
+- !private ["Se", "matricula"]
+- !private ["Se", "monto"]
+- !private ["Se", "montoRecibido"]
+- !private ["Se", "montoTotalSEP"]
+- !private ["Se", "observacion"]
+- !private ["Se", "rendicion_cuentas"]
+- !private ["Se", "semestre1"]
+- !private ["Se", "semestre2"]
+- !private ["Se", "sep_estado"]
+- !private ["Se", "subsidio_ordinario"]
+- !private ["Se", "totales_adeudos"]
+- !private ["Se", "trimestre1"]
+- !private ["Se", "trimestre2"]
+- !private ["Se", "trimestre3"]
+- !private ["Se", "trimestre4"]
+- !private ["s7DecoderP", "container"]
+- ["15EnTransparencia22EjecucionEstadoFederalV", "CodingKeys"]
+- ["15EnTransparencia22EjecucionEstadoFederalV", "String"]
+- ["15EnTransparencia22EjecucionEstadoFederalV", ""]
+- ["15EnTransparencia22EjecucionEstadoFederalV", "cumplimiento"]
+- ["15EnTransparencia22EjecucionEstadoFederalV", "fecha"]
+- ["15EnTransparencia22EjecucionEstadoFederalV", "init"]
+- ["15EnTransparencia22EjecucionEstadoFederalV", "observacion"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "stringValue"]
+- ["15EnTransparencia24EstadoUniversidadFederalV", "CodingKeys"]
+- ["15EnTransparencia24EstadoUniversidadFederalV", "String"]
+- ["15EnTransparencia24EstadoUniversidadFederalV", ""]
+- ["15EnTransparencia24EstadoUniversidadFederalV", "cumplimiento"]
+- ["15EnTransparencia24EstadoUniversidadFederalV", "fecha"]
+- ["15EnTransparencia24EstadoUniversidadFederalV", "init"]
+- ["15EnTransparencia24EstadoUniversidadFederalV", "observacion"]
+- ["15EnTransparencia013FederalAdeudoC0V", "CodingKeys"]
+- ["15EnTransparencia013FederalAdeudoC0V", "Double"]
+- ["15EnTransparencia013FederalAdeudoC0V", "String"]
+- ["15EnTransparencia013FederalAdeudoC0V", ""]
+- ["15EnTransparencia013FederalAdeudoC0V", "adeudo"]
+- ["15EnTransparencia013FederalAdeudoC0V", "fecha"]
+- ["15EnTransparencia013FederalAdeudoC0V", "init"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- ["15EnTransparencia8InformesV", "CodingKeys"]
+- ["15EnTransparencia8InformesV", "Matricula"]
+- ["15EnTransparencia8InformesV", "RendicionCuentas"]
+- ["15EnTransparencia8InformesV", "SubsidioOrdinario"]
+- ["15EnTransparencia8InformesV", ""]
+- ["15EnTransparencia8InformesV", "init"]
+- ["15EnTransparencia8InformesV", "matricula"]
+- ["15EnTransparencia8InformesV", "rendicion_cuentas"]
+- ["15EnTransparencia8InformesV", "subsidio_ordinario"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- ["15EnTransparencia9MatriculaV", "CodingKeys"]
+- ["15EnTransparencia9MatriculaV", "Semestre"]
+- ["15EnTransparencia9MatriculaV", ""]
+- ["15EnTransparencia9MatriculaV", "init"]
+- ["15EnTransparencia9MatriculaV", "semestre1"]
+- ["15EnTransparencia9MatriculaV", "semestre2"]
+- ["15EnTransparencia16MesesFederalDataV", "Abril"]
+- ["15EnTransparencia16MesesFederalDataV", "Agosto"]
+- ["15EnTransparencia16MesesFederalDataV", "CodingKeys"]
+- ["15EnTransparencia16MesesFederalDataV", "DatosFederal"]
+- ["15EnTransparencia16MesesFederalDataV", "Diciembre"]
+- ["15EnTransparencia16MesesFederalDataV", "Enero"]
+- ["15EnTransparencia16MesesFederalDataV", "Febrero"]
+- ["15EnTransparencia16MesesFederalDataV", "Informes"]
+- ["15EnTransparencia16MesesFederalDataV", "Julio"]
+- ["15EnTransparencia16MesesFederalDataV", "Junio"]
+- ["15EnTransparencia16MesesFederalDataV", "Marzo"]
+- ["15EnTransparencia16MesesFederalDataV", "Mayo"]
+- ["15EnTransparencia16MesesFederalDataV", "Noviembre"]
+- ["15EnTransparencia16MesesFederalDataV", "Octubre"]
+- ["15EnTransparencia16MesesFederalDataV", "Septiembre"]
+- ["15EnTransparencia16MesesFederalDataV", ""]
+- ["15EnTransparencia16MesesFederalDataV", "informes"]
+- ["15EnTransparencia16MesesFederalDataV", "init"]
+- ["15EnTransparencia23MinistracionFederalDataV", "CodingKeys"]
+- ["15EnTransparencia23MinistracionFederalDataV", "MesesFederalData"]
+- ["15EnTransparencia23MinistracionFederalDataV", "TotalesFederalAdeudo"]
+- ["15EnTransparencia23MinistracionFederalDataV", ""]
+- ["15EnTransparencia23MinistracionFederalDataV", "federal"]
+- ["15EnTransparencia23MinistracionFederalDataV", "init"]
+- ["15EnTransparencia23MinistracionFederalDataV", "totales_adeudos"]
+- ["15EnTransparencia16RendicionCuentasV", "CodingKeys"]
+- ["15EnTransparencia16RendicionCuentasV", "Trimestre"]
+- ["15EnTransparencia16RendicionCuentasV", ""]
+- ["15EnTransparencia16RendicionCuentasV", "init"]
+- ["15EnTransparencia16RendicionCuentasV", "trimestre1"]
+- ["15EnTransparencia16RendicionCuentasV", "trimestre2"]
+- ["15EnTransparencia16RendicionCuentasV", "trimestre3"]
+- ["15EnTransparencia16RendicionCuentasV", "trimestre4"]
+- ["15EnTransparencia8SemestreV", "CodingKeys"]
+- ["15EnTransparencia8SemestreV", "String"]
+- ["15EnTransparencia8SemestreV", ""]
+- ["15EnTransparencia8SemestreV", "cumplimiento"]
+- ["15EnTransparencia8SemestreV", "init"]
+- ["15EnTransparencia8SemestreV", "observacion"]
+- ["15EnTransparencia16SepEstadoFederalV", "CodingKeys"]
+- ["15EnTransparencia16SepEstadoFederalV", "String"]
+- ["15EnTransparencia16SepEstadoFederalV", ""]
+- ["15EnTransparencia16SepEstadoFederalV", "cumplimiento"]
+- ["15EnTransparencia16SepEstadoFederalV", "fecha"]
+- ["15EnTransparencia16SepEstadoFederalV", "init"]
+- ["15EnTransparencia16SepEstadoFederalV", "observacion"]
+- ["15EnTransparencia17SubsidioOrdinarioV", "CodingKeys"]
+- ["15EnTransparencia17SubsidioOrdinarioV", "Trimestre"]
+- ["15EnTransparencia17SubsidioOrdinarioV", ""]
+- ["15EnTransparencia17SubsidioOrdinarioV", "init"]
+- ["15EnTransparencia17SubsidioOrdinarioV", "trimestre1"]
+- ["15EnTransparencia17SubsidioOrdinarioV", "trimestre2"]
+- ["15EnTransparencia17SubsidioOrdinarioV", "trimestre3"]
+- ["15EnTransparencia17SubsidioOrdinarioV", "trimestre4"]
+- ["15EnTransparencia20TotalesFederalAdeudoV", "CodingKeys"]
+- ["15EnTransparencia20TotalesFederalAdeudoV", "Double"]
+- ["15EnTransparencia20TotalesFederalAdeudoV", "FederalAdeudoFederal"]
+- ["15EnTransparencia20TotalesFederalAdeudoV", ""]
+- ["15EnTransparencia20TotalesFederalAdeudoV", "adeudoFederal"]
+- ["15EnTransparencia20TotalesFederalAdeudoV", "init"]
+- ["15EnTransparencia20TotalesFederalAdeudoV", "montoTotalSEP"]
+- ["15EnTransparencia9TrimestreV", "CodingKeys"]
+- ["15EnTransparencia9TrimestreV", "String"]
+- ["15EnTransparencia9TrimestreV", ""]
+- ["15EnTransparencia9TrimestreV", "cumplimiento"]
+- ["15EnTransparencia9TrimestreV", "init"]
+- ["15EnTransparencia9TrimestreV", "observacion"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "s9CodingKeyP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "15EnTransparencia12DatosFederalV"
+- "Se"
+- !private "s7DecoderP"
+- "15EnTransparencia22EjecucionEstadoFederalV"
+- "SQ"
+- "15EnTransparencia24EstadoUniversidadFederalV"
+- "15EnTransparencia013FederalAdeudoC0V"
+- "SH"
+- !private "s6HasherV"
+- "15EnTransparencia8InformesV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "15EnTransparencia9MatriculaV"
+- "15EnTransparencia16MesesFederalDataV"
+- "15EnTransparencia23MinistracionFederalDataV"
+- "15EnTransparencia16RendicionCuentasV"
+- "15EnTransparencia8SemestreV"
+- "15EnTransparencia16SepEstadoFederalV"
+- "15EnTransparencia17SubsidioOrdinarioV"
+- "15EnTransparencia20TotalesFederalAdeudoV"
+- "15EnTransparencia9TrimestreV"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/_AVKit_SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Algorithms.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/Charts.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaSource.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStrokeStyle.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStyleSpan.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygonLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlayLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAccessibilityLabels.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c94193fca9b09dcec7438e55c5c905fb"

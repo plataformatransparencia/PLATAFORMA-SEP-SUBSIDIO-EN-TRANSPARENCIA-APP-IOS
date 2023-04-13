@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "d7506124c43eaaf266d7c26e6d598c1c"
+build_time: [1625157464, 315484000]
+inputs:
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/Chain.swift": [1625092145, 914296614]
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/Chunked.swift": [1625092145, 914714958]
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/Combinations.swift": [1625092145, 915091375]
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/Cycle.swift": [1625092145, 915430653]
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/Indexed.swift": [1625092145, 915839073]
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/Intersperse.swift": [1625092145, 916458301]
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/MinMax.swift": [1625092145, 916960636]
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/Partition.swift": [1625092145, 917396715]
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/Permutations.swift": [1625092145, 917822977]
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/Product.swift": [1625092145, 918258861]
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/RandomSample.swift": [1625092145, 726216775]
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/Rotate.swift": [1625092145, 918724166]
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/Stride.swift": [1625092145, 919275203]
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/Suffix.swift": [1625092145, 919720063]
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/Trim.swift": [1625092145, 920497356]
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/Unique.swift": [1625092145, 921167448]
+  "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-algorithms/Sources/Algorithms/Windows.swift": [1625092145, 921606108]

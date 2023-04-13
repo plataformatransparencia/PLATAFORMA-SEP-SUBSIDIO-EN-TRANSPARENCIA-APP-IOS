@@ -1,0 +1,158 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["SM", ""]
+- ["SM", "_reverse"]
+- ["SM", "reverse"]
+- ["SM", "_swapNonemptySubrangePrefixes"]
+- ["SM", "rotate"]
+- ["SM", "rotate"]
+- ["SM", "rotate"]
+- ["SM", "rotate"]
+- ["SM", "rotate"]
+- ["SM", "rotate"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "..<"
+- !private "<"
+- !private "=="
+- "AssignmentPrecedence"
+- "BidirectionalCollection"
+- !private "BooleanLiteralType"
+- "Index"
+- "MutableCollection"
+- "Range"
+- "Self"
+- "TernaryPrecedence"
+- !private "_reverse"
+- !private "_swapNonemptySubrangePrefixes"
+- !private "assert"
+- !private "endIndex"
+- !private "formIndex"
+- !private "reverse"
+- !private "rotate"
+- !private "startIndex"
+- !private "swapAt"
+depends-member:
+- ["SK", "BidirectionalCollection"]
+- ["SK", "Index"]
+- ["SK", "Range"]
+- !private ["SK", ""]
+- !private ["SK", "_reverse"]
+- !private ["SK", "endIndex"]
+- !private ["SK", "formIndex"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "lowerBound"]
+- !private ["SK", "reverse"]
+- !private ["SK", "rotate"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "swapAt"]
+- !private ["SK", "upperBound"]
+- ["Sl", "BidirectionalCollection"]
+- ["Sl", "Index"]
+- ["Sl", "Range"]
+- ["Sl", ""]
+- !private ["Sl", "_reverse"]
+- !private ["Sl", "_swapNonemptySubrangePrefixes"]
+- !private ["Sl", "assert"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "formIndex"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "lowerBound"]
+- !private ["Sl", "reverse"]
+- !private ["Sl", "rotate"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "swapAt"]
+- !private ["Sl", "swapNonemptySubrangePrefixes"]
+- !private ["Sl", "upperBound"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "lowerBound"]
+- !private ["s28CustomDebugStringConvertibleP", "upperBound"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "lowerBound"]
+- !private ["s17CustomReflectableP", "upperBound"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "lowerBound"]
+- !private ["s23CustomStringConvertibleP", "upperBound"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "lowerBound"]
+- !private ["Se", "upperBound"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "lowerBound"]
+- !private ["SE", "upperBound"]
+- ["SQ", ""]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "lowerBound"]
+- !private ["SQ", "upperBound"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "lowerBound"]
+- !private ["SH", "upperBound"]
+- ["SM", "BidirectionalCollection"]
+- ["SM", "Index"]
+- ["SM", "Range"]
+- ["SM", ""]
+- ["SM", "_reverse"]
+- ["SM", "_swapNonemptySubrangePrefixes"]
+- !private ["SM", "assert"]
+- !private ["SM", "endIndex"]
+- !private ["SM", "formIndex"]
+- ["SM", "reverse"]
+- ["SM", "rotate"]
+- !private ["SM", "startIndex"]
+- !private ["SM", "swapAt"]
+- !private ["SM", "swapNonemptySubrangePrefixes"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "lowerBound"]
+- !private ["Sk", "upperBound"]
+- !private ["Sn", "isEmpty"]
+- !private ["Sn", "lowerBound"]
+- !private ["Sn", "upperBound"]
+- !private ["SX", "isEmpty"]
+- !private ["SX", "lowerBound"]
+- !private ["SX", "upperBound"]
+- ["ST", "BidirectionalCollection"]
+- ["ST", "Index"]
+- ["ST", "Range"]
+- ["ST", ""]
+- !private ["ST", "_reverse"]
+- !private ["ST", "_swapNonemptySubrangePrefixes"]
+- !private ["ST", "assert"]
+- !private ["ST", "endIndex"]
+- !private ["ST", "formIndex"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "lowerBound"]
+- !private ["ST", "reverse"]
+- !private ["ST", "rotate"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "swapAt"]
+- !private ["ST", "swapNonemptySubrangePrefixes"]
+- !private ["ST", "upperBound"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+depends-nominal:
+- "SK"
+- "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "SH"
+- "SM"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- "ST"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/RealModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/_NumericsShims.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap"
+interface-hash: "babf274171c44d362ff1df4fb7a9e57f"

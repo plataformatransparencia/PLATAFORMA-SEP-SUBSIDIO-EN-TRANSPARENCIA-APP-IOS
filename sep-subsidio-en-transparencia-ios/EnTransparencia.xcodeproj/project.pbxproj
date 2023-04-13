@@ -1,0 +1,1363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78526E2829845D95000C4D55 /* CompromisosVertientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78526E2729845D95000C4D55 /* CompromisosVertientes.swift */; };
+		78A330362988592900675FB5 /* TableroCumplimientoPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */; };
+		78A330382988817700675FB5 /* TableroCompromisosListaPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */; };
+		78A3CC5C283576EE000A7B31 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A0BE6E26DEB93F008E9755 /* Charts.framework */; platformFilter = ios; };
+		78A3CC5D283576EE000A7B31 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1A0BE6E26DEB93F008E9755 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		78A3CC6228357BE8000A7B31 /* ActividadesEntregasDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */; };
+		C103F4D52625FA89007DAA9B /* DetalleProgramas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103F4D42625FA89007DAA9B /* DetalleProgramas.swift */; };
+		C103F4D926260981007DAA9B /* MinistracionEstatalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103F4D826260981007DAA9B /* MinistracionEstatalData.swift */; };
+		C104E7B52768FDA200282373 /* TableroFederal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C104E7B42768FDA200282373 /* TableroFederal.swift */; };
+		C104E7B92769251600282373 /* DetalleTableroFederal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C104E7B82769251600282373 /* DetalleTableroFederal.swift */; };
+		C10A548526051C550027EB34 /* TableroCumplimientoFederal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10A548426051C550027EB34 /* TableroCumplimientoFederal.swift */; };
+		C10D32F82744226F00915A98 /* TableroCumplimiento.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10D32F72744226F00915A98 /* TableroCumplimiento.swift */; };
+		C10D32FE274426AC00915A98 /* TableroCumplimientoDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10D32FD274426AC00915A98 /* TableroCumplimientoDetalle.swift */; };
+		C110A719274C19A800793A6B /* ListaAcciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = C110A718274C19A800793A6B /* ListaAcciones.swift */; };
+		C1126EDB26249ED800052D1D /* ConocePlataformaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1126EDA26249ED800052D1D /* ConocePlataformaData.swift */; };
+		C1126EDF2624A0D000052D1D /* ProgramasData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1126EDE2624A0D000052D1D /* ProgramasData.swift */; };
+		C1126EEE2624B3E800052D1D /* DetallePlataforma.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1126EED2624B3E800052D1D /* DetallePlataforma.swift */; };
+		C1126EF62624E89600052D1D /* CustomVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1126EF52624E89500052D1D /* CustomVideo.swift */; };
+		C11289A32608F6CB00A51F2A /* TableroCumplimientoEstatal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11289A22608F6CB00A51F2A /* TableroCumplimientoEstatal.swift */; };
+		C116A03427599B6E00E4750F /* ContactoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C116A03327599B6E00E4750F /* ContactoViewModel.swift */; };
+		C116A0452759A36E00E4750F /* DetallePlataformaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C116A0442759A36E00E4750F /* DetallePlataformaViewModel.swift */; };
+		C116A04B2759A6A200E4750F /* DetalleProgramasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C116A04A2759A6A200E4750F /* DetalleProgramasViewModel.swift */; };
+		C1197195275A8BA100ECBEAB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1197194275A8BA100ECBEAB /* Utils.swift */; };
+		C11971AA275A90F200ECBEAB /* FiltroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11971A9275A90F200ECBEAB /* FiltroViewModel.swift */; };
+		C11971B0275A928000ECBEAB /* DropDownAnios.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11971AF275A928000ECBEAB /* DropDownAnios.swift */; };
+		C11971B6275A935500ECBEAB /* DropDownSubsidioExtraordinario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11971B5275A935500ECBEAB /* DropDownSubsidioExtraordinario.swift */; };
+		C11971BA275A93D000ECBEAB /* DropDownCategorias.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11971B9275A93D000ECBEAB /* DropDownCategorias.swift */; };
+		C11AE34F27861C4D0071E78A /* ListaEtapas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11AE34E27861C4D0071E78A /* ListaEtapas.swift */; };
+		C11AE356278622D40071E78A /* DetalleEtapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11AE355278622D40071E78A /* DetalleEtapa.swift */; };
+		C12147392763F49900ADD846 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12147382763F49900ADD846 /* LoadingView.swift */; };
+		C1280E44273C45A700E51BDB /* Compromisos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1280E43273C45A700E51BDB /* Compromisos.swift */; };
+		C1280E48273C467900E51BDB /* CompromisosDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1280E47273C467900E51BDB /* CompromisosDetalle.swift */; };
+		C12C08CA265D70D8007E921C /* GoogleMapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C08C9265D70D8007E921C /* GoogleMapsController.swift */; };
+		C12C0967265D8841007E921C /* Mapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C0966265D8841007E921C /* Mapa.swift */; };
+		C12C097C265D967E007E921C /* MarkerWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12C097B265D967E007E921C /* MarkerWindow.xib */; };
+		C12C0980265D96C4007E921C /* MarkerWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C097F265D96C4007E921C /* MarkerWindow.swift */; };
+		C13064AC273AFC4500058B04 /* AccionesEmprender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13064AB273AFC4500058B04 /* AccionesEmprender.swift */; };
+		C13064B1273AFCB100058B04 /* AccionesEmprenderDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13064B0273AFCB100058B04 /* AccionesEmprenderDetalle.swift */; };
+		C13130B8260A782D00160CEC /* Grafica.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13130B7260A782D00160CEC /* Grafica.swift */; };
+		C13130BC260A788800160CEC /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13130BB260A788800160CEC /* PieChart.swift */; };
+		C1319E25275E79830004F36C /* CompromisosUniversidadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1319E24275E79830004F36C /* CompromisosUniversidadViewModel.swift */; };
+		C1319E37275EAED00004F36C /* SemaforoTableros.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1319E36275EAED00004F36C /* SemaforoTableros.swift */; };
+		C1319E3D275ED4E80004F36C /* TableroCumplimientoEstatalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1319E3C275ED4E80004F36C /* TableroCumplimientoEstatalViewModel.swift */; };
+		C1319E41275EDBCB0004F36C /* TableroCumplimientoFederalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1319E40275EDBCB0004F36C /* TableroCumplimientoFederalViewModel.swift */; };
+		C1515264279748120095490F /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1515263279748120095490F /* Constantes.swift */; };
+		C155E109262DF3970059DE89 /* MinistracionFederalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C155E108262DF3970059DE89 /* MinistracionFederalData.swift */; };
+		C155E10F262E0A140059DE89 /* DetalleTableroCumplimientoFederal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C155E10E262E0A140059DE89 /* DetalleTableroCumplimientoFederal.swift */; };
+		C155E113262E32170059DE89 /* InformeTrimestralSO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C155E112262E32170059DE89 /* InformeTrimestralSO.swift */; };
+		C155E117262E322C0059DE89 /* InformeTrimestralRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C155E116262E322C0059DE89 /* InformeTrimestralRC.swift */; };
+		C155E11B262E323E0059DE89 /* InformeSemestralMA.swift in Sources */ = {isa = PBXBuildFile; fileRef = C155E11A262E323E0059DE89 /* InformeSemestralMA.swift */; };
+		C1586BE02614E08400736E05 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1586BDF2614E08400736E05 /* ViewModel.swift */; };
+		C1808A57261247CE00D2777C /* AppEnTransparencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1808A56261247CE00D2777C /* AppEnTransparencia.swift */; };
+		C1808A62261253FD00D2777C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1808A61261253FD00D2777C /* AppDelegate.swift */; };
+		C18D74DB25F963C70056C20A /* UniversidadDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18D74DA25F963C70056C20A /* UniversidadDetail.swift */; };
+		C19982DE25E8413900A18811 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19982DD25E8413900A18811 /* Filter.swift */; };
+		C1B250E12653309500E53069 /* LargeValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B250E02653309500E53069 /* LargeValueFormatter.swift */; };
+		C1B6D71025E71CAD00340FF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6D70F25E71CAD00340FF3 /* ContentView.swift */; };
+		C1B6D71225E71CB300340FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B6D71125E71CB300340FF3 /* Assets.xcassets */; };
+		C1B6D71525E71CB300340FF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B6D71425E71CB300340FF3 /* Preview Assets.xcassets */; };
+		C1B6D72025E71CB400340FF3 /* EnTransparenciaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6D71F25E71CB400340FF3 /* EnTransparenciaTests.swift */; };
+		C1B6D72B25E71CB400340FF3 /* EnTransparenciaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6D72A25E71CB400340FF3 /* EnTransparenciaUITests.swift */; };
+		C1B6D75F25E7233700340FF3 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6D75E25E7233700340FF3 /* ViewRouter.swift */; };
+		C1B6D76525E7313D00340FF3 /* Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6D76425E7313C00340FF3 /* Inicio.swift */; };
+		C1B6D76D25E7314E00340FF3 /* Listado.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6D76C25E7314E00340FF3 /* Listado.swift */; };
+		C1B6D77225E7315D00340FF3 /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6D77125E7315D00340FF3 /* Contacto.swift */; };
+		C1B6D77725E7316600340FF3 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6D77625E7316600340FF3 /* Menu.swift */; };
+		C1D4C7772661A5DD00E7DEFE /* MapaReload.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D4C7762661A5DD00E7DEFE /* MapaReload.swift */; };
+		C1D82BB52627547D0010FD26 /* DetalleTableroCumplimientoEstatal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D82BB42627547C0010FD26 /* DetalleTableroCumplimientoEstatal.swift */; };
+		C1D82BCD26277B8B0010FD26 /* MontosBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D82BCC26277B8B0010FD26 /* MontosBarChartView.swift */; };
+		C1D82FB4273F0B5F00AF2AAC /* TableroEstatal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D82FB3273F0B5F00AF2AAC /* TableroEstatal.swift */; };
+		C1D82FB8273F1B6D00AF2AAC /* ListaMontos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D82FB7273F1B6D00AF2AAC /* ListaMontos.swift */; };
+		C1D82FBC273F20E900AF2AAC /* MontoDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D82FBB273F20E900AF2AAC /* MontoDetalle.swift */; };
+		C1DAE9D9261F930C0014E286 /* Referencias.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DAE9D8261F930C0014E286 /* Referencias.swift */; };
+		C1DD4575260BDC6100FD7AEF /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DD4574260BDC6100FD7AEF /* ImageLoader.swift */; };
+		C1DD4579260C0FA500FD7AEF /* Filtros.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DD4578260C0FA500FD7AEF /* Filtros.swift */; };
+		C1DE9F50261E88850067E2E9 /* CompromisosData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DE9F4F261E88850067E2E9 /* CompromisosData.swift */; };
+		C1DFEB5226139A94007A1668 /* SilverTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = C1DFEB5126139A94007A1668 /* SilverTheme.json */; };
+		C1DFEB582613ADC0007A1668 /* UniversidadDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DFEB572613ADC0007A1668 /* UniversidadDetailData.swift */; };
+		C1E661F4276004E800F21C59 /* UtilsTableroTrimestres.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E661F3276004E800F21C59 /* UtilsTableroTrimestres.swift */; };
+		C1E661FA2760058900F21C59 /* TableroCumplimientoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E661F92760058900F21C59 /* TableroCumplimientoViewModel.swift */; };
+		C1E6620C276025C400F21C59 /* UtilsDetalleUniversidad.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E6620B276025C400F21C59 /* UtilsDetalleUniversidad.swift */; };
+		C1E66210276026C500F21C59 /* UniversidadDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E6620F276026C500F21C59 /* UniversidadDetailViewModel.swift */; };
+		C1EC3BC82603E2ED00D37428 /* DetalleCompromiso.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EC3BC72603E2ED00D37428 /* DetalleCompromiso.swift */; };
+		C1F085A8260292A900B1C7C7 /* CompromisosUniversidad.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F085A7260292A800B1C7C7 /* CompromisosUniversidad.swift */; };
+		C1F166B42620A7B0009B9CFC /* ContactoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F166B32620A7B0009B9CFC /* ContactoData.swift */; };
+		C1F210AF27612AD6004CAD7D /* TableroCumplimientoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F210AE27612AD6004CAD7D /* TableroCumplimientoData.swift */; };
+		C1F210CF27615295004CAD7D /* AccionesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F210CE27615295004CAD7D /* AccionesData.swift */; };
+		C1F210D52761542F004CAD7D /* AccionesEmprenderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F210D42761542F004CAD7D /* AccionesEmprenderViewModel.swift */; };
+		C1F8535D25EED6D0009EB9C9 /* SearchTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8535C25EED6D0009EB9C9 /* SearchTextFieldView.swift */; };
+		C1F8536525EEDBDB009EB9C9 /* GridCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8536425EEDBDB009EB9C9 /* GridCellView.swift */; };
+		C1F8536A25EF11E0009EB9C9 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8536925EF11E0009EB9C9 /* GridView.swift */; };
+		C1FE6C47260BAEC9005168F7 /* ObjectUniversidades.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE6C46260BAEC9005168F7 /* ObjectUniversidades.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1A0BE6D26DEB93F008E9755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1A0BE6826DEB93F008E9755 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		C1A0BE6F26DEB93F008E9755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1A0BE6826DEB93F008E9755 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+		C1B6D71C25E71CB400340FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1B6D70225E71CAD00340FF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B6D70925E71CAD00340FF3;
+			remoteInfo = EnTransparencia;
+		};
+		C1B6D72725E71CB400340FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1B6D70225E71CAD00340FF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B6D70925E71CAD00340FF3;
+			remoteInfo = EnTransparencia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		78A3CC5E283576EE000A7B31 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				78A3CC5D283576EE000A7B31 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		105B6D46DCDE6AAD23263EFF /* libPods-EnTransparencia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnTransparencia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78526E2729845D95000C4D55 /* CompromisosVertientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosVertientes.swift; sourceTree = "<group>"; };
+		78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimientoPresupuesto.swift; sourceTree = "<group>"; };
+		78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCompromisosListaPresupuesto.swift; sourceTree = "<group>"; };
+		78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActividadesEntregasDetalle.swift; sourceTree = "<group>"; };
+		7D4A9A09DD63CF8CFF69DEDE /* Pods-EnTransparencia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.release.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.release.xcconfig"; sourceTree = "<group>"; };
+		842EBE8AB826F7B79412B436 /* Pods-EnTransparencia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.debug.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.debug.xcconfig"; sourceTree = "<group>"; };
+		C103F4D42625FA89007DAA9B /* DetalleProgramas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProgramas.swift; sourceTree = "<group>"; };
+		C103F4D826260981007DAA9B /* MinistracionEstatalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinistracionEstatalData.swift; sourceTree = "<group>"; };
+		C104E7B42768FDA200282373 /* TableroFederal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroFederal.swift; sourceTree = "<group>"; };
+		C104E7B82769251600282373 /* DetalleTableroFederal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleTableroFederal.swift; sourceTree = "<group>"; };
+		C10A548426051C550027EB34 /* TableroCumplimientoFederal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimientoFederal.swift; sourceTree = "<group>"; };
+		C10D32F72744226F00915A98 /* TableroCumplimiento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimiento.swift; sourceTree = "<group>"; };
+		C10D32FD274426AC00915A98 /* TableroCumplimientoDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimientoDetalle.swift; sourceTree = "<group>"; };
+		C110A718274C19A800793A6B /* ListaAcciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaAcciones.swift; sourceTree = "<group>"; };
+		C1126EDA26249ED800052D1D /* ConocePlataformaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConocePlataformaData.swift; sourceTree = "<group>"; };
+		C1126EDE2624A0D000052D1D /* ProgramasData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramasData.swift; sourceTree = "<group>"; };
+		C1126EED2624B3E800052D1D /* DetallePlataforma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallePlataforma.swift; sourceTree = "<group>"; };
+		C1126EF52624E89500052D1D /* CustomVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideo.swift; sourceTree = "<group>"; };
+		C11289A22608F6CB00A51F2A /* TableroCumplimientoEstatal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimientoEstatal.swift; sourceTree = "<group>"; };
+		C116A03327599B6E00E4750F /* ContactoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoViewModel.swift; sourceTree = "<group>"; };
+		C116A0442759A36E00E4750F /* DetallePlataformaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallePlataformaViewModel.swift; sourceTree = "<group>"; };
+		C116A04A2759A6A200E4750F /* DetalleProgramasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProgramasViewModel.swift; sourceTree = "<group>"; };
+		C1197194275A8BA100ECBEAB /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C11971A9275A90F200ECBEAB /* FiltroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltroViewModel.swift; sourceTree = "<group>"; };
+		C11971AF275A928000ECBEAB /* DropDownAnios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownAnios.swift; sourceTree = "<group>"; };
+		C11971B5275A935500ECBEAB /* DropDownSubsidioExtraordinario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownSubsidioExtraordinario.swift; sourceTree = "<group>"; };
+		C11971B9275A93D000ECBEAB /* DropDownCategorias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownCategorias.swift; sourceTree = "<group>"; };
+		C11AE34E27861C4D0071E78A /* ListaEtapas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaEtapas.swift; sourceTree = "<group>"; };
+		C11AE355278622D40071E78A /* DetalleEtapa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleEtapa.swift; sourceTree = "<group>"; };
+		C12147382763F49900ADD846 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		C1280E43273C45A700E51BDB /* Compromisos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compromisos.swift; sourceTree = "<group>"; };
+		C1280E47273C467900E51BDB /* CompromisosDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosDetalle.swift; sourceTree = "<group>"; };
+		C12C08C9265D70D8007E921C /* GoogleMapsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsController.swift; sourceTree = "<group>"; };
+		C12C0966265D8841007E921C /* Mapa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapa.swift; sourceTree = "<group>"; };
+		C12C097B265D967E007E921C /* MarkerWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarkerWindow.xib; sourceTree = "<group>"; };
+		C12C097F265D96C4007E921C /* MarkerWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerWindow.swift; sourceTree = "<group>"; };
+		C13064AB273AFC4500058B04 /* AccionesEmprender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccionesEmprender.swift; sourceTree = "<group>"; };
+		C13064B0273AFCB100058B04 /* AccionesEmprenderDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccionesEmprenderDetalle.swift; sourceTree = "<group>"; };
+		C13130B7260A782D00160CEC /* Grafica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grafica.swift; sourceTree = "<group>"; };
+		C13130BB260A788800160CEC /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		C1319E24275E79830004F36C /* CompromisosUniversidadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosUniversidadViewModel.swift; sourceTree = "<group>"; };
+		C1319E36275EAED00004F36C /* SemaforoTableros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaforoTableros.swift; sourceTree = "<group>"; };
+		C1319E3C275ED4E80004F36C /* TableroCumplimientoEstatalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimientoEstatalViewModel.swift; sourceTree = "<group>"; };
+		C1319E40275EDBCB0004F36C /* TableroCumplimientoFederalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimientoFederalViewModel.swift; sourceTree = "<group>"; };
+		C1515263279748120095490F /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		C155E108262DF3970059DE89 /* MinistracionFederalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinistracionFederalData.swift; sourceTree = "<group>"; };
+		C155E10E262E0A140059DE89 /* DetalleTableroCumplimientoFederal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleTableroCumplimientoFederal.swift; sourceTree = "<group>"; };
+		C155E112262E32170059DE89 /* InformeTrimestralSO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformeTrimestralSO.swift; sourceTree = "<group>"; };
+		C155E116262E322C0059DE89 /* InformeTrimestralRC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformeTrimestralRC.swift; sourceTree = "<group>"; };
+		C155E11A262E323E0059DE89 /* InformeSemestralMA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformeSemestralMA.swift; sourceTree = "<group>"; };
+		C1586BDF2614E08400736E05 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C1808A56261247CE00D2777C /* AppEnTransparencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnTransparencia.swift; sourceTree = "<group>"; };
+		C1808A61261253FD00D2777C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C18D74DA25F963C70056C20A /* UniversidadDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversidadDetail.swift; sourceTree = "<group>"; };
+		C19982DD25E8413900A18811 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		C1A0BE6826DEB93F008E9755 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../../Desktop/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		C1B250E02653309500E53069 /* LargeValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeValueFormatter.swift; sourceTree = "<group>"; };
+		C1B6D70A25E71CAD00340FF3 /* EnTransparencia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnTransparencia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B6D70F25E71CAD00340FF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1B6D71125E71CB300340FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1B6D71425E71CB300340FF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1B6D71625E71CB300340FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B6D71B25E71CB400340FF3 /* EnTransparenciaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnTransparenciaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B6D71F25E71CB400340FF3 /* EnTransparenciaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnTransparenciaTests.swift; sourceTree = "<group>"; };
+		C1B6D72125E71CB400340FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B6D72625E71CB400340FF3 /* EnTransparenciaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnTransparenciaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B6D72A25E71CB400340FF3 /* EnTransparenciaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnTransparenciaUITests.swift; sourceTree = "<group>"; };
+		C1B6D72C25E71CB400340FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B6D75E25E7233700340FF3 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		C1B6D76425E7313C00340FF3 /* Inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inicio.swift; sourceTree = "<group>"; };
+		C1B6D76C25E7314E00340FF3 /* Listado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listado.swift; sourceTree = "<group>"; };
+		C1B6D77125E7315D00340FF3 /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
+		C1B6D77625E7316600340FF3 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		C1D4C7762661A5DD00E7DEFE /* MapaReload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaReload.swift; sourceTree = "<group>"; };
+		C1D82BB42627547C0010FD26 /* DetalleTableroCumplimientoEstatal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleTableroCumplimientoEstatal.swift; sourceTree = "<group>"; };
+		C1D82BCC26277B8B0010FD26 /* MontosBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontosBarChartView.swift; sourceTree = "<group>"; };
+		C1D82FB3273F0B5F00AF2AAC /* TableroEstatal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroEstatal.swift; sourceTree = "<group>"; };
+		C1D82FB7273F1B6D00AF2AAC /* ListaMontos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaMontos.swift; sourceTree = "<group>"; };
+		C1D82FBB273F20E900AF2AAC /* MontoDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontoDetalle.swift; sourceTree = "<group>"; };
+		C1DAE9D8261F930C0014E286 /* Referencias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Referencias.swift; sourceTree = "<group>"; };
+		C1DD4574260BDC6100FD7AEF /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		C1DD4578260C0FA500FD7AEF /* Filtros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtros.swift; sourceTree = "<group>"; };
+		C1DE9F4F261E88850067E2E9 /* CompromisosData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosData.swift; sourceTree = "<group>"; };
+		C1DFEB5126139A94007A1668 /* SilverTheme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SilverTheme.json; sourceTree = "<group>"; };
+		C1DFEB572613ADC0007A1668 /* UniversidadDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversidadDetailData.swift; sourceTree = "<group>"; };
+		C1E661F3276004E800F21C59 /* UtilsTableroTrimestres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsTableroTrimestres.swift; sourceTree = "<group>"; };
+		C1E661F92760058900F21C59 /* TableroCumplimientoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimientoViewModel.swift; sourceTree = "<group>"; };
+		C1E6620B276025C400F21C59 /* UtilsDetalleUniversidad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsDetalleUniversidad.swift; sourceTree = "<group>"; };
+		C1E6620F276026C500F21C59 /* UniversidadDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversidadDetailViewModel.swift; sourceTree = "<group>"; };
+		C1EC3BC72603E2ED00D37428 /* DetalleCompromiso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleCompromiso.swift; sourceTree = "<group>"; };
+		C1F085A7260292A800B1C7C7 /* CompromisosUniversidad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosUniversidad.swift; sourceTree = "<group>"; };
+		C1F166B32620A7B0009B9CFC /* ContactoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoData.swift; sourceTree = "<group>"; };
+		C1F210AE27612AD6004CAD7D /* TableroCumplimientoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimientoData.swift; sourceTree = "<group>"; };
+		C1F210CE27615295004CAD7D /* AccionesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccionesData.swift; sourceTree = "<group>"; };
+		C1F210D42761542F004CAD7D /* AccionesEmprenderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccionesEmprenderViewModel.swift; sourceTree = "<group>"; };
+		C1F8535C25EED6D0009EB9C9 /* SearchTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextFieldView.swift; sourceTree = "<group>"; };
+		C1F8536425EEDBDB009EB9C9 /* GridCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCellView.swift; sourceTree = "<group>"; };
+		C1F8536925EF11E0009EB9C9 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		C1FE6C46260BAEC9005168F7 /* ObjectUniversidades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectUniversidades.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1B6D70725E71CAD00340FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A3CC5C283576EE000A7B31 /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B6D71825E71CB400340FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B6D72325E71CB400340FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E286E971CCD3F795366E32E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1A0BE6826DEB93F008E9755 /* Charts.xcodeproj */,
+				105B6D46DCDE6AAD23263EFF /* libPods-EnTransparencia.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		923FF8DB923193B8DD72E20A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				842EBE8AB826F7B79412B436 /* Pods-EnTransparencia.debug.xcconfig */,
+				7D4A9A09DD63CF8CFF69DEDE /* Pods-EnTransparencia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C104E7A82768FAC000282373 /* SubsidioOrdinario */ = {
+			isa = PBXGroup;
+			children = (
+				C11289A22608F6CB00A51F2A /* TableroCumplimientoEstatal.swift */,
+				C1D82BB42627547C0010FD26 /* DetalleTableroCumplimientoEstatal.swift */,
+			);
+			name = SubsidioOrdinario;
+			sourceTree = "<group>";
+		};
+		C104E7AB2768FAC900282373 /* SubsidioExtraordinario */ = {
+			isa = PBXGroup;
+			children = (
+				C1D82FB3273F0B5F00AF2AAC /* TableroEstatal.swift */,
+				C1D82FB7273F1B6D00AF2AAC /* ListaMontos.swift */,
+				C1D82FBB273F20E900AF2AAC /* MontoDetalle.swift */,
+			);
+			path = SubsidioExtraordinario;
+			sourceTree = "<group>";
+		};
+		C104E7AD2768FB8800282373 /* SubsidioOrdinario */ = {
+			isa = PBXGroup;
+			children = (
+				C104E7AF2768FBAC00282373 /* Informes */,
+				C10A548426051C550027EB34 /* TableroCumplimientoFederal.swift */,
+				C155E10E262E0A140059DE89 /* DetalleTableroCumplimientoFederal.swift */,
+			);
+			name = SubsidioOrdinario;
+			sourceTree = "<group>";
+		};
+		C104E7AE2768FB9300282373 /* SubsidioExtraordinario */ = {
+			isa = PBXGroup;
+			children = (
+				C104E7B42768FDA200282373 /* TableroFederal.swift */,
+				C104E7B82769251600282373 /* DetalleTableroFederal.swift */,
+			);
+			path = SubsidioExtraordinario;
+			sourceTree = "<group>";
+		};
+		C104E7AF2768FBAC00282373 /* Informes */ = {
+			isa = PBXGroup;
+			children = (
+				C155E112262E32170059DE89 /* InformeTrimestralSO.swift */,
+				C155E116262E322C0059DE89 /* InformeTrimestralRC.swift */,
+				C155E11A262E323E0059DE89 /* InformeSemestralMA.swift */,
+			);
+			path = Informes;
+			sourceTree = "<group>";
+		};
+		C104E7B02768FC3100282373 /* SubsidioExtraordinario */ = {
+			isa = PBXGroup;
+			children = (
+				C10D32F72744226F00915A98 /* TableroCumplimiento.swift */,
+				78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */,
+				78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */,
+				C10D32FD274426AC00915A98 /* TableroCumplimientoDetalle.swift */,
+				C1E661F92760058900F21C59 /* TableroCumplimientoViewModel.swift */,
+			);
+			path = SubsidioExtraordinario;
+			sourceTree = "<group>";
+		};
+		C104E7B12768FC5E00282373 /* SubsidioExtraordinario */ = {
+			isa = PBXGroup;
+			children = (
+				C11AE354278622B60071E78A /* Etapas */,
+				C13064AB273AFC4500058B04 /* AccionesEmprender.swift */,
+				C13064B0273AFCB100058B04 /* AccionesEmprenderDetalle.swift */,
+				C110A718274C19A800793A6B /* ListaAcciones.swift */,
+				C1F210D42761542F004CAD7D /* AccionesEmprenderViewModel.swift */,
+			);
+			name = SubsidioExtraordinario;
+			sourceTree = "<group>";
+		};
+		C116A0312759995E00E4750F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1EC3BD626041AA800D37428 /* Universidad */,
+				C11971C2275A953F00ECBEAB /* Listado */,
+				C11971BD275A949200ECBEAB /* Mapa */,
+				C11971A8275A907600ECBEAB /* Filtro */,
+				C116A03927599EAB00E4750F /* Menu */,
+				C116A03227599B4600E4750F /* Contacto */,
+				C1586BDF2614E08400736E05 /* ViewModel.swift */,
+				C1B6D70F25E71CAD00340FF3 /* ContentView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C116A03227599B4600E4750F /* Contacto */ = {
+			isa = PBXGroup;
+			children = (
+				C1B6D77125E7315D00340FF3 /* Contacto.swift */,
+				C116A03327599B6E00E4750F /* ContactoViewModel.swift */,
+			);
+			path = Contacto;
+			sourceTree = "<group>";
+		};
+		C116A03927599EAB00E4750F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C116A03D27599F1D00E4750F /* Programas */,
+				C116A03C27599F0900E4750F /* Plataforma */,
+				C1B6D77625E7316600340FF3 /* Menu.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		C116A03C27599F0900E4750F /* Plataforma */ = {
+			isa = PBXGroup;
+			children = (
+				C1126EED2624B3E800052D1D /* DetallePlataforma.swift */,
+				C116A0442759A36E00E4750F /* DetallePlataformaViewModel.swift */,
+			);
+			path = Plataforma;
+			sourceTree = "<group>";
+		};
+		C116A03D27599F1D00E4750F /* Programas */ = {
+			isa = PBXGroup;
+			children = (
+				C103F4D42625FA89007DAA9B /* DetalleProgramas.swift */,
+				C116A04A2759A6A200E4750F /* DetalleProgramasViewModel.swift */,
+			);
+			name = Programas;
+			sourceTree = "<group>";
+		};
+		C1197188275A895700ECBEAB /* Contacto */ = {
+			isa = PBXGroup;
+			children = (
+				C1F166B32620A7B0009B9CFC /* ContactoData.swift */,
+			);
+			name = Contacto;
+			sourceTree = "<group>";
+		};
+		C119718B275A896200ECBEAB /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C1126EDA26249ED800052D1D /* ConocePlataformaData.swift */,
+				C1126EDE2624A0D000052D1D /* ProgramasData.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		C119718C275A89B600ECBEAB /* Filtro */ = {
+			isa = PBXGroup;
+			children = (
+				C1DD4578260C0FA500FD7AEF /* Filtros.swift */,
+			);
+			name = Filtro;
+			sourceTree = "<group>";
+		};
+		C119718D275A89D500ECBEAB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C1126EF52624E89500052D1D /* CustomVideo.swift */,
+				C1B250E02653309500E53069 /* LargeValueFormatter.swift */,
+				C13130BB260A788800160CEC /* PieChart.swift */,
+				C1D82BCC26277B8B0010FD26 /* MontosBarChartView.swift */,
+				C13130B7260A782D00160CEC /* Grafica.swift */,
+				C1197194275A8BA100ECBEAB /* Utils.swift */,
+				C1DD4574260BDC6100FD7AEF /* ImageLoader.swift */,
+				C1B6D75E25E7233700340FF3 /* ViewRouter.swift */,
+				C1319E36275EAED00004F36C /* SemaforoTableros.swift */,
+				C1E661F3276004E800F21C59 /* UtilsTableroTrimestres.swift */,
+				C1E6620B276025C400F21C59 /* UtilsDetalleUniversidad.swift */,
+				C12147382763F49900ADD846 /* LoadingView.swift */,
+				C1515263279748120095490F /* Constantes.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		C1197198275A8D0800ECBEAB /* Tablero */ = {
+			isa = PBXGroup;
+			children = (
+				C1DE9F4F261E88850067E2E9 /* CompromisosData.swift */,
+				C103F4D826260981007DAA9B /* MinistracionEstatalData.swift */,
+				C155E108262DF3970059DE89 /* MinistracionFederalData.swift */,
+				C1F210AE27612AD6004CAD7D /* TableroCumplimientoData.swift */,
+				C1F210CE27615295004CAD7D /* AccionesData.swift */,
+			);
+			path = Tablero;
+			sourceTree = "<group>";
+		};
+		C119719D275A8DC600ECBEAB /* Mapa */ = {
+			isa = PBXGroup;
+			children = (
+				C1DFEB5126139A94007A1668 /* SilverTheme.json */,
+			);
+			name = Mapa;
+			sourceTree = "<group>";
+		};
+		C119719E275A8DD400ECBEAB /* Universidad */ = {
+			isa = PBXGroup;
+			children = (
+				C119719F275A8DEE00ECBEAB /* Referencias */,
+				C1DFEB572613ADC0007A1668 /* UniversidadDetailData.swift */,
+				C1FE6C46260BAEC9005168F7 /* ObjectUniversidades.swift */,
+			);
+			path = Universidad;
+			sourceTree = "<group>";
+		};
+		C119719F275A8DEE00ECBEAB /* Referencias */ = {
+			isa = PBXGroup;
+			children = (
+				C1DAE9D8261F930C0014E286 /* Referencias.swift */,
+			);
+			name = Referencias;
+			sourceTree = "<group>";
+		};
+		C11971A8275A907600ECBEAB /* Filtro */ = {
+			isa = PBXGroup;
+			children = (
+				C11971C4275A95ED00ECBEAB /* DropDows */,
+				C19982DD25E8413900A18811 /* Filter.swift */,
+				C11971A9275A90F200ECBEAB /* FiltroViewModel.swift */,
+			);
+			name = Filtro;
+			sourceTree = "<group>";
+		};
+		C11971BD275A949200ECBEAB /* Mapa */ = {
+			isa = PBXGroup;
+			children = (
+				C12C097A265D9642007E921C /* MarkerInfoView */,
+				C1B6D76425E7313C00340FF3 /* Inicio.swift */,
+				C1D4C7762661A5DD00E7DEFE /* MapaReload.swift */,
+				C12C0966265D8841007E921C /* Mapa.swift */,
+				C12C08C9265D70D8007E921C /* GoogleMapsController.swift */,
+			);
+			path = Mapa;
+			sourceTree = "<group>";
+		};
+		C11971C2275A953F00ECBEAB /* Listado */ = {
+			isa = PBXGroup;
+			children = (
+				C1B6D76C25E7314E00340FF3 /* Listado.swift */,
+				C1F8536925EF11E0009EB9C9 /* GridView.swift */,
+				C1F8536425EEDBDB009EB9C9 /* GridCellView.swift */,
+				C1F8535C25EED6D0009EB9C9 /* SearchTextFieldView.swift */,
+			);
+			name = Listado;
+			sourceTree = "<group>";
+		};
+		C11971C4275A95ED00ECBEAB /* DropDows */ = {
+			isa = PBXGroup;
+			children = (
+				C11971B9275A93D000ECBEAB /* DropDownCategorias.swift */,
+				C11971B5275A935500ECBEAB /* DropDownSubsidioExtraordinario.swift */,
+				C11971AF275A928000ECBEAB /* DropDownAnios.swift */,
+			);
+			path = DropDows;
+			sourceTree = "<group>";
+		};
+		C11AE354278622B60071E78A /* Etapas */ = {
+			isa = PBXGroup;
+			children = (
+				C11AE34E27861C4D0071E78A /* ListaEtapas.swift */,
+				C11AE355278622D40071E78A /* DetalleEtapa.swift */,
+			);
+			path = Etapas;
+			sourceTree = "<group>";
+		};
+		C1280E4E273C598500E51BDB /* TableroCumplimiento */ = {
+			isa = PBXGroup;
+			children = (
+				C104E7B02768FC3100282373 /* SubsidioExtraordinario */,
+			);
+			name = TableroCumplimiento;
+			sourceTree = "<group>";
+		};
+		C12C097A265D9642007E921C /* MarkerInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				C12C097B265D967E007E921C /* MarkerWindow.xib */,
+				C12C097F265D96C4007E921C /* MarkerWindow.swift */,
+			);
+			path = MarkerInfoView;
+			sourceTree = "<group>";
+		};
+		C13064AF273AFC7900058B04 /* AccionesEmprender */ = {
+			isa = PBXGroup;
+			children = (
+				C104E7B12768FC5E00282373 /* SubsidioExtraordinario */,
+			);
+			path = AccionesEmprender;
+			sourceTree = "<group>";
+		};
+		C1319E2A275E87690004F36C /* SubsidioOrdinario */ = {
+			isa = PBXGroup;
+			children = (
+				C1EC3BC72603E2ED00D37428 /* DetalleCompromiso.swift */,
+				C1F085A7260292A800B1C7C7 /* CompromisosUniversidad.swift */,
+			);
+			name = SubsidioOrdinario;
+			sourceTree = "<group>";
+		};
+		C1319E2B275E87880004F36C /* SubsidioExtraordinario */ = {
+			isa = PBXGroup;
+			children = (
+				78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */,
+				C1280E43273C45A700E51BDB /* Compromisos.swift */,
+				C1280E47273C467900E51BDB /* CompromisosDetalle.swift */,
+				78526E2729845D95000C4D55 /* CompromisosVertientes.swift */,
+			);
+			path = SubsidioExtraordinario;
+			sourceTree = "<group>";
+		};
+		C1A0BE6926DEB93F008E9755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1A0BE6E26DEB93F008E9755 /* Charts.framework */,
+				C1A0BE7026DEB93F008E9755 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1B6D70125E71CAD00340FF3 = {
+			isa = PBXGroup;
+			children = (
+				C1B6D70C25E71CAD00340FF3 /* EnTransparencia */,
+				C1B6D71E25E71CB400340FF3 /* EnTransparenciaTests */,
+				C1B6D72925E71CB400340FF3 /* EnTransparenciaUITests */,
+				C1B6D70B25E71CAD00340FF3 /* Products */,
+				923FF8DB923193B8DD72E20A /* Pods */,
+				1E286E971CCD3F795366E32E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1B6D70B25E71CAD00340FF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1B6D70A25E71CAD00340FF3 /* EnTransparencia.app */,
+				C1B6D71B25E71CB400340FF3 /* EnTransparenciaTests.xctest */,
+				C1B6D72625E71CB400340FF3 /* EnTransparenciaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1B6D70C25E71CAD00340FF3 /* EnTransparencia */ = {
+			isa = PBXGroup;
+			children = (
+				C119718D275A89D500ECBEAB /* Utils */,
+				C116A0312759995E00E4750F /* Views */,
+				C1FE6C45260BAE5C005168F7 /* Model */,
+				C1808A56261247CE00D2777C /* AppEnTransparencia.swift */,
+				C1808A61261253FD00D2777C /* AppDelegate.swift */,
+				C1B6D71125E71CB300340FF3 /* Assets.xcassets */,
+				C1B6D71625E71CB300340FF3 /* Info.plist */,
+				C1B6D71325E71CB300340FF3 /* Preview Content */,
+			);
+			path = EnTransparencia;
+			sourceTree = "<group>";
+		};
+		C1B6D71325E71CB300340FF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1B6D71425E71CB300340FF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1B6D71E25E71CB400340FF3 /* EnTransparenciaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1B6D71F25E71CB400340FF3 /* EnTransparenciaTests.swift */,
+				C1B6D72125E71CB400340FF3 /* Info.plist */,
+			);
+			path = EnTransparenciaTests;
+			sourceTree = "<group>";
+		};
+		C1B6D72925E71CB400340FF3 /* EnTransparenciaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1B6D72A25E71CB400340FF3 /* EnTransparenciaUITests.swift */,
+				C1B6D72C25E71CB400340FF3 /* Info.plist */,
+			);
+			path = EnTransparenciaUITests;
+			sourceTree = "<group>";
+		};
+		C1EC3BD626041AA800D37428 /* Universidad */ = {
+			isa = PBXGroup;
+			children = (
+				C1EC3BD726041AE600D37428 /* Tablero */,
+				C18D74DA25F963C70056C20A /* UniversidadDetail.swift */,
+				C1E6620F276026C500F21C59 /* UniversidadDetailViewModel.swift */,
+			);
+			path = Universidad;
+			sourceTree = "<group>";
+		};
+		C1EC3BD726041AE600D37428 /* Tablero */ = {
+			isa = PBXGroup;
+			children = (
+				C1280E4E273C598500E51BDB /* TableroCumplimiento */,
+				C13064AF273AFC7900058B04 /* AccionesEmprender */,
+				C1EC3BDA26041B1200D37428 /* Compromisos */,
+				C1EC3BD926041B0700D37428 /* CumplimientoFederal */,
+				C1EC3BD826041AFB00D37428 /* CumplimientoEstatal */,
+			);
+			path = Tablero;
+			sourceTree = "<group>";
+		};
+		C1EC3BD826041AFB00D37428 /* CumplimientoEstatal */ = {
+			isa = PBXGroup;
+			children = (
+				C104E7AB2768FAC900282373 /* SubsidioExtraordinario */,
+				C104E7A82768FAC000282373 /* SubsidioOrdinario */,
+				C1319E3C275ED4E80004F36C /* TableroCumplimientoEstatalViewModel.swift */,
+			);
+			path = CumplimientoEstatal;
+			sourceTree = "<group>";
+		};
+		C1EC3BD926041B0700D37428 /* CumplimientoFederal */ = {
+			isa = PBXGroup;
+			children = (
+				C104E7AE2768FB9300282373 /* SubsidioExtraordinario */,
+				C104E7AD2768FB8800282373 /* SubsidioOrdinario */,
+				C1319E40275EDBCB0004F36C /* TableroCumplimientoFederalViewModel.swift */,
+			);
+			path = CumplimientoFederal;
+			sourceTree = "<group>";
+		};
+		C1EC3BDA26041B1200D37428 /* Compromisos */ = {
+			isa = PBXGroup;
+			children = (
+				C1319E2B275E87880004F36C /* SubsidioExtraordinario */,
+				C1319E2A275E87690004F36C /* SubsidioOrdinario */,
+				C1319E24275E79830004F36C /* CompromisosUniversidadViewModel.swift */,
+			);
+			path = Compromisos;
+			sourceTree = "<group>";
+		};
+		C1FE6C45260BAE5C005168F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C119719E275A8DD400ECBEAB /* Universidad */,
+				C119719D275A8DC600ECBEAB /* Mapa */,
+				C1197198275A8D0800ECBEAB /* Tablero */,
+				C119718C275A89B600ECBEAB /* Filtro */,
+				C119718B275A896200ECBEAB /* Menu */,
+				C1197188275A895700ECBEAB /* Contacto */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1B6D70925E71CAD00340FF3 /* EnTransparencia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B6D72F25E71CB400340FF3 /* Build configuration list for PBXNativeTarget "EnTransparencia" */;
+			buildPhases = (
+				A3F46304E257C239284735DE /* [CP] Check Pods Manifest.lock */,
+				C1B6D70625E71CAD00340FF3 /* Sources */,
+				C1B6D70725E71CAD00340FF3 /* Frameworks */,
+				C1B6D70825E71CAD00340FF3 /* Resources */,
+				7F3346D0B9152D6AB66BF5C1 /* [CP] Copy Pods Resources */,
+				78A3CC5E283576EE000A7B31 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnTransparencia;
+			productName = EnTransparencia;
+			productReference = C1B6D70A25E71CAD00340FF3 /* EnTransparencia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1B6D71A25E71CB400340FF3 /* EnTransparenciaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B6D73225E71CB400340FF3 /* Build configuration list for PBXNativeTarget "EnTransparenciaTests" */;
+			buildPhases = (
+				C1B6D71725E71CB400340FF3 /* Sources */,
+				C1B6D71825E71CB400340FF3 /* Frameworks */,
+				C1B6D71925E71CB400340FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1B6D71D25E71CB400340FF3 /* PBXTargetDependency */,
+			);
+			name = EnTransparenciaTests;
+			productName = EnTransparenciaTests;
+			productReference = C1B6D71B25E71CB400340FF3 /* EnTransparenciaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1B6D72525E71CB400340FF3 /* EnTransparenciaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B6D73525E71CB400340FF3 /* Build configuration list for PBXNativeTarget "EnTransparenciaUITests" */;
+			buildPhases = (
+				C1B6D72225E71CB400340FF3 /* Sources */,
+				C1B6D72325E71CB400340FF3 /* Frameworks */,
+				C1B6D72425E71CB400340FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1B6D72825E71CB400340FF3 /* PBXTargetDependency */,
+			);
+			name = EnTransparenciaUITests;
+			productName = EnTransparenciaUITests;
+			productReference = C1B6D72625E71CB400340FF3 /* EnTransparenciaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1B6D70225E71CAD00340FF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C1B6D70925E71CAD00340FF3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C1B6D71A25E71CB400340FF3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C1B6D70925E71CAD00340FF3;
+					};
+					C1B6D72525E71CB400340FF3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C1B6D70925E71CAD00340FF3;
+					};
+				};
+			};
+			buildConfigurationList = C1B6D70525E71CAD00340FF3 /* Build configuration list for PBXProject "EnTransparencia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1B6D70125E71CAD00340FF3;
+			productRefGroup = C1B6D70B25E71CAD00340FF3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C1A0BE6926DEB93F008E9755 /* Products */;
+					ProjectRef = C1A0BE6826DEB93F008E9755 /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C1B6D70925E71CAD00340FF3 /* EnTransparencia */,
+				C1B6D71A25E71CB400340FF3 /* EnTransparenciaTests */,
+				C1B6D72525E71CB400340FF3 /* EnTransparenciaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C1A0BE6E26DEB93F008E9755 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = C1A0BE6D26DEB93F008E9755 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C1A0BE7026DEB93F008E9755 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = C1A0BE6F26DEB93F008E9755 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1B6D70825E71CAD00340FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DFEB5226139A94007A1668 /* SilverTheme.json in Resources */,
+				C1B6D71525E71CB300340FF3 /* Preview Assets.xcassets in Resources */,
+				C1B6D71225E71CB300340FF3 /* Assets.xcassets in Resources */,
+				C12C097C265D967E007E921C /* MarkerWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B6D71925E71CB400340FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B6D72425E71CB400340FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F3346D0B9152D6AB66BF5C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F46304E257C239284735DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnTransparencia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1B6D70625E71CAD00340FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11971AA275A90F200ECBEAB /* FiltroViewModel.swift in Sources */,
+				C110A719274C19A800793A6B /* ListaAcciones.swift in Sources */,
+				C1B6D75F25E7233700340FF3 /* ViewRouter.swift in Sources */,
+				78A3CC6228357BE8000A7B31 /* ActividadesEntregasDetalle.swift in Sources */,
+				C1126EEE2624B3E800052D1D /* DetallePlataforma.swift in Sources */,
+				C12C08CA265D70D8007E921C /* GoogleMapsController.swift in Sources */,
+				C1319E25275E79830004F36C /* CompromisosUniversidadViewModel.swift in Sources */,
+				C10D32F82744226F00915A98 /* TableroCumplimiento.swift in Sources */,
+				C1280E48273C467900E51BDB /* CompromisosDetalle.swift in Sources */,
+				C155E10F262E0A140059DE89 /* DetalleTableroCumplimientoFederal.swift in Sources */,
+				C11971BA275A93D000ECBEAB /* DropDownCategorias.swift in Sources */,
+				C1D82BB52627547D0010FD26 /* DetalleTableroCumplimientoEstatal.swift in Sources */,
+				C1B6D71025E71CAD00340FF3 /* ContentView.swift in Sources */,
+				C1DD4579260C0FA500FD7AEF /* Filtros.swift in Sources */,
+				C11971B0275A928000ECBEAB /* DropDownAnios.swift in Sources */,
+				C13064AC273AFC4500058B04 /* AccionesEmprender.swift in Sources */,
+				C104E7B52768FDA200282373 /* TableroFederal.swift in Sources */,
+				C1D82FB8273F1B6D00AF2AAC /* ListaMontos.swift in Sources */,
+				C1D4C7772661A5DD00E7DEFE /* MapaReload.swift in Sources */,
+				C1B6D77725E7316600340FF3 /* Menu.swift in Sources */,
+				C12C0967265D8841007E921C /* Mapa.swift in Sources */,
+				C1F166B42620A7B0009B9CFC /* ContactoData.swift in Sources */,
+				C155E117262E322C0059DE89 /* InformeTrimestralRC.swift in Sources */,
+				C1D82FB4273F0B5F00AF2AAC /* TableroEstatal.swift in Sources */,
+				C1DE9F50261E88850067E2E9 /* CompromisosData.swift in Sources */,
+				C1DAE9D9261F930C0014E286 /* Referencias.swift in Sources */,
+				C1F8536A25EF11E0009EB9C9 /* GridView.swift in Sources */,
+				C13130BC260A788800160CEC /* PieChart.swift in Sources */,
+				C11289A32608F6CB00A51F2A /* TableroCumplimientoEstatal.swift in Sources */,
+				C10A548526051C550027EB34 /* TableroCumplimientoFederal.swift in Sources */,
+				C1EC3BC82603E2ED00D37428 /* DetalleCompromiso.swift in Sources */,
+				C1319E37275EAED00004F36C /* SemaforoTableros.swift in Sources */,
+				C155E11B262E323E0059DE89 /* InformeSemestralMA.swift in Sources */,
+				C103F4D926260981007DAA9B /* MinistracionEstatalData.swift in Sources */,
+				C11AE356278622D40071E78A /* DetalleEtapa.swift in Sources */,
+				C1E6620C276025C400F21C59 /* UtilsDetalleUniversidad.swift in Sources */,
+				C1B6D77225E7315D00340FF3 /* Contacto.swift in Sources */,
+				C1B250E12653309500E53069 /* LargeValueFormatter.swift in Sources */,
+				C1E661FA2760058900F21C59 /* TableroCumplimientoViewModel.swift in Sources */,
+				C1F210D52761542F004CAD7D /* AccionesEmprenderViewModel.swift in Sources */,
+				C1319E41275EDBCB0004F36C /* TableroCumplimientoFederalViewModel.swift in Sources */,
+				C1515264279748120095490F /* Constantes.swift in Sources */,
+				C11AE34F27861C4D0071E78A /* ListaEtapas.swift in Sources */,
+				C1DD4575260BDC6100FD7AEF /* ImageLoader.swift in Sources */,
+				C1280E44273C45A700E51BDB /* Compromisos.swift in Sources */,
+				C1126EF62624E89600052D1D /* CustomVideo.swift in Sources */,
+				C1126EDF2624A0D000052D1D /* ProgramasData.swift in Sources */,
+				78A330382988817700675FB5 /* TableroCompromisosListaPresupuesto.swift in Sources */,
+				C1F085A8260292A900B1C7C7 /* CompromisosUniversidad.swift in Sources */,
+				C10D32FE274426AC00915A98 /* TableroCumplimientoDetalle.swift in Sources */,
+				C1F210AF27612AD6004CAD7D /* TableroCumplimientoData.swift in Sources */,
+				C1197195275A8BA100ECBEAB /* Utils.swift in Sources */,
+				C103F4D52625FA89007DAA9B /* DetalleProgramas.swift in Sources */,
+				C116A04B2759A6A200E4750F /* DetalleProgramasViewModel.swift in Sources */,
+				C1B6D76525E7313D00340FF3 /* Inicio.swift in Sources */,
+				C19982DE25E8413900A18811 /* Filter.swift in Sources */,
+				C1B6D76D25E7314E00340FF3 /* Listado.swift in Sources */,
+				C11971B6275A935500ECBEAB /* DropDownSubsidioExtraordinario.swift in Sources */,
+				C104E7B92769251600282373 /* DetalleTableroFederal.swift in Sources */,
+				C1808A57261247CE00D2777C /* AppEnTransparencia.swift in Sources */,
+				C1126EDB26249ED800052D1D /* ConocePlataformaData.swift in Sources */,
+				C155E113262E32170059DE89 /* InformeTrimestralSO.swift in Sources */,
+				C116A0452759A36E00E4750F /* DetallePlataformaViewModel.swift in Sources */,
+				C13064B1273AFCB100058B04 /* AccionesEmprenderDetalle.swift in Sources */,
+				C1D82FBC273F20E900AF2AAC /* MontoDetalle.swift in Sources */,
+				C1FE6C47260BAEC9005168F7 /* ObjectUniversidades.swift in Sources */,
+				C1586BE02614E08400736E05 /* ViewModel.swift in Sources */,
+				78526E2829845D95000C4D55 /* CompromisosVertientes.swift in Sources */,
+				C1319E3D275ED4E80004F36C /* TableroCumplimientoEstatalViewModel.swift in Sources */,
+				C1808A62261253FD00D2777C /* AppDelegate.swift in Sources */,
+				78A330362988592900675FB5 /* TableroCumplimientoPresupuesto.swift in Sources */,
+				C155E109262DF3970059DE89 /* MinistracionFederalData.swift in Sources */,
+				C1F8536525EEDBDB009EB9C9 /* GridCellView.swift in Sources */,
+				C1F8535D25EED6D0009EB9C9 /* SearchTextFieldView.swift in Sources */,
+				C116A03427599B6E00E4750F /* ContactoViewModel.swift in Sources */,
+				C18D74DB25F963C70056C20A /* UniversidadDetail.swift in Sources */,
+				C1F210CF27615295004CAD7D /* AccionesData.swift in Sources */,
+				C12147392763F49900ADD846 /* LoadingView.swift in Sources */,
+				C13130B8260A782D00160CEC /* Grafica.swift in Sources */,
+				C1DFEB582613ADC0007A1668 /* UniversidadDetailData.swift in Sources */,
+				C12C0980265D96C4007E921C /* MarkerWindow.swift in Sources */,
+				C1D82BCD26277B8B0010FD26 /* MontosBarChartView.swift in Sources */,
+				C1E661F4276004E800F21C59 /* UtilsTableroTrimestres.swift in Sources */,
+				C1E66210276026C500F21C59 /* UniversidadDetailViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B6D71725E71CB400340FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B6D72025E71CB400340FF3 /* EnTransparenciaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B6D72225E71CB400340FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B6D72B25E71CB400340FF3 /* EnTransparenciaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1B6D71D25E71CB400340FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1B6D70925E71CAD00340FF3 /* EnTransparencia */;
+			targetProxy = C1B6D71C25E71CB400340FF3 /* PBXContainerItemProxy */;
+		};
+		C1B6D72825E71CB400340FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1B6D70925E71CAD00340FF3 /* EnTransparencia */;
+			targetProxy = C1B6D72725E71CB400340FF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C1B6D72D25E71CB400340FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Direccion General de Educacion Superior Universitaria e Intercultural (DGESUI) (MYY8YFL9J8)";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1B6D72E25E71CB400340FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Direccion General de Educacion Superior Universitaria e Intercultural (DGESUI) (MYY8YFL9J8)";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1B6D73025E71CB400340FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 842EBE8AB826F7B79412B436 /* Pods-EnTransparencia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 58;
+				DEVELOPMENT_ASSET_PATHS = "\"EnTransparencia/Preview Content\"";
+				DEVELOPMENT_TEAM = MYY8YFL9J8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EnTransparencia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.47;
+				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparencia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = EnTransparenciaProduccion2;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1B6D73125E71CB400340FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D4A9A09DD63CF8CFF69DEDE /* Pods-EnTransparencia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 58;
+				DEVELOPMENT_ASSET_PATHS = "\"EnTransparencia/Preview Content\"";
+				DEVELOPMENT_TEAM = MYY8YFL9J8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EnTransparencia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.47;
+				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparencia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = EnTransparenciaProduccion2;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1B6D73325E71CB400340FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87399653CB;
+				INFOPLIST_FILE = EnTransparenciaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparenciaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnTransparencia.app/EnTransparencia";
+			};
+			name = Debug;
+		};
+		C1B6D73425E71CB400340FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87399653CB;
+				INFOPLIST_FILE = EnTransparenciaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparenciaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnTransparencia.app/EnTransparencia";
+			};
+			name = Release;
+		};
+		C1B6D73625E71CB400340FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87399653CB;
+				INFOPLIST_FILE = EnTransparenciaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparenciaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnTransparencia;
+			};
+			name = Debug;
+		};
+		C1B6D73725E71CB400340FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87399653CB;
+				INFOPLIST_FILE = EnTransparenciaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparenciaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnTransparencia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1B6D70525E71CAD00340FF3 /* Build configuration list for PBXProject "EnTransparencia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B6D72D25E71CB400340FF3 /* Debug */,
+				C1B6D72E25E71CB400340FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B6D72F25E71CB400340FF3 /* Build configuration list for PBXNativeTarget "EnTransparencia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B6D73025E71CB400340FF3 /* Debug */,
+				C1B6D73125E71CB400340FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B6D73225E71CB400340FF3 /* Build configuration list for PBXNativeTarget "EnTransparenciaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B6D73325E71CB400340FF3 /* Debug */,
+				C1B6D73425E71CB400340FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B6D73525E71CB400340FF3 /* Build configuration list for PBXNativeTarget "EnTransparenciaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B6D73625E71CB400340FF3 /* Debug */,
+				C1B6D73725E71CB400340FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1B6D70225E71CAD00340FF3 /* Project object */;
+}

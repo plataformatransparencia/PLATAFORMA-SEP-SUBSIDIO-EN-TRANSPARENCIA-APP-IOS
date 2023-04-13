@@ -1,0 +1,157 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Cycle"
+provides-nominal:
+- "10Algorithms5CycleV"
+- "10Algorithms5CycleV8IteratorV"
+provides-member:
+- ["10Algorithms5CycleV", ""]
+- ["10Algorithms5CycleV8IteratorV", ""]
+- ["Sl", ""]
+- ["Sl", "cycled"]
+- ["Sl", "cycled"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "=="
+- "AssignmentPrecedence"
+- "Base"
+- "Collection"
+- "Cycle"
+- "FlattenSequence"
+- "Int"
+- "Iterator"
+- "IteratorProtocol"
+- "LazySequenceProtocol"
+- "Repeated"
+- "Self"
+- "Sequence"
+- !private "base"
+- !private "current"
+- !private "repeatElement"
+depends-member:
+- !private ["SK", ""]
+- !private ["SK", "joined"]
+- ["Sl", "Cycle"]
+- ["Sl", "FlattenSequence"]
+- ["Sl", "Index"]
+- ["Sl", "Int"]
+- ["Sl", "Repeated"]
+- ["Sl", ""]
+- ["Sl", "cycled"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "formIndex"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "repeatElement"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- ["10Algorithms5CycleV", "Default_Element"]
+- ["10Algorithms5CycleV", "Default_Elements"]
+- ["10Algorithms5CycleV", "Element"]
+- ["10Algorithms5CycleV", "Elements"]
+- ["10Algorithms5CycleV", "Iterator"]
+- ["10Algorithms5CycleV", "IteratorProtocol"]
+- ["10Algorithms5CycleV", "LazySequenceProtocol"]
+- ["10Algorithms5CycleV", ""]
+- ["10Algorithms5CycleV", "_Default_Element"]
+- ["10Algorithms5CycleV", "_Default_Elements"]
+- ["10Algorithms5CycleV", "_copyContents"]
+- ["10Algorithms5CycleV", "_copyToContiguousArray"]
+- ["10Algorithms5CycleV", "_customContainsEquatableElement"]
+- ["10Algorithms5CycleV", "base"]
+- !private ["10Algorithms5CycleV", "current"]
+- ["10Algorithms5CycleV", "elements"]
+- ["10Algorithms5CycleV", "init"]
+- ["10Algorithms5CycleV", "makeIterator"]
+- ["10Algorithms5CycleV", "underestimatedCount"]
+- ["10Algorithms5CycleV", "withContiguousStorageIfAvailable"]
+- ["SQ", ""]
+- ["10Algorithms5CycleV8IteratorV", "Base"]
+- ["10Algorithms5CycleV8IteratorV", "Default_Element"]
+- ["10Algorithms5CycleV8IteratorV", "Element"]
+- ["10Algorithms5CycleV8IteratorV", ""]
+- ["10Algorithms5CycleV8IteratorV", "_Default_Element"]
+- ["10Algorithms5CycleV8IteratorV", "base"]
+- ["10Algorithms5CycleV8IteratorV", "current"]
+- ["10Algorithms5CycleV8IteratorV", "init"]
+- ["10Algorithms5CycleV8IteratorV", "next"]
+- ["St", "Default_Element"]
+- ["St", "Element"]
+- ["St", ""]
+- ["St", "_Default_Element"]
+- !private ["St", "base"]
+- !private ["St", "current"]
+- !private ["St", "init"]
+- ["St", "next"]
+- ["s20LazySequenceProtocolP", "Default_Element"]
+- ["s20LazySequenceProtocolP", "Default_Elements"]
+- ["s20LazySequenceProtocolP", "Element"]
+- ["s20LazySequenceProtocolP", "Elements"]
+- ["s20LazySequenceProtocolP", "Iterator"]
+- ["s20LazySequenceProtocolP", "IteratorProtocol"]
+- ["s20LazySequenceProtocolP", ""]
+- ["s20LazySequenceProtocolP", "_Default_Element"]
+- ["s20LazySequenceProtocolP", "_Default_Elements"]
+- ["s20LazySequenceProtocolP", "_copyContents"]
+- ["s20LazySequenceProtocolP", "_copyToContiguousArray"]
+- ["s20LazySequenceProtocolP", "_customContainsEquatableElement"]
+- !private ["s20LazySequenceProtocolP", "base"]
+- !private ["s20LazySequenceProtocolP", "current"]
+- ["s20LazySequenceProtocolP", "elements"]
+- !private ["s20LazySequenceProtocolP", "init"]
+- ["s20LazySequenceProtocolP", "makeIterator"]
+- ["s20LazySequenceProtocolP", "underestimatedCount"]
+- ["s20LazySequenceProtocolP", "withContiguousStorageIfAvailable"]
+- !private ["Sk", "joined"]
+- !private ["s8RepeatedV", "joined"]
+- ["ST", "Cycle"]
+- ["ST", "Default_Element"]
+- ["ST", "Default_Elements"]
+- ["ST", "Element"]
+- ["ST", "Elements"]
+- ["ST", "FlattenSequence"]
+- ["ST", "Index"]
+- ["ST", "Int"]
+- ["ST", "Iterator"]
+- ["ST", "IteratorProtocol"]
+- ["ST", "Repeated"]
+- ["ST", ""]
+- ["ST", "_Default_Element"]
+- ["ST", "_Default_Elements"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "base"]
+- !private ["ST", "current"]
+- ["ST", "elements"]
+- !private ["ST", "endIndex"]
+- !private ["ST", "formIndex"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "joined"]
+- ["ST", "makeIterator"]
+- !private ["ST", "repeatElement"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "subscript"]
+- ["ST", "underestimatedCount"]
+- ["ST", "withContiguousStorageIfAvailable"]
+depends-nominal:
+- !private "SK"
+- "Sl"
+- "10Algorithms5CycleV"
+- "SQ"
+- "10Algorithms5CycleV8IteratorV"
+- "St"
+- "s20LazySequenceProtocolP"
+- !private "Sk"
+- !private "s8RepeatedV"
+- "ST"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/RealModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/_NumericsShims.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap"
+interface-hash: "2252ab46e16218f463ea2a9b9a4324ce"

@@ -1,0 +1,89 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["SK", ""]
+- ["SK", "trimming"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "..<"
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "BidirectionalCollection"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Element"
+- !private "Range"
+- "SubSequence"
+- !private "endIndex"
+- !private "firstIndex"
+- !private "index"
+depends-member:
+- ["SK", "Bool"]
+- ["SK", "Element"]
+- !private ["SK", "Range"]
+- ["SK", "SubSequence"]
+- ["SK", ""]
+- !private ["SK", "endIndex"]
+- !private ["SK", "firstIndex"]
+- !private ["SK", "index"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- ["SK", "trimming"]
+- ["Sl", "Bool"]
+- ["Sl", "Element"]
+- !private ["Sl", "Range"]
+- ["Sl", "SubSequence"]
+- ["Sl", ""]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "firstIndex"]
+- !private ["Sl", "index"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SH", "init"]
+- !private ["Sk", "init"]
+- !private ["Sn", "init"]
+- !private ["SX", "init"]
+- ["ST", "Bool"]
+- ["ST", "Element"]
+- !private ["ST", "Range"]
+- ["ST", "SubSequence"]
+- ["ST", ""]
+- !private ["ST", "endIndex"]
+- !private ["ST", "firstIndex"]
+- !private ["ST", "index"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+depends-nominal:
+- "SK"
+- "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "SH"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- "ST"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/RealModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/_NumericsShims.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap"
+interface-hash: "efa1504d4c508a751b40f2464c8b6d66"

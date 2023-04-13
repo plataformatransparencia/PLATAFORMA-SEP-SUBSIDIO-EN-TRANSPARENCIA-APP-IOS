@@ -1,0 +1,84 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ElementaryFunctions"
+provides-nominal:
+- "10RealModule19ElementaryFunctionsP"
+provides-member:
+- ["10RealModule19ElementaryFunctionsP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AdditiveArithmetic"
+- "ElementaryFunctions"
+- "Int"
+- "Self"
+depends-member:
+- ["s18AdditiveArithmeticP", "Int"]
+- ["s18AdditiveArithmeticP", ""]
+- ["s18AdditiveArithmeticP", "acos"]
+- ["s18AdditiveArithmeticP", "acosh"]
+- ["s18AdditiveArithmeticP", "asin"]
+- ["s18AdditiveArithmeticP", "asinh"]
+- ["s18AdditiveArithmeticP", "atan"]
+- ["s18AdditiveArithmeticP", "atanh"]
+- ["s18AdditiveArithmeticP", "cos"]
+- ["s18AdditiveArithmeticP", "cosh"]
+- ["s18AdditiveArithmeticP", "exp"]
+- ["s18AdditiveArithmeticP", "expMinusOne"]
+- ["s18AdditiveArithmeticP", "log"]
+- ["s18AdditiveArithmeticP", "pow"]
+- ["s18AdditiveArithmeticP", "root"]
+- ["s18AdditiveArithmeticP", "sin"]
+- ["s18AdditiveArithmeticP", "sinh"]
+- ["s18AdditiveArithmeticP", "sqrt"]
+- ["s18AdditiveArithmeticP", "tan"]
+- ["s18AdditiveArithmeticP", "tanh"]
+- ["10RealModule19ElementaryFunctionsP", "Int"]
+- ["10RealModule19ElementaryFunctionsP", "acos"]
+- ["10RealModule19ElementaryFunctionsP", "acosh"]
+- ["10RealModule19ElementaryFunctionsP", "asin"]
+- ["10RealModule19ElementaryFunctionsP", "asinh"]
+- ["10RealModule19ElementaryFunctionsP", "atan"]
+- ["10RealModule19ElementaryFunctionsP", "atanh"]
+- ["10RealModule19ElementaryFunctionsP", "cos"]
+- ["10RealModule19ElementaryFunctionsP", "cosh"]
+- ["10RealModule19ElementaryFunctionsP", "exp"]
+- ["10RealModule19ElementaryFunctionsP", "expMinusOne"]
+- ["10RealModule19ElementaryFunctionsP", "log"]
+- ["10RealModule19ElementaryFunctionsP", "pow"]
+- ["10RealModule19ElementaryFunctionsP", "root"]
+- ["10RealModule19ElementaryFunctionsP", "sin"]
+- ["10RealModule19ElementaryFunctionsP", "sinh"]
+- ["10RealModule19ElementaryFunctionsP", "sqrt"]
+- ["10RealModule19ElementaryFunctionsP", "tan"]
+- ["10RealModule19ElementaryFunctionsP", "tanh"]
+- ["SQ", "Int"]
+- ["SQ", ""]
+- ["SQ", "acos"]
+- ["SQ", "acosh"]
+- ["SQ", "asin"]
+- ["SQ", "asinh"]
+- ["SQ", "atan"]
+- ["SQ", "atanh"]
+- ["SQ", "cos"]
+- ["SQ", "cosh"]
+- ["SQ", "exp"]
+- ["SQ", "expMinusOne"]
+- ["SQ", "log"]
+- ["SQ", "pow"]
+- ["SQ", "root"]
+- ["SQ", "sin"]
+- ["SQ", "sinh"]
+- ["SQ", "sqrt"]
+- ["SQ", "tan"]
+- ["SQ", "tanh"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "10RealModule19ElementaryFunctionsP"
+- "SQ"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/_NumericsShims.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap"
+interface-hash: "6f4ab14ba9fb51975ae4fc57554ba0d5"

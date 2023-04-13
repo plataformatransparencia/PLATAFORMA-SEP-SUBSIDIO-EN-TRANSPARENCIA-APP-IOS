@@ -1,0 +1,1712 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UniversidadDetail"
+- "UniversidadDetail_Previews"
+provides-nominal:
+- "15EnTransparencia17UniversidadDetailV"
+- "15EnTransparencia26UniversidadDetail_PreviewsV"
+provides-member:
+- ["15EnTransparencia17UniversidadDetailV", ""]
+- ["15EnTransparencia26UniversidadDetail_PreviewsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "!="
+- !private "*"
+- "+"
+- !private "/"
+- "<"
+- "=="
+- ">"
+- !private "Array"
+- "AssignmentPrecedence"
+- "AsyncImage"
+- "Binding"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Button"
+- "CastingPrecedence"
+- "Circle"
+- "Color"
+- "CompromisosUniversidad"
+- "DetalleUniversidad"
+- "DispatchQueue"
+- "Double"
+- "Environment"
+- "FileManager"
+- "FloatLiteralType"
+- "ForEach"
+- "GeometryReader"
+- "Grafica"
+- "GridItem"
+- "HStack"
+- "HTTPURLResponse"
+- "Image"
+- "Int"
+- "IntegerLiteralType"
+- "JSONDecoder"
+- "LazyVGrid"
+- !private "NSNumber"
+- "NavigationLink"
+- "NavigationView"
+- !private "NumberFormatter"
+- "PieChart"
+- "PresentationMode"
+- "PreviewProvider"
+- "Rectangle"
+- "Referencias"
+- "ScrollView"
+- "Spacer"
+- "State"
+- "String"
+- "StringLiteralType"
+- "TableroCumplimientoEstatal"
+- "TableroCumplimientoFederal"
+- !private "TernaryPrecedence"
+- "Text"
+- "UIApplication"
+- "URL"
+- !private "URLRequest"
+- !private "URLSession"
+- !private "URLSessionConfiguration"
+- !private "UnicodeScalarType"
+- "UniversidadDetail"
+- "UniversidadDetail_Previews"
+- "VStack"
+- "View"
+- "ZStack"
+- "anexo"
+- "bandera"
+- "calcularPorcentaje"
+- "formatResultForRegion"
+- "loadData"
+- "loadReferences"
+- "logo"
+- "numeralia"
+- "otras"
+- "print"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "bottom"]
+- !private ["s18AdditiveArithmeticP", "horizontal"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "leading"]
+- !private ["7SwiftUI9AlignmentV", "leading"]
+- !private ["7SwiftUI9AlignmentV", "trailing"]
+- !private ["7SwiftUI10AnimatableP", ""]
+- !private ["7SwiftUI10AnimatableP", "bottom"]
+- !private ["7SwiftUI10AnimatableP", "foregroundColor"]
+- !private ["7SwiftUI10AnimatableP", "height"]
+- !private ["7SwiftUI10AnimatableP", "horizontal"]
+- !private ["7SwiftUI10AnimatableP", "init"]
+- !private ["7SwiftUI10AnimatableP", "leading"]
+- !private ["7SwiftUI10AnimatableP", "stroke"]
+- !private ["7SwiftUI10AnimatableP", "width"]
+- !private ["Sa", "first"]
+- ["Sa", "init"]
+- !private ["Sa", "reversed"]
+- !private ["15EnTransparencia10AsyncImageV", ""]
+- !private ["15EnTransparencia10AsyncImageV", "frame"]
+- !private ["15EnTransparencia10AsyncImageV", "init"]
+- ["SK", ""]
+- !private ["SK", "count"]
+- !private ["SK", "first"]
+- ["SK", "init"]
+- !private ["SK", "reversed"]
+- !private ["SB", "bottom"]
+- !private ["SB", "horizontal"]
+- !private ["SB", "init"]
+- !private ["SB", "leading"]
+- !private ["7SwiftUI7BindingV", "wrappedValue"]
+- !private ["7SwiftUI6ButtonV", "init"]
+- !private ["7SwiftUI6ButtonV", "padding"]
+- !private ["12CoreGraphics7CGFloatV", "bottom"]
+- !private ["12CoreGraphics7CGFloatV", "horizontal"]
+- !private ["12CoreGraphics7CGFloatV", "leading"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "width"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "count"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "first"]
+- ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "reversed"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "bottom"]
+- !private ["s7CVarArgP", "copyItem"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "downloadTask"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "horizontal"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "leading"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "maximumFractionDigits"]
+- !private ["s7CVarArgP", "minimumFractionDigits"]
+- !private ["s7CVarArgP", "numberStyle"]
+- !private ["s7CVarArgP", "open"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "reversed"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "sorted"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "urls"]
+- !private ["s7CVarArgP", "usesGroupingSeparator"]
+- !private ["s12CaseIterableP", "center"]
+- !private ["s12CaseIterableP", "fit"]
+- !private ["s12CaseIterableP", "leading"]
+- !private ["15EnTransparencia7GraficaV9CategoriaO", "graficaPastel"]
+- !private ["7SwiftUI6CircleV", "foregroundColor"]
+- !private ["7SwiftUI6CircleV", "init"]
+- !private ["7SwiftUI6CircleV", "stroke"]
+- ["Sl", ""]
+- !private ["Sl", "count"]
+- !private ["Sl", "first"]
+- ["Sl", "init"]
+- !private ["Sl", "reversed"]
+- !private ["Sl", "sorted"]
+- !private ["7SwiftUI5ColorV", "black"]
+- !private ["7SwiftUI5ColorV", "edgesIgnoringSafeArea"]
+- !private ["7SwiftUI5ColorV", "init"]
+- !private ["7SwiftUI5ColorV", "white"]
+- ["SL", ""]
+- !private ["SL", "bottom"]
+- !private ["SL", "count"]
+- !private ["SL", "horizontal"]
+- !private ["SL", "init"]
+- !private ["SL", "leading"]
+- !private ["15EnTransparencia16CompromisosDatosV", ""]
+- !private ["15EnTransparencia22CompromisosUniversidadV", ""]
+- !private ["15EnTransparencia22CompromisosUniversidadV", "init"]
+- !private ["7SwiftUI11ContentModeO", "fit"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "copyItem"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "downloadTask"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "maximumFractionDigits"]
+- !private ["s28CustomDebugStringConvertibleP", "minimumFractionDigits"]
+- !private ["s28CustomDebugStringConvertibleP", "montserrat"]
+- !private ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "numberStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "open"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "sorted"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "urls"]
+- !private ["s28CustomDebugStringConvertibleP", "usesGroupingSeparator"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s17CustomReflectableP", "black"]
+- !private ["s17CustomReflectableP", "bottom"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "horizontal"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "leading"]
+- !private ["s17CustomReflectableP", "montserrat"]
+- !private ["s17CustomReflectableP", "none"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s17CustomReflectableP", "some"]
+- !private ["s17CustomReflectableP", "sorted"]
+- !private ["s17CustomReflectableP", "white"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "Element"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "bottom"]
+- !private ["s23CustomStringConvertibleP", "copyItem"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "downloadTask"]
+- !private ["s23CustomStringConvertibleP", "edgesIgnoringSafeArea"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "horizontal"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "leading"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "maximumFractionDigits"]
+- !private ["s23CustomStringConvertibleP", "minimumFractionDigits"]
+- !private ["s23CustomStringConvertibleP", "numberStyle"]
+- !private ["s23CustomStringConvertibleP", "open"]
+- ["s23CustomStringConvertibleP", "presentationMode"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "sorted"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "urls"]
+- !private ["s23CustomStringConvertibleP", "usesGroupingSeparator"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "first"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "reversed"]
+- !private ["Se", "MarcoColaboracion"]
+- !private ["Se", "ModificacionCalendario"]
+- !private ["Se", "anexo"]
+- !private ["Se", "anexoEjecucion"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "black"]
+- !private ["Se", "bottom"]
+- !private ["Se", "count"]
+- !private ["Se", "desirableProfileProfessor"]
+- !private ["Se", "direccion"]
+- !private ["Se", "enrolmentTotal"]
+- !private ["Se", "estado"]
+- !private ["Se", "federationOwnershipPercentage"]
+- !private ["Se", "first"]
+- !private ["Se", "fullTimeProfessorsTotal"]
+- !private ["Se", "gobernador"]
+- !private ["Se", "height"]
+- !private ["Se", "highSchoolEnrolment"]
+- !private ["Se", "higherEducationEnrolment"]
+- !private ["Se", "horizontal"]
+- ["Se", "init"]
+- !private ["Se", "leading"]
+- !private ["Se", "montoEstatal"]
+- !private ["Se", "montoFederal"]
+- !private ["Se", "montoPublico"]
+- !private ["Se", "montos"]
+- !private ["Se", "montserrat"]
+- !private ["Se", "nationalSystemResearchersProfessor"]
+- !private ["Se", "nombre"]
+- !private ["Se", "none"]
+- !private ["Se", "numeralia"]
+- !private ["Se", "oficioCalendario"]
+- !private ["Se", "otras"]
+- !private ["Se", "planAusteridad"]
+- !private ["Se", "rector"]
+- !private ["Se", "reversed"]
+- !private ["Se", "siglas"]
+- !private ["Se", "some"]
+- !private ["Se", "sorted"]
+- !private ["Se", "stateOwnershipPercentage"]
+- !private ["Se", "studentAllowance"]
+- !private ["Se", "transparencyUrl"]
+- !private ["Se", "webUrl"]
+- !private ["Se", "white"]
+- !private ["Se", "width"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["15EnTransparencia18DetalleUniversidadV", "MarcoColaboracion"]
+- !private ["15EnTransparencia18DetalleUniversidadV", "ModificacionCalendario"]
+- !private ["15EnTransparencia18DetalleUniversidadV", ""]
+- !private ["15EnTransparencia18DetalleUniversidadV", "anexoEjecucion"]
+- !private ["15EnTransparencia18DetalleUniversidadV", "direccion"]
+- !private ["15EnTransparencia18DetalleUniversidadV", "estado"]
+- !private ["15EnTransparencia18DetalleUniversidadV", "gobernador"]
+- !private ["15EnTransparencia18DetalleUniversidadV", "montos"]
+- !private ["15EnTransparencia18DetalleUniversidadV", "nombre"]
+- !private ["15EnTransparencia18DetalleUniversidadV", "numeralia"]
+- !private ["15EnTransparencia18DetalleUniversidadV", "oficioCalendario"]
+- !private ["15EnTransparencia18DetalleUniversidadV", "planAusteridad"]
+- !private ["15EnTransparencia18DetalleUniversidadV", "rector"]
+- !private ["15EnTransparencia18DetalleUniversidadV", "siglas"]
+- !private ["15EnTransparencia18DetalleUniversidadV", "transparencyUrl"]
+- !private ["15EnTransparencia18DetalleUniversidadV", "webUrl"]
+- ["SD", "init"]
+- !private ["SD", "sorted"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["Sd", "init"]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
+- !private ["7SwiftUI18DynamicViewContentP", "init"]
+- !private ["7SwiftUI10EdgeInsetsV", "bottom"]
+- !private ["7SwiftUI10EdgeInsetsV", "horizontal"]
+- !private ["7SwiftUI10EdgeInsetsV", "leading"]
+- !private ["SE", "MarcoColaboracion"]
+- !private ["SE", "ModificacionCalendario"]
+- !private ["SE", "anexo"]
+- !private ["SE", "anexoEjecucion"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "black"]
+- !private ["SE", "bottom"]
+- !private ["SE", "count"]
+- !private ["SE", "desirableProfileProfessor"]
+- !private ["SE", "direccion"]
+- !private ["SE", "enrolmentTotal"]
+- !private ["SE", "estado"]
+- !private ["SE", "federationOwnershipPercentage"]
+- !private ["SE", "first"]
+- !private ["SE", "fullTimeProfessorsTotal"]
+- !private ["SE", "gobernador"]
+- !private ["SE", "height"]
+- !private ["SE", "highSchoolEnrolment"]
+- !private ["SE", "higherEducationEnrolment"]
+- !private ["SE", "horizontal"]
+- ["SE", "init"]
+- !private ["SE", "leading"]
+- !private ["SE", "montoEstatal"]
+- !private ["SE", "montoFederal"]
+- !private ["SE", "montoPublico"]
+- !private ["SE", "montos"]
+- !private ["SE", "montserrat"]
+- !private ["SE", "nationalSystemResearchersProfessor"]
+- !private ["SE", "nombre"]
+- !private ["SE", "none"]
+- !private ["SE", "numeralia"]
+- !private ["SE", "oficioCalendario"]
+- !private ["SE", "otras"]
+- !private ["SE", "planAusteridad"]
+- !private ["SE", "rector"]
+- !private ["SE", "reversed"]
+- !private ["SE", "siglas"]
+- !private ["SE", "some"]
+- !private ["SE", "sorted"]
+- !private ["SE", "stateOwnershipPercentage"]
+- !private ["SE", "studentAllowance"]
+- !private ["SE", "transparencyUrl"]
+- !private ["SE", "webUrl"]
+- !private ["SE", "white"]
+- !private ["SE", "width"]
+- ["7SwiftUI11EnvironmentV", "init"]
+- ["7SwiftUI11EnvironmentV", "wrappedValue"]
+- ["7SwiftUI17EnvironmentValuesV", "presentationMode"]
+- ["SQ", ""]
+- !private ["SQ", "all"]
+- !private ["SQ", "appendingPathComponent"]
+- !private ["SQ", "async"]
+- !private ["SQ", "black"]
+- !private ["SQ", "bold"]
+- !private ["SQ", "bottom"]
+- !private ["SQ", "center"]
+- !private ["SQ", "copyItem"]
+- !private ["SQ", "count"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "decimal"]
+- !private ["SQ", "default"]
+- !private ["SQ", "documentDirectory"]
+- !private ["SQ", "downloadTask"]
+- !private ["SQ", "edgesIgnoringSafeArea"]
+- !private ["SQ", "first"]
+- !private ["SQ", "fit"]
+- !private ["SQ", "fixedSize"]
+- !private ["SQ", "font"]
+- !private ["SQ", "foregroundColor"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "graficaPastel"]
+- !private ["SQ", "height"]
+- !private ["SQ", "horizontal"]
+- ["SQ", "init"]
+- !private ["SQ", "leading"]
+- !private ["SQ", "main"]
+- !private ["SQ", "maximumFractionDigits"]
+- !private ["SQ", "minimumFractionDigits"]
+- !private ["SQ", "montserrat"]
+- !private ["SQ", "multilineTextAlignment"]
+- !private ["SQ", "none"]
+- !private ["SQ", "numberStyle"]
+- !private ["SQ", "open"]
+- !private ["SQ", "padding"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "reversed"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "some"]
+- !private ["SQ", "sorted"]
+- !private ["SQ", "statusCode"]
+- !private ["SQ", "string"]
+- !private ["SQ", "top"]
+- !private ["SQ", "trailing"]
+- !private ["SQ", "urls"]
+- !private ["SQ", "userDomainMask"]
+- !private ["SQ", "usesGroupingSeparator"]
+- !private ["SQ", "white"]
+- !private ["SQ", "width"]
+- !private ["s5ErrorP", "localizedDescription"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "all"]
+- !private ["s25ExpressibleByArrayLiteralP", "bottom"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "horizontal"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "leading"]
+- !private ["s25ExpressibleByArrayLiteralP", "reversed"]
+- !private ["s25ExpressibleByArrayLiteralP", "top"]
+- !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "sorted"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "bottom"]
+- !private ["s25ExpressibleByFloatLiteralP", "horizontal"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "leading"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "bottom"]
+- !private ["s27ExpressibleByIntegerLiteralP", "horizontal"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "leading"]
+- !private ["s23ExpressibleByNilLiteralP", "black"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "montserrat"]
+- !private ["s23ExpressibleByNilLiteralP", "none"]
+- !private ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s23ExpressibleByNilLiteralP", "white"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "count"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So13NSFileManagerC", "copyItem"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "urls"]
+- !private ["SF", ""]
+- !private ["SF", "bottom"]
+- !private ["SF", "horizontal"]
+- !private ["SF", "init"]
+- !private ["SF", "leading"]
+- !private ["7SwiftUI4FontV", "montserrat"]
+- !private ["7SwiftUI7ForEachV", "init"]
+- ["So11NSFormatterC", ""]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "maximumFractionDigits"]
+- !private ["So11NSFormatterC", "minimumFractionDigits"]
+- !private ["So11NSFormatterC", "numberStyle"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["So11NSFormatterC", "stringFromNumber"]
+- !private ["So11NSFormatterC", "usesGroupingSeparator"]
+- !private ["7SwiftUI13GeometryProxyV", "size"]
+- !private ["7SwiftUI14GeometryReaderV", "frame"]
+- !private ["7SwiftUI14GeometryReaderV", "init"]
+- !private ["7SwiftUI7GestureP", "black"]
+- !private ["7SwiftUI7GestureP", "montserrat"]
+- !private ["7SwiftUI7GestureP", "none"]
+- !private ["7SwiftUI7GestureP", "some"]
+- !private ["7SwiftUI7GestureP", "white"]
+- !private ["15EnTransparencia7GraficaV", "entriesForWines"]
+- !private ["15EnTransparencia7GraficaV", "init"]
+- !private ["7SwiftUI8GridItemV", "init"]
+- !private ["7SwiftUI6HStackV", "background"]
+- !private ["7SwiftUI6HStackV", "init"]
+- !private ["7SwiftUI6HStackV", "padding"]
+- !private ["So17NSHTTPURLResponseC", "statusCode"]
+- ["SH", ""]
+- !private ["SH", "appendingPathComponent"]
+- !private ["SH", "async"]
+- !private ["SH", "black"]
+- !private ["SH", "bottom"]
+- !private ["SH", "center"]
+- !private ["SH", "copyItem"]
+- !private ["SH", "count"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "decimal"]
+- !private ["SH", "default"]
+- !private ["SH", "documentDirectory"]
+- !private ["SH", "downloadTask"]
+- !private ["SH", "edgesIgnoringSafeArea"]
+- !private ["SH", "first"]
+- !private ["SH", "fit"]
+- !private ["SH", "graficaPastel"]
+- !private ["SH", "horizontal"]
+- ["SH", "init"]
+- !private ["SH", "leading"]
+- !private ["SH", "main"]
+- !private ["SH", "maximumFractionDigits"]
+- !private ["SH", "minimumFractionDigits"]
+- !private ["SH", "montserrat"]
+- !private ["SH", "none"]
+- !private ["SH", "numberStyle"]
+- !private ["SH", "open"]
+- !private ["SH", "resume"]
+- !private ["SH", "reversed"]
+- !private ["SH", "shared"]
+- !private ["SH", "some"]
+- !private ["SH", "sorted"]
+- !private ["SH", "statusCode"]
+- !private ["SH", "string"]
+- !private ["SH", "urls"]
+- !private ["SH", "usesGroupingSeparator"]
+- !private ["SH", "white"]
+- !private ["7SwiftUI19HorizontalAlignmentV", "center"]
+- !private ["7SwiftUI19HorizontalAlignmentV", "leading"]
+- !private ["7SwiftUI5ImageV", "font"]
+- !private ["7SwiftUI5ImageV", "foregroundColor"]
+- !private ["7SwiftUI5ImageV", "init"]
+- !private ["7SwiftUI15InsettableShapeP", "foregroundColor"]
+- !private ["7SwiftUI15InsettableShapeP", "init"]
+- !private ["7SwiftUI15InsettableShapeP", "stroke"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["7SwiftUI9LazyVGridV", "init"]
+- !private ["s25LosslessStringConvertibleP", "Element"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "count"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["15EnTransparencia6MontosV", "montoEstatal"]
+- !private ["15EnTransparencia6MontosV", "montoFederal"]
+- !private ["15EnTransparencia6MontosV", "montoPublico"]
+- ["SM", ""]
+- !private ["SM", "first"]
+- ["SM", "init"]
+- !private ["SM", "reversed"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "reversed"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "maximumFractionDigits"]
+- !private ["So8NSCodingP", "minimumFractionDigits"]
+- !private ["So8NSCodingP", "numberStyle"]
+- !private ["So8NSCodingP", "numberWithBool"]
+- !private ["So8NSCodingP", "numberWithChar"]
+- !private ["So8NSCodingP", "numberWithDouble"]
+- !private ["So8NSCodingP", "numberWithFloat"]
+- !private ["So8NSCodingP", "numberWithInt"]
+- !private ["So8NSCodingP", "numberWithInteger"]
+- !private ["So8NSCodingP", "numberWithLong"]
+- !private ["So8NSCodingP", "numberWithLongLong"]
+- !private ["So8NSCodingP", "numberWithShort"]
+- !private ["So8NSCodingP", "numberWithUnsignedChar"]
+- !private ["So8NSCodingP", "numberWithUnsignedInt"]
+- !private ["So8NSCodingP", "numberWithUnsignedInteger"]
+- !private ["So8NSCodingP", "numberWithUnsignedLong"]
+- !private ["So8NSCodingP", "numberWithUnsignedLongLong"]
+- !private ["So8NSCodingP", "numberWithUnsignedShort"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "stringFromNumber"]
+- !private ["So8NSCodingP", "usesGroupingSeparator"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "default"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "maximumFractionDigits"]
+- !private ["So9NSCopyingP", "minimumFractionDigits"]
+- !private ["So9NSCopyingP", "numberStyle"]
+- !private ["So9NSCopyingP", "numberWithBool"]
+- !private ["So9NSCopyingP", "numberWithChar"]
+- !private ["So9NSCopyingP", "numberWithDouble"]
+- !private ["So9NSCopyingP", "numberWithFloat"]
+- !private ["So9NSCopyingP", "numberWithInt"]
+- !private ["So9NSCopyingP", "numberWithInteger"]
+- !private ["So9NSCopyingP", "numberWithLong"]
+- !private ["So9NSCopyingP", "numberWithLongLong"]
+- !private ["So9NSCopyingP", "numberWithShort"]
+- !private ["So9NSCopyingP", "numberWithUnsignedChar"]
+- !private ["So9NSCopyingP", "numberWithUnsignedInt"]
+- !private ["So9NSCopyingP", "numberWithUnsignedInteger"]
+- !private ["So9NSCopyingP", "numberWithUnsignedLong"]
+- !private ["So9NSCopyingP", "numberWithUnsignedLongLong"]
+- !private ["So9NSCopyingP", "numberWithUnsignedShort"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "stringFromNumber"]
+- !private ["So9NSCopyingP", "usesGroupingSeparator"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So8NSNumberC", "init"]
+- !private ["So8NSObjectC", "URLsForDirectory"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "copyItem"]
+- !private ["So8NSObjectC", "copyItemAtPath"]
+- !private ["So8NSObjectC", "copyItemAtURL"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "downloadTask"]
+- !private ["So8NSObjectC", "downloadTaskWithRequest"]
+- !private ["So8NSObjectC", "downloadTaskWithResumeData"]
+- !private ["So8NSObjectC", "downloadTaskWithURL"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "maximumFractionDigits"]
+- !private ["So8NSObjectC", "minimumFractionDigits"]
+- !private ["So8NSObjectC", "numberStyle"]
+- !private ["So8NSObjectC", "numberWithBool"]
+- !private ["So8NSObjectC", "numberWithChar"]
+- !private ["So8NSObjectC", "numberWithDouble"]
+- !private ["So8NSObjectC", "numberWithFloat"]
+- !private ["So8NSObjectC", "numberWithInt"]
+- !private ["So8NSObjectC", "numberWithInteger"]
+- !private ["So8NSObjectC", "numberWithLong"]
+- !private ["So8NSObjectC", "numberWithLongLong"]
+- !private ["So8NSObjectC", "numberWithShort"]
+- !private ["So8NSObjectC", "numberWithUnsignedChar"]
+- !private ["So8NSObjectC", "numberWithUnsignedInt"]
+- !private ["So8NSObjectC", "numberWithUnsignedInteger"]
+- !private ["So8NSObjectC", "numberWithUnsignedLong"]
+- !private ["So8NSObjectC", "numberWithUnsignedLongLong"]
+- !private ["So8NSObjectC", "numberWithUnsignedShort"]
+- !private ["So8NSObjectC", "open"]
+- !private ["So8NSObjectC", "openURL"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "sessionWithConfiguration"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "stringFromNumber"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectC", "urls"]
+- !private ["So8NSObjectC", "usesGroupingSeparator"]
+- !private ["So8NSObjectC", "value"]
+- !private ["So8NSObjectC", "valueWithBytes"]
+- !private ["So8NSObjectC", "valueWithCATransform3D"]
+- !private ["So8NSObjectC", "valueWithCGAffineTransform"]
+- !private ["So8NSObjectC", "valueWithCGPoint"]
+- !private ["So8NSObjectC", "valueWithCGRect"]
+- !private ["So8NSObjectC", "valueWithCGSize"]
+- !private ["So8NSObjectC", "valueWithCGVector"]
+- !private ["So8NSObjectC", "valueWithCMTime"]
+- !private ["So8NSObjectC", "valueWithCMTimeMapping"]
+- !private ["So8NSObjectC", "valueWithCMTimeRange"]
+- !private ["So8NSObjectC", "valueWithDirectionalEdgeInsets"]
+- !private ["So8NSObjectC", "valueWithNonretainedObject"]
+- !private ["So8NSObjectC", "valueWithPointer"]
+- !private ["So8NSObjectC", "valueWithRange"]
+- !private ["So8NSObjectC", "valueWithUIEdgeInsets"]
+- !private ["So8NSObjectC", "valueWithUIOffset"]
+- !private ["So8NSObjectP", "URLsForDirectory"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "copyItem"]
+- !private ["So8NSObjectP", "copyItemAtPath"]
+- !private ["So8NSObjectP", "copyItemAtURL"]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "downloadTask"]
+- !private ["So8NSObjectP", "downloadTaskWithRequest"]
+- !private ["So8NSObjectP", "downloadTaskWithResumeData"]
+- !private ["So8NSObjectP", "downloadTaskWithURL"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "maximumFractionDigits"]
+- !private ["So8NSObjectP", "minimumFractionDigits"]
+- !private ["So8NSObjectP", "numberStyle"]
+- !private ["So8NSObjectP", "numberWithBool"]
+- !private ["So8NSObjectP", "numberWithChar"]
+- !private ["So8NSObjectP", "numberWithDouble"]
+- !private ["So8NSObjectP", "numberWithFloat"]
+- !private ["So8NSObjectP", "numberWithInt"]
+- !private ["So8NSObjectP", "numberWithInteger"]
+- !private ["So8NSObjectP", "numberWithLong"]
+- !private ["So8NSObjectP", "numberWithLongLong"]
+- !private ["So8NSObjectP", "numberWithShort"]
+- !private ["So8NSObjectP", "numberWithUnsignedChar"]
+- !private ["So8NSObjectP", "numberWithUnsignedInt"]
+- !private ["So8NSObjectP", "numberWithUnsignedInteger"]
+- !private ["So8NSObjectP", "numberWithUnsignedLong"]
+- !private ["So8NSObjectP", "numberWithUnsignedLongLong"]
+- !private ["So8NSObjectP", "numberWithUnsignedShort"]
+- !private ["So8NSObjectP", "open"]
+- !private ["So8NSObjectP", "openURL"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "sessionWithConfiguration"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "statusCode"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "stringFromNumber"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["So8NSObjectP", "urls"]
+- !private ["So8NSObjectP", "usesGroupingSeparator"]
+- !private ["So8NSObjectP", "value"]
+- !private ["So8NSObjectP", "valueWithBytes"]
+- !private ["So8NSObjectP", "valueWithCATransform3D"]
+- !private ["So8NSObjectP", "valueWithCGAffineTransform"]
+- !private ["So8NSObjectP", "valueWithCGPoint"]
+- !private ["So8NSObjectP", "valueWithCGRect"]
+- !private ["So8NSObjectP", "valueWithCGSize"]
+- !private ["So8NSObjectP", "valueWithCGVector"]
+- !private ["So8NSObjectP", "valueWithCMTime"]
+- !private ["So8NSObjectP", "valueWithCMTimeMapping"]
+- !private ["So8NSObjectP", "valueWithCMTimeRange"]
+- !private ["So8NSObjectP", "valueWithDirectionalEdgeInsets"]
+- !private ["So8NSObjectP", "valueWithNonretainedObject"]
+- !private ["So8NSObjectP", "valueWithPointer"]
+- !private ["So8NSObjectP", "valueWithRange"]
+- !private ["So8NSObjectP", "valueWithUIEdgeInsets"]
+- !private ["So8NSObjectP", "valueWithUIOffset"]
+- !private ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "numberWithBool"]
+- !private ["So14NSSecureCodingP", "numberWithChar"]
+- !private ["So14NSSecureCodingP", "numberWithDouble"]
+- !private ["So14NSSecureCodingP", "numberWithFloat"]
+- !private ["So14NSSecureCodingP", "numberWithInt"]
+- !private ["So14NSSecureCodingP", "numberWithInteger"]
+- !private ["So14NSSecureCodingP", "numberWithLong"]
+- !private ["So14NSSecureCodingP", "numberWithLongLong"]
+- !private ["So14NSSecureCodingP", "numberWithShort"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedChar"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedInt"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedInteger"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedLong"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedLongLong"]
+- !private ["So14NSSecureCodingP", "numberWithUnsignedShort"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["So8NSStringC", "count"]
+- ["So7NSValueC", ""]
+- !private ["So7NSValueC", "init"]
+- !private ["So7NSValueC", "numberWithBool"]
+- !private ["So7NSValueC", "numberWithChar"]
+- !private ["So7NSValueC", "numberWithDouble"]
+- !private ["So7NSValueC", "numberWithFloat"]
+- !private ["So7NSValueC", "numberWithInt"]
+- !private ["So7NSValueC", "numberWithInteger"]
+- !private ["So7NSValueC", "numberWithLong"]
+- !private ["So7NSValueC", "numberWithLongLong"]
+- !private ["So7NSValueC", "numberWithShort"]
+- !private ["So7NSValueC", "numberWithUnsignedChar"]
+- !private ["So7NSValueC", "numberWithUnsignedInt"]
+- !private ["So7NSValueC", "numberWithUnsignedInteger"]
+- !private ["So7NSValueC", "numberWithUnsignedLong"]
+- !private ["So7NSValueC", "numberWithUnsignedLongLong"]
+- !private ["So7NSValueC", "numberWithUnsignedShort"]
+- !private ["7SwiftUI14NavigationLinkV", "init"]
+- !private ["7SwiftUI14NavigationLinkV", "padding"]
+- !private ["7SwiftUI14NavigationViewV", "edgesIgnoringSafeArea"]
+- !private ["7SwiftUI14NavigationViewV", "init"]
+- !private ["So17NSNumberFormatterC", "init"]
+- !private ["So17NSNumberFormatterC", "maximumFractionDigits"]
+- !private ["So17NSNumberFormatterC", "minimumFractionDigits"]
+- !private ["So17NSNumberFormatterC", "numberStyle"]
+- !private ["So17NSNumberFormatterC", "string"]
+- !private ["So17NSNumberFormatterC", "usesGroupingSeparator"]
+- !private ["15EnTransparencia9NumeraliaV", "desirableProfileProfessor"]
+- !private ["15EnTransparencia9NumeraliaV", "enrolmentTotal"]
+- !private ["15EnTransparencia9NumeraliaV", "federationOwnershipPercentage"]
+- !private ["15EnTransparencia9NumeraliaV", "fullTimeProfessorsTotal"]
+- !private ["15EnTransparencia9NumeraliaV", "highSchoolEnrolment"]
+- !private ["15EnTransparencia9NumeraliaV", "higherEducationEnrolment"]
+- !private ["15EnTransparencia9NumeraliaV", "nationalSystemResearchersProfessor"]
+- !private ["15EnTransparencia9NumeraliaV", "stateOwnershipPercentage"]
+- !private ["15EnTransparencia9NumeraliaV", "studentAllowance"]
+- !private ["Sj", ""]
+- !private ["Sj", "bottom"]
+- !private ["Sj", "horizontal"]
+- !private ["Sj", "init"]
+- !private ["Sj", "leading"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["s9OptionSetP", "all"]
+- !private ["s9OptionSetP", "bottom"]
+- !private ["s9OptionSetP", "horizontal"]
+- !private ["s9OptionSetP", "leading"]
+- !private ["s9OptionSetP", "top"]
+- !private ["s9OptionSetP", "userDomainMask"]
+- !private ["Sq", "black"]
+- !private ["Sq", "montserrat"]
+- !private ["Sq", "none"]
+- !private ["Sq", "some"]
+- !private ["Sq", "white"]
+- !private ["15EnTransparencia8PieChartV", ""]
+- !private ["15EnTransparencia8PieChartV", "frame"]
+- !private ["15EnTransparencia8PieChartV", "init"]
+- !private ["7SwiftUI16PresentationModeV", "dismiss"]
+- ["7SwiftUI15PreviewProviderP", "Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "Previews"]
+- !private ["7SwiftUI15PreviewProviderP", "UniversidadDetail"]
+- ["7SwiftUI15PreviewProviderP", ""]
+- ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "_platform"]
+- ["7SwiftUI15PreviewProviderP", "_previews"]
+- ["7SwiftUI15PreviewProviderP", "platform"]
+- ["7SwiftUI15PreviewProviderP", "previews"]
+- !private ["So19NSProgressReportingP", "resume"]
+- ["Sk", ""]
+- !private ["Sk", "first"]
+- ["Sk", "init"]
+- !private ["Sk", "reversed"]
+- ["Sm", ""]
+- !private ["Sm", "count"]
+- !private ["Sm", "first"]
+- ["Sm", "init"]
+- !private ["Sm", "reversed"]
+- !private ["SY", ""]
+- !private ["SY", "all"]
+- !private ["SY", "bottom"]
+- !private ["SY", "decimal"]
+- !private ["SY", "documentDirectory"]
+- !private ["SY", "graficaPastel"]
+- !private ["SY", "horizontal"]
+- !private ["SY", "leading"]
+- !private ["SY", "top"]
+- !private ["SY", "userDomainMask"]
+- !private ["7SwiftUI9RectangleV", "init"]
+- !private ["7SwiftUI9RectangleV", "stroke"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["15EnTransparencia11ReferenciasV", ""]
+- !private ["15EnTransparencia11ReferenciasV", "anexo"]
+- !private ["15EnTransparencia11ReferenciasV", "numeralia"]
+- !private ["15EnTransparencia11ReferenciasV", "otras"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["7SwiftUI10ScrollViewV", "edgesIgnoringSafeArea"]
+- !private ["7SwiftUI10ScrollViewV", "init"]
+- !private ["So21NSSearchPathDirectoryV", "documentDirectory"]
+- !private ["So22NSSearchPathDomainMaskV", "userDomainMask"]
+- !private ["ST", "Element"]
+- ["ST", ""]
+- !private ["ST", "count"]
+- !private ["ST", "first"]
+- ["ST", "init"]
+- !private ["ST", "reversed"]
+- !private ["ST", "sorted"]
+- !private ["7SwiftUI4EdgeO3SetV", "all"]
+- !private ["7SwiftUI4EdgeO3SetV", "bottom"]
+- !private ["7SwiftUI4EdgeO3SetV", "horizontal"]
+- !private ["7SwiftUI4EdgeO3SetV", "leading"]
+- !private ["7SwiftUI4EdgeO3SetV", "top"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "all"]
+- !private ["s10SetAlgebraP", "bottom"]
+- !private ["s10SetAlgebraP", "horizontal"]
+- !private ["s10SetAlgebraP", "leading"]
+- !private ["s10SetAlgebraP", "top"]
+- !private ["s10SetAlgebraP", "userDomainMask"]
+- !private ["7SwiftUI5ShapeP", ""]
+- !private ["7SwiftUI5ShapeP", "foregroundColor"]
+- !private ["7SwiftUI5ShapeP", "init"]
+- !private ["7SwiftUI5ShapeP", "stroke"]
+- !private ["7SwiftUI10ShapeStyleP", "black"]
+- !private ["7SwiftUI10ShapeStyleP", "edgesIgnoringSafeArea"]
+- !private ["7SwiftUI10ShapeStyleP", "init"]
+- !private ["7SwiftUI10ShapeStyleP", "white"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "bottom"]
+- !private ["s13SignedNumericP", "horizontal"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "leading"]
+- !private ["7SwiftUI8GridItemV4SizeO", "flexible"]
+- !private ["7SwiftUI6SpacerV", "init"]
+- ["7SwiftUI5StateV", "init"]
+- ["7SwiftUI5StateV", "projectedValue"]
+- ["7SwiftUI5StateV", "subscript"]
+- ["7SwiftUI5StateV", "wrappedValue"]
+- !private ["Sx", ""]
+- !private ["Sx", "bottom"]
+- !private ["Sx", "horizontal"]
+- !private ["Sx", "init"]
+- !private ["Sx", "leading"]
+- !private ["SS", "count"]
+- !private ["SS", "init"]
+- !private ["7SwiftUI18LocalizedStringKeyV0D13InterpolationV", "appendInterpolation"]
+- !private ["7SwiftUI18LocalizedStringKeyV0D13InterpolationV", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "count"]
+- !private ["Sy", "init"]
+- !private ["So22NSNumberFormatterStyleV", "decimal"]
+- !private ["15EnTransparencia26TableroCumplimientoEstatalV", ""]
+- !private ["15EnTransparencia26TableroCumplimientoEstatalV", "init"]
+- !private ["15EnTransparencia26TableroCumplimientoFederalV", ""]
+- !private ["15EnTransparencia26TableroCumplimientoFederalV", "init"]
+- !private ["7SwiftUI4TextV", "bold"]
+- !private ["7SwiftUI4TextV", "fixedSize"]
+- !private ["7SwiftUI4TextV", "font"]
+- !private ["7SwiftUI4TextV", "foregroundColor"]
+- !private ["7SwiftUI4TextV", "frame"]
+- !private ["7SwiftUI4TextV", "init"]
+- !private ["7SwiftUI4TextV", "multilineTextAlignment"]
+- !private ["7SwiftUI4TextV", "padding"]
+- !private ["7SwiftUI13TextAlignmentO", "center"]
+- !private ["7SwiftUI13TextAlignmentO", "leading"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["So13UIApplicationC", "open"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "open"]
+- !private ["So30UIPasteConfigurationSupportingP", "openURL"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "open"]
+- !private ["So11UIResponderC", "openURL"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "open"]
+- !private ["So30UIResponderStandardEditActionsP", "openURL"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "open"]
+- !private ["So23UIUserActivityRestoringP", "openURL"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["7SwiftUI19UIViewRepresentableP", "frame"]
+- !private ["7SwiftUI19UIViewRepresentableP", "init"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation10URLRequestV", "init"]
+- ["So13NSURLResponseC", ""]
+- !private ["So13NSURLResponseC", "statusCode"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "downloadTask"]
+- !private ["So12NSURLSessionC", "init"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["So25NSURLSessionConfigurationC", "default"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- !private ["So24NSURLSessionDownloadTaskC", "resume"]
+- ["So16NSURLSessionTaskC", ""]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- ["15EnTransparencia17UniversidadDetailV", "$MarcoColaboracion"]
+- ["15EnTransparencia17UniversidadDetailV", "$ModificacionCalendario"]
+- ["15EnTransparencia17UniversidadDetailV", "$anexo"]
+- ["15EnTransparencia17UniversidadDetailV", "$anexoEjecucion"]
+- ["15EnTransparencia17UniversidadDetailV", "$anio"]
+- ["15EnTransparencia17UniversidadDetailV", "$bandera"]
+- ["15EnTransparencia17UniversidadDetailV", "$desirableProfileProfessor"]
+- ["15EnTransparencia17UniversidadDetailV", "$direccion"]
+- ["15EnTransparencia17UniversidadDetailV", "$enrolmentTotal"]
+- ["15EnTransparencia17UniversidadDetailV", "$estado"]
+- ["15EnTransparencia17UniversidadDetailV", "$federationOwnershipPercentage"]
+- ["15EnTransparencia17UniversidadDetailV", "$fullTimeProfessorsTotal"]
+- ["15EnTransparencia17UniversidadDetailV", "$gobernador"]
+- ["15EnTransparencia17UniversidadDetailV", "$highSchoolEnrolment"]
+- ["15EnTransparencia17UniversidadDetailV", "$higherEducationEnrolment"]
+- ["15EnTransparencia17UniversidadDetailV", "$id"]
+- ["15EnTransparencia17UniversidadDetailV", "$logo"]
+- ["15EnTransparencia17UniversidadDetailV", "$montoEstatal"]
+- ["15EnTransparencia17UniversidadDetailV", "$montoFedral"]
+- ["15EnTransparencia17UniversidadDetailV", "$montoPublico"]
+- ["15EnTransparencia17UniversidadDetailV", "$nationalSystemResearchersProfessor"]
+- ["15EnTransparencia17UniversidadDetailV", "$nombre"]
+- ["15EnTransparencia17UniversidadDetailV", "$numeralia"]
+- ["15EnTransparencia17UniversidadDetailV", "$numerosAnexo"]
+- ["15EnTransparencia17UniversidadDetailV", "$oficioCalendario"]
+- ["15EnTransparencia17UniversidadDetailV", "$otras"]
+- ["15EnTransparencia17UniversidadDetailV", "$planAusteridad"]
+- ["15EnTransparencia17UniversidadDetailV", "$rector"]
+- ["15EnTransparencia17UniversidadDetailV", "$siglas"]
+- ["15EnTransparencia17UniversidadDetailV", "$stateOwnershipPercentage"]
+- ["15EnTransparencia17UniversidadDetailV", "$studentAllowance"]
+- ["15EnTransparencia17UniversidadDetailV", "$textoAnexo"]
+- ["15EnTransparencia17UniversidadDetailV", "$transparencyUrl"]
+- ["15EnTransparencia17UniversidadDetailV", "$webUrl"]
+- !private ["15EnTransparencia17UniversidadDetailV", "AsyncImage"]
+- ["15EnTransparencia17UniversidadDetailV", "Binding"]
+- ["15EnTransparencia17UniversidadDetailV", "Body"]
+- ["15EnTransparencia17UniversidadDetailV", "Bool"]
+- !private ["15EnTransparencia17UniversidadDetailV", "Button"]
+- !private ["15EnTransparencia17UniversidadDetailV", "Circle"]
+- !private ["15EnTransparencia17UniversidadDetailV", "Color"]
+- !private ["15EnTransparencia17UniversidadDetailV", "CompromisosUniversidad"]
+- ["15EnTransparencia17UniversidadDetailV", "Default_Body"]
+- !private ["15EnTransparencia17UniversidadDetailV", "DetalleUniversidad"]
+- !private ["15EnTransparencia17UniversidadDetailV", "DispatchQueue"]
+- ["15EnTransparencia17UniversidadDetailV", "Double"]
+- ["15EnTransparencia17UniversidadDetailV", "DownlondFromUrl"]
+- ["15EnTransparencia17UniversidadDetailV", "Environment"]
+- !private ["15EnTransparencia17UniversidadDetailV", "FileManager"]
+- !private ["15EnTransparencia17UniversidadDetailV", "ForEach"]
+- !private ["15EnTransparencia17UniversidadDetailV", "GeometryReader"]
+- !private ["15EnTransparencia17UniversidadDetailV", "Grafica"]
+- !private ["15EnTransparencia17UniversidadDetailV", "GridItem"]
+- !private ["15EnTransparencia17UniversidadDetailV", "HStack"]
+- !private ["15EnTransparencia17UniversidadDetailV", "HTTPURLResponse"]
+- !private ["15EnTransparencia17UniversidadDetailV", "Image"]
+- ["15EnTransparencia17UniversidadDetailV", "Int"]
+- !private ["15EnTransparencia17UniversidadDetailV", "JSONDecoder"]
+- !private ["15EnTransparencia17UniversidadDetailV", "LazyVGrid"]
+- ["15EnTransparencia17UniversidadDetailV", "MarcoColaboracion"]
+- ["15EnTransparencia17UniversidadDetailV", "ModificacionCalendario"]
+- !private ["15EnTransparencia17UniversidadDetailV", "NSNumber"]
+- !private ["15EnTransparencia17UniversidadDetailV", "NavigationLink"]
+- !private ["15EnTransparencia17UniversidadDetailV", "NavigationView"]
+- !private ["15EnTransparencia17UniversidadDetailV", "NumberFormatter"]
+- !private ["15EnTransparencia17UniversidadDetailV", "PieChart"]
+- ["15EnTransparencia17UniversidadDetailV", "PresentationMode"]
+- !private ["15EnTransparencia17UniversidadDetailV", "Rectangle"]
+- !private ["15EnTransparencia17UniversidadDetailV", "Referencias"]
+- !private ["15EnTransparencia17UniversidadDetailV", "ScrollView"]
+- !private ["15EnTransparencia17UniversidadDetailV", "Spacer"]
+- ["15EnTransparencia17UniversidadDetailV", "State"]
+- ["15EnTransparencia17UniversidadDetailV", "String"]
+- !private ["15EnTransparencia17UniversidadDetailV", "TableroCumplimientoEstatal"]
+- !private ["15EnTransparencia17UniversidadDetailV", "TableroCumplimientoFederal"]
+- !private ["15EnTransparencia17UniversidadDetailV", "Text"]
+- !private ["15EnTransparencia17UniversidadDetailV", "UIApplication"]
+- !private ["15EnTransparencia17UniversidadDetailV", "URL"]
+- !private ["15EnTransparencia17UniversidadDetailV", "URLRequest"]
+- !private ["15EnTransparencia17UniversidadDetailV", "URLSession"]
+- !private ["15EnTransparencia17UniversidadDetailV", "URLSessionConfiguration"]
+- !private ["15EnTransparencia17UniversidadDetailV", "VStack"]
+- ["15EnTransparencia17UniversidadDetailV", "View"]
+- !private ["15EnTransparencia17UniversidadDetailV", "ZStack"]
+- ["15EnTransparencia17UniversidadDetailV", ""]
+- ["15EnTransparencia17UniversidadDetailV", "_Default_Body"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_MarcoColaboracion"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_ModificacionCalendario"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_anexo"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_anexoEjecucion"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_anio"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_bandera"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_desirableProfileProfessor"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_direccion"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_enrolmentTotal"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_estado"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_federationOwnershipPercentage"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_fullTimeProfessorsTotal"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_gobernador"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_highSchoolEnrolment"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_higherEducationEnrolment"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_id"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_logo"]
+- ["15EnTransparencia17UniversidadDetailV", "_makeView"]
+- ["15EnTransparencia17UniversidadDetailV", "_makeViewList"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_montoEstatal"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_montoFedral"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_montoPublico"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_nationalSystemResearchersProfessor"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_nombre"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_numeralia"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_numerosAnexo"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_oficioCalendario"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_otras"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_planAusteridad"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_presentationMode"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_rector"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_siglas"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_stateOwnershipPercentage"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_studentAllowance"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_textoAnexo"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_transparencyUrl"]
+- ["15EnTransparencia17UniversidadDetailV", "_viewListCount"]
+- !private ["15EnTransparencia17UniversidadDetailV", "_webUrl"]
+- ["15EnTransparencia17UniversidadDetailV", "anexo"]
+- ["15EnTransparencia17UniversidadDetailV", "anexoEjecucion"]
+- ["15EnTransparencia17UniversidadDetailV", "anio"]
+- ["15EnTransparencia17UniversidadDetailV", "bandera"]
+- ["15EnTransparencia17UniversidadDetailV", "body"]
+- ["15EnTransparencia17UniversidadDetailV", "calcularPorcentaje"]
+- ["15EnTransparencia17UniversidadDetailV", "desirableProfileProfessor"]
+- ["15EnTransparencia17UniversidadDetailV", "direccion"]
+- ["15EnTransparencia17UniversidadDetailV", "enrolmentTotal"]
+- ["15EnTransparencia17UniversidadDetailV", "estado"]
+- ["15EnTransparencia17UniversidadDetailV", "federationOwnershipPercentage"]
+- ["15EnTransparencia17UniversidadDetailV", "formatResultForRegion"]
+- ["15EnTransparencia17UniversidadDetailV", "fullTimeProfessorsTotal"]
+- ["15EnTransparencia17UniversidadDetailV", "gobernador"]
+- ["15EnTransparencia17UniversidadDetailV", "highSchoolEnrolment"]
+- ["15EnTransparencia17UniversidadDetailV", "higherEducationEnrolment"]
+- ["15EnTransparencia17UniversidadDetailV", "id"]
+- ["15EnTransparencia17UniversidadDetailV", "init"]
+- ["15EnTransparencia17UniversidadDetailV", "loadData"]
+- ["15EnTransparencia17UniversidadDetailV", "loadReferences"]
+- ["15EnTransparencia17UniversidadDetailV", "logo"]
+- ["15EnTransparencia17UniversidadDetailV", "montoEstatal"]
+- ["15EnTransparencia17UniversidadDetailV", "montoFedral"]
+- ["15EnTransparencia17UniversidadDetailV", "montoPublico"]
+- ["15EnTransparencia17UniversidadDetailV", "nationalSystemResearchersProfessor"]
+- ["15EnTransparencia17UniversidadDetailV", "nombre"]
+- ["15EnTransparencia17UniversidadDetailV", "numeralia"]
+- ["15EnTransparencia17UniversidadDetailV", "numerosAnexo"]
+- ["15EnTransparencia17UniversidadDetailV", "oficioCalendario"]
+- ["15EnTransparencia17UniversidadDetailV", "otras"]
+- ["15EnTransparencia17UniversidadDetailV", "planAusteridad"]
+- ["15EnTransparencia17UniversidadDetailV", "presentationMode"]
+- !private ["15EnTransparencia17UniversidadDetailV", "print"]
+- ["15EnTransparencia17UniversidadDetailV", "rector"]
+- ["15EnTransparencia17UniversidadDetailV", "siglas"]
+- ["15EnTransparencia17UniversidadDetailV", "stateOwnershipPercentage"]
+- ["15EnTransparencia17UniversidadDetailV", "studentAllowance"]
+- ["15EnTransparencia17UniversidadDetailV", "textoAnexo"]
+- ["15EnTransparencia17UniversidadDetailV", "transparencyUrl"]
+- ["15EnTransparencia17UniversidadDetailV", "webUrl"]
+- ["15EnTransparencia26UniversidadDetail_PreviewsV", "Default_Previews"]
+- ["15EnTransparencia26UniversidadDetail_PreviewsV", "Previews"]
+- !private ["15EnTransparencia26UniversidadDetail_PreviewsV", "UniversidadDetail"]
+- ["15EnTransparencia26UniversidadDetail_PreviewsV", "View"]
+- ["15EnTransparencia26UniversidadDetail_PreviewsV", ""]
+- ["15EnTransparencia26UniversidadDetail_PreviewsV", "_Default_Previews"]
+- ["15EnTransparencia26UniversidadDetail_PreviewsV", "_platform"]
+- ["15EnTransparencia26UniversidadDetail_PreviewsV", "_previews"]
+- ["15EnTransparencia26UniversidadDetail_PreviewsV", "init"]
+- ["15EnTransparencia26UniversidadDetail_PreviewsV", "platform"]
+- ["15EnTransparencia26UniversidadDetail_PreviewsV", "previews"]
+- !private ["7SwiftUI6VStackV", "init"]
+- !private ["7SwiftUI6VStackV", "onAppear"]
+- !private ["7SwiftUI6VStackV", "padding"]
+- !private ["7SwiftUI16VectorArithmeticP", "bottom"]
+- !private ["7SwiftUI16VectorArithmeticP", "horizontal"]
+- !private ["7SwiftUI16VectorArithmeticP", "init"]
+- !private ["7SwiftUI16VectorArithmeticP", "leading"]
+- !private ["7SwiftUI4ViewP", "AsyncImage"]
+- ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "Button"]
+- !private ["7SwiftUI4ViewP", "Circle"]
+- !private ["7SwiftUI4ViewP", "Color"]
+- !private ["7SwiftUI4ViewP", "CompromisosUniversidad"]
+- ["7SwiftUI4ViewP", "Default_Body"]
+- !private ["7SwiftUI4ViewP", "DetalleUniversidad"]
+- !private ["7SwiftUI4ViewP", "DispatchQueue"]
+- !private ["7SwiftUI4ViewP", "Double"]
+- !private ["7SwiftUI4ViewP", "DownlondFromUrl"]
+- ["7SwiftUI4ViewP", "Environment"]
+- !private ["7SwiftUI4ViewP", "FileManager"]
+- !private ["7SwiftUI4ViewP", "ForEach"]
+- !private ["7SwiftUI4ViewP", "GeometryReader"]
+- !private ["7SwiftUI4ViewP", "Grafica"]
+- !private ["7SwiftUI4ViewP", "GridItem"]
+- !private ["7SwiftUI4ViewP", "HStack"]
+- !private ["7SwiftUI4ViewP", "Image"]
+- ["7SwiftUI4ViewP", "Int"]
+- !private ["7SwiftUI4ViewP", "JSONDecoder"]
+- !private ["7SwiftUI4ViewP", "LazyVGrid"]
+- !private ["7SwiftUI4ViewP", "MarcoColaboracion"]
+- !private ["7SwiftUI4ViewP", "ModificacionCalendario"]
+- !private ["7SwiftUI4ViewP", "NSNumber"]
+- !private ["7SwiftUI4ViewP", "NavigationLink"]
+- !private ["7SwiftUI4ViewP", "NavigationView"]
+- !private ["7SwiftUI4ViewP", "NumberFormatter"]
+- !private ["7SwiftUI4ViewP", "PieChart"]
+- !private ["7SwiftUI4ViewP", "Rectangle"]
+- !private ["7SwiftUI4ViewP", "Referencias"]
+- !private ["7SwiftUI4ViewP", "ScrollView"]
+- !private ["7SwiftUI4ViewP", "Spacer"]
+- ["7SwiftUI4ViewP", "State"]
+- ["7SwiftUI4ViewP", "String"]
+- !private ["7SwiftUI4ViewP", "TableroCumplimientoEstatal"]
+- !private ["7SwiftUI4ViewP", "TableroCumplimientoFederal"]
+- !private ["7SwiftUI4ViewP", "Text"]
+- !private ["7SwiftUI4ViewP", "UIApplication"]
+- !private ["7SwiftUI4ViewP", "URL"]
+- !private ["7SwiftUI4ViewP", "URLRequest"]
+- !private ["7SwiftUI4ViewP", "URLSession"]
+- !private ["7SwiftUI4ViewP", "URLSessionConfiguration"]
+- !private ["7SwiftUI4ViewP", "VStack"]
+- !private ["7SwiftUI4ViewP", "ZStack"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "_viewListCount"]
+- !private ["7SwiftUI4ViewP", "anexo"]
+- !private ["7SwiftUI4ViewP", "anexoEjecucion"]
+- !private ["7SwiftUI4ViewP", "anio"]
+- !private ["7SwiftUI4ViewP", "aspectRatio"]
+- !private ["7SwiftUI4ViewP", "background"]
+- !private ["7SwiftUI4ViewP", "bandera"]
+- !private ["7SwiftUI4ViewP", "black"]
+- ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "bold"]
+- !private ["7SwiftUI4ViewP", "calcularPorcentaje"]
+- !private ["7SwiftUI4ViewP", "clipShape"]
+- !private ["7SwiftUI4ViewP", "desirableProfileProfessor"]
+- !private ["7SwiftUI4ViewP", "direccion"]
+- !private ["7SwiftUI4ViewP", "edgesIgnoringSafeArea"]
+- !private ["7SwiftUI4ViewP", "enrolmentTotal"]
+- !private ["7SwiftUI4ViewP", "estado"]
+- !private ["7SwiftUI4ViewP", "federationOwnershipPercentage"]
+- !private ["7SwiftUI4ViewP", "fixedSize"]
+- !private ["7SwiftUI4ViewP", "font"]
+- !private ["7SwiftUI4ViewP", "foregroundColor"]
+- !private ["7SwiftUI4ViewP", "formatResultForRegion"]
+- !private ["7SwiftUI4ViewP", "frame"]
+- !private ["7SwiftUI4ViewP", "fullTimeProfessorsTotal"]
+- !private ["7SwiftUI4ViewP", "gobernador"]
+- !private ["7SwiftUI4ViewP", "highSchoolEnrolment"]
+- !private ["7SwiftUI4ViewP", "higherEducationEnrolment"]
+- !private ["7SwiftUI4ViewP", "id"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "loadData"]
+- !private ["7SwiftUI4ViewP", "loadReferences"]
+- !private ["7SwiftUI4ViewP", "logo"]
+- !private ["7SwiftUI4ViewP", "montoEstatal"]
+- !private ["7SwiftUI4ViewP", "montoFedral"]
+- !private ["7SwiftUI4ViewP", "montoPublico"]
+- !private ["7SwiftUI4ViewP", "montserrat"]
+- !private ["7SwiftUI4ViewP", "multilineTextAlignment"]
+- !private ["7SwiftUI4ViewP", "nationalSystemResearchersProfessor"]
+- !private ["7SwiftUI4ViewP", "navigationBarHidden"]
+- !private ["7SwiftUI4ViewP", "nombre"]
+- !private ["7SwiftUI4ViewP", "none"]
+- !private ["7SwiftUI4ViewP", "numeralia"]
+- !private ["7SwiftUI4ViewP", "oficioCalendario"]
+- !private ["7SwiftUI4ViewP", "onAppear"]
+- !private ["7SwiftUI4ViewP", "otras"]
+- !private ["7SwiftUI4ViewP", "overlay"]
+- !private ["7SwiftUI4ViewP", "padding"]
+- !private ["7SwiftUI4ViewP", "planAusteridad"]
+- !private ["7SwiftUI4ViewP", "presentationMode"]
+- !private ["7SwiftUI4ViewP", "print"]
+- !private ["7SwiftUI4ViewP", "rector"]
+- !private ["7SwiftUI4ViewP", "siglas"]
+- !private ["7SwiftUI4ViewP", "some"]
+- !private ["7SwiftUI4ViewP", "stateOwnershipPercentage"]
+- !private ["7SwiftUI4ViewP", "stroke"]
+- !private ["7SwiftUI4ViewP", "studentAllowance"]
+- !private ["7SwiftUI4ViewP", "transparencyUrl"]
+- !private ["7SwiftUI4ViewP", "webUrl"]
+- !private ["7SwiftUI4ViewP", "white"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI11ViewBuilderV", "buildEither"]
+- !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
+- !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
+- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
+- !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
+- !private ["7SwiftUI6ZStackV", "init"]
+- !private ["s14_ArrayProtocolP", "first"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "reversed"]
+- !private ["s15_CVarArgAlignedP", "bottom"]
+- !private ["s15_CVarArgAlignedP", "horizontal"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "leading"]
+- !private ["s22_CVarArgPassedAsDoubleP", "bottom"]
+- !private ["s22_CVarArgPassedAsDoubleP", "horizontal"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "leading"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "height"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "reversed"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "bottom"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "horizontal"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "init"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "leading"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "reversed"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reversed"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sorted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "copyItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "downloadTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maximumFractionDigits"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minimumFractionDigits"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "open"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "urls"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "usesGroupingSeparator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "copyItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "count"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "downloadTask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "maximumFractionDigits"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "minimumFractionDigits"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "open"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resume"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "statusCode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "urls"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "usesGroupingSeparator"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "black"]
+- !private ["s21_ObjectiveCBridgeableP", "bottom"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "horizontal"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "leading"]
+- !private ["s21_ObjectiveCBridgeableP", "montserrat"]
+- !private ["s21_ObjectiveCBridgeableP", "none"]
+- !private ["s21_ObjectiveCBridgeableP", "reversed"]
+- !private ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s21_ObjectiveCBridgeableP", "sorted"]
+- !private ["s21_ObjectiveCBridgeableP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- ["7SwiftUI16_PreviewProviderP", "Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "Previews"]
+- !private ["7SwiftUI16_PreviewProviderP", "UniversidadDetail"]
+- ["7SwiftUI16_PreviewProviderP", ""]
+- ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "_platform"]
+- ["7SwiftUI16_PreviewProviderP", "_previews"]
+- ["7SwiftUI16_PreviewProviderP", "platform"]
+- ["7SwiftUI16_PreviewProviderP", "previews"]
+- !private ["7SwiftUI11_VectorMathP", "bottom"]
+- !private ["7SwiftUI11_VectorMathP", "horizontal"]
+- !private ["7SwiftUI11_VectorMathP", "leading"]
+- !private ["So13CKRecordValueP", "count"]
+- !private ["So13CKRecordValueP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "7SwiftUI9AlignmentV"
+- !private "7SwiftUI10AnimatableP"
+- "Sa"
+- !private "15EnTransparencia10AsyncImageV"
+- "SK"
+- !private "SB"
+- !private "7SwiftUI7BindingV"
+- !private "7SwiftUI6ButtonV"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So6CGSizeV"
+- "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "s12CaseIterableP"
+- !private "15EnTransparencia7GraficaV9CategoriaO"
+- !private "7SwiftUI6CircleV"
+- "Sl"
+- !private "7SwiftUI5ColorV"
+- "SL"
+- !private "15EnTransparencia16CompromisosDatosV"
+- !private "15EnTransparencia22CompromisosUniversidadV"
+- !private "7SwiftUI11ContentModeO"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "15EnTransparencia18DetalleUniversidadV"
+- "SD"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "Sd"
+- "7SwiftUI15DynamicPropertyP"
+- !private "7SwiftUI18DynamicViewContentP"
+- !private "7SwiftUI10EdgeInsetsV"
+- "SE"
+- "7SwiftUI11EnvironmentV"
+- "7SwiftUI17EnvironmentValuesV"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So13NSFileManagerC"
+- !private "SF"
+- !private "7SwiftUI4FontV"
+- !private "7SwiftUI7ForEachV"
+- "So11NSFormatterC"
+- !private "7SwiftUI13GeometryProxyV"
+- !private "7SwiftUI14GeometryReaderV"
+- !private "7SwiftUI7GestureP"
+- !private "15EnTransparencia7GraficaV"
+- !private "7SwiftUI8GridItemV"
+- !private "7SwiftUI6HStackV"
+- !private "So17NSHTTPURLResponseC"
+- "SH"
+- !private "7SwiftUI19HorizontalAlignmentV"
+- !private "7SwiftUI5ImageV"
+- !private "7SwiftUI15InsettableShapeP"
+- !private "10Foundation11JSONDecoderC"
+- !private "7SwiftUI9LazyVGridV"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "15EnTransparencia6MontosV"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So20NSFetchRequestResultP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "So7NSValueC"
+- !private "7SwiftUI14NavigationLinkV"
+- !private "7SwiftUI14NavigationViewV"
+- !private "So17NSNumberFormatterC"
+- !private "15EnTransparencia9NumeraliaV"
+- !private "Sj"
+- "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "15EnTransparencia8PieChartV"
+- !private "7SwiftUI16PresentationModeV"
+- "7SwiftUI15PreviewProviderP"
+- !private "So19NSProgressReportingP"
+- "Sk"
+- "Sm"
+- !private "SY"
+- !private "7SwiftUI9RectangleV"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "15EnTransparencia11ReferenciasV"
+- !private "s10SIMDScalarP"
+- !private "7Combine9SchedulerP"
+- !private "7SwiftUI10ScrollViewV"
+- !private "So21NSSearchPathDirectoryV"
+- !private "So22NSSearchPathDomainMaskV"
+- "ST"
+- !private "7SwiftUI4EdgeO3SetV"
+- !private "s10SetAlgebraP"
+- !private "7SwiftUI5ShapeP"
+- !private "7SwiftUI10ShapeStyleP"
+- !private "s13SignedNumericP"
+- !private "7SwiftUI8GridItemV4SizeO"
+- !private "7SwiftUI6SpacerV"
+- "7SwiftUI5StateV"
+- !private "Sx"
+- !private "SS"
+- !private "7SwiftUI18LocalizedStringKeyV0D13InterpolationV"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "So22NSNumberFormatterStyleV"
+- !private "15EnTransparencia26TableroCumplimientoEstatalV"
+- !private "15EnTransparencia26TableroCumplimientoFederalV"
+- !private "7SwiftUI4TextV"
+- !private "7SwiftUI13TextAlignmentO"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "7Combine15TopLevelDecoderP"
+- !private "So13UIApplicationC"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So23UIUserActivityRestoringP"
+- !private "7SwiftUI19UIViewRepresentableP"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- "So13NSURLResponseC"
+- !private "So12NSURLSessionC"
+- !private "So25NSURLSessionConfigurationC"
+- !private "So20NSURLSessionDataTaskC"
+- !private "So24NSURLSessionDownloadTaskC"
+- "So16NSURLSessionTaskC"
+- "15EnTransparencia17UniversidadDetailV"
+- "15EnTransparencia26UniversidadDetail_PreviewsV"
+- !private "7SwiftUI6VStackV"
+- !private "7SwiftUI16VectorArithmeticP"
+- "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- !private "7SwiftUI6ZStackV"
+- "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "7SwiftUI18_FormatSpecifiableP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "7SwiftUI16_PreviewProviderP"
+- !private "7SwiftUI11_VectorMathP"
+- !private "So13CKRecordValueP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/_AVKit_SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Algorithms.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/Charts.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaSource.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStrokeStyle.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStyleSpan.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygonLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlayLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAccessibilityLabels.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7ebd5931c9cb4744688fd34cf970af3e"

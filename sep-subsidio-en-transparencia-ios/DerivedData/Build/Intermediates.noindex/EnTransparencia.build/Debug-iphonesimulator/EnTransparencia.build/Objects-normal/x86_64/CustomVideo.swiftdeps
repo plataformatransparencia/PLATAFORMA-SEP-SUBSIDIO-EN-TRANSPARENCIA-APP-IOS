@@ -1,0 +1,1320 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CustomVideo"
+- "CustomVideo_Previews"
+- "Controls"
+- "CustomProgressBar"
+- "VideoPlayer"
+provides-nominal:
+- "15EnTransparencia11CustomVideoV"
+- "15EnTransparencia20CustomVideo_PreviewsV"
+- "15EnTransparencia8ControlsV"
+- "15EnTransparencia17CustomProgressBarV"
+- "15EnTransparencia17CustomProgressBarV11CoordinatorC"
+- "15EnTransparencia11VideoPlayerV"
+provides-member:
+- ["15EnTransparencia11CustomVideoV", ""]
+- ["15EnTransparencia20CustomVideo_PreviewsV", ""]
+- ["15EnTransparencia8ControlsV", ""]
+- ["15EnTransparencia17CustomProgressBarV", ""]
+- ["15EnTransparencia17CustomProgressBarV11CoordinatorC", ""]
+- ["15EnTransparencia11VideoPlayerV", ""]
+provides-dynamic-lookup:
+- "changed"
+- "parent"
+depends-top-level:
+- "$player"
+- !private "*"
+- "/"
+- "AVPlayer"
+- "AVPlayerViewController"
+- "AssignmentPrecedence"
+- "Binding"
+- "Bool"
+- "BooleanLiteralType"
+- "Button"
+- "CMTime"
+- !private "Color"
+- "Controls"
+- "Coordinator"
+- "CustomProgressBar"
+- "CustomVideo"
+- "CustomVideo_Previews"
+- !private "Double"
+- "Float"
+- "FloatLiteralType"
+- "HStack"
+- "Image"
+- "IntegerLiteralType"
+- "NSObject"
+- "PreviewProvider"
+- "Spacer"
+- "State"
+- "StringLiteralType"
+- !private "TernaryPrecedence"
+- !private "UIColor"
+- "UIScreen"
+- "UISlider"
+- "UIViewControllerRepresentable"
+- "UIViewControllerRepresentableContext"
+- "UIViewRepresentable"
+- "UIViewRepresentableContext"
+- "URL"
+- !private "VStack"
+- "VideoPlayer"
+- "View"
+- "ZStack"
+- !private "parent"
+- !private "player"
+- !private "value"
+depends-member:
+- !private ["So19AVLayerVideoGravitya", "resize"]
+- !private ["So8AVPlayerC", "addPeriodicTimeObserver"]
+- !private ["So8AVPlayerC", "currentItem"]
+- !private ["So8AVPlayerC", "currentTime"]
+- ["So8AVPlayerC", "init"]
+- !private ["So8AVPlayerC", "pause"]
+- !private ["So8AVPlayerC", "play"]
+- !private ["So8AVPlayerC", "seek"]
+- !private ["So12AVPlayerItemC", "duration"]
+- !private ["So22AVPlayerViewControllerC", "init"]
+- !private ["So22AVPlayerViewControllerC", "player"]
+- !private ["So22AVPlayerViewControllerC", "showsPlaybackControls"]
+- !private ["So22AVPlayerViewControllerC", "videoGravity"]
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "bottom"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["7SwiftUI10AnimatableP", ""]
+- !private ["7SwiftUI10AnimatableP", "bottom"]
+- !private ["7SwiftUI10AnimatableP", "height"]
+- ["SK", ""]
+- !private ["SB", "bottom"]
+- !private ["SB", "init"]
+- ["7SwiftUI7BindingV", "init"]
+- ["7SwiftUI7BindingV", "projectedValue"]
+- ["7SwiftUI7BindingV", "subscript"]
+- ["7SwiftUI7BindingV", "wrappedValue"]
+- !private ["7SwiftUI6ButtonV", "init"]
+- !private ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addTarget"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isTracking"]
+- !private ["So15CALayerDelegateP", "maximumTrackTintColor"]
+- !private ["So15CALayerDelegateP", "minimumTrackTintColor"]
+- !private ["So15CALayerDelegateP", "value"]
+- !private ["12CoreGraphics7CGFloatV", "bottom"]
+- !private ["So6CGRectV", "height"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["So6CMTimea", "init"]
+- !private ["So6CMTimea", "seconds"]
+- !private ["s7CVarArgP", "CMTime"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Float"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addPeriodicTimeObserver"]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "bottom"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "changed"]
+- !private ["s7CVarArgP", "currentItem"]
+- !private ["s7CVarArgP", "currentTime"]
+- !private ["s7CVarArgP", "duration"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isTracking"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "maximumTrackTintColor"]
+- !private ["s7CVarArgP", "minimumTrackTintColor"]
+- !private ["s7CVarArgP", "parent"]
+- !private ["s7CVarArgP", "pause"]
+- !private ["s7CVarArgP", "play"]
+- !private ["s7CVarArgP", "player"]
+- !private ["s7CVarArgP", "seek"]
+- !private ["s7CVarArgP", "showsPlaybackControls"]
+- !private ["s7CVarArgP", "value"]
+- !private ["s7CVarArgP", "videoGravity"]
+- ["Sl", ""]
+- !private ["7SwiftUI5ColorV", "black"]
+- !private ["7SwiftUI5ColorV", "edgesIgnoringSafeArea"]
+- !private ["7SwiftUI5ColorV", "init"]
+- !private ["7SwiftUI5ColorV", "opacity"]
+- !private ["7SwiftUI5ColorV", "white"]
+- ["SL", ""]
+- !private ["SL", "bottom"]
+- !private ["SL", "init"]
+- !private ["SL", "seconds"]
+- ["15EnTransparencia8ControlsV", "$isPlaying"]
+- ["15EnTransparencia8ControlsV", "$pannel"]
+- ["15EnTransparencia8ControlsV", "$player"]
+- ["15EnTransparencia8ControlsV", "$value"]
+- ["15EnTransparencia8ControlsV", "AVPlayer"]
+- ["15EnTransparencia8ControlsV", "Binding"]
+- ["15EnTransparencia8ControlsV", "Body"]
+- ["15EnTransparencia8ControlsV", "Bool"]
+- !private ["15EnTransparencia8ControlsV", "Button"]
+- !private ["15EnTransparencia8ControlsV", "CMTime"]
+- !private ["15EnTransparencia8ControlsV", "Color"]
+- !private ["15EnTransparencia8ControlsV", "CustomProgressBar"]
+- ["15EnTransparencia8ControlsV", "Default_Body"]
+- ["15EnTransparencia8ControlsV", "Float"]
+- !private ["15EnTransparencia8ControlsV", "HStack"]
+- !private ["15EnTransparencia8ControlsV", "Image"]
+- !private ["15EnTransparencia8ControlsV", "Spacer"]
+- ["15EnTransparencia8ControlsV", "State"]
+- !private ["15EnTransparencia8ControlsV", "VStack"]
+- ["15EnTransparencia8ControlsV", "View"]
+- ["15EnTransparencia8ControlsV", ""]
+- ["15EnTransparencia8ControlsV", "_Default_Body"]
+- !private ["15EnTransparencia8ControlsV", "_isPlaying"]
+- ["15EnTransparencia8ControlsV", "_makeView"]
+- ["15EnTransparencia8ControlsV", "_makeViewList"]
+- !private ["15EnTransparencia8ControlsV", "_pannel"]
+- !private ["15EnTransparencia8ControlsV", "_player"]
+- !private ["15EnTransparencia8ControlsV", "_value"]
+- ["15EnTransparencia8ControlsV", "_viewListCount"]
+- ["15EnTransparencia8ControlsV", "body"]
+- ["15EnTransparencia8ControlsV", "getSliderValue"]
+- ["15EnTransparencia8ControlsV", "init"]
+- ["15EnTransparencia8ControlsV", "isPlaying"]
+- ["15EnTransparencia8ControlsV", "pannel"]
+- ["15EnTransparencia8ControlsV", "player"]
+- ["15EnTransparencia8ControlsV", "value"]
+- !private ["15EnTransparencia17CustomProgressBarV11CoordinatorC", "CMTime"]
+- ["15EnTransparencia17CustomProgressBarV11CoordinatorC", "CustomProgressBar"]
+- !private ["15EnTransparencia17CustomProgressBarV11CoordinatorC", "Double"]
+- !private ["15EnTransparencia17CustomProgressBarV11CoordinatorC", "Float"]
+- ["15EnTransparencia17CustomProgressBarV11CoordinatorC", "UISlider"]
+- ["15EnTransparencia17CustomProgressBarV11CoordinatorC", ""]
+- ["15EnTransparencia17CustomProgressBarV11CoordinatorC", "changed"]
+- ["15EnTransparencia17CustomProgressBarV11CoordinatorC", "deinit"]
+- ["15EnTransparencia17CustomProgressBarV11CoordinatorC", "init"]
+- ["15EnTransparencia17CustomProgressBarV11CoordinatorC", "parent"]
+- !private ["s28CustomDebugStringConvertibleP", "CMTime"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addPeriodicTimeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "changed"]
+- !private ["s28CustomDebugStringConvertibleP", "currentItem"]
+- !private ["s28CustomDebugStringConvertibleP", "currentTime"]
+- !private ["s28CustomDebugStringConvertibleP", "duration"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isTracking"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "maximumTrackTintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "minimumTrackTintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "parent"]
+- !private ["s28CustomDebugStringConvertibleP", "pause"]
+- !private ["s28CustomDebugStringConvertibleP", "play"]
+- !private ["s28CustomDebugStringConvertibleP", "player"]
+- !private ["s28CustomDebugStringConvertibleP", "seek"]
+- !private ["s28CustomDebugStringConvertibleP", "showsPlaybackControls"]
+- !private ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "videoGravity"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- ["15EnTransparencia17CustomProgressBarV", "$isplaying"]
+- ["15EnTransparencia17CustomProgressBarV", "$player"]
+- ["15EnTransparencia17CustomProgressBarV", "$value"]
+- ["15EnTransparencia17CustomProgressBarV", "AVPlayer"]
+- ["15EnTransparencia17CustomProgressBarV", "Binding"]
+- ["15EnTransparencia17CustomProgressBarV", "Body"]
+- ["15EnTransparencia17CustomProgressBarV", "Bool"]
+- !private ["15EnTransparencia17CustomProgressBarV", "CMTime"]
+- !private ["15EnTransparencia17CustomProgressBarV", "Color"]
+- ["15EnTransparencia17CustomProgressBarV", "Coordinator"]
+- ["15EnTransparencia17CustomProgressBarV", "CustomProgressBar"]
+- ["15EnTransparencia17CustomProgressBarV", "Default_Body"]
+- ["15EnTransparencia17CustomProgressBarV", "Default_UIViewType"]
+- !private ["15EnTransparencia17CustomProgressBarV", "Double"]
+- ["15EnTransparencia17CustomProgressBarV", "Float"]
+- ["15EnTransparencia17CustomProgressBarV", "NSObject"]
+- !private ["15EnTransparencia17CustomProgressBarV", "UIColor"]
+- ["15EnTransparencia17CustomProgressBarV", "UISlider"]
+- ["15EnTransparencia17CustomProgressBarV", "UIViewRepresentableContext"]
+- ["15EnTransparencia17CustomProgressBarV", "UIViewType"]
+- ["15EnTransparencia17CustomProgressBarV", ""]
+- ["15EnTransparencia17CustomProgressBarV", "_Default_Body"]
+- ["15EnTransparencia17CustomProgressBarV", "_Default_UIViewType"]
+- ["15EnTransparencia17CustomProgressBarV", "_identifiedViewTree"]
+- !private ["15EnTransparencia17CustomProgressBarV", "_isplaying"]
+- ["15EnTransparencia17CustomProgressBarV", "_makeView"]
+- ["15EnTransparencia17CustomProgressBarV", "_makeViewList"]
+- ["15EnTransparencia17CustomProgressBarV", "_overrideLayoutTraits"]
+- ["15EnTransparencia17CustomProgressBarV", "_overrideSizeThatFits"]
+- !private ["15EnTransparencia17CustomProgressBarV", "_player"]
+- !private ["15EnTransparencia17CustomProgressBarV", "_value"]
+- ["15EnTransparencia17CustomProgressBarV", "_viewListCount"]
+- ["15EnTransparencia17CustomProgressBarV", "body"]
+- ["15EnTransparencia17CustomProgressBarV", "dismantleUIView"]
+- ["15EnTransparencia17CustomProgressBarV", "init"]
+- ["15EnTransparencia17CustomProgressBarV", "isplaying"]
+- ["15EnTransparencia17CustomProgressBarV", "makeCoordinator"]
+- ["15EnTransparencia17CustomProgressBarV", "makeUIView"]
+- !private ["15EnTransparencia17CustomProgressBarV", "parent"]
+- ["15EnTransparencia17CustomProgressBarV", "player"]
+- ["15EnTransparencia17CustomProgressBarV", "updateUIView"]
+- ["15EnTransparencia17CustomProgressBarV", "value"]
+- !private ["s17CustomReflectableP", "bottom"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "main"]
+- !private ["s17CustomReflectableP", "none"]
+- !private ["s17CustomReflectableP", "some"]
+- !private ["s17CustomReflectableP", "title"]
+- !private ["s17CustomReflectableP", "white"]
+- !private ["s23CustomStringConvertibleP", "CMTime"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addPeriodicTimeObserver"]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "bottom"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "changed"]
+- !private ["s23CustomStringConvertibleP", "currentItem"]
+- !private ["s23CustomStringConvertibleP", "currentTime"]
+- !private ["s23CustomStringConvertibleP", "duration"]
+- !private ["s23CustomStringConvertibleP", "edgesIgnoringSafeArea"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isTracking"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "maximumTrackTintColor"]
+- !private ["s23CustomStringConvertibleP", "minimumTrackTintColor"]
+- !private ["s23CustomStringConvertibleP", "opacity"]
+- !private ["s23CustomStringConvertibleP", "parent"]
+- !private ["s23CustomStringConvertibleP", "pause"]
+- !private ["s23CustomStringConvertibleP", "play"]
+- !private ["s23CustomStringConvertibleP", "player"]
+- !private ["s23CustomStringConvertibleP", "seek"]
+- !private ["s23CustomStringConvertibleP", "showsPlaybackControls"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "videoGravity"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- ["15EnTransparencia11CustomVideoV", "$isPlaying"]
+- ["15EnTransparencia11CustomVideoV", "$player"]
+- ["15EnTransparencia11CustomVideoV", "$showControls"]
+- ["15EnTransparencia11CustomVideoV", "AVPlayer"]
+- ["15EnTransparencia11CustomVideoV", "Body"]
+- !private ["15EnTransparencia11CustomVideoV", "Color"]
+- !private ["15EnTransparencia11CustomVideoV", "Controls"]
+- ["15EnTransparencia11CustomVideoV", "Default_Body"]
+- !private ["15EnTransparencia11CustomVideoV", "Spacer"]
+- ["15EnTransparencia11CustomVideoV", "State"]
+- !private ["15EnTransparencia11CustomVideoV", "UIScreen"]
+- ["15EnTransparencia11CustomVideoV", "URL"]
+- !private ["15EnTransparencia11CustomVideoV", "VStack"]
+- !private ["15EnTransparencia11CustomVideoV", "VideoPlayer"]
+- ["15EnTransparencia11CustomVideoV", "View"]
+- !private ["15EnTransparencia11CustomVideoV", "ZStack"]
+- ["15EnTransparencia11CustomVideoV", ""]
+- ["15EnTransparencia11CustomVideoV", "_Default_Body"]
+- !private ["15EnTransparencia11CustomVideoV", "_isPlaying"]
+- ["15EnTransparencia11CustomVideoV", "_makeView"]
+- ["15EnTransparencia11CustomVideoV", "_makeViewList"]
+- !private ["15EnTransparencia11CustomVideoV", "_player"]
+- !private ["15EnTransparencia11CustomVideoV", "_showControls"]
+- ["15EnTransparencia11CustomVideoV", "_viewListCount"]
+- ["15EnTransparencia11CustomVideoV", "body"]
+- ["15EnTransparencia11CustomVideoV", "init"]
+- ["15EnTransparencia11CustomVideoV", "isPlaying"]
+- ["15EnTransparencia11CustomVideoV", "player"]
+- ["15EnTransparencia11CustomVideoV", "showControls"]
+- !private ["15EnTransparencia20CustomVideo_PreviewsV", "CustomVideo"]
+- ["15EnTransparencia20CustomVideo_PreviewsV", "Default_Previews"]
+- ["15EnTransparencia20CustomVideo_PreviewsV", "Previews"]
+- ["15EnTransparencia20CustomVideo_PreviewsV", "View"]
+- ["15EnTransparencia20CustomVideo_PreviewsV", ""]
+- ["15EnTransparencia20CustomVideo_PreviewsV", "_Default_Previews"]
+- ["15EnTransparencia20CustomVideo_PreviewsV", "_platform"]
+- ["15EnTransparencia20CustomVideo_PreviewsV", "_previews"]
+- ["15EnTransparencia20CustomVideo_PreviewsV", "init"]
+- ["15EnTransparencia20CustomVideo_PreviewsV", "platform"]
+- ["15EnTransparencia20CustomVideo_PreviewsV", "previews"]
+- !private ["Se", "bottom"]
+- !private ["Se", "height"]
+- ["Se", "init"]
+- !private ["Se", "main"]
+- !private ["Se", "none"]
+- !private ["Se", "some"]
+- !private ["Se", "title"]
+- !private ["Se", "white"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["Sd", "init"]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
+- !private ["7SwiftUI10EdgeInsetsV", "bottom"]
+- !private ["SE", "bottom"]
+- !private ["SE", "height"]
+- ["SE", "init"]
+- !private ["SE", "main"]
+- !private ["SE", "none"]
+- !private ["SE", "some"]
+- !private ["SE", "title"]
+- !private ["SE", "white"]
+- !private ["SQ", "CMTime"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Float"]
+- ["SQ", ""]
+- !private ["SQ", "addPeriodicTimeObserver"]
+- !private ["SQ", "addTarget"]
+- !private ["SQ", "all"]
+- !private ["SQ", "black"]
+- !private ["SQ", "bottom"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "changed"]
+- !private ["SQ", "currentItem"]
+- !private ["SQ", "currentTime"]
+- !private ["SQ", "duration"]
+- !private ["SQ", "edgesIgnoringSafeArea"]
+- !private ["SQ", "font"]
+- !private ["SQ", "height"]
+- ["SQ", "init"]
+- !private ["SQ", "isTracking"]
+- !private ["SQ", "main"]
+- !private ["SQ", "maximumTrackTintColor"]
+- !private ["SQ", "minimumTrackTintColor"]
+- !private ["SQ", "none"]
+- !private ["SQ", "opacity"]
+- !private ["SQ", "parent"]
+- !private ["SQ", "pause"]
+- !private ["SQ", "play"]
+- !private ["SQ", "player"]
+- !private ["SQ", "resize"]
+- !private ["SQ", "seconds"]
+- !private ["SQ", "seek"]
+- !private ["SQ", "showsPlaybackControls"]
+- !private ["SQ", "some"]
+- !private ["SQ", "title"]
+- !private ["SQ", "value"]
+- !private ["SQ", "valueChanged"]
+- !private ["SQ", "videoGravity"]
+- !private ["SQ", "white"]
+- !private ["So15UIControlEventsV", "valueChanged"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "all"]
+- !private ["s25ExpressibleByArrayLiteralP", "bottom"]
+- !private ["s25ExpressibleByArrayLiteralP", "valueChanged"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "bottom"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "bottom"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "main"]
+- !private ["s23ExpressibleByNilLiteralP", "none"]
+- !private ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s23ExpressibleByNilLiteralP", "title"]
+- !private ["s23ExpressibleByNilLiteralP", "white"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["Sf", "init"]
+- !private ["SF", ""]
+- !private ["SF", "bottom"]
+- !private ["SF", "init"]
+- !private ["7SwiftUI4FontV", "title"]
+- !private ["7SwiftUI7GestureP", "main"]
+- !private ["7SwiftUI7GestureP", "none"]
+- !private ["7SwiftUI7GestureP", "some"]
+- !private ["7SwiftUI7GestureP", "title"]
+- !private ["7SwiftUI7GestureP", "white"]
+- !private ["7SwiftUI6HStackV", "init"]
+- !private ["SH", "CMTime"]
+- !private ["SH", "Double"]
+- !private ["SH", "Float"]
+- ["SH", ""]
+- !private ["SH", "addPeriodicTimeObserver"]
+- !private ["SH", "addTarget"]
+- !private ["SH", "black"]
+- !private ["SH", "bottom"]
+- !private ["SH", "bounds"]
+- !private ["SH", "changed"]
+- !private ["SH", "currentItem"]
+- !private ["SH", "currentTime"]
+- !private ["SH", "duration"]
+- !private ["SH", "edgesIgnoringSafeArea"]
+- ["SH", "init"]
+- !private ["SH", "isTracking"]
+- !private ["SH", "main"]
+- !private ["SH", "maximumTrackTintColor"]
+- !private ["SH", "minimumTrackTintColor"]
+- !private ["SH", "none"]
+- !private ["SH", "opacity"]
+- !private ["SH", "parent"]
+- !private ["SH", "pause"]
+- !private ["SH", "play"]
+- !private ["SH", "player"]
+- !private ["SH", "resize"]
+- !private ["SH", "seek"]
+- !private ["SH", "showsPlaybackControls"]
+- !private ["SH", "some"]
+- !private ["SH", "title"]
+- !private ["SH", "value"]
+- !private ["SH", "videoGravity"]
+- !private ["SH", "white"]
+- !private ["7SwiftUI5ImageV", "font"]
+- !private ["7SwiftUI5ImageV", "init"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addTarget"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isTracking"]
+- !private ["So8NSCodingP", "maximumTrackTintColor"]
+- !private ["So8NSCodingP", "minimumTrackTintColor"]
+- !private ["So8NSCodingP", "player"]
+- !private ["So8NSCodingP", "showsPlaybackControls"]
+- !private ["So8NSCodingP", "value"]
+- !private ["So8NSCodingP", "videoGravity"]
+- !private ["So9NSCopyingP", "duration"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "player"]
+- !private ["So26NSExtensionRequestHandlingP", "showsPlaybackControls"]
+- !private ["So26NSExtensionRequestHandlingP", "videoGravity"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "CMTime"]
+- ["So8NSObjectC", "CustomProgressBar"]
+- !private ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "UISlider"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "addPeriodicTimeObserver"]
+- !private ["So8NSObjectC", "addPeriodicTimeObserverForInterval"]
+- !private ["So8NSObjectC", "addTarget"]
+- !private ["So8NSObjectC", "bounds"]
+- ["So8NSObjectC", "changed"]
+- !private ["So8NSObjectC", "colorNamed"]
+- !private ["So8NSObjectC", "colorWithCGColor"]
+- !private ["So8NSObjectC", "colorWithCIColor"]
+- !private ["So8NSObjectC", "colorWithDisplayP3Red"]
+- !private ["So8NSObjectC", "colorWithDynamicProvider"]
+- !private ["So8NSObjectC", "colorWithHue"]
+- !private ["So8NSObjectC", "colorWithPatternImage"]
+- !private ["So8NSObjectC", "colorWithRed"]
+- !private ["So8NSObjectC", "colorWithWhite"]
+- !private ["So8NSObjectC", "currentItem"]
+- !private ["So8NSObjectC", "currentTime"]
+- !private ["So8NSObjectC", "duration"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isTracking"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "maximumTrackTintColor"]
+- !private ["So8NSObjectC", "minimumTrackTintColor"]
+- ["So8NSObjectC", "parent"]
+- !private ["So8NSObjectC", "pause"]
+- !private ["So8NSObjectC", "play"]
+- !private ["So8NSObjectC", "player"]
+- ["So8NSObjectC", "playerWithPlayerItem"]
+- ["So8NSObjectC", "playerWithURL"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "seek"]
+- !private ["So8NSObjectC", "seekToDate"]
+- !private ["So8NSObjectC", "seekToTime"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "showsPlaybackControls"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectC", "value"]
+- !private ["So8NSObjectC", "videoGravity"]
+- !private ["So8NSObjectP", "CMTime"]
+- ["So8NSObjectP", "CustomProgressBar"]
+- !private ["So8NSObjectP", "Double"]
+- !private ["So8NSObjectP", "Float"]
+- ["So8NSObjectP", "UISlider"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "addPeriodicTimeObserver"]
+- !private ["So8NSObjectP", "addPeriodicTimeObserverForInterval"]
+- !private ["So8NSObjectP", "addTarget"]
+- !private ["So8NSObjectP", "bounds"]
+- ["So8NSObjectP", "changed"]
+- !private ["So8NSObjectP", "colorNamed"]
+- !private ["So8NSObjectP", "colorWithCGColor"]
+- !private ["So8NSObjectP", "colorWithCIColor"]
+- !private ["So8NSObjectP", "colorWithDisplayP3Red"]
+- !private ["So8NSObjectP", "colorWithDynamicProvider"]
+- !private ["So8NSObjectP", "colorWithHue"]
+- !private ["So8NSObjectP", "colorWithPatternImage"]
+- !private ["So8NSObjectP", "colorWithRed"]
+- !private ["So8NSObjectP", "colorWithWhite"]
+- !private ["So8NSObjectP", "currentItem"]
+- !private ["So8NSObjectP", "currentTime"]
+- !private ["So8NSObjectP", "duration"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isTracking"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "maximumTrackTintColor"]
+- !private ["So8NSObjectP", "minimumTrackTintColor"]
+- ["So8NSObjectP", "parent"]
+- !private ["So8NSObjectP", "pause"]
+- !private ["So8NSObjectP", "play"]
+- !private ["So8NSObjectP", "player"]
+- ["So8NSObjectP", "playerWithPlayerItem"]
+- ["So8NSObjectP", "playerWithURL"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "seek"]
+- !private ["So8NSObjectP", "seekToDate"]
+- !private ["So8NSObjectP", "seekToTime"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "showsPlaybackControls"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["So8NSObjectP", "value"]
+- !private ["So8NSObjectP", "videoGravity"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["Sj", ""]
+- !private ["Sj", "bottom"]
+- !private ["Sj", "init"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["s9OptionSetP", "all"]
+- !private ["s9OptionSetP", "bottom"]
+- !private ["s9OptionSetP", "valueChanged"]
+- !private ["Sq", "main"]
+- !private ["Sq", "none"]
+- !private ["Sq", "some"]
+- !private ["Sq", "title"]
+- !private ["Sq", "white"]
+- !private ["7SwiftUI15PreviewProviderP", "CustomVideo"]
+- ["7SwiftUI15PreviewProviderP", "Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "Previews"]
+- ["7SwiftUI15PreviewProviderP", ""]
+- ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "_platform"]
+- ["7SwiftUI15PreviewProviderP", "_previews"]
+- ["7SwiftUI15PreviewProviderP", "platform"]
+- ["7SwiftUI15PreviewProviderP", "previews"]
+- !private ["SY", ""]
+- !private ["SY", "all"]
+- !private ["SY", "bottom"]
+- !private ["SY", "resize"]
+- !private ["SY", "valueChanged"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["7Combine9SchedulerP", "main"]
+- ["ST", ""]
+- !private ["7SwiftUI4EdgeO3SetV", "all"]
+- !private ["7SwiftUI4EdgeO3SetV", "bottom"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "all"]
+- !private ["s10SetAlgebraP", "bottom"]
+- !private ["s10SetAlgebraP", "valueChanged"]
+- !private ["7SwiftUI10ShapeStyleP", "black"]
+- !private ["7SwiftUI10ShapeStyleP", "edgesIgnoringSafeArea"]
+- !private ["7SwiftUI10ShapeStyleP", "init"]
+- !private ["7SwiftUI10ShapeStyleP", "opacity"]
+- !private ["7SwiftUI10ShapeStyleP", "white"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "bottom"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["7SwiftUI6SpacerV", "init"]
+- ["7SwiftUI5StateV", "init"]
+- ["7SwiftUI5StateV", "projectedValue"]
+- ["7SwiftUI5StateV", "subscript"]
+- ["7SwiftUI5StateV", "wrappedValue"]
+- !private ["Sx", ""]
+- !private ["Sx", "bottom"]
+- !private ["Sx", "init"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addTarget"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isTracking"]
+- !private ["So29UIAccessibilityIdentificationP", "maximumTrackTintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "minimumTrackTintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "value"]
+- !private ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addTarget"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isTracking"]
+- !private ["So12UIAppearanceP", "maximumTrackTintColor"]
+- !private ["So12UIAppearanceP", "minimumTrackTintColor"]
+- !private ["So12UIAppearanceP", "value"]
+- !private ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addTarget"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isTracking"]
+- !private ["So21UIAppearanceContainerP", "maximumTrackTintColor"]
+- !private ["So21UIAppearanceContainerP", "minimumTrackTintColor"]
+- !private ["So21UIAppearanceContainerP", "player"]
+- !private ["So21UIAppearanceContainerP", "showsPlaybackControls"]
+- !private ["So21UIAppearanceContainerP", "value"]
+- !private ["So21UIAppearanceContainerP", "videoGravity"]
+- !private ["So7UIColorC", "init"]
+- !private ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "player"]
+- !private ["So18UIContentContainerP", "showsPlaybackControls"]
+- !private ["So18UIContentContainerP", "videoGravity"]
+- !private ["So32UIContextMenuInteractionDelegateP", ""]
+- !private ["So32UIContextMenuInteractionDelegateP", "addTarget"]
+- !private ["So32UIContextMenuInteractionDelegateP", "init"]
+- !private ["So32UIContextMenuInteractionDelegateP", "isTracking"]
+- !private ["So32UIContextMenuInteractionDelegateP", "maximumTrackTintColor"]
+- !private ["So32UIContextMenuInteractionDelegateP", "minimumTrackTintColor"]
+- !private ["So32UIContextMenuInteractionDelegateP", "value"]
+- ["So9UIControlC", ""]
+- !private ["So9UIControlC", "addTarget"]
+- !private ["So9UIControlC", "init"]
+- !private ["So9UIControlC", "isTracking"]
+- !private ["So9UIControlC", "maximumTrackTintColor"]
+- !private ["So9UIControlC", "minimumTrackTintColor"]
+- !private ["So9UIControlC", "value"]
+- !private ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addTarget"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isTracking"]
+- !private ["So17UICoordinateSpaceP", "maximumTrackTintColor"]
+- !private ["So17UICoordinateSpaceP", "minimumTrackTintColor"]
+- !private ["So17UICoordinateSpaceP", "value"]
+- !private ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addTarget"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isTracking"]
+- !private ["So13UIDynamicItemP", "maximumTrackTintColor"]
+- !private ["So13UIDynamicItemP", "minimumTrackTintColor"]
+- !private ["So13UIDynamicItemP", "value"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addTarget"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isTracking"]
+- !private ["So18UIFocusEnvironmentP", "maximumTrackTintColor"]
+- !private ["So18UIFocusEnvironmentP", "minimumTrackTintColor"]
+- !private ["So18UIFocusEnvironmentP", "player"]
+- !private ["So18UIFocusEnvironmentP", "showsPlaybackControls"]
+- !private ["So18UIFocusEnvironmentP", "value"]
+- !private ["So18UIFocusEnvironmentP", "videoGravity"]
+- !private ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addTarget"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isTracking"]
+- !private ["So11UIFocusItemP", "maximumTrackTintColor"]
+- !private ["So11UIFocusItemP", "minimumTrackTintColor"]
+- !private ["So11UIFocusItemP", "value"]
+- !private ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addTarget"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "isTracking"]
+- !private ["So20UIFocusItemContainerP", "maximumTrackTintColor"]
+- !private ["So20UIFocusItemContainerP", "minimumTrackTintColor"]
+- !private ["So20UIFocusItemContainerP", "value"]
+- !private ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "addTarget"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "isTracking"]
+- !private ["So24UILargeContentViewerItemP", "maximumTrackTintColor"]
+- !private ["So24UILargeContentViewerItemP", "minimumTrackTintColor"]
+- !private ["So24UILargeContentViewerItemP", "value"]
+- !private ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isTracking"]
+- !private ["So30UIPasteConfigurationSupportingP", "maximumTrackTintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "minimumTrackTintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "player"]
+- !private ["So30UIPasteConfigurationSupportingP", "showsPlaybackControls"]
+- !private ["So30UIPasteConfigurationSupportingP", "value"]
+- !private ["So30UIPasteConfigurationSupportingP", "videoGravity"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "addTarget"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isTracking"]
+- !private ["So11UIResponderC", "maximumTrackTintColor"]
+- !private ["So11UIResponderC", "minimumTrackTintColor"]
+- !private ["So11UIResponderC", "player"]
+- !private ["So11UIResponderC", "showsPlaybackControls"]
+- !private ["So11UIResponderC", "value"]
+- !private ["So11UIResponderC", "videoGravity"]
+- !private ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addTarget"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isTracking"]
+- !private ["So30UIResponderStandardEditActionsP", "maximumTrackTintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "minimumTrackTintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "player"]
+- !private ["So30UIResponderStandardEditActionsP", "showsPlaybackControls"]
+- !private ["So30UIResponderStandardEditActionsP", "value"]
+- !private ["So30UIResponderStandardEditActionsP", "videoGravity"]
+- !private ["So8UIScreenC", "bounds"]
+- !private ["So8UIScreenC", "main"]
+- !private ["So8UISliderC", "addTarget"]
+- !private ["So8UISliderC", "init"]
+- !private ["So8UISliderC", "isTracking"]
+- !private ["So8UISliderC", "maximumTrackTintColor"]
+- !private ["So8UISliderC", "minimumTrackTintColor"]
+- !private ["So8UISliderC", "value"]
+- !private ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "player"]
+- !private ["So16UIStateRestoringP", "showsPlaybackControls"]
+- !private ["So16UIStateRestoringP", "videoGravity"]
+- !private ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addTarget"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isTracking"]
+- !private ["So18UITraitEnvironmentP", "main"]
+- !private ["So18UITraitEnvironmentP", "maximumTrackTintColor"]
+- !private ["So18UITraitEnvironmentP", "minimumTrackTintColor"]
+- !private ["So18UITraitEnvironmentP", "player"]
+- !private ["So18UITraitEnvironmentP", "showsPlaybackControls"]
+- !private ["So18UITraitEnvironmentP", "value"]
+- !private ["So18UITraitEnvironmentP", "videoGravity"]
+- !private ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addTarget"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isTracking"]
+- !private ["So23UIUserActivityRestoringP", "maximumTrackTintColor"]
+- !private ["So23UIUserActivityRestoringP", "minimumTrackTintColor"]
+- !private ["So23UIUserActivityRestoringP", "player"]
+- !private ["So23UIUserActivityRestoringP", "showsPlaybackControls"]
+- !private ["So23UIUserActivityRestoringP", "value"]
+- !private ["So23UIUserActivityRestoringP", "videoGravity"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "addTarget"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isTracking"]
+- !private ["So6UIViewC", "maximumTrackTintColor"]
+- !private ["So6UIViewC", "minimumTrackTintColor"]
+- !private ["So6UIViewC", "value"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "player"]
+- !private ["So16UIViewControllerC", "showsPlaybackControls"]
+- !private ["So16UIViewControllerC", "videoGravity"]
+- !private ["7SwiftUI29UIViewControllerRepresentableP", "AVPlayerViewController"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "Binding"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "Body"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "Coordinator"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "Default_Body"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "Default_Coordinator"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "Default_UIViewControllerType"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "UIViewControllerType"]
+- ["7SwiftUI29UIViewControllerRepresentableP", ""]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_Default_Body"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_Default_Coordinator"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_Default_UIViewControllerType"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_identifiedViewTree"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_makeView"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_makeViewList"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "_viewListCount"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "body"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "dismantleUIViewController"]
+- !private ["7SwiftUI29UIViewControllerRepresentableP", "init"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "makeCoordinator"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "makeUIViewController"]
+- !private ["7SwiftUI29UIViewControllerRepresentableP", "player"]
+- ["7SwiftUI29UIViewControllerRepresentableP", "updateUIViewController"]
+- ["7SwiftUI19UIViewRepresentableP", "Binding"]
+- ["7SwiftUI19UIViewRepresentableP", "Body"]
+- !private ["7SwiftUI19UIViewRepresentableP", "CMTime"]
+- !private ["7SwiftUI19UIViewRepresentableP", "Color"]
+- ["7SwiftUI19UIViewRepresentableP", "Coordinator"]
+- !private ["7SwiftUI19UIViewRepresentableP", "CustomProgressBar"]
+- ["7SwiftUI19UIViewRepresentableP", "Default_Body"]
+- ["7SwiftUI19UIViewRepresentableP", "Default_UIViewType"]
+- !private ["7SwiftUI19UIViewRepresentableP", "Double"]
+- !private ["7SwiftUI19UIViewRepresentableP", "Float"]
+- ["7SwiftUI19UIViewRepresentableP", "NSObject"]
+- !private ["7SwiftUI19UIViewRepresentableP", "UIColor"]
+- !private ["7SwiftUI19UIViewRepresentableP", "UISlider"]
+- ["7SwiftUI19UIViewRepresentableP", "UIViewType"]
+- ["7SwiftUI19UIViewRepresentableP", ""]
+- ["7SwiftUI19UIViewRepresentableP", "_Default_Body"]
+- ["7SwiftUI19UIViewRepresentableP", "_Default_UIViewType"]
+- ["7SwiftUI19UIViewRepresentableP", "_identifiedViewTree"]
+- ["7SwiftUI19UIViewRepresentableP", "_makeView"]
+- ["7SwiftUI19UIViewRepresentableP", "_makeViewList"]
+- ["7SwiftUI19UIViewRepresentableP", "_overrideLayoutTraits"]
+- ["7SwiftUI19UIViewRepresentableP", "_overrideSizeThatFits"]
+- ["7SwiftUI19UIViewRepresentableP", "_viewListCount"]
+- ["7SwiftUI19UIViewRepresentableP", "body"]
+- ["7SwiftUI19UIViewRepresentableP", "dismantleUIView"]
+- !private ["7SwiftUI19UIViewRepresentableP", "init"]
+- !private ["7SwiftUI19UIViewRepresentableP", "isplaying"]
+- ["7SwiftUI19UIViewRepresentableP", "makeCoordinator"]
+- ["7SwiftUI19UIViewRepresentableP", "makeUIView"]
+- !private ["7SwiftUI19UIViewRepresentableP", "parent"]
+- !private ["7SwiftUI19UIViewRepresentableP", "player"]
+- ["7SwiftUI19UIViewRepresentableP", "updateUIView"]
+- !private ["7SwiftUI19UIViewRepresentableP", "value"]
+- !private ["7SwiftUI26UIViewRepresentableContextV", "coordinator"]
+- ["10Foundation3URLV", "init"]
+- !private ["7SwiftUI6VStackV", "init"]
+- !private ["7SwiftUI6VStackV", "padding"]
+- !private ["7SwiftUI16VectorArithmeticP", "bottom"]
+- !private ["7SwiftUI16VectorArithmeticP", "init"]
+- ["15EnTransparencia11VideoPlayerV", "$player"]
+- ["15EnTransparencia11VideoPlayerV", "AVPlayer"]
+- ["15EnTransparencia11VideoPlayerV", "AVPlayerViewController"]
+- ["15EnTransparencia11VideoPlayerV", "Binding"]
+- ["15EnTransparencia11VideoPlayerV", "Body"]
+- ["15EnTransparencia11VideoPlayerV", "Coordinator"]
+- ["15EnTransparencia11VideoPlayerV", "Default_Body"]
+- ["15EnTransparencia11VideoPlayerV", "Default_Coordinator"]
+- ["15EnTransparencia11VideoPlayerV", "Default_UIViewControllerType"]
+- ["15EnTransparencia11VideoPlayerV", "UIViewControllerRepresentableContext"]
+- ["15EnTransparencia11VideoPlayerV", "UIViewControllerType"]
+- ["15EnTransparencia11VideoPlayerV", "VideoPlayer"]
+- ["15EnTransparencia11VideoPlayerV", ""]
+- ["15EnTransparencia11VideoPlayerV", "_Default_Body"]
+- ["15EnTransparencia11VideoPlayerV", "_Default_Coordinator"]
+- ["15EnTransparencia11VideoPlayerV", "_Default_UIViewControllerType"]
+- ["15EnTransparencia11VideoPlayerV", "_identifiedViewTree"]
+- ["15EnTransparencia11VideoPlayerV", "_makeView"]
+- ["15EnTransparencia11VideoPlayerV", "_makeViewList"]
+- !private ["15EnTransparencia11VideoPlayerV", "_player"]
+- ["15EnTransparencia11VideoPlayerV", "_viewListCount"]
+- ["15EnTransparencia11VideoPlayerV", "body"]
+- ["15EnTransparencia11VideoPlayerV", "dismantleUIViewController"]
+- ["15EnTransparencia11VideoPlayerV", "init"]
+- ["15EnTransparencia11VideoPlayerV", "makeCoordinator"]
+- ["15EnTransparencia11VideoPlayerV", "makeUIViewController"]
+- ["15EnTransparencia11VideoPlayerV", "player"]
+- ["15EnTransparencia11VideoPlayerV", "updateUIViewController"]
+- !private ["7SwiftUI4ViewP", "$isPlaying"]
+- !private ["7SwiftUI4ViewP", "$player"]
+- !private ["7SwiftUI4ViewP", "$showControls"]
+- !private ["7SwiftUI4ViewP", "$value"]
+- ["7SwiftUI4ViewP", "AVPlayer"]
+- !private ["7SwiftUI4ViewP", "AVPlayerViewController"]
+- ["7SwiftUI4ViewP", "Binding"]
+- ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "Button"]
+- !private ["7SwiftUI4ViewP", "CMTime"]
+- !private ["7SwiftUI4ViewP", "Color"]
+- !private ["7SwiftUI4ViewP", "Controls"]
+- ["7SwiftUI4ViewP", "Coordinator"]
+- !private ["7SwiftUI4ViewP", "CustomProgressBar"]
+- ["7SwiftUI4ViewP", "Default_Body"]
+- ["7SwiftUI4ViewP", "Default_Coordinator"]
+- ["7SwiftUI4ViewP", "Default_UIViewControllerType"]
+- ["7SwiftUI4ViewP", "Default_UIViewType"]
+- !private ["7SwiftUI4ViewP", "Double"]
+- !private ["7SwiftUI4ViewP", "Float"]
+- !private ["7SwiftUI4ViewP", "HStack"]
+- !private ["7SwiftUI4ViewP", "Image"]
+- ["7SwiftUI4ViewP", "NSObject"]
+- !private ["7SwiftUI4ViewP", "Spacer"]
+- ["7SwiftUI4ViewP", "State"]
+- !private ["7SwiftUI4ViewP", "UIColor"]
+- !private ["7SwiftUI4ViewP", "UIScreen"]
+- !private ["7SwiftUI4ViewP", "UISlider"]
+- ["7SwiftUI4ViewP", "UIViewControllerType"]
+- ["7SwiftUI4ViewP", "UIViewType"]
+- ["7SwiftUI4ViewP", "URL"]
+- !private ["7SwiftUI4ViewP", "VStack"]
+- !private ["7SwiftUI4ViewP", "VideoPlayer"]
+- !private ["7SwiftUI4ViewP", "ZStack"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_Default_Coordinator"]
+- ["7SwiftUI4ViewP", "_Default_UIViewControllerType"]
+- ["7SwiftUI4ViewP", "_Default_UIViewType"]
+- ["7SwiftUI4ViewP", "_identifiedViewTree"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "_overrideLayoutTraits"]
+- ["7SwiftUI4ViewP", "_overrideSizeThatFits"]
+- ["7SwiftUI4ViewP", "_viewListCount"]
+- !private ["7SwiftUI4ViewP", "background"]
+- !private ["7SwiftUI4ViewP", "black"]
+- ["7SwiftUI4ViewP", "body"]
+- ["7SwiftUI4ViewP", "dismantleUIView"]
+- ["7SwiftUI4ViewP", "dismantleUIViewController"]
+- !private ["7SwiftUI4ViewP", "edgesIgnoringSafeArea"]
+- !private ["7SwiftUI4ViewP", "font"]
+- !private ["7SwiftUI4ViewP", "foregroundColor"]
+- !private ["7SwiftUI4ViewP", "frame"]
+- !private ["7SwiftUI4ViewP", "getSliderValue"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "isPlaying"]
+- !private ["7SwiftUI4ViewP", "isplaying"]
+- !private ["7SwiftUI4ViewP", "main"]
+- ["7SwiftUI4ViewP", "makeCoordinator"]
+- ["7SwiftUI4ViewP", "makeUIView"]
+- ["7SwiftUI4ViewP", "makeUIViewController"]
+- !private ["7SwiftUI4ViewP", "none"]
+- !private ["7SwiftUI4ViewP", "onAppear"]
+- !private ["7SwiftUI4ViewP", "onTapGesture"]
+- !private ["7SwiftUI4ViewP", "opacity"]
+- !private ["7SwiftUI4ViewP", "padding"]
+- !private ["7SwiftUI4ViewP", "pannel"]
+- !private ["7SwiftUI4ViewP", "parent"]
+- !private ["7SwiftUI4ViewP", "player"]
+- !private ["7SwiftUI4ViewP", "showControls"]
+- !private ["7SwiftUI4ViewP", "some"]
+- !private ["7SwiftUI4ViewP", "title"]
+- ["7SwiftUI4ViewP", "updateUIView"]
+- ["7SwiftUI4ViewP", "updateUIViewController"]
+- !private ["7SwiftUI4ViewP", "value"]
+- !private ["7SwiftUI4ViewP", "white"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
+- !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
+- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
+- !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
+- !private ["7SwiftUI6ZStackV", "frame"]
+- !private ["7SwiftUI6ZStackV", "init"]
+- !private ["s15_CVarArgAlignedP", "bottom"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "bottom"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "height"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "bottom"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "resize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addPeriodicTimeObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "changed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "duration"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isTracking"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maximumTrackTintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minimumTrackTintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pause"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "play"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "player"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "seek"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showsPlaybackControls"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "videoGravity"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CMTime"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Double"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Float"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addPeriodicTimeObserver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addTarget"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "changed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentTime"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "duration"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isTracking"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "maximumTrackTintColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "minimumTrackTintColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pause"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "play"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "player"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "seek"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showsPlaybackControls"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "value"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "videoGravity"]
+- ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "bottom"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "main"]
+- !private ["s21_ObjectiveCBridgeableP", "none"]
+- !private ["s21_ObjectiveCBridgeableP", "resize"]
+- !private ["s21_ObjectiveCBridgeableP", "seconds"]
+- !private ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s21_ObjectiveCBridgeableP", "title"]
+- !private ["s21_ObjectiveCBridgeableP", "white"]
+- !private ["7SwiftUI16_PreviewProviderP", "CustomVideo"]
+- ["7SwiftUI16_PreviewProviderP", "Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "Previews"]
+- ["7SwiftUI16_PreviewProviderP", ""]
+- ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "_platform"]
+- ["7SwiftUI16_PreviewProviderP", "_previews"]
+- ["7SwiftUI16_PreviewProviderP", "platform"]
+- ["7SwiftUI16_PreviewProviderP", "previews"]
+- !private ["s20_SwiftNewtypeWrapperP", "resize"]
+- !private ["7SwiftUI11_VectorMathP", "bottom"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addTarget"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isTracking"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "maximumTrackTintColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "minimumTrackTintColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "value"]
+depends-nominal:
+- !private "So19AVLayerVideoGravitya"
+- "So8AVPlayerC"
+- !private "So12AVPlayerItemC"
+- !private "So22AVPlayerViewControllerC"
+- !private "s18AdditiveArithmeticP"
+- "7SwiftUI10AnimatableP"
+- "SK"
+- !private "SB"
+- "7SwiftUI7BindingV"
+- !private "7SwiftUI6ButtonV"
+- !private "So15CALayerDelegateP"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So6CGRectV"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "So6CMTimea"
+- "s7CVarArgP"
+- "Sl"
+- !private "7SwiftUI5ColorV"
+- "SL"
+- "15EnTransparencia8ControlsV"
+- "15EnTransparencia17CustomProgressBarV11CoordinatorC"
+- "s28CustomDebugStringConvertibleP"
+- "15EnTransparencia17CustomProgressBarV"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "15EnTransparencia11CustomVideoV"
+- "15EnTransparencia20CustomVideo_PreviewsV"
+- "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "Sd"
+- "7SwiftUI15DynamicPropertyP"
+- !private "7SwiftUI10EdgeInsetsV"
+- "SE"
+- "SQ"
+- !private "So15UIControlEventsV"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "Sf"
+- !private "SF"
+- !private "7SwiftUI4FontV"
+- !private "7SwiftUI7GestureP"
+- !private "7SwiftUI6HStackV"
+- "SH"
+- !private "7SwiftUI5ImageV"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "Sq"
+- "7SwiftUI15PreviewProviderP"
+- !private "SY"
+- "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "7Combine9SchedulerP"
+- "ST"
+- !private "7SwiftUI4EdgeO3SetV"
+- !private "s10SetAlgebraP"
+- !private "7SwiftUI10ShapeStyleP"
+- !private "s13SignedNumericP"
+- !private "7SwiftUI6SpacerV"
+- "7SwiftUI5StateV"
+- !private "Sx"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- !private "So18UIContentContainerP"
+- !private "So32UIContextMenuInteractionDelegateP"
+- "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So8UIScreenC"
+- !private "So8UISliderC"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- "7SwiftUI29UIViewControllerRepresentableP"
+- "7SwiftUI19UIViewRepresentableP"
+- !private "7SwiftUI26UIViewRepresentableContextV"
+- "10Foundation3URLV"
+- !private "7SwiftUI6VStackV"
+- !private "7SwiftUI16VectorArithmeticP"
+- "15EnTransparencia11VideoPlayerV"
+- "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- !private "7SwiftUI6ZStackV"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- !private "7SwiftUI18_FormatSpecifiableP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "7SwiftUI16_PreviewProviderP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "7SwiftUI11_VectorMathP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/_AVKit_SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Algorithms.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/Charts.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaSource.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStrokeStyle.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStyleSpan.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygonLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlayLayer.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAccessibilityLabels.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/Charts.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b5adaf774d40f39b41829323bb7ffb74"

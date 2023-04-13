@@ -1,0 +1,430 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "nextW"
+- "nextOffset"
+provides-nominal:
+provides-member:
+- ["Sl", ""]
+- ["ST", ""]
+- ["Sl", "randomStableSample"]
+- ["Sl", "randomStableSample"]
+- ["Sl", "randomSample"]
+- ["Sl", "randomSample"]
+- ["ST", "randomSample"]
+- ["ST", "randomSample"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*="
+- !private "-"
+- !private "-="
+- !private "..<"
+- !private "/"
+- !private "<"
+- !private ">"
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Collection"
+- "Double"
+- "Element"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "RandomNumberGenerator"
+- "Sequence"
+- !private "SystemRandomNumberGenerator"
+- "TernaryPrecedence"
+- !private "count"
+- !private "endIndex"
+- !private "formIndex"
+- !private "index"
+- !private "makeIterator"
+- "nextOffset"
+- "nextW"
+- !private "randomSample"
+- !private "randomStableSample"
+- !private "startIndex"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "log"]
+- !private ["s18AdditiveArithmeticP", "max"]
+- !private ["s18AdditiveArithmeticP", "random"]
+- !private ["s18AdditiveArithmeticP", "root"]
+- !private ["10RealModule14AlgebraicFieldP", ""]
+- !private ["10RealModule14AlgebraicFieldP", "init"]
+- !private ["10RealModule14AlgebraicFieldP", "log"]
+- !private ["10RealModule14AlgebraicFieldP", "random"]
+- !private ["10RealModule14AlgebraicFieldP", "root"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "reserveCapacity"]
+- !private ["Sa", "shuffle"]
+- !private ["Sa", "subscript"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "reserveCapacity"]
+- !private ["SK", "shuffle"]
+- !private ["SK", "subscript"]
+- !private ["SB", "init"]
+- !private ["SB", "log"]
+- !private ["SB", "random"]
+- !private ["SB", "root"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["Sz", "max"]
+- !private ["Sz", "random"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "log"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "random"]
+- !private ["s7CVarArgP", "root"]
+- !private ["Sl", "Array"]
+- ["Sl", "Element"]
+- !private ["Sl", "Index"]
+- ["Sl", "Int"]
+- ["Sl", "RandomNumberGenerator"]
+- !private ["Sl", "SubSequence"]
+- !private ["Sl", "SystemRandomNumberGenerator"]
+- ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "formIndex"]
+- !private ["Sl", "index"]
+- !private ["Sl", "init"]
+- !private ["Sl", "nextOffset"]
+- !private ["Sl", "nextW"]
+- ["Sl", "randomSample"]
+- ["Sl", "randomStableSample"]
+- !private ["Sl", "reserveCapacity"]
+- !private ["Sl", "shuffle"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["SL", "log"]
+- !private ["SL", "max"]
+- !private ["SL", "random"]
+- !private ["SL", "root"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "log"]
+- !private ["s28CustomDebugStringConvertibleP", "random"]
+- !private ["s28CustomDebugStringConvertibleP", "reserveCapacity"]
+- !private ["s28CustomDebugStringConvertibleP", "root"]
+- !private ["s28CustomDebugStringConvertibleP", "shuffle"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "log"]
+- !private ["s17CustomReflectableP", "max"]
+- !private ["s17CustomReflectableP", "random"]
+- !private ["s17CustomReflectableP", "reserveCapacity"]
+- !private ["s17CustomReflectableP", "root"]
+- !private ["s17CustomReflectableP", "shuffle"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "log"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "random"]
+- !private ["s23CustomStringConvertibleP", "reserveCapacity"]
+- !private ["s23CustomStringConvertibleP", "root"]
+- !private ["s23CustomStringConvertibleP", "shuffle"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "log"]
+- !private ["Se", "max"]
+- !private ["Se", "random"]
+- !private ["Se", "reserveCapacity"]
+- !private ["Se", "root"]
+- !private ["Se", "shuffle"]
+- !private ["Se", "subscript"]
+- !private ["Sd", "init"]
+- !private ["Sd", "log"]
+- !private ["Sd", "random"]
+- !private ["Sd", "root"]
+- !private ["10RealModule19ElementaryFunctionsP", ""]
+- !private ["10RealModule19ElementaryFunctionsP", "init"]
+- !private ["10RealModule19ElementaryFunctionsP", "log"]
+- !private ["10RealModule19ElementaryFunctionsP", "random"]
+- !private ["10RealModule19ElementaryFunctionsP", "root"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "log"]
+- !private ["SE", "max"]
+- !private ["SE", "random"]
+- !private ["SE", "reserveCapacity"]
+- !private ["SE", "root"]
+- !private ["SE", "shuffle"]
+- !private ["SE", "subscript"]
+- !private ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- !private ["SQ", "init"]
+- !private ["SQ", "log"]
+- !private ["SQ", "max"]
+- !private ["SQ", "random"]
+- !private ["SQ", "reserveCapacity"]
+- !private ["SQ", "root"]
+- !private ["SQ", "shuffle"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "reserveCapacity"]
+- !private ["s25ExpressibleByArrayLiteralP", "shuffle"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "log"]
+- !private ["s25ExpressibleByFloatLiteralP", "random"]
+- !private ["s25ExpressibleByFloatLiteralP", "root"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "log"]
+- !private ["s27ExpressibleByIntegerLiteralP", "max"]
+- !private ["s27ExpressibleByIntegerLiteralP", "random"]
+- !private ["s27ExpressibleByIntegerLiteralP", "root"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "max"]
+- !private ["s17FixedWidthIntegerP", "random"]
+- !private ["SF", ""]
+- !private ["SF", "init"]
+- !private ["SF", "log"]
+- !private ["SF", "random"]
+- !private ["SF", "root"]
+- !private ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- !private ["SH", "init"]
+- !private ["SH", "log"]
+- !private ["SH", "max"]
+- !private ["SH", "random"]
+- !private ["SH", "reserveCapacity"]
+- !private ["SH", "root"]
+- !private ["SH", "shuffle"]
+- !private ["SH", "subscript"]
+- !private ["Si", "init"]
+- !private ["Si", "max"]
+- !private ["Si", "random"]
+- !private ["St", "Element"]
+- !private ["St", "next"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "log"]
+- !private ["s25LosslessStringConvertibleP", "max"]
+- !private ["s25LosslessStringConvertibleP", "random"]
+- !private ["s25LosslessStringConvertibleP", "root"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "max"]
+- !private ["s10MirrorPathP", "random"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "reserveCapacity"]
+- !private ["SM", "shuffle"]
+- !private ["SM", "subscript"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["Sj", "log"]
+- !private ["Sj", "max"]
+- !private ["Sj", "random"]
+- !private ["Sj", "root"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "reserveCapacity"]
+- !private ["Sk", "shuffle"]
+- !private ["Sk", "subscript"]
+- !private ["SG", "init"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "shuffle"]
+- !private ["Sm", "subscript"]
+- !private ["10RealModule0A0P", "init"]
+- !private ["10RealModule0A0P", "log"]
+- !private ["10RealModule0A0P", "random"]
+- !private ["10RealModule0A0P", "root"]
+- !private ["10RealModule0A9FunctionsP", ""]
+- !private ["10RealModule0A9FunctionsP", "init"]
+- !private ["10RealModule0A9FunctionsP", "log"]
+- !private ["10RealModule0A9FunctionsP", "random"]
+- !private ["10RealModule0A9FunctionsP", "root"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s10SIMDScalarP", "log"]
+- !private ["s10SIMDScalarP", "max"]
+- !private ["s10SIMDScalarP", "random"]
+- !private ["s10SIMDScalarP", "root"]
+- !private ["ST", "Array"]
+- ["ST", "Element"]
+- !private ["ST", "Index"]
+- ["ST", "Int"]
+- !private ["ST", "Iterator"]
+- ["ST", "RandomNumberGenerator"]
+- !private ["ST", "SubSequence"]
+- !private ["ST", "SystemRandomNumberGenerator"]
+- ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "endIndex"]
+- !private ["ST", "formIndex"]
+- !private ["ST", "index"]
+- !private ["ST", "init"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "nextOffset"]
+- !private ["ST", "nextW"]
+- ["ST", "randomSample"]
+- !private ["ST", "randomStableSample"]
+- !private ["ST", "reserveCapacity"]
+- !private ["ST", "shuffle"]
+- !private ["ST", "startIndex"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["SZ", "max"]
+- !private ["SZ", "random"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "log"]
+- !private ["s13SignedNumericP", "max"]
+- !private ["s13SignedNumericP", "random"]
+- !private ["s13SignedNumericP", "root"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["Sx", "log"]
+- !private ["Sx", "max"]
+- !private ["Sx", "random"]
+- !private ["Sx", "root"]
+- !private ["s27SystemRandomNumberGeneratorV", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "log"]
+- !private ["s20TextOutputStreamableP", "random"]
+- !private ["s20TextOutputStreamableP", "root"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "reserveCapacity"]
+- !private ["s14_ArrayProtocolP", "shuffle"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "log"]
+- !private ["s15_CVarArgAlignedP", "random"]
+- !private ["s15_CVarArgAlignedP", "root"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "log"]
+- !private ["s22_CVarArgPassedAsDoubleP", "random"]
+- !private ["s22_CVarArgPassedAsDoubleP", "root"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "log"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "max"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "random"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "root"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "reserveCapacity"]
+- !private ["s24_DestructorSafeContainerP", "shuffle"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "log"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "random"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "root"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "log"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "max"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "random"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "root"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "reserveCapacity"]
+- !private ["s19_HasContiguousBytesP", "shuffle"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "log"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "max"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "random"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reserveCapacity"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "root"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "shuffle"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "10RealModule14AlgebraicFieldP"
+- !private "Sa"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "Sd"
+- !private "10RealModule19ElementaryFunctionsP"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- !private "SH"
+- !private "Si"
+- !private "St"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "Sj"
+- !private "Sk"
+- !private "SG"
+- !private "Sm"
+- !private "10RealModule0A0P"
+- !private "10RealModule0A9FunctionsP"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s27SystemRandomNumberGeneratorV"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/Build/Products/Debug-iphonesimulator/RealModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/_NumericsShims.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap"
+interface-hash: "aeef58b63522fff563de7a210eddb563"

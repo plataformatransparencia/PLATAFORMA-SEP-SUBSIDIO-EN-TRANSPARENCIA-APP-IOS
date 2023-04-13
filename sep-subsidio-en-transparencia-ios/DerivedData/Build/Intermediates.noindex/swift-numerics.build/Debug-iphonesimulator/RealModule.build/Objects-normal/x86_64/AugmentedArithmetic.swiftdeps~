@@ -1,0 +1,113 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Augmented"
+provides-nominal:
+- "10RealModule9AugmentedO"
+provides-member:
+- ["10RealModule9AugmentedO", ""]
+- ["10RealModule9AugmentedO", "twoProdFMA"]
+- ["10RealModule9AugmentedO", "fastTwoSum"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "*"
+- !private "+"
+- !private "-"
+- !private ">"
+- "Augmented"
+- "Real"
+- !private "assert"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "Magnitude"]
+- !private ["s18AdditiveArithmeticP", "Stride"]
+- ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "addingProduct"]
+- !private ["s18AdditiveArithmeticP", "magnitude"]
+- !private ["10RealModule14AlgebraicFieldP", "Magnitude"]
+- !private ["10RealModule14AlgebraicFieldP", "Stride"]
+- ["10RealModule14AlgebraicFieldP", ""]
+- !private ["10RealModule14AlgebraicFieldP", "addingProduct"]
+- !private ["10RealModule14AlgebraicFieldP", "magnitude"]
+- ["10RealModule9AugmentedO", "Real"]
+- ["10RealModule9AugmentedO", ""]
+- !private ["10RealModule9AugmentedO", "assert"]
+- ["10RealModule9AugmentedO", "fastTwoSum"]
+- ["10RealModule9AugmentedO", "twoProdFMA"]
+- !private ["SL", "Magnitude"]
+- !private ["SL", "Stride"]
+- ["SL", ""]
+- !private ["SL", "addingProduct"]
+- !private ["SL", "magnitude"]
+- !private ["10RealModule19ElementaryFunctionsP", "Magnitude"]
+- !private ["10RealModule19ElementaryFunctionsP", "Stride"]
+- ["10RealModule19ElementaryFunctionsP", ""]
+- !private ["10RealModule19ElementaryFunctionsP", "addingProduct"]
+- !private ["10RealModule19ElementaryFunctionsP", "magnitude"]
+- !private ["SQ", "Magnitude"]
+- !private ["SQ", "Stride"]
+- ["SQ", ""]
+- !private ["SQ", "addingProduct"]
+- !private ["SQ", "magnitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Magnitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Stride"]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "addingProduct"]
+- !private ["s27ExpressibleByIntegerLiteralP", "magnitude"]
+- !private ["SF", "Magnitude"]
+- !private ["SF", "Stride"]
+- ["SF", ""]
+- !private ["SF", "addingProduct"]
+- !private ["SF", "magnitude"]
+- !private ["SH", "Magnitude"]
+- !private ["SH", "Stride"]
+- ["SH", ""]
+- !private ["SH", "addingProduct"]
+- !private ["SH", "magnitude"]
+- !private ["Sj", "Magnitude"]
+- !private ["Sj", "Stride"]
+- ["Sj", ""]
+- !private ["Sj", "addingProduct"]
+- !private ["Sj", "magnitude"]
+- ["10RealModule0A0P", "Exponent"]
+- ["10RealModule0A0P", "IntegerLiteralType"]
+- ["10RealModule0A0P", "Magnitude"]
+- ["10RealModule0A0P", "Stride"]
+- !private ["10RealModule0A0P", "addingProduct"]
+- !private ["10RealModule0A0P", "magnitude"]
+- !private ["10RealModule0A9FunctionsP", "Magnitude"]
+- !private ["10RealModule0A9FunctionsP", "Stride"]
+- ["10RealModule0A9FunctionsP", ""]
+- !private ["10RealModule0A9FunctionsP", "addingProduct"]
+- !private ["10RealModule0A9FunctionsP", "magnitude"]
+- !private ["s13SignedNumericP", "Magnitude"]
+- !private ["s13SignedNumericP", "Stride"]
+- ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "addingProduct"]
+- !private ["s13SignedNumericP", "magnitude"]
+- !private ["Sx", "Magnitude"]
+- !private ["Sx", "Stride"]
+- ["Sx", ""]
+- !private ["Sx", "addingProduct"]
+- !private ["Sx", "magnitude"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "10RealModule14AlgebraicFieldP"
+- "10RealModule9AugmentedO"
+- "SL"
+- "10RealModule19ElementaryFunctionsP"
+- "SQ"
+- "s27ExpressibleByIntegerLiteralP"
+- "SF"
+- "SH"
+- "Sj"
+- "10RealModule0A0P"
+- "10RealModule0A9FunctionsP"
+- "s13SignedNumericP"
+- "Sx"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/_NumericsShims.h"
+- "/Users/bety/Documents/Mejorada/EnTransparencia/DerivedData/SourcePackages/checkouts/swift-numerics/Sources/_NumericsShims/include/module.modulemap"
+interface-hash: "89f85aab0533e81af15212d3cc0dc9c0"
