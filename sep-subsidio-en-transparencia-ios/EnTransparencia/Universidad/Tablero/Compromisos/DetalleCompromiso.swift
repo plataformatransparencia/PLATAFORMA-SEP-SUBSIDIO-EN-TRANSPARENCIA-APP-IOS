@@ -49,7 +49,7 @@ struct DetalleCompromiso: View {
                                 .padding(.top)
                             }
                         }.padding()
-                        SemaforoTablerosEO(cumplimiento: self.cumplimiento, fecha: self.fecha, textoColumna1: "Cumplimiento", textoColumna2: "Fecha de ejecución")
+                        SemaforoTablerosOrdinarios(cumplimiento: self.cumplimiento, fecha: self.fecha, textoColumna1: "Cumplimiento", textoColumna2: "Fecha de ejecución")
                         if self.observacion != ""{
                             HStack{
                                 VStack(alignment: .leading){

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -799,8 +799,9 @@
 		C1B6D70225E71CAD00340FF3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					C1B6D70925E71CAD00340FF3 = {
 						CreatedOnToolsVersion = 12.4;
@@ -824,6 +825,8 @@
 				Base,
 			);
 			mainGroup = C1B6D70125E71CAD00340FF3;
+			packageReferences = (
+			);
 			productRefGroup = C1B6D70B25E71CAD00340FF3 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
@@ -1186,17 +1189,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 58;
+				CURRENT_PROJECT_VERSION = 59;
 				DEVELOPMENT_ASSET_PATHS = "\"EnTransparencia/Preview Content\"";
 				DEVELOPMENT_TEAM = MYY8YFL9J8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = EnTransparencia/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.47;
+				MARKETING_VERSION = 1.48;
 				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparencia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = EnTransparenciaProduccion2;
@@ -1214,17 +1217,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 58;
+				CURRENT_PROJECT_VERSION = 59;
 				DEVELOPMENT_ASSET_PATHS = "\"EnTransparencia/Preview Content\"";
 				DEVELOPMENT_TEAM = MYY8YFL9J8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = EnTransparencia/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.47;
+				MARKETING_VERSION = 1.48;
 				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparencia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = EnTransparenciaProduccion2;
