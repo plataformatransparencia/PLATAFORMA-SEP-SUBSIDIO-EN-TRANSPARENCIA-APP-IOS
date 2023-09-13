@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78025FDA2AB2485E00A9C5C1 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78025FD92AB2485800A9C5C1 /* Charts.framework */; };
 		78526E2829845D95000C4D55 /* CompromisosVertientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78526E2729845D95000C4D55 /* CompromisosVertientes.swift */; };
 		78A330362988592900675FB5 /* TableroCumplimientoPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */; };
 		78A330382988817700675FB5 /* TableroCompromisosListaPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */; };
-		78A3CC5C283576EE000A7B31 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A0BE6E26DEB93F008E9755 /* Charts.framework */; platformFilter = ios; };
-		78A3CC5D283576EE000A7B31 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1A0BE6E26DEB93F008E9755 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		78A3CC6228357BE8000A7B31 /* ActividadesEntregasDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */; };
 		C103F4D52625FA89007DAA9B /* DetalleProgramas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103F4D42625FA89007DAA9B /* DetalleProgramas.swift */; };
 		C103F4D926260981007DAA9B /* MinistracionEstatalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103F4D826260981007DAA9B /* MinistracionEstatalData.swift */; };
@@ -102,19 +101,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C1A0BE6D26DEB93F008E9755 /* PBXContainerItemProxy */ = {
+		78025FD82AB2485800A9C5C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C1A0BE6826DEB93F008E9755 /* Charts.xcodeproj */;
+			containerPortal = 78025FD42AB2485800A9C5C1 /* Charts.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
 			remoteInfo = Charts;
-		};
-		C1A0BE6F26DEB93F008E9755 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C1A0BE6826DEB93F008E9755 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
-			remoteInfo = ChartsTests;
 		};
 		C1B6D71C25E71CB400340FF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -139,7 +131,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				78A3CC5D283576EE000A7B31 /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +138,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		105B6D46DCDE6AAD23263EFF /* libPods-EnTransparencia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnTransparencia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78025FD42AB2485800A9C5C1 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "Charts-masters/Charts.xcodeproj"; sourceTree = "<group>"; };
 		78526E2729845D95000C4D55 /* CompromisosVertientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosVertientes.swift; sourceTree = "<group>"; };
 		78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimientoPresupuesto.swift; sourceTree = "<group>"; };
 		78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCompromisosListaPresupuesto.swift; sourceTree = "<group>"; };
@@ -203,7 +194,6 @@
 		C1808A61261253FD00D2777C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C18D74DA25F963C70056C20A /* UniversidadDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversidadDetail.swift; sourceTree = "<group>"; };
 		C19982DD25E8413900A18811 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
-		C1A0BE6826DEB93F008E9755 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../../Desktop/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
 		C1B250E02653309500E53069 /* LargeValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeValueFormatter.swift; sourceTree = "<group>"; };
 		C1B6D70A25E71CAD00340FF3 /* EnTransparencia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnTransparencia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B6D70F25E71CAD00340FF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -254,7 +244,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A3CC5C283576EE000A7B31 /* Charts.framework in Frameworks */,
+				78025FDA2AB2485E00A9C5C1 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +268,17 @@
 		1E286E971CCD3F795366E32E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C1A0BE6826DEB93F008E9755 /* Charts.xcodeproj */,
-				105B6D46DCDE6AAD23263EFF /* libPods-EnTransparencia.a */,
+				78025FD42AB2485800A9C5C1 /* Charts.xcodeproj */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78025FD52AB2485800A9C5C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78025FD92AB2485800A9C5C1 /* Charts.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		923FF8DB923193B8DD72E20A /* Pods */ = {
@@ -597,15 +594,6 @@
 			path = SubsidioExtraordinario;
 			sourceTree = "<group>";
 		};
-		C1A0BE6926DEB93F008E9755 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C1A0BE6E26DEB93F008E9755 /* Charts.framework */,
-				C1A0BE7026DEB93F008E9755 /* ChartsTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		C1B6D70125E71CAD00340FF3 = {
 			isa = PBXGroup;
 			children = (
@@ -831,8 +819,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = C1A0BE6926DEB93F008E9755 /* Products */;
-					ProjectRef = C1A0BE6826DEB93F008E9755 /* Charts.xcodeproj */;
+					ProductGroup = 78025FD52AB2485800A9C5C1 /* Products */;
+					ProjectRef = 78025FD42AB2485800A9C5C1 /* Charts.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -845,18 +833,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		C1A0BE6E26DEB93F008E9755 /* Charts.framework */ = {
+		78025FD92AB2485800A9C5C1 /* Charts.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Charts.framework;
-			remoteRef = C1A0BE6D26DEB93F008E9755 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C1A0BE7026DEB93F008E9755 /* ChartsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ChartsTests.xctest;
-			remoteRef = C1A0BE6F26DEB93F008E9755 /* PBXContainerItemProxy */;
+			remoteRef = 78025FD82AB2485800A9C5C1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1109,7 +1090,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1169,7 +1150,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = "";
