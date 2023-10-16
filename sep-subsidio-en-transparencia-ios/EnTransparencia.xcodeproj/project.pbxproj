@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4868CA74ADECE8DB220C3A89 /* libPods-EnTransparencia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE183AF43EB38080BC98355 /* libPods-EnTransparencia.a */; };
 		78526E2829845D95000C4D55 /* CompromisosVertientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78526E2729845D95000C4D55 /* CompromisosVertientes.swift */; };
 		78A330362988592900675FB5 /* TableroCumplimientoPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */; };
 		78A330382988817700675FB5 /* TableroCompromisosListaPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */; };
@@ -137,7 +136,6 @@
 		78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActividadesEntregasDetalle.swift; sourceTree = "<group>"; };
 		7D4A9A09DD63CF8CFF69DEDE /* Pods-EnTransparencia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.release.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.release.xcconfig"; sourceTree = "<group>"; };
 		842EBE8AB826F7B79412B436 /* Pods-EnTransparencia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.debug.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.debug.xcconfig"; sourceTree = "<group>"; };
-		ACE183AF43EB38080BC98355 /* libPods-EnTransparencia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnTransparencia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C103F4D42625FA89007DAA9B /* DetalleProgramas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProgramas.swift; sourceTree = "<group>"; };
 		C103F4D826260981007DAA9B /* MinistracionEstatalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinistracionEstatalData.swift; sourceTree = "<group>"; };
 		C104E7B42768FDA200282373 /* TableroFederal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroFederal.swift; sourceTree = "<group>"; };
@@ -237,7 +235,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4868CA74ADECE8DB220C3A89 /* libPods-EnTransparencia.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +258,6 @@
 		1E286E971CCD3F795366E32E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ACE183AF43EB38080BC98355 /* libPods-EnTransparencia.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
