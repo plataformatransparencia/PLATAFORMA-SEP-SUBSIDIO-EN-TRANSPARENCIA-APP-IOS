@@ -82,7 +82,7 @@ struct DropDownSubsidioExtraordinario: View {
                             .animation(.spring())
                             .frame(width: .infinity, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     }
-                    if self.anio != "2023"{
+                    if self.anio != "2024"{
                         HStack{
                             Text(TITULO_SUBSIDIO_EXTRAORDINARIO)
                                 .font(.titulo())

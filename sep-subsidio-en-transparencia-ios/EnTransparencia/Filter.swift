@@ -106,7 +106,7 @@ struct Filter: View {
                         }
                         
                     }
-                    if (self.viewModel.anioSeleccionado != self.viewModel.anioActual && self.viewModel.subsidioSeleccionadokey != self.viewModel.subsidioSeleccionadokeyActual || self.viewModel.categoriaSelecionado != self.viewModel.categoriaActual || self.viewModel.estadoSeleccionado != self.viewModel.estadoActual) || self.viewModel.anioSeleccionado == "2021" && self.viewModel.subsidioSeleccionadokey == "subsidio_ordinario" {
+                    if (self.viewModel.subsidioSeleccionadokey != self.viewModel.subsidioSeleccionadokeyActual || self.viewModel.categoriaSelecionado != self.viewModel.categoriaActual || self.viewModel.estadoSeleccionado != self.viewModel.estadoActual) || self.viewModel.anioSeleccionado == "2021" && self.viewModel.subsidioSeleccionadokey == "subsidio_ordinario" {
                         self.viewModel.cambiarParametros = true
                         
                         switch self.viewModel.subsidioSeleccionadokey{

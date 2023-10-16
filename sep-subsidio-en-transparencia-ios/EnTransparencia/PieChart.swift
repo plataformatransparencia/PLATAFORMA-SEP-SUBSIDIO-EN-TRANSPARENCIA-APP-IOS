@@ -1,5 +1,5 @@
 import SwiftUI
-import Charts
+import DGCharts
 
 struct PieChart: UIViewRepresentable {
     var entries: [PieChartDataEntry]

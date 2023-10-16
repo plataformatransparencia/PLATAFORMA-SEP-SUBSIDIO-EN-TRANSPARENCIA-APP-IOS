@@ -1,5 +1,5 @@
 import Foundation
-import Charts
+import DGCharts
 open class LargeValueFormatter: NSObject, ValueFormatter, AxisValueFormatter
 {
     fileprivate static let MAX_LENGTH = 5

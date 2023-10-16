@@ -1,20 +1,26 @@
 PODS:
-  - GoogleMaps (4.2.0):
-    - GoogleMaps/Maps (= 4.2.0)
-  - GoogleMaps/Base (4.2.0)
-  - GoogleMaps/Maps (4.2.0):
+  - DGCharts (5.0.0):
+    - DGCharts/Core (= 5.0.0)
+  - DGCharts/Core (5.0.0)
+  - GoogleMaps (8.2.0):
+    - GoogleMaps/Maps (= 8.2.0)
+  - GoogleMaps/Base (8.2.0)
+  - GoogleMaps/Maps (8.2.0):
     - GoogleMaps/Base
 
 DEPENDENCIES:
-  - GoogleMaps (= 4.2.0)
+  - DGCharts
+  - GoogleMaps (= 8.2.0)
 
 SPEC REPOS:
   trunk:
+    - DGCharts
     - GoogleMaps
 
 SPEC CHECKSUMS:
-  GoogleMaps: eb03e327edfd70b06de1e6e321653f73712df7ad
+  DGCharts: 6e0cf2644e8f81ad13f04caa8bc18502870a1c54
+  GoogleMaps: 081f2547b60a1c0870a8f49166a653900e5055d5
 
-PODFILE CHECKSUM: 78e2fe92dc2bdbffb7d505657bb4234598cf8446
+PODFILE CHECKSUM: f9d86f5d9392034209a41f29b66cc41dcdec8969
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.13.0

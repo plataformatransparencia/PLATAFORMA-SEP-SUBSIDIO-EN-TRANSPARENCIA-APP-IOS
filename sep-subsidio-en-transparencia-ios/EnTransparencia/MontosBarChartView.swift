@@ -1,5 +1,5 @@
 import SwiftUI
-import Charts
+import DGCharts
 
 struct MontosBarChartView: UIViewRepresentable {
     let months = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]

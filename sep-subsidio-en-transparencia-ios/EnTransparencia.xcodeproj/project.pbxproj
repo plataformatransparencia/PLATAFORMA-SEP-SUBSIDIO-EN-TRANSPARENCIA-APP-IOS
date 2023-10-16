@@ -3,15 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78025FDA2AB2485E00A9C5C1 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78025FD92AB2485800A9C5C1 /* Charts.framework */; };
+		4868CA74ADECE8DB220C3A89 /* libPods-EnTransparencia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE183AF43EB38080BC98355 /* libPods-EnTransparencia.a */; };
 		78526E2829845D95000C4D55 /* CompromisosVertientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78526E2729845D95000C4D55 /* CompromisosVertientes.swift */; };
 		78A330362988592900675FB5 /* TableroCumplimientoPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */; };
 		78A330382988817700675FB5 /* TableroCompromisosListaPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */; };
 		78A3CC6228357BE8000A7B31 /* ActividadesEntregasDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */; };
+		78A55B082AD8AAB800735363 /* MontosBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D82BCC26277B8B0010FD26 /* MontosBarChartView.swift */; };
+		78A55B092AD8AACF00735363 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13130BB260A788800160CEC /* PieChart.swift */; };
 		C103F4D52625FA89007DAA9B /* DetalleProgramas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103F4D42625FA89007DAA9B /* DetalleProgramas.swift */; };
 		C103F4D926260981007DAA9B /* MinistracionEstatalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103F4D826260981007DAA9B /* MinistracionEstatalData.swift */; };
 		C104E7B52768FDA200282373 /* TableroFederal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C104E7B42768FDA200282373 /* TableroFederal.swift */; };
@@ -45,7 +47,6 @@
 		C13064AC273AFC4500058B04 /* AccionesEmprender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13064AB273AFC4500058B04 /* AccionesEmprender.swift */; };
 		C13064B1273AFCB100058B04 /* AccionesEmprenderDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13064B0273AFCB100058B04 /* AccionesEmprenderDetalle.swift */; };
 		C13130B8260A782D00160CEC /* Grafica.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13130B7260A782D00160CEC /* Grafica.swift */; };
-		C13130BC260A788800160CEC /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13130BB260A788800160CEC /* PieChart.swift */; };
 		C1319E25275E79830004F36C /* CompromisosUniversidadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1319E24275E79830004F36C /* CompromisosUniversidadViewModel.swift */; };
 		C1319E37275EAED00004F36C /* SemaforoTableros.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1319E36275EAED00004F36C /* SemaforoTableros.swift */; };
 		C1319E3D275ED4E80004F36C /* TableroCumplimientoEstatalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1319E3C275ED4E80004F36C /* TableroCumplimientoEstatalViewModel.swift */; };
@@ -74,7 +75,6 @@
 		C1B6D77725E7316600340FF3 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B6D77625E7316600340FF3 /* Menu.swift */; };
 		C1D4C7772661A5DD00E7DEFE /* MapaReload.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D4C7762661A5DD00E7DEFE /* MapaReload.swift */; };
 		C1D82BB52627547D0010FD26 /* DetalleTableroCumplimientoEstatal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D82BB42627547C0010FD26 /* DetalleTableroCumplimientoEstatal.swift */; };
-		C1D82BCD26277B8B0010FD26 /* MontosBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D82BCC26277B8B0010FD26 /* MontosBarChartView.swift */; };
 		C1D82FB4273F0B5F00AF2AAC /* TableroEstatal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D82FB3273F0B5F00AF2AAC /* TableroEstatal.swift */; };
 		C1D82FB8273F1B6D00AF2AAC /* ListaMontos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D82FB7273F1B6D00AF2AAC /* ListaMontos.swift */; };
 		C1D82FBC273F20E900AF2AAC /* MontoDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D82FBB273F20E900AF2AAC /* MontoDetalle.swift */; };
@@ -101,13 +101,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		78025FD82AB2485800A9C5C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78025FD42AB2485800A9C5C1 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
-			remoteInfo = Charts;
-		};
 		C1B6D71C25E71CB400340FF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C1B6D70225E71CAD00340FF3 /* Project object */;
@@ -138,13 +131,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		78025FD42AB2485800A9C5C1 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "Charts-masters/Charts.xcodeproj"; sourceTree = "<group>"; };
 		78526E2729845D95000C4D55 /* CompromisosVertientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosVertientes.swift; sourceTree = "<group>"; };
 		78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimientoPresupuesto.swift; sourceTree = "<group>"; };
 		78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCompromisosListaPresupuesto.swift; sourceTree = "<group>"; };
 		78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActividadesEntregasDetalle.swift; sourceTree = "<group>"; };
 		7D4A9A09DD63CF8CFF69DEDE /* Pods-EnTransparencia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.release.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.release.xcconfig"; sourceTree = "<group>"; };
 		842EBE8AB826F7B79412B436 /* Pods-EnTransparencia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.debug.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.debug.xcconfig"; sourceTree = "<group>"; };
+		ACE183AF43EB38080BC98355 /* libPods-EnTransparencia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnTransparencia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C103F4D42625FA89007DAA9B /* DetalleProgramas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProgramas.swift; sourceTree = "<group>"; };
 		C103F4D826260981007DAA9B /* MinistracionEstatalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinistracionEstatalData.swift; sourceTree = "<group>"; };
 		C104E7B42768FDA200282373 /* TableroFederal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroFederal.swift; sourceTree = "<group>"; };
@@ -244,7 +237,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78025FDA2AB2485E00A9C5C1 /* Charts.framework in Frameworks */,
+				4868CA74ADECE8DB220C3A89 /* libPods-EnTransparencia.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,17 +261,9 @@
 		1E286E971CCD3F795366E32E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				78025FD42AB2485800A9C5C1 /* Charts.xcodeproj */,
+				ACE183AF43EB38080BC98355 /* libPods-EnTransparencia.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		78025FD52AB2485800A9C5C1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				78025FD92AB2485800A9C5C1 /* Charts.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		923FF8DB923193B8DD72E20A /* Pods */ = {
@@ -787,9 +772,8 @@
 		C1B6D70225E71CAD00340FF3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					C1B6D70925E71CAD00340FF3 = {
 						CreatedOnToolsVersion = 12.4;
@@ -813,16 +797,8 @@
 				Base,
 			);
 			mainGroup = C1B6D70125E71CAD00340FF3;
-			packageReferences = (
-			);
 			productRefGroup = C1B6D70B25E71CAD00340FF3 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 78025FD52AB2485800A9C5C1 /* Products */;
-					ProjectRef = 78025FD42AB2485800A9C5C1 /* Charts.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				C1B6D70925E71CAD00340FF3 /* EnTransparencia */,
@@ -831,16 +807,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		78025FD92AB2485800A9C5C1 /* Charts.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Charts.framework;
-			remoteRef = 78025FD82AB2485800A9C5C1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C1B6D70825E71CAD00340FF3 /* Resources */ = {
@@ -917,6 +883,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A55B092AD8AACF00735363 /* PieChart.swift in Sources */,
+				78A55B082AD8AAB800735363 /* MontosBarChartView.swift in Sources */,
 				C11971AA275A90F200ECBEAB /* FiltroViewModel.swift in Sources */,
 				C110A719274C19A800793A6B /* ListaAcciones.swift in Sources */,
 				C1B6D75F25E7233700340FF3 /* ViewRouter.swift in Sources */,
@@ -944,7 +912,6 @@
 				C1DE9F50261E88850067E2E9 /* CompromisosData.swift in Sources */,
 				C1DAE9D9261F930C0014E286 /* Referencias.swift in Sources */,
 				C1F8536A25EF11E0009EB9C9 /* GridView.swift in Sources */,
-				C13130BC260A788800160CEC /* PieChart.swift in Sources */,
 				C11289A32608F6CB00A51F2A /* TableroCumplimientoEstatal.swift in Sources */,
 				C10A548526051C550027EB34 /* TableroCumplimientoFederal.swift in Sources */,
 				C1EC3BC82603E2ED00D37428 /* DetalleCompromiso.swift in Sources */,
@@ -998,7 +965,6 @@
 				C13130B8260A782D00160CEC /* Grafica.swift in Sources */,
 				C1DFEB582613ADC0007A1668 /* UniversidadDetailData.swift in Sources */,
 				C12C0980265D96C4007E921C /* MarkerWindow.swift in Sources */,
-				C1D82BCD26277B8B0010FD26 /* MontosBarChartView.swift in Sources */,
 				C1E661F4276004E800F21C59 /* UtilsTableroTrimestres.swift in Sources */,
 				C1E66210276026C500F21C59 /* UniversidadDetailViewModel.swift in Sources */,
 			);
@@ -1170,7 +1136,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 59;
+				CURRENT_PROJECT_VERSION = 61;
 				DEVELOPMENT_ASSET_PATHS = "\"EnTransparencia/Preview Content\"";
 				DEVELOPMENT_TEAM = MYY8YFL9J8;
 				ENABLE_PREVIEWS = YES;
@@ -1180,7 +1146,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.48;
+				MARKETING_VERSION = 1.50;
 				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparencia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = EnTransparenciaProduccion2;
@@ -1198,7 +1164,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 59;
+				CURRENT_PROJECT_VERSION = 61;
 				DEVELOPMENT_ASSET_PATHS = "\"EnTransparencia/Preview Content\"";
 				DEVELOPMENT_TEAM = MYY8YFL9J8;
 				ENABLE_PREVIEWS = YES;
@@ -1208,7 +1174,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.48;
+				MARKETING_VERSION = 1.50;
 				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparencia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = EnTransparenciaProduccion2;
