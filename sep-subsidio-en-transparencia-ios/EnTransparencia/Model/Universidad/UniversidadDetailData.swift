@@ -9,7 +9,9 @@ struct DetalleUniversidad: Codable {
     var webUrl: String
     var transparencyUrl: String
     var gobernador: String
+    var gobernadorCargo: String
     var rector: String
+    var rectorCargo: String
     var direccion: String
     var montos: Montos
     var anexoEjecucion: String?

@@ -8,7 +8,9 @@ final class UniversidadDetailViewModel: ObservableObject{
     @Published var webUrl = ""
     @Published var transparencyUrl = ""
     @Published var gobernador = ""
+    @Published var gobernadorCargo = ""
     @Published var rector = ""
+    @Published var rectorCargo = ""
     @Published var direccion = ""
     
     @Published var anexoEjecucion = ""
@@ -71,7 +73,9 @@ final class UniversidadDetailViewModel: ObservableObject{
                     //self.escudo = decodedData.escudo
                     self.transparencyUrl = decodedData.transparencyUrl
                     self.gobernador = decodedData.gobernador
+                    self.gobernadorCargo = decodedData.gobernadorCargo
                     self.rector = decodedData.rector
+                    self.rectorCargo = decodedData.rectorCargo
                     self.direccion = decodedData.direccion
                     self.anexoEjecucion = decodedData.anexoEjecucion ?? ""
                     self.ModificacionCalendario = decodedData.ModificacionCalendario ?? ""

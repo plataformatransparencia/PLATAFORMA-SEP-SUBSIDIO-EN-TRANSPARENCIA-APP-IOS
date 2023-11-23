@@ -1,4 +1,4 @@
-module Pods_EnTransparencia {
+framework module Pods_EnTransparencia {
   umbrella header "Pods-EnTransparencia-umbrella.h"
 
   export *

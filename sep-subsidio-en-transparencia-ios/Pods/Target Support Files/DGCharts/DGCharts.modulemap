@@ -1,4 +1,4 @@
-module DGCharts {
+framework module DGCharts {
   umbrella header "DGCharts-umbrella.h"
 
   export *

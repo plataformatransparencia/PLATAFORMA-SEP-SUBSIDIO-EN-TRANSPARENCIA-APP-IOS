@@ -79,7 +79,7 @@ struct DropDownSubsidioExtraordinario: View {
                                 }
                             }).padding(.top, 5)
                             .background(expand ? Color.white : Color.white)
-                            .animation(.spring())
+                            .animation(.spring(), value: true)
                             .frame(width: .infinity, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     }
                     if self.anio != "2024"{
@@ -128,7 +128,7 @@ struct DropDownSubsidioExtraordinario: View {
                                 }
                             })
                             .background(expand ? Color.white : Color.white)
-                            .animation(.spring())
+                            .animation(.spring(), value: true)
                             .frame(width: .infinity, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         }
                     }
@@ -138,8 +138,8 @@ struct DropDownSubsidioExtraordinario: View {
             }).padding(.top, 11)
             .frame(width: .infinity, height: self.expandExtraordinarios ? 230 : 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
             .background(expand ? Color.white : Color.white)
-            .animation(.spring())
-            .animation(.default)
+            .animation(.spring(), value: true)
+            .animation(.default, value: true)
         }
     }
 }

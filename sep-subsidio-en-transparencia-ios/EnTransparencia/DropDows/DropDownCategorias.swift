@@ -63,9 +63,9 @@ struct DropDownCategorias: View {
                 })
                 .padding()
                 .background(expand ? Color.white : Color.white)
-                .animation(.spring())
+                .animation(.spring(), value: true)
             }.frame(width: .infinity, height: 150, alignment: .center)
-            .animation(.default)
+            .animation(.default, value: true)
             HStack{
                 Text(TITULO_DROPDOWN_ESTADOS)
                     .font(.titulo())
@@ -114,9 +114,9 @@ struct DropDownCategorias: View {
                 })
                 .padding()
                 .background(expandClasificacion ? Color.white : Color.white)
-                .animation(.spring())
+                .animation(.spring(), value: true)
             }.frame(width: .infinity, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            .animation(.default)
+            .animation(.default, value: true)
         }
     }
 }

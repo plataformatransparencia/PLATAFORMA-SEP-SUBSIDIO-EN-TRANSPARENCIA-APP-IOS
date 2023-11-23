@@ -49,9 +49,9 @@ struct DropDownAnios: View {
                     }
                 }).padding(.top, 11)
                 .background(expand ? Color.white : Color.white)
-                .animation(.spring())
+                .animation(.spring(), value: true)
             }.frame(width: .infinity, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            .animation(.default)
+            .animation(.default, value: true)
         }
     }
 }

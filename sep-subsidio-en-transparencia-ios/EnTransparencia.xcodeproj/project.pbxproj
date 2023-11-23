@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		782268FD2ADDEC1800690C7E /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13130BB260A788800160CEC /* PieChart.swift */; };
 		78526E2829845D95000C4D55 /* CompromisosVertientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78526E2729845D95000C4D55 /* CompromisosVertientes.swift */; };
 		78A330362988592900675FB5 /* TableroCumplimientoPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */; };
 		78A330382988817700675FB5 /* TableroCompromisosListaPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */; };
 		78A3CC6228357BE8000A7B31 /* ActividadesEntregasDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */; };
 		78A55B082AD8AAB800735363 /* MontosBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D82BCC26277B8B0010FD26 /* MontosBarChartView.swift */; };
-		78A55B092AD8AACF00735363 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13130BB260A788800160CEC /* PieChart.swift */; };
 		C103F4D52625FA89007DAA9B /* DetalleProgramas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103F4D42625FA89007DAA9B /* DetalleProgramas.swift */; };
 		C103F4D926260981007DAA9B /* MinistracionEstatalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103F4D826260981007DAA9B /* MinistracionEstatalData.swift */; };
 		C104E7B52768FDA200282373 /* TableroFederal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C104E7B42768FDA200282373 /* TableroFederal.swift */; };
@@ -97,6 +97,7 @@
 		C1F8536525EEDBDB009EB9C9 /* GridCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8536425EEDBDB009EB9C9 /* GridCellView.swift */; };
 		C1F8536A25EF11E0009EB9C9 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8536925EF11E0009EB9C9 /* GridView.swift */; };
 		C1FE6C47260BAEC9005168F7 /* ObjectUniversidades.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE6C46260BAEC9005168F7 /* ObjectUniversidades.swift */; };
+		FCD95AEC3DF9222B7A5818A3 /* Pods_EnTransparencia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6243242FA61C0C884EB050E2 /* Pods_EnTransparencia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +131,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6243242FA61C0C884EB050E2 /* Pods_EnTransparencia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnTransparencia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78526E2729845D95000C4D55 /* CompromisosVertientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosVertientes.swift; sourceTree = "<group>"; };
 		78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimientoPresupuesto.swift; sourceTree = "<group>"; };
 		78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCompromisosListaPresupuesto.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCD95AEC3DF9222B7A5818A3 /* Pods_EnTransparencia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +261,7 @@
 		1E286E971CCD3F795366E32E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6243242FA61C0C884EB050E2 /* Pods_EnTransparencia.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -716,6 +720,7 @@
 				C1B6D70825E71CAD00340FF3 /* Resources */,
 				7F3346D0B9152D6AB66BF5C1 /* [CP] Copy Pods Resources */,
 				78A3CC5E283576EE000A7B31 /* Embed Frameworks */,
+				0745FAD83FD6672336644ABA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -833,6 +838,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0745FAD83FD6672336644ABA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7F3346D0B9152D6AB66BF5C1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -879,7 +901,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A55B092AD8AACF00735363 /* PieChart.swift in Sources */,
+				782268FD2ADDEC1800690C7E /* PieChart.swift in Sources */,
 				78A55B082AD8AAB800735363 /* MontosBarChartView.swift in Sources */,
 				C11971AA275A90F200ECBEAB /* FiltroViewModel.swift in Sources */,
 				C110A719274C19A800793A6B /* ListaAcciones.swift in Sources */,
@@ -1132,7 +1154,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 61;
+				CURRENT_PROJECT_VERSION = 62;
 				DEVELOPMENT_ASSET_PATHS = "\"EnTransparencia/Preview Content\"";
 				DEVELOPMENT_TEAM = MYY8YFL9J8;
 				ENABLE_PREVIEWS = YES;
@@ -1142,7 +1164,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.50;
+				MARKETING_VERSION = 1.51;
 				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparencia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = EnTransparenciaProduccion2;
@@ -1160,7 +1182,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 61;
+				CURRENT_PROJECT_VERSION = 62;
 				DEVELOPMENT_ASSET_PATHS = "\"EnTransparencia/Preview Content\"";
 				DEVELOPMENT_TEAM = MYY8YFL9J8;
 				ENABLE_PREVIEWS = YES;
@@ -1170,7 +1192,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.50;
+				MARKETING_VERSION = 1.51;
 				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparencia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = EnTransparenciaProduccion2;
