@@ -199,15 +199,40 @@ struct UniversidadDetail: View {
                                                 [
                                                     GridItem(.flexible(minimum: 350, maximum: 350), spacing: 3)
                                                 ],spacing: 3, content: {
-                                                    itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.higherEducationEnrolment))), texto: TITULO_MEST)
-                                                    itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.highSchoolEnrolment))), texto: TITULO_MEMST)
-                                                    itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.enrolmentTotal))), texto: TITULO_MT)
-                                                    itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.fullTimeProfessorsTotal))), texto: TITULO_TPTC)
-                                                    itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.desirableProfileProfessor))), texto: TITULO_TPTCPDV)
-                                                    itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.nationalSystemResearchersProfessor))), texto: TITULO_PSNIV)
-                                                    itemNumeralia(monto: "$" + String(formatResultForRegion(basedOn: String(universidadDetailViewModel.studentAllowance))), texto: TITULO_SAFYE)
-                                                    itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.federationOwnershipPercentage))) + "%", texto: TITULO_PPF)
-                                                    itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.stateOwnershipPercentage))) + "%", texto: TITULO_PPE)
+                                                    
+                                                    if(universidadDetailViewModel.higherEducationEnrolment == 0 &&
+                                                       universidadDetailViewModel.highSchoolEnrolment == 0 &&
+                                                       universidadDetailViewModel.enrolmentTotal == 0 &&
+                                                       universidadDetailViewModel.fullTimeProfessorsTotal == 0 &&
+                                                       universidadDetailViewModel.desirableProfileProfessor == 0 &&
+                                                       universidadDetailViewModel.nationalSystemResearchersProfessor == 0 &&
+                                                       universidadDetailViewModel.studentAllowance == 0){
+                                                    HStack{
+                                                        if universidadDetailViewModel.anexoEjecucion != ""{
+                                                            Text(CONSOLIDACION)
+                                                                .foregroundColor(.black)
+                                                                .font(.titulo())
+                                                                .bold()
+                                                        }else{
+                                                            Text(PROCESO)
+                                                                .foregroundColor(.black)
+                                                                .font(.titulo())
+                                                                .bold()
+                                                        }
+                                                        }.padding(.bottom, 7)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.federationOwnershipPercentage))) + "%", texto: TITULO_PPF)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.stateOwnershipPercentage))) + "%", texto: TITULO_PPE)
+                                                    }else{
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.higherEducationEnrolment))), texto: TITULO_MEST)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.highSchoolEnrolment))), texto: TITULO_MEMST)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.enrolmentTotal))), texto: TITULO_MT)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.fullTimeProfessorsTotal))), texto: TITULO_TPTC)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.desirableProfileProfessor))), texto: TITULO_TPTCPDV)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.nationalSystemResearchersProfessor))), texto: TITULO_PSNIV)
+                                                        itemNumeralia(monto: "$" + String(formatResultForRegion(basedOn: String(universidadDetailViewModel.studentAllowance))), texto: TITULO_SAFYE)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.federationOwnershipPercentage))) + "%", texto: TITULO_PPF)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.stateOwnershipPercentage))) + "%", texto: TITULO_PPE)
+                                                    }
                                                 })
                                 }
                             }.padding(.leading)
@@ -427,7 +452,7 @@ struct UniversidadDetail: View {
                                             if(self.subsidioSeleccionadokey == "subsidio_presupuesto"){
                                                 let conv = universidadDetailViewModel.convenio.components(separatedBy: ",")
                                                 VStack {
-                                                    ForEach(0..<conv.count){ i in
+                                                    ForEach(0..<conv.count, id: \.self){ i in
                                                         let vert = conv[i].description.components(separatedBy: "*")
                                                         if vert[0] == "A" {
                                                             BotonDocumentos(documento: vert[1], titulo: TITULO_DOC_CONVENIO_VER_A, anio: self.anio)

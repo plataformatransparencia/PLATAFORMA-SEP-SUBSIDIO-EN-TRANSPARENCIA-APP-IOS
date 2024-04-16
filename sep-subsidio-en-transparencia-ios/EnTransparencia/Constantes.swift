@@ -38,6 +38,8 @@ let TITULO_FICHA_GENERAL = "Ficha General", TITULO_DIRECCION = "Dirección", TIT
 
 //NUMERALIA
 let TITULO_NUMERALIA = "Numeralia",
+    PROCESO = "(Institución en proceso de creación)",
+    CONSOLIDACION = "(Institución en proceso de consolidación)",
     // TITULOS DE NUMERALIA PARA EXTRAORDINARIO
     TITULO_MEST_EX = "Matrícula Educación Superior Total \u{00B9}",
     TITULO_MT_EX = "Matrícula Total \u{00B2}",

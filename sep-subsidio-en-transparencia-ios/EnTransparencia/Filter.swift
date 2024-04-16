@@ -1,6 +1,15 @@
 import SwiftUI
 import GoogleMaps
 
+func getSafeAreaButton() -> CGFloat{
+    let keyWindows = UIApplication.shared.connectedScenes
+        .filter({$0.activationState == .foregroundActive})
+        .map({$0 as? UIWindowScene})
+        .compactMap({$0})
+        .last?.windows
+        .filter({$0.isKeyWindow}).last
+    return (keyWindows?.safeAreaInsets.bottom)!
+}
 struct Filter: View {
     @EnvironmentObject var viewModel : ViewModel
     @StateObject private var filtroViewModel = FiltroViewModel()
@@ -90,7 +99,7 @@ struct Filter: View {
                             DropDownCategorias(clasificacion: filtroViewModel.clasificacion, subsidioSeleccionadokey: self.viewModel.subsidioSeleccionadokey, categoria_estado: filtroViewModel.categoria_estado)
                         }.padding(.top, 30)
                     }.onAppear(perform: filtroViewModel.loadDataFilter)
-                    .padding(.bottom, (UIApplication.shared.windows.last?.safeAreaInsets.bottom)! + 5)
+                    .padding(.bottom, getSafeAreaButton() + 5)
                     .padding(.horizontal)
                     .background(Color.white)
                     .cornerRadius(25)
