@@ -11,6 +11,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
+
+/** Provides a custom pin image glyph for an advanced marker. */
 @interface GMSPinImageGlyph : NSObject
 
 - (instancetype)init NS_UNAVAILABLE;

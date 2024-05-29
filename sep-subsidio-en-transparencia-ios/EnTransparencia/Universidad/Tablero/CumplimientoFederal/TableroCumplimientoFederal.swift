@@ -119,7 +119,7 @@ struct TableroCumplimientoFederal: View {
                                         NavigationLink(destination: DetalleTableroCumplimientoFederal(mes: "Abril", sepEstadoCumplimiento: tableroCumplimientoFederalViewModel.sepEstadoCumplimientoAbril ?? "", sepEstadoFecha: tableroCumplimientoFederalViewModel.sepEstadoFechaCumplimientoAbril ?? "", sepEstadoObservacion: tableroCumplimientoFederalViewModel.sepEstadoObservacionCumplimientoAbril ?? "", estadoUniversidadCumplimiento: tableroCumplimientoFederalViewModel.estadoUniversidadCumplimientoAbril ?? "", estadoUniversidadFecha: tableroCumplimientoFederalViewModel.estadoUniversidadFechaCumplimientoAbril ?? "", estadoUniversidadObservacion: tableroCumplimientoFederalViewModel.estadoUniversidadObservacionCumplimientoAbril ?? "", anio: self.anio, tipo: self.tipo)) {
                                             SemaforoTablero(mes: "Abril", cumplimiento: tableroCumplimientoFederalViewModel.sepEstadoCumplimientoAbril ?? "", monto: tableroCumplimientoFederalViewModel.montoAbril ?? 0.0)
                                         }
-                                        NavigationLink(destination: DetalleTableroCumplimientoFederal(mes: "Marzo", sepEstadoCumplimiento: tableroCumplimientoFederalViewModel.sepEstadoCumplimientoMarzo ?? "", sepEstadoFecha: tableroCumplimientoFederalViewModel.sepEstadoFechaCumplimientoMarzo ?? "", sepEstadoObservacion: tableroCumplimientoFederalViewModel.sepEstadoObservacionCumplimientoMarzo ?? "", estadoUniversidadCumplimiento: tableroCumplimientoFederalViewModel.estadoUniversidadCumplimientoMarzo ?? "", estadoUniversidadFecha: tableroCumplimientoFederalViewModel.estadoUniversidadFechaCumplimientoMarzo ?? "", estadoUniversidadObservacion: tableroCumplimientoFederalViewModel.estadoUniversidadObservacionCumplimientoMarzo ?? "", anio: self.anio, tipo: self.tipo)) {
+                                        NavigationLink(destination: DetalleTableroCumplimientoFederal(mes: "Mayo", sepEstadoCumplimiento: tableroCumplimientoFederalViewModel.sepEstadoCumplimientoMayo ?? "", sepEstadoFecha: tableroCumplimientoFederalViewModel.sepEstadoFechaCumplimientoMayo ?? "", sepEstadoObservacion: tableroCumplimientoFederalViewModel.sepEstadoObservacionCumplimientoMayo ?? "", estadoUniversidadCumplimiento: tableroCumplimientoFederalViewModel.estadoUniversidadCumplimientoMayo ?? "", estadoUniversidadFecha: tableroCumplimientoFederalViewModel.estadoUniversidadFechaCumplimientoMayo ?? "", estadoUniversidadObservacion: tableroCumplimientoFederalViewModel.estadoUniversidadObservacionCumplimientoMayo ?? "", anio: self.anio, tipo: self.tipo)) {
                                             SemaforoTablero(mes: "Mayo", cumplimiento: tableroCumplimientoFederalViewModel.sepEstadoCumplimientoMayo ?? "", monto: tableroCumplimientoFederalViewModel.montoMayo ?? 0.0)
                                         }
                                         NavigationLink(destination: DetalleTableroCumplimientoFederal(mes: "Junio", sepEstadoCumplimiento: tableroCumplimientoFederalViewModel.sepEstadoCumplimientoJunio ?? "", sepEstadoFecha: tableroCumplimientoFederalViewModel.sepEstadoFechaCumplimientoJunio ?? "", sepEstadoObservacion: tableroCumplimientoFederalViewModel.sepEstadoObservacionCumplimientoJunio ?? "", estadoUniversidadCumplimiento: tableroCumplimientoFederalViewModel.estadoUniversidadCumplimientoJunio ?? "", estadoUniversidadFecha: tableroCumplimientoFederalViewModel.estadoUniversidadFechaCumplimientoJunio ?? "", estadoUniversidadObservacion: tableroCumplimientoFederalViewModel.estadoUniversidadObservacionCumplimientoJunio ?? "", anio: self.anio, tipo: self.tipo)) {
@@ -304,7 +304,7 @@ struct TableroCumplimientoFederal: View {
                             }.padding()
                         }
                         VStack{
-                            Text("Cumplimiento Monto Calendarizado Estatal")
+                            Text("Cumplimiento Monto Calendarizado Federal")
                                 .foregroundColor(Color("gris1"))
                                 .font(.titulo())
                                 .bold()
@@ -316,7 +316,7 @@ struct TableroCumplimientoFederal: View {
                         VStack(alignment: .leading){
                             HStack{
                                 VStack(alignment: .leading){
-                                    Text("Monto Total Calendarizado")
+                                    Text("Monto total calendarizado por la SEP")
                                         .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                         .foregroundColor(.black)
                                         .font(.titulo())
@@ -331,7 +331,7 @@ struct TableroCumplimientoFederal: View {
                             HStack{
                                 VStack(alignment: .center){
                                     Rectangle().frame(height:0)
-                                    Text("Adeudo total estatal con corte al:")
+                                    Text("Adeudo total federal con corte al:")
                                         .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                         .foregroundColor(.black)
                                         .font(.titulo())

@@ -8,11 +8,14 @@
 //  Service: https://cloud.google.com/maps-platform/terms
 //
 
+#import <CoreLocation/CoreLocation.h>
 #import "GMSCollisionBehavior.h"
 #import "GMSMarker.h"
 
+
 NS_ASSUME_NONNULL_BEGIN
 
+/** An advanced marker is an icon placed at a particular point on the map's surface. */
 @interface GMSAdvancedMarker : GMSMarker
 
 /**
@@ -20,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
  * affected by other markers or labeled content on the map.
  */
 @property(nonatomic) GMSCollisionBehavior collisionBehavior;
+
 
 @end
 

@@ -10,7 +10,10 @@ class GoogleMapsController: UIViewController, GMSMapViewDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
         var camera = GMSCameraPosition.camera(withLatitude: LATITUD_MAPA, longitude: LONGITUD_MAPA, zoom: UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad ? 6.1 : 5.1)
-        let mapView = GMSMapView.map(withFrame: view.frame, camera: camera)
+        let options = GMSMapViewOptions()
+        options.camera = camera
+        options.frame = view.frame
+        let mapView = GMSMapView(options:options)
         view.addSubview(mapView)
         self.viewModel.loadData(anio: self.anio, categoria: self.categoria, estado: self.estado, subsidio: self.subsidio, unicompletionHandler: {uni, error in
             if let uni = uni {

@@ -179,7 +179,7 @@ struct TableroCumplimientoEstatal: View {
                         VStack(alignment: .leading){
                             HStack{
                                 VStack(alignment: .leading){
-                                    Text("Monto total ministrado por el Estado")
+                                    Text("Monto total calendarizado por el Estado")
                                         .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                         .foregroundColor(.black)
                                         .font(.titulo())
@@ -193,7 +193,7 @@ struct TableroCumplimientoEstatal: View {
                             }.padding([.bottom, .horizontal])
                             HStack{
                                 VStack(alignment: .leading){
-                                    Text("Monto total calendarizado para ministrar")
+                                    Text("Monto total calendarizado")
                                         .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                         .foregroundColor(.black)
                                         .font(.titulo())

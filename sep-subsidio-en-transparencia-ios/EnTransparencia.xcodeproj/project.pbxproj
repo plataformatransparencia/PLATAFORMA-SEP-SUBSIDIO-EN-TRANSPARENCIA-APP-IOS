@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -97,7 +97,7 @@
 		C1F8536525EEDBDB009EB9C9 /* GridCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8536425EEDBDB009EB9C9 /* GridCellView.swift */; };
 		C1F8536A25EF11E0009EB9C9 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8536925EF11E0009EB9C9 /* GridView.swift */; };
 		C1FE6C47260BAEC9005168F7 /* ObjectUniversidades.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE6C46260BAEC9005168F7 /* ObjectUniversidades.swift */; };
-		FCD95AEC3DF9222B7A5818A3 /* Pods_EnTransparencia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6243242FA61C0C884EB050E2 /* Pods_EnTransparencia.framework */; };
+		D53DC411AAF8F9AF247692FE /* libPods-EnTransparencia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D196EA9165537AEAA9ACC10A /* libPods-EnTransparencia.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,7 +131,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6243242FA61C0C884EB050E2 /* Pods_EnTransparencia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnTransparencia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78526E2729845D95000C4D55 /* CompromisosVertientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosVertientes.swift; sourceTree = "<group>"; };
 		78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimientoPresupuesto.swift; sourceTree = "<group>"; };
 		78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCompromisosListaPresupuesto.swift; sourceTree = "<group>"; };
@@ -230,6 +229,7 @@
 		C1F8536425EEDBDB009EB9C9 /* GridCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCellView.swift; sourceTree = "<group>"; };
 		C1F8536925EF11E0009EB9C9 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		C1FE6C46260BAEC9005168F7 /* ObjectUniversidades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectUniversidades.swift; sourceTree = "<group>"; };
+		D196EA9165537AEAA9ACC10A /* libPods-EnTransparencia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnTransparencia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,7 +237,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD95AEC3DF9222B7A5818A3 /* Pods_EnTransparencia.framework in Frameworks */,
+				D53DC411AAF8F9AF247692FE /* libPods-EnTransparencia.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +261,7 @@
 		1E286E971CCD3F795366E32E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6243242FA61C0C884EB050E2 /* Pods_EnTransparencia.framework */,
+				D196EA9165537AEAA9ACC10A /* libPods-EnTransparencia.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -720,7 +720,6 @@
 				C1B6D70825E71CAD00340FF3 /* Resources */,
 				7F3346D0B9152D6AB66BF5C1 /* [CP] Copy Pods Resources */,
 				78A3CC5E283576EE000A7B31 /* Embed Frameworks */,
-				0745FAD83FD6672336644ABA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -774,7 +773,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					C1B6D70925E71CAD00340FF3 = {
 						CreatedOnToolsVersion = 12.4;
@@ -838,23 +837,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0745FAD83FD6672336644ABA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7F3346D0B9152D6AB66BF5C1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1074,7 +1056,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1134,7 +1116,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1154,17 +1136,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 64;
+				CURRENT_PROJECT_VERSION = 68;
 				DEVELOPMENT_ASSET_PATHS = "\"EnTransparencia/Preview Content\"";
 				DEVELOPMENT_TEAM = MYY8YFL9J8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = EnTransparencia/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.53;
+				MARKETING_VERSION = 1.55;
 				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparencia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = EnTransparenciaProduccion2;
@@ -1182,17 +1164,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 64;
+				CURRENT_PROJECT_VERSION = 68;
 				DEVELOPMENT_ASSET_PATHS = "\"EnTransparencia/Preview Content\"";
 				DEVELOPMENT_TEAM = MYY8YFL9J8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = EnTransparencia/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.53;
+				MARKETING_VERSION = 1.55;
 				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparencia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = EnTransparenciaProduccion2;

@@ -8,13 +8,17 @@
 //  Service: https://cloud.google.com/maps-platform/terms
 //
 
+
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class GMSMutableFeatureStyle;
+
 /** Specifies how a map feature should appear when displayed on a map. */
 NS_SWIFT_NAME(FeatureStyle)
-@interface GMSFeatureStyle : NSObject
+@interface GMSFeatureStyle :
+    NSObject
 
 /** Creates a new style. */
 + (instancetype)styleWithFillColor:(nullable UIColor *)fillColor
@@ -30,17 +34,22 @@ NS_SWIFT_NAME(FeatureStyle)
 - (instancetype)init NS_DESIGNATED_INITIALIZER NS_UNAVAILABLE;
 
 /** Specifies the fill color, including the alpha channel. */
-@property(nonatomic, readonly, nullable) UIColor *fillColor;
+@property(nonatomic, readonly, copy, nullable) UIColor *fillColor;
 
 /** Specifies the border color, including the alpha channel. */
-@property(nonatomic, readonly, nullable) UIColor *strokeColor;
+@property(nonatomic, readonly, copy, nullable) UIColor *strokeColor;
 
 /** Specifies the border width, in screen points. */
 @property(nonatomic, readonly) CGFloat strokeWidth;
 
+
+
 @end
 
+
 /** Value to use for @c strokeWidth parameter when the stroke width should be unchanged. */
-FOUNDATION_EXTERN const float GMSFeatureStyleStrokeWidthUnspecified;
+FOUNDATION_EXTERN const CGFloat
+    GMSFeatureStyleStrokeWidthUnspecified NS_SWIFT_NAME(FeatureStyle.strokeWidthUnspecified);
+
 
 NS_ASSUME_NONNULL_END

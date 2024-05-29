@@ -13,6 +13,7 @@
 @class GMSPinImageOptions;
 NS_ASSUME_NONNULL_BEGIN
 
+/** Provides a custom pin image for an advanced marker. */
 @interface GMSPinImage : UIImage
 
 - (instancetype)init NS_UNAVAILABLE;

@@ -14,6 +14,7 @@
 @class GMSPinImageGlyph;
 NS_ASSUME_NONNULL_BEGIN
 
+/** Provides pin image customization for an advanced marker. */
 @interface GMSPinImageOptions : NSObject
 
 /** An object representing a String or Image to replace the glyph on the marker */
