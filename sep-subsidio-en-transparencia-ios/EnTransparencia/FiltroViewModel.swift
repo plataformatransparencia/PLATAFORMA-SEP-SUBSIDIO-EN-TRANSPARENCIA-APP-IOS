@@ -23,7 +23,7 @@ final class FiltroViewModel: ObservableObject{
                     self.subsidios = decodedData.subsidios
                     self.clasificacion = decodedData.clasificacion
                     self.categoria_estado = decodedData.categoria_estado
-                    print("\(decodedData)")
+                    //print("\(decodedData)")
                 }
             }catch{
                 print("No se pudo completar la peticion. Error: \(error)")

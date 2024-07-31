@@ -161,7 +161,7 @@ struct TableroFederal: View {
                                 .foregroundColor(.black)
                                 .padding(.top)
                             
-                            Text("Adeudo Total Federal con Corte al: \(tableroCumplimientoFederalViewModel.fechaAdeudo)")
+                            Text("Adeudo de la aportación Federal por parte del Estado con corte al: \(tableroCumplimientoFederalViewModel.fechaAdeudo)")
                                 .multilineTextAlignment(.center)
                                 .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                 .font(.texto1())
