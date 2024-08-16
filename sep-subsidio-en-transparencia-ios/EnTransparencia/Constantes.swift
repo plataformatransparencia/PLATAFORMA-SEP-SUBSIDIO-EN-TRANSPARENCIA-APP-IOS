@@ -30,7 +30,7 @@ let TITULO_FILTRO = "Aplica filtros a tu consulta",
 let TEXTO_SEARCH_TEXT_FIELD = "Busca Universidades"
 
 /* MENÚ*/
-let TITULO_MENU = "Menú", GRID_MENU_PLATAFORMA = "Conoce la Plataforma en Transparencia" , GRID_MENU_PROGRAMAS = "Acerca de los programas"
+let TITULO_MENU = "Menú", GRID_MENU_PLATAFORMA = "Conoce la Plataforma en Transparencia" , GRID_MENU_PROGRAMAS = "Acerca de los programas", GRID_MENU_POLITICAS = "Políticas de privacidad"
 
 /* DETALLE DE UNIVERSIDAD */
 //FICHA GENERAL
@@ -81,4 +81,5 @@ let TITULO_TABLERO = "Tablero", TITULO_TABLERO_ACCIONES_UNI = "Acciones por Empr
 
 //REFERENCIAS ANEXO EJECUCIÓN
 let TITULO_REFERENCIA_ANEXO_EJE = "Referencia de acuerdo al anexo de ejecución", TITULO_OTRAS_REF = "Otras referencias", TITULO_REF = "Referencias"
+
 

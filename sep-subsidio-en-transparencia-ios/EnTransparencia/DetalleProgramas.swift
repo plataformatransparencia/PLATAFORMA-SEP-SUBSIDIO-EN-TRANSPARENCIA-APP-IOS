@@ -4,7 +4,7 @@ struct DetalleProgramas: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     @StateObject private var detalleProgramasViewModel = DetalleProgramasViewModel()
     
-    var body: some View {
+    var body: some View { 
         VStack{
             ZStack{
                 Color.white

@@ -47,6 +47,23 @@ struct GridMenu: View {
                         .padding(.top, 10)
                     }.frame(maxWidth: .infinity, maxHeight: UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad ? 120 : 70)
                 }).navigationBarHidden(true)
+            NavigationLink(
+                destination: DetallePoliticas(),
+                label: {
+                    VStack(alignment: .leading){
+                        HStack{
+                            Text(GRID_MENU_POLITICAS)
+                                .font(.titulo())
+                                .foregroundColor(Color(.black))
+                                .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+                            Spacer()
+                            Image(systemName: "chevron.right")
+                                .font(.titulo())
+                                .foregroundColor(Color("gris1"))
+                        }.edgesIgnoringSafeArea(.all)
+                        .padding(.top, 30)
+                    }.frame(maxWidth: .infinity, maxHeight: UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad ? 120 : 70)
+                }).navigationBarHidden(true)
         }
     }
 }

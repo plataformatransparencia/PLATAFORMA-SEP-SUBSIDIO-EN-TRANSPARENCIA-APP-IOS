@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		782268FD2ADDEC1800690C7E /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13130BB260A788800160CEC /* PieChart.swift */; };
+		782654D02C5A9D1D00AD5B0C /* DetallePoliticas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782654CF2C5A9D1D00AD5B0C /* DetallePoliticas.swift */; };
+		782654D22C5AA08400AD5B0C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782654D12C5AA08400AD5B0C /* SwiftUIView.swift */; };
 		78526E2829845D95000C4D55 /* CompromisosVertientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78526E2729845D95000C4D55 /* CompromisosVertientes.swift */; };
 		78A330362988592900675FB5 /* TableroCumplimientoPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */; };
 		78A330382988817700675FB5 /* TableroCompromisosListaPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */; };
@@ -131,6 +133,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		782654CF2C5A9D1D00AD5B0C /* DetallePoliticas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallePoliticas.swift; sourceTree = "<group>"; };
+		782654D12C5AA08400AD5B0C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		78526E2729845D95000C4D55 /* CompromisosVertientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosVertientes.swift; sourceTree = "<group>"; };
 		78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimientoPresupuesto.swift; sourceTree = "<group>"; };
 		78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCompromisosListaPresupuesto.swift; sourceTree = "<group>"; };
@@ -266,6 +270,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		782654CE2C5A9C6700AD5B0C /* Politica */ = {
+			isa = PBXGroup;
+			children = (
+				782654CF2C5A9D1D00AD5B0C /* DetallePoliticas.swift */,
+				782654D12C5AA08400AD5B0C /* SwiftUIView.swift */,
+			);
+			name = Politica;
+			sourceTree = "<group>";
+		};
 		923FF8DB923193B8DD72E20A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -374,6 +387,7 @@
 		C116A03927599EAB00E4750F /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				782654CE2C5A9C6700AD5B0C /* Politica */,
 				C116A03D27599F1D00E4750F /* Programas */,
 				C116A03C27599F0900E4750F /* Plataforma */,
 				C1B6D77625E7316600340FF3 /* Menu.swift */,
@@ -891,6 +905,7 @@
 				78A3CC6228357BE8000A7B31 /* ActividadesEntregasDetalle.swift in Sources */,
 				C1126EEE2624B3E800052D1D /* DetallePlataforma.swift in Sources */,
 				C12C08CA265D70D8007E921C /* GoogleMapsController.swift in Sources */,
+				782654D22C5AA08400AD5B0C /* SwiftUIView.swift in Sources */,
 				C1319E25275E79830004F36C /* CompromisosUniversidadViewModel.swift in Sources */,
 				C10D32F82744226F00915A98 /* TableroCumplimiento.swift in Sources */,
 				C1280E48273C467900E51BDB /* CompromisosDetalle.swift in Sources */,
@@ -965,6 +980,7 @@
 				C13130B8260A782D00160CEC /* Grafica.swift in Sources */,
 				C1DFEB582613ADC0007A1668 /* UniversidadDetailData.swift in Sources */,
 				C12C0980265D96C4007E921C /* MarkerWindow.swift in Sources */,
+				782654D02C5A9D1D00AD5B0C /* DetallePoliticas.swift in Sources */,
 				C1E661F4276004E800F21C59 /* UtilsTableroTrimestres.swift in Sources */,
 				C1E66210276026C500F21C59 /* UniversidadDetailViewModel.swift in Sources */,
 			);
@@ -1136,7 +1152,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 70;
+				CURRENT_PROJECT_VERSION = 71;
 				DEVELOPMENT_ASSET_PATHS = "\"EnTransparencia/Preview Content\"";
 				DEVELOPMENT_TEAM = MYY8YFL9J8;
 				ENABLE_PREVIEWS = YES;
@@ -1146,7 +1162,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.57;
+				MARKETING_VERSION = 1.58;
 				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparencia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = EnTransparenciaProduccion2;
@@ -1164,7 +1180,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 70;
+				CURRENT_PROJECT_VERSION = 71;
 				DEVELOPMENT_ASSET_PATHS = "\"EnTransparencia/Preview Content\"";
 				DEVELOPMENT_TEAM = MYY8YFL9J8;
 				ENABLE_PREVIEWS = YES;
@@ -1174,7 +1190,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.57;
+				MARKETING_VERSION = 1.58;
 				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparencia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = EnTransparenciaProduccion2;
