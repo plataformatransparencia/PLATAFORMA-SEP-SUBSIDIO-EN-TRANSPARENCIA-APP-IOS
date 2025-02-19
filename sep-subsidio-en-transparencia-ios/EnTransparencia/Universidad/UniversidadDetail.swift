@@ -167,8 +167,10 @@ struct UniversidadDetail: View {
                                             }.foregroundColor(Color("dorado"))
                                             .padding(.bottom, 3)
                                         }
-                                        if universidadDetailViewModel.planAusteridad != ""{
-                                            BotonDocumentos(documento: universidadDetailViewModel.planAusteridad, titulo: TITULO_DOC_PLAN_AUSTERIDAD, anio: self.anio)
+                                        if(anio < 2025){
+                                            if universidadDetailViewModel.planAusteridad != ""{
+                                                BotonDocumentos(documento: universidadDetailViewModel.planAusteridad, titulo: TITULO_DOC_PLAN_AUSTERIDAD, anio: self.anio)
+                                            }
                                         }
                                     }
                                     Spacer()
@@ -180,6 +182,7 @@ struct UniversidadDetail: View {
                                         .bold()
                                     Spacer()
                                 }.padding(.bottom, 7)
+                                //Condición de despliegue según el año
                                 if self.anio == 2018 && self.subsidioSeleccionadokey == "subsidio_extraordinario"{
                                     LazyVGrid(columns:
                                                 [
@@ -194,7 +197,7 @@ struct UniversidadDetail: View {
                                                     itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.federationOwnershipPercentage))) + "%", texto: TITULO_PPF_EX)
                                                     itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.stateOwnershipPercentage))) + "%", texto: TITILO_PPE_EX)
                                                 })
-                                }else{
+                                }else if (anio < 2025){
                                     LazyVGrid(columns:
                                                 [
                                                     GridItem(.flexible(minimum: 350, maximum: 350), spacing: 3)
@@ -230,6 +233,47 @@ struct UniversidadDetail: View {
                                                         itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.desirableProfileProfessor))), texto: TITULO_TPTCPDV)
                                                         itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.nationalSystemResearchersProfessor))), texto: TITULO_PSNIV)
                                                         itemNumeralia(monto: "$" + String(formatResultForRegion(basedOn: String(universidadDetailViewModel.studentAllowance))), texto: TITULO_SAFYE)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.federationOwnershipPercentage))) + "%", texto: TITULO_PPF)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.stateOwnershipPercentage))) + "%", texto: TITULO_PPE)
+                                                    }
+                                                })
+                                }else{
+                                    
+                                    LazyVGrid(columns:
+                                                [
+                                                    GridItem(.flexible(minimum: 350, maximum: 350), spacing: 3)
+                                                ],spacing: 3, content: {
+                                                    
+                                                    if(universidadDetailViewModel.higherEducationEnrolment == 0 &&
+                                                       universidadDetailViewModel.highSchoolEnrolment == 0 &&
+                                                       universidadDetailViewModel.enrolmentTotal == 0 &&
+                                                       universidadDetailViewModel.fullTimeProfessorsTotal == 0 &&
+                                                       universidadDetailViewModel.desirableProfileProfessor == 0 &&
+                                                       universidadDetailViewModel.nationalSystemResearchersProfessor == 0 &&
+                                                       universidadDetailViewModel.studentAllowance == 0){
+                                                    HStack{
+                                                        if universidadDetailViewModel.anexoEjecucion != ""{
+                                                            Text(CONSOLIDACION)
+                                                                .foregroundColor(.black)
+                                                                .font(.titulo())
+                                                                .bold()
+                                                        }else{
+                                                            Text(PROCESO)
+                                                                .foregroundColor(.black)
+                                                                .font(.titulo())
+                                                                .bold()
+                                                        }
+                                                        }.padding(.bottom, 7)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.federationOwnershipPercentage))) + "%", texto: TITULO_PPF)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.stateOwnershipPercentage))) + "%", texto: TITULO_PPE)
+                                                    }else{
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.higherEducationEnrolment))), texto: TITULO_MEST)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.highSchoolEnrolment))), texto: TITULO_MEMST)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.enrolmentTotal))), texto: TITULO_MT)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.fullTimeProfessorsTotal))), texto: TITULO_TPTC)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.desirableProfileProfessor))), texto: TITULO_TPTCPDV)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.nationalSystemResearchersProfessor))), texto: TITULO_PSNIV)
+                                                        itemNumeralia(monto: "", texto: TITULO_SAFYE) //No mostrar monto para estudiantes
                                                         itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.federationOwnershipPercentage))) + "%", texto: TITULO_PPF)
                                                         itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.stateOwnershipPercentage))) + "%", texto: TITULO_PPE)
                                                     }
@@ -474,6 +518,11 @@ struct UniversidadDetail: View {
                                         
                                         if universidadDetailViewModel.oficioCalendario != ""{
                                             BotonDocumentos(documento: universidadDetailViewModel.oficioCalendario, titulo: TITULO_DOC_OFI_CALENDARIO, anio: self.anio)
+                                        }
+                                        if(anio >= 2025){
+                                            if universidadDetailViewModel.planAusteridad != ""{
+                                                BotonDocumentos(documento: universidadDetailViewModel.planAusteridad, titulo: TITULO_DOC_PLAN_AUSTERIDAD, anio: self.anio)
+                                            }
                                         }
                                     }
                                     Spacer()
