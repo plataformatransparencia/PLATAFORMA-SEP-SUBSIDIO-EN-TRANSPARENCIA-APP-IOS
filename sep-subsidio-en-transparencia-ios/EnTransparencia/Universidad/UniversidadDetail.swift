@@ -282,29 +282,32 @@ struct UniversidadDetail: View {
                             }.padding(.leading)
                         }.background(Color.white)
                         .padding(.top, 8)
-                        VStack{
-                            VStack(alignment: .leading){
-                                HStack{
-                                    Text(TITULO_REFERENCIAS_NUMERALIA)
-                                        .foregroundColor(.black)
-                                        .font(.titulo())
-                                        .bold()
-                                        .multilineTextAlignment(.center)
-                                    Spacer()
-                                }.padding(.bottom,8)
-                                .padding(.top, 8)
-                                .padding(.leading)
-                            }
-                            VStack(alignment: .leading){
-                                ForEach(universidadDetailViewModel.numeralia.sorted(by: >).reversed(), id: \.key){key, value in
+                        if(anio < 2025)//Referencias
+                        {
+                            VStack{
+                                VStack(alignment: .leading){
                                     HStack{
-                                        Text("\(key)")
-                                        Text("\(value)")
-                                    }.foregroundColor(.black)
-                                    .font(.texto())
-                                    .padding(.horizontal)
-                                    .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
-                                    
+                                        Text(TITULO_REFERENCIAS_NUMERALIA)
+                                            .foregroundColor(.black)
+                                            .font(.titulo())
+                                            .bold()
+                                            .multilineTextAlignment(.center)
+                                        Spacer()
+                                    }.padding(.bottom,8)
+                                        .padding(.top, 8)
+                                        .padding(.leading)
+                                }
+                                VStack(alignment: .leading){
+                                    ForEach(universidadDetailViewModel.numeralia.sorted(by: >).reversed(), id: \.key){key, value in
+                                        HStack{
+                                            Text("\(key)")
+                                            Text("\(value)")
+                                        }.foregroundColor(.black)
+                                            .font(.texto())
+                                            .padding(.horizontal)
+                                            .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+                                        
+                                    }
                                 }
                             }
                         }
@@ -831,6 +834,36 @@ struct UniversidadDetail: View {
                                 }
                             }.padding(.leading)
                         }.background(Color.white)
+                        
+                        if(anio >= 2025)//Referencias
+                        {
+                            VStack{
+                                VStack(alignment: .leading){
+                                    HStack{
+                                        Text(TITULO_REFERENCIAS_NUMERALIA)
+                                            .foregroundColor(.black)
+                                            .font(.titulo())
+                                            .bold()
+                                            .multilineTextAlignment(.center)
+                                        Spacer()
+                                    }.padding(.bottom,8)
+                                        .padding(.top, 8)
+                                        .padding(.leading)
+                                }
+                                VStack(alignment: .leading){
+                                    ForEach(universidadDetailViewModel.numeralia.sorted(by: >).reversed(), id: \.key){key, value in
+                                        HStack{
+                                            Text("\(key)")
+                                            Text("\(value)")
+                                        }.foregroundColor(.black)
+                                            .font(.texto())
+                                            .padding(.horizontal)
+                                            .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+                                        
+                                    }
+                                }
+                            }
+                        }
                         
                         if self.subsidioSeleccionadokey == "subsidio_ordinario" ||  self.subsidioSeleccionadokey == ""{
                             VStack(alignment: .center){
