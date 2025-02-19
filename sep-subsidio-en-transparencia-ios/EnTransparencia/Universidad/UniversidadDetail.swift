@@ -890,14 +890,16 @@ struct UniversidadDetail: View {
                                 }
                             }
                             VStack(alignment: .leading ){
-                                HStack{
-                                    Text(TITULO_OTRAS_REF)
-                                        .foregroundColor(.black)
-                                        .font(.titulo())
-                                        .bold()
-                                    Spacer()
-                                }.padding(.bottom,8)
-                                .padding(.leading)
+                                if(anio < 2025){ //Eliminate title "Otras referencias"
+                                    HStack{
+                                        Text(TITULO_OTRAS_REF)
+                                            .foregroundColor(.black)
+                                            .font(.titulo())
+                                            .bold()
+                                        Spacer()
+                                    }.padding(.bottom,8)
+                                        .padding(.leading)
+                                }
                             }
                             VStack(alignment: .leading){
                                 ForEach(universidadDetailViewModel.otras.sorted(by: <), id: \.key){key, value in
