@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47BDFF2C2D66A07800132C07 /* CompromisoInforme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BDFF2B2D66A07800132C07 /* CompromisoInforme.swift */; };
 		782268FD2ADDEC1800690C7E /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13130BB260A788800160CEC /* PieChart.swift */; };
 		782654D02C5A9D1D00AD5B0C /* DetallePoliticas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782654CF2C5A9D1D00AD5B0C /* DetallePoliticas.swift */; };
 		782654D22C5AA08400AD5B0C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782654D12C5AA08400AD5B0C /* SwiftUIView.swift */; };
@@ -133,6 +134,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		47BDFF2B2D66A07800132C07 /* CompromisoInforme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoInforme.swift; sourceTree = "<group>"; };
 		782654CF2C5A9D1D00AD5B0C /* DetallePoliticas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallePoliticas.swift; sourceTree = "<group>"; };
 		782654D12C5AA08400AD5B0C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		78526E2729845D95000C4D55 /* CompromisosVertientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosVertientes.swift; sourceTree = "<group>"; };
@@ -570,6 +572,7 @@
 			children = (
 				C1EC3BC72603E2ED00D37428 /* DetalleCompromiso.swift */,
 				C1F085A7260292A800B1C7C7 /* CompromisosUniversidad.swift */,
+				47BDFF2B2D66A07800132C07 /* CompromisoInforme.swift */,
 			);
 			name = SubsidioOrdinario;
 			sourceTree = "<group>";
@@ -959,6 +962,7 @@
 				C11971B6275A935500ECBEAB /* DropDownSubsidioExtraordinario.swift in Sources */,
 				C104E7B92769251600282373 /* DetalleTableroFederal.swift in Sources */,
 				C1808A57261247CE00D2777C /* AppEnTransparencia.swift in Sources */,
+				47BDFF2C2D66A07800132C07 /* CompromisoInforme.swift in Sources */,
 				C1126EDB26249ED800052D1D /* ConocePlataformaData.swift in Sources */,
 				C155E113262E32170059DE89 /* InformeTrimestralSO.swift in Sources */,
 				C116A0452759A36E00E4750F /* DetallePlataformaViewModel.swift in Sources */,

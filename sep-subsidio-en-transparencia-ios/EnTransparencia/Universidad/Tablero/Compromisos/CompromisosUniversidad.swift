@@ -25,7 +25,7 @@ struct CompromisosUniversidad: View {
                                             .foregroundColor(Color("gris1"))
                                     })
                                     Spacer()
-                                    Text("Compromisos de la Universidad")
+                                    Text(TITULO_COMPROMISOS_UNI)
                                         .foregroundColor(Color("rosita"))
                                         .font(.titulo())
                                         .bold()
@@ -33,8 +33,9 @@ struct CompromisosUniversidad: View {
                                 }
                             }
                             Spacer()
-                        }.onAppear{
-                            compromisosUniversidadViewModel.loadComprmisos(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+                       // }.onAppear{
+                          //  compromisosUniversidadViewModel.loadComprmisos(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+                            CompromisoInforme()
                         }
                         .padding([.horizontal, .top])
                         .background(Color.white)
@@ -44,7 +45,7 @@ struct CompromisosUniversidad: View {
                                 NavigationLink(
                                     destination: DetalleCompromiso(compromiso: compromisosUniversidadViewModel.compromisos![item].compromiso.reemplazo(),
                                         cumplimiento: compromisosUniversidadViewModel.compromisos![item].cumplimiento!,
-                                        fecha: compromisosUniversidadViewModel.compromisos![item].fecha!,
+                                         fecha: compromisosUniversidadViewModel.compromisos![item].fecha!,
                                         observacion: compromisosUniversidadViewModel.compromisos![item].observacion!),
                                     label: {
                                         Text("\(toRoman(numero: item+1))")
