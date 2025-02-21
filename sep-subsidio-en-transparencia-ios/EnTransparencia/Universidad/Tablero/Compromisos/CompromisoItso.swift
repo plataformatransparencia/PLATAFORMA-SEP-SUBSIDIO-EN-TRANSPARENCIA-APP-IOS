@@ -7,13 +7,7 @@
 
 import SwiftUI
 
-struct CompromisoInforme: View {
-    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-    @State var anio: Int
-    @State var id: String
-    @State var subsidio: String
-    @State var tipo: String
-   // @StateObject private var compromisosUniversidadViewModel = CompromisosUniversidadViewModel()
+struct CompromisoItso: View {
     var body: some View {
         NavigationLink(
             destination: {
@@ -21,7 +15,7 @@ struct CompromisoInforme: View {
             },
             label: {
                 HStack{
-                    Text(TITULO_COMPROMISO_GENERALES)
+                    Text("Informes ITSO")
                         .fixedSize(horizontal: false, vertical: true)
                         .font(.texto1())
                         .foregroundColor(.black)
@@ -36,15 +30,18 @@ struct CompromisoInforme: View {
         )
     }
 }
-struct CompromisoUniversidadShowDetaile :View {
+
+
+
+
+
+struct TestListView: View {
+    let items = ["Elemento 1", "Elemento 2", "Elemento 3", "Elemento 4", "Elemento 5"]
     var body: some View {
-        
-        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Hello, world!@*/Text("Hello, world!")/*@END_MENU_TOKEN@*/
+        List(items,id: \.self){item in
+            Text(item)
+            
+        }.navigationTitle(Text("Lista de Pruebas"))
     }
+    
 }
-
-
-
-
-
-

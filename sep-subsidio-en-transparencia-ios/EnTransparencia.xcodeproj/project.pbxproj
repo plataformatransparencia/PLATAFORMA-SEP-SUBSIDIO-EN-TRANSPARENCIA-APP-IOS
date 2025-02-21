@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		479C118B2D6904D900CF9BF1 /* CompromisoItso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */; };
+		479C118D2D69055000CF9BF1 /* CompromisoPef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118C2D69055000CF9BF1 /* CompromisoPef.swift */; };
+		479C118F2D69059A00CF9BF1 /* CompromisoMatricula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118E2D69059A00CF9BF1 /* CompromisoMatricula.swift */; };
 		47BDFF2C2D66A07800132C07 /* CompromisoInforme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BDFF2B2D66A07800132C07 /* CompromisoInforme.swift */; };
 		782268FD2ADDEC1800690C7E /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13130BB260A788800160CEC /* PieChart.swift */; };
 		782654D02C5A9D1D00AD5B0C /* DetallePoliticas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782654CF2C5A9D1D00AD5B0C /* DetallePoliticas.swift */; };
@@ -134,6 +137,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoItso.swift; sourceTree = "<group>"; };
+		479C118C2D69055000CF9BF1 /* CompromisoPef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoPef.swift; sourceTree = "<group>"; };
+		479C118E2D69059A00CF9BF1 /* CompromisoMatricula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoMatricula.swift; sourceTree = "<group>"; };
 		47BDFF2B2D66A07800132C07 /* CompromisoInforme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoInforme.swift; sourceTree = "<group>"; };
 		782654CF2C5A9D1D00AD5B0C /* DetallePoliticas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallePoliticas.swift; sourceTree = "<group>"; };
 		782654D12C5AA08400AD5B0C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
@@ -573,6 +579,9 @@
 				C1EC3BC72603E2ED00D37428 /* DetalleCompromiso.swift */,
 				C1F085A7260292A800B1C7C7 /* CompromisosUniversidad.swift */,
 				47BDFF2B2D66A07800132C07 /* CompromisoInforme.swift */,
+				479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */,
+				479C118C2D69055000CF9BF1 /* CompromisoPef.swift */,
+				479C118E2D69059A00CF9BF1 /* CompromisoMatricula.swift */,
 			);
 			name = SubsidioOrdinario;
 			sourceTree = "<group>";
@@ -918,6 +927,7 @@
 				C1B6D71025E71CAD00340FF3 /* ContentView.swift in Sources */,
 				C1DD4579260C0FA500FD7AEF /* Filtros.swift in Sources */,
 				C11971B0275A928000ECBEAB /* DropDownAnios.swift in Sources */,
+				479C118F2D69059A00CF9BF1 /* CompromisoMatricula.swift in Sources */,
 				C13064AC273AFC4500058B04 /* AccionesEmprender.swift in Sources */,
 				C104E7B52768FDA200282373 /* TableroFederal.swift in Sources */,
 				C1D82FB8273F1B6D00AF2AAC /* ListaMontos.swift in Sources */,
@@ -946,6 +956,7 @@
 				C1515264279748120095490F /* Constantes.swift in Sources */,
 				C11AE34F27861C4D0071E78A /* ListaEtapas.swift in Sources */,
 				C1DD4575260BDC6100FD7AEF /* ImageLoader.swift in Sources */,
+				479C118D2D69055000CF9BF1 /* CompromisoPef.swift in Sources */,
 				C1280E44273C45A700E51BDB /* Compromisos.swift in Sources */,
 				C1126EF62624E89600052D1D /* CustomVideo.swift in Sources */,
 				C1126EDF2624A0D000052D1D /* ProgramasData.swift in Sources */,
@@ -962,6 +973,7 @@
 				C11971B6275A935500ECBEAB /* DropDownSubsidioExtraordinario.swift in Sources */,
 				C104E7B92769251600282373 /* DetalleTableroFederal.swift in Sources */,
 				C1808A57261247CE00D2777C /* AppEnTransparencia.swift in Sources */,
+				479C118B2D6904D900CF9BF1 /* CompromisoItso.swift in Sources */,
 				47BDFF2C2D66A07800132C07 /* CompromisoInforme.swift in Sources */,
 				C1126EDB26249ED800052D1D /* ConocePlataformaData.swift in Sources */,
 				C155E113262E32170059DE89 /* InformeTrimestralSO.swift in Sources */,
