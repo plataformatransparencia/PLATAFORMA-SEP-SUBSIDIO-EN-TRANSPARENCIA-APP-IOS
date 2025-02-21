@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		478EF67F2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */; };
 		479C118B2D6904D900CF9BF1 /* CompromisoItso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */; };
 		479C118D2D69055000CF9BF1 /* CompromisoPef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118C2D69055000CF9BF1 /* CompromisoPef.swift */; };
 		479C118F2D69059A00CF9BF1 /* CompromisoMatricula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118E2D69059A00CF9BF1 /* CompromisoMatricula.swift */; };
@@ -137,6 +138,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoUniversidadShowDetalle.swift; sourceTree = "<group>"; };
 		479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoItso.swift; sourceTree = "<group>"; };
 		479C118C2D69055000CF9BF1 /* CompromisoPef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoPef.swift; sourceTree = "<group>"; };
 		479C118E2D69059A00CF9BF1 /* CompromisoMatricula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoMatricula.swift; sourceTree = "<group>"; };
@@ -582,6 +584,7 @@
 				479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */,
 				479C118C2D69055000CF9BF1 /* CompromisoPef.swift */,
 				479C118E2D69059A00CF9BF1 /* CompromisoMatricula.swift */,
+				478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */,
 			);
 			name = SubsidioOrdinario;
 			sourceTree = "<group>";
@@ -980,6 +983,7 @@
 				C116A0452759A36E00E4750F /* DetallePlataformaViewModel.swift in Sources */,
 				C13064B1273AFCB100058B04 /* AccionesEmprenderDetalle.swift in Sources */,
 				C1D82FBC273F20E900AF2AAC /* MontoDetalle.swift in Sources */,
+				478EF67F2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift in Sources */,
 				C1FE6C47260BAEC9005168F7 /* ObjectUniversidades.swift in Sources */,
 				C1586BE02614E08400736E05 /* ViewModel.swift in Sources */,
 				78526E2829845D95000C4D55 /* CompromisosVertientes.swift in Sources */,

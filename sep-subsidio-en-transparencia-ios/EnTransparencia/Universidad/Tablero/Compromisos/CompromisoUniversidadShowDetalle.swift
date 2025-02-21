@@ -1,12 +1,20 @@
+//
+//  CompromisoUniversidadShowDetalle.swift
+//  EnTransparencia
+//
+//  Created by Armando Rodríguez on 21/02/25.
+//
+
 import SwiftUI
 
-struct CompromisosUniversidad: View {
+struct CompromisoUniversidadShowDetalle :View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     @State var anio: Int
     @State var id: String
     @State var subsidio: String
     @State var tipo: String
-  // @StateObject private var compromisosUniversidadViewModel = CompromisosUniversidadViewModel()
+    @StateObject private var compromisosUniversidadViewModel = CompromisosUniversidadViewModel()
+    
     var body: some View {
         VStack{
             NavigationView{
@@ -33,12 +41,12 @@ struct CompromisosUniversidad: View {
                                 }
                             }
                             Spacer()
-                       // }.onAppear{
-                          //  compromisosUniversidadViewModel.loadComprmisos(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+                        }.onAppear{
+                            compromisosUniversidadViewModel.loadComprmisos(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
                         }
                         .padding([.horizontal, .top])
                         .background(Color.white)
-               /*
+               
                         if compromisosUniversidadViewModel.compromisos != nil {
                             ForEach(0..<compromisosUniversidadViewModel.compromisos!.count, id: \.self){item in
                                 NavigationLink(
@@ -66,23 +74,11 @@ struct CompromisosUniversidad: View {
                                         .frame(maxWidth: .infinity, maxHeight: 150)
                                     })
                             }
-                        }*/
-                        CompromisoInforme(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: "")
-                        CompromisoItso()
-                        CompromisoPef()
-                        CompromisoMatricula()
-                        
-
+                        }
                     }.navigationBarHidden(true)
                 }
             }.navigationViewStyle(StackNavigationViewStyle())
             .navigationBarHidden(true)
         }
-    }
-}
-
-struct CompromisosUniversidad_Previews: PreviewProvider {
-    static var previews: some View {
-        CompromisosUniversidad(anio: 2021, id: "6", subsidio: "", tipo: "")
     }
 }
