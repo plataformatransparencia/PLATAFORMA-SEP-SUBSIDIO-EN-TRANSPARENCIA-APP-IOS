@@ -17,7 +17,7 @@ struct CompromisoInforme: View {
     var body: some View {
         NavigationLink(
             destination: {
-                CompromisoUniversidadShowDetalle(anio:self.anio,id:self.id,subsidio: self.subsidio,tipo:self.id)
+                CompromisoUniversidadShowDetalle(anio:self.anio,id:self.id,subsidio: self.subsidio,tipo:self.tipo)
             },
             label: {
                 HStack{

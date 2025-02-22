@@ -67,7 +67,8 @@ struct CompromisosUniversidad: View {
                                     })
                             }
                         }*/
-                        CompromisoInforme(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: "")
+                        
+                        CompromisoInforme(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
                         CompromisoItso()
                         CompromisoPef()
                         CompromisoMatricula()
