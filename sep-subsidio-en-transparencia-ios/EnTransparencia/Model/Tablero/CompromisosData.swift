@@ -31,6 +31,22 @@ struct CompromisosDatos: Codable{
     var porcentaje_incremento: Double?
 }
 
+/*   Cambios 2025 */
+struct CompromisosNewData: Codable{
+    let compromisos: [Compromiso]
+    let cumplimientos: [Compromiso]
+    let pef: [Compromiso]
+    let matricula: [Compromiso]
+}
+
+struct Compromiso:Codable{
+    let compromiso:String
+    let cumplimiento:String
+    let fecha: String
+    let observacion: String
+}
+
+
 
 struct TablaMontoUniversidad: Codable{
     var monto: Double

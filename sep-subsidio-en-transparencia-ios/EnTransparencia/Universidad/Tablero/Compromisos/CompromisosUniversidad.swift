@@ -6,7 +6,7 @@ struct CompromisosUniversidad: View {
     @State var id: String
     @State var subsidio: String
     @State var tipo: String
-  // @StateObject private var compromisosUniversidadViewModel = CompromisosUniversidadViewModel()
+    @StateObject private var compromisosUniversidadViewModel = CompromisosUniversidadViewModel()
     var body: some View {
         VStack{
             NavigationView{
@@ -33,12 +33,16 @@ struct CompromisosUniversidad: View {
                                 }
                             }
                             Spacer()
-                       // }.onAppear{
-                          //  compromisosUniversidadViewModel.loadComprmisos(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+                            
+                        }.onAppear{
+                            if (self.anio < 2025 )
+                            {
+                             compromisosUniversidadViewModel.loadComprmisos(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+                            }
                         }
                         .padding([.horizontal, .top])
                         .background(Color.white)
-               /*
+               
                         if compromisosUniversidadViewModel.compromisos != nil {
                             ForEach(0..<compromisosUniversidadViewModel.compromisos!.count, id: \.self){item in
                                 NavigationLink(
@@ -66,12 +70,15 @@ struct CompromisosUniversidad: View {
                                         .frame(maxWidth: .infinity, maxHeight: 150)
                                     })
                             }
-                        }*/
-                        
-                        CompromisoInforme(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
-                        CompromisoItso()
-                        CompromisoPef()
-                        CompromisoMatricula()
+                        }
+                        if(self.anio >= 2025  )
+                        {
+                            
+                            CompromisoInforme(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+                            CompromisoItso()
+                            CompromisoPef()
+                            CompromisoMatricula()
+                        }
                         
 
                     }.navigationBarHidden(true)
