@@ -16,6 +16,7 @@
 		782654D02C5A9D1D00AD5B0C /* DetallePoliticas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782654CF2C5A9D1D00AD5B0C /* DetallePoliticas.swift */; };
 		782654D22C5AA08400AD5B0C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782654D12C5AA08400AD5B0C /* SwiftUIView.swift */; };
 		78526E2829845D95000C4D55 /* CompromisosVertientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78526E2729845D95000C4D55 /* CompromisosVertientes.swift */; };
+		78A0B67D2D6FD6BD004BF0B0 /* CompromisosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0B67C2D6FD6BD004BF0B0 /* CompromisosViewModel.swift */; };
 		78A330362988592900675FB5 /* TableroCumplimientoPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */; };
 		78A330382988817700675FB5 /* TableroCompromisosListaPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */; };
 		78A3CC6228357BE8000A7B31 /* ActividadesEntregasDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */; };
@@ -146,6 +147,7 @@
 		782654CF2C5A9D1D00AD5B0C /* DetallePoliticas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallePoliticas.swift; sourceTree = "<group>"; };
 		782654D12C5AA08400AD5B0C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		78526E2729845D95000C4D55 /* CompromisosVertientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosVertientes.swift; sourceTree = "<group>"; };
+		78A0B67C2D6FD6BD004BF0B0 /* CompromisosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosViewModel.swift; sourceTree = "<group>"; };
 		78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimientoPresupuesto.swift; sourceTree = "<group>"; };
 		78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCompromisosListaPresupuesto.swift; sourceTree = "<group>"; };
 		78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActividadesEntregasDetalle.swift; sourceTree = "<group>"; };
@@ -272,6 +274,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78011C1F2D6D471400596799 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C1E6620F276026C500F21C59 /* UniversidadDetailViewModel.swift */,
+				C1586BDF2614E08400736E05 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		782654CE2C5A9C6700AD5B0C /* Politica */ = {
 			isa = PBXGroup;
 			children = (
@@ -371,7 +382,6 @@
 				C11971A8275A907600ECBEAB /* Filtro */,
 				C116A03927599EAB00E4750F /* Menu */,
 				C116A03227599B4600E4750F /* Contacto */,
-				C1586BDF2614E08400736E05 /* ViewModel.swift */,
 				C1B6D70F25E71CAD00340FF3 /* ContentView.swift */,
 			);
 			name = Views;
@@ -585,6 +595,7 @@
 				479C118C2D69055000CF9BF1 /* CompromisoPef.swift */,
 				479C118E2D69059A00CF9BF1 /* CompromisoMatricula.swift */,
 				478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */,
+				78A0B67C2D6FD6BD004BF0B0 /* CompromisosViewModel.swift */,
 			);
 			name = SubsidioOrdinario;
 			sourceTree = "<group>";
@@ -625,6 +636,7 @@
 		C1B6D70C25E71CAD00340FF3 /* EnTransparencia */ = {
 			isa = PBXGroup;
 			children = (
+				78011C1F2D6D471400596799 /* ViewModels */,
 				C119718D275A89D500ECBEAB /* Utils */,
 				C116A0312759995E00E4750F /* Views */,
 				C1FE6C45260BAE5C005168F7 /* Model */,
@@ -668,7 +680,6 @@
 			children = (
 				C1EC3BD726041AE600D37428 /* Tablero */,
 				C18D74DA25F963C70056C20A /* UniversidadDetail.swift */,
-				C1E6620F276026C500F21C59 /* UniversidadDetailViewModel.swift */,
 			);
 			path = Universidad;
 			sourceTree = "<group>";
@@ -956,6 +967,7 @@
 				C1E661FA2760058900F21C59 /* TableroCumplimientoViewModel.swift in Sources */,
 				C1F210D52761542F004CAD7D /* AccionesEmprenderViewModel.swift in Sources */,
 				C1319E41275EDBCB0004F36C /* TableroCumplimientoFederalViewModel.swift in Sources */,
+				78A0B67D2D6FD6BD004BF0B0 /* CompromisosViewModel.swift in Sources */,
 				C1515264279748120095490F /* Constantes.swift in Sources */,
 				C11AE34F27861C4D0071E78A /* ListaEtapas.swift in Sources */,
 				C1DD4575260BDC6100FD7AEF /* ImageLoader.swift in Sources */,

@@ -35,6 +35,8 @@ struct CompromisosUniversidad: View {
                             Spacer()
                             
                         }.onAppear{
+                            print("Año: \(self.anio) Id: \(self.id) tipo: \(self.tipo)   subsidio: \(self.subsidio)")
+                            
                             if (self.anio < 2025 )
                             {
                              compromisosUniversidadViewModel.loadComprmisos(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
@@ -71,6 +73,7 @@ struct CompromisosUniversidad: View {
                                     })
                             }
                         }
+                        
                         if(self.anio >= 2025  )
                         {
                             

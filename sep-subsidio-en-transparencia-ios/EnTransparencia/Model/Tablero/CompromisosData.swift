@@ -31,22 +31,6 @@ struct CompromisosDatos: Codable{
     var porcentaje_incremento: Double?
 }
 
-/*   Cambios 2025 */
-struct CompromisosNewData: Codable{
-    let compromisos: [Compromiso]
-    let cumplimientos: [Compromiso]
-    let pef: [Compromiso]
-    let matricula: [Compromiso]
-}
-
-struct Compromiso:Codable{
-    let compromiso:String
-    let cumplimiento:String
-    let fecha: String
-    let observacion: String
-}
-
-
 
 struct TablaMontoUniversidad: Codable{
     var monto: Double
@@ -80,4 +64,34 @@ struct CumplimientosEntregas: Codable{
     var observacion: String
 }
 
+
+//Nuevo modelo para tablero Informes itso, pef, matricula
+
+struct CompromisoM: Codable, Identifiable{
+    let id = UUID()
+    let compromiso: String
+    let cumplimiento: String
+    let fecha: String
+    let observacion: String
+    
+    enum CodingKeys:String, CodingKey {
+        case compromiso, cumplimiento, fecha, observacion
+    }
+    
+    
+}
+
+struct DatosCompromisos: Codable{
+    let listaCompromisos: [CompromisoM]
+    let listaItso:[CompromisoM]
+    let listaPef:[CompromisoM]
+    let listaMatricula: [CompromisoM]
+}
+
+enum CodingKeys: String, CodingKey{
+    case listaCompromisos = "compromisos"
+    case listaItso = "itso"
+    case listaPef = "pef"
+    case listaMatricula = "Matricula"
+}
 
