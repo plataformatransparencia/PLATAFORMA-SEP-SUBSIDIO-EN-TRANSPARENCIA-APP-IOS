@@ -8,39 +8,50 @@
 import SwiftUI
 
 struct CompromisoItso: View {
-    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-    @State var anio: Int
-    @State var id: String
-    @State var subsidio: String
-    @State var tipo: String
-    @ObservedObject var compromisosVM: CompromisosViewModel
+    @StateObject private var CompromisosVM = CompromisosViewModel()
+    let anio: Int
+    let id: String
+    let subsidio: String
+    let tipo: String
     
     
     var body: some View {
-        List(compromisosVM.loadCompromisos(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo).itso){ compromiso in
-            VStack(alignment: .leading){
-                Text(compromiso.compromiso)
-                    .font(.headline)
-                Text("Cumplimiento:  \(compromiso.cumplimiento)")
-                    .font(.subheadline)
-                if !compromiso.fecha.isEmpty {
-                    Text("Fercha: \(compromiso.fecha)")
-                        .font(.footnote)
-                }
-                if !compromiso.observacion.isEmpty{
-                    Text("Observación: \(compromiso.observacion)")
-                        .font(.footnote)
-                        .foregroundColor(.gray)
-                }
+        NavigationView{
+            VStack{
+                ListaCompromisosView(CompromisosVM: CompromisosVM)
+                
             }
-            .padding(.vertical,5)
+            .navigationTitle("Compromisos ITSO")
+            .onAppear{
+                CompromisosVM.loadCompromisos(anio: anio, id: id, subsidio: subsidio, tipo: tipo)
+            }
         }
         
     }
         
 }
 
-
+struct ListaCompromisosView:View {
+    @ObservedObject var CompromisosVM: CompromisosViewModel
+    var body: some View {
+        List(CompromisosVM.itso){ compromiso in
+            VStack(alignment: .leading){
+                Text(compromiso.compromiso)
+                    .font(.headline)
+                Text("Cumlimiento:\(compromiso.cumplimiento)")
+                Text("Fecha: \(compromiso.fecha)")
+                    .font(.footnote)
+                Text("Observación: \(compromiso.observacion)")
+                    .font(.footnote)
+                    .foregroundColor(.gray)
+            }
+            .padding(.vertical,5)
+            
+        }
+        
+        
+    }
+}
 
 
 

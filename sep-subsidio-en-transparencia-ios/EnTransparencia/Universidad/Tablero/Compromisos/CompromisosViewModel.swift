@@ -28,10 +28,10 @@ final class CompromisosViewModel: ObservableObject{
             do{
                 let decodedData = try  JSONDecoder().decode(DatosCompromisos.self, from: data)
                 DispatchQueue.main.async {
-                    self.compromisos = decodedData.listaCompromisos
-                    self.itso = decodedData.listaItso
-                    self.pef = decodedData.listaPef
-                    self.matricula = decodedData.listaMatricula
+                    self.compromisos = decodedData.compromisos
+                    self.itso = decodedData.itso
+                    self.pef = decodedData.pef
+                    self.matricula = decodedData.matricula
                     
                 }
 

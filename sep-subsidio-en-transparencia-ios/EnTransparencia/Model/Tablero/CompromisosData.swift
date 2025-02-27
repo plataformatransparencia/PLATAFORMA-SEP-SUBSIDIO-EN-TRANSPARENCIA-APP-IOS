@@ -82,16 +82,10 @@ struct CompromisoM: Codable, Identifiable{
 }
 
 struct DatosCompromisos: Codable{
-    let listaCompromisos: [CompromisoM]
-    let listaItso:[CompromisoM]
-    let listaPef:[CompromisoM]
-    let listaMatricula: [CompromisoM]
+    let compromisos: [CompromisoM]
+    let itso:[CompromisoM]
+    let pef:[CompromisoM]
+    let matricula: [CompromisoM]
 }
 
-enum CodingKeys: String, CodingKey{
-    case listaCompromisos = "compromisos"
-    case listaItso = "itso"
-    case listaPef = "pef"
-    case listaMatricula = "Matricula"
-}
 
