@@ -8,60 +8,31 @@
 import SwiftUI
 
 struct CompromisoItso: View {
-    @StateObject private var CompromisosVM = CompromisosViewModel()
-    let anio: Int
-    let id: String
-    let subsidio: String
-    let tipo: String
-    
-    
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    @State var anio: Int
+    @State var id: String
+    @State var subsidio: String
+    @State var tipo: String
     var body: some View {
-        NavigationView{
-            VStack{
-                ListaCompromisosView(CompromisosVM: CompromisosVM)
-                
+        NavigationLink(
+            destination: {
+                CompromisoUniversidadShowDetalleITSO(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+            },
+            label: {
+                HStack{
+                    Text("Informes Itso")
+                        .fixedSize(horizontal: false, vertical: true)
+                        .font(.texto1())
+                        .foregroundColor(.black)
+                        .padding(.horizontal,8)
+                    Spacer()
+                    Image(systemName: "chevron.right")
+                        .font(.texto1())
+                        .foregroundColor(Color("gris1"))
+                }.padding([.top,.trailing,.bottom])
+                    .frame(maxWidth: .infinity, maxHeight: 150)
             }
-            .navigationTitle("Compromisos ITSO")
-            .onAppear{
-                CompromisosVM.loadCompromisos(anio: anio, id: id, subsidio: subsidio, tipo: tipo)
-            }
-        }
-        
-    }
-        
-}
-
-struct ListaCompromisosView:View {
-    @ObservedObject var CompromisosVM: CompromisosViewModel
-    var body: some View {
-        List(CompromisosVM.itso){ compromiso in
-            VStack(alignment: .leading){
-                Text(compromiso.compromiso)
-                    .font(.headline)
-                Text("Cumlimiento:\(compromiso.cumplimiento)")
-                Text("Fecha: \(compromiso.fecha)")
-                    .font(.footnote)
-                Text("Observación: \(compromiso.observacion)")
-                    .font(.footnote)
-                    .foregroundColor(.gray)
-            }
-            .padding(.vertical,5)
-            
-        }
-        
-        
-    }
-}
-
-
-
-struct TestListView: View {
-    let items = ["Elemento 1", "Elemento 2", "Elemento 3", "Elemento 4", "Elemento 5"]
-    var body: some View {
-        List(items,id: \.self){item in
-            Text(item)
-            
-        }.navigationTitle(Text("Lista de Pruebas"))
+        )
     }
     
 }

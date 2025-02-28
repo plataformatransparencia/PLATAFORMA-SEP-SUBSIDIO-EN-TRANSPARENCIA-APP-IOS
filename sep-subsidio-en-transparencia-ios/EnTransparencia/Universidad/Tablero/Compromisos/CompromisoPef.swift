@@ -34,4 +34,14 @@ struct CompromisoPef: View {
 
 
 
+struct TestListView: View {
+    let items = ["Elemento 1", "Elemento 2", "Elemento 3", "Elemento 4", "Elemento 5"]
+    var body: some View {
+        List(items,id: \.self){item in
+            Text(item)
+            
+        }.navigationTitle(Text("Lista de Pruebas"))
+    }
+    
+}
 

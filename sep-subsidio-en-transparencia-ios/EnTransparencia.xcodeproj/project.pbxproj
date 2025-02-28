@@ -21,6 +21,7 @@
 		78A330382988817700675FB5 /* TableroCompromisosListaPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */; };
 		78A3CC6228357BE8000A7B31 /* ActividadesEntregasDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */; };
 		78A55B082AD8AAB800735363 /* MontosBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D82BCC26277B8B0010FD26 /* MontosBarChartView.swift */; };
+		78D19BFF2D70FF1F00964E76 /* CompromisoUniversidadShowDetalleITSO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D19BFE2D70FF1F00964E76 /* CompromisoUniversidadShowDetalleITSO.swift */; };
 		C103F4D52625FA89007DAA9B /* DetalleProgramas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103F4D42625FA89007DAA9B /* DetalleProgramas.swift */; };
 		C103F4D926260981007DAA9B /* MinistracionEstatalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103F4D826260981007DAA9B /* MinistracionEstatalData.swift */; };
 		C104E7B52768FDA200282373 /* TableroFederal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C104E7B42768FDA200282373 /* TableroFederal.swift */; };
@@ -151,6 +152,7 @@
 		78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimientoPresupuesto.swift; sourceTree = "<group>"; };
 		78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCompromisosListaPresupuesto.swift; sourceTree = "<group>"; };
 		78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActividadesEntregasDetalle.swift; sourceTree = "<group>"; };
+		78D19BFE2D70FF1F00964E76 /* CompromisoUniversidadShowDetalleITSO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompromisoUniversidadShowDetalleITSO.swift; sourceTree = "<group>"; };
 		8C3F37D8CE66D0CBA96A4335 /* Pods-EnTransparencia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.release.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.release.xcconfig"; sourceTree = "<group>"; };
 		C103F4D42625FA89007DAA9B /* DetalleProgramas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProgramas.swift; sourceTree = "<group>"; };
 		C103F4D826260981007DAA9B /* MinistracionEstatalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinistracionEstatalData.swift; sourceTree = "<group>"; };
@@ -595,6 +597,7 @@
 				479C118C2D69055000CF9BF1 /* CompromisoPef.swift */,
 				479C118E2D69059A00CF9BF1 /* CompromisoMatricula.swift */,
 				478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */,
+				78D19BFE2D70FF1F00964E76 /* CompromisoUniversidadShowDetalleITSO.swift */,
 				78A0B67C2D6FD6BD004BF0B0 /* CompromisosViewModel.swift */,
 			);
 			name = SubsidioOrdinario;
@@ -1003,6 +1006,7 @@
 				C1808A62261253FD00D2777C /* AppDelegate.swift in Sources */,
 				78A330362988592900675FB5 /* TableroCumplimientoPresupuesto.swift in Sources */,
 				C155E109262DF3970059DE89 /* MinistracionFederalData.swift in Sources */,
+				78D19BFF2D70FF1F00964E76 /* CompromisoUniversidadShowDetalleITSO.swift in Sources */,
 				C1F8536525EEDBDB009EB9C9 /* GridCellView.swift in Sources */,
 				C1F8535D25EED6D0009EB9C9 /* SearchTextFieldView.swift in Sources */,
 				C116A03427599B6E00E4750F /* ContactoViewModel.swift in Sources */,
