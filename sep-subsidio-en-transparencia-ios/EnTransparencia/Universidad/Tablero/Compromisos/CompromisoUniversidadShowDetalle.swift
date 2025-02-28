@@ -55,16 +55,14 @@ struct CompromisoUniversidadShowDetalle :View {
                                          fecha: compromisosUniversidadViewModel.compromisos![item].fecha!,
                                         observacion: compromisosUniversidadViewModel.compromisos![item].observacion!),
                                     label: {
-                                    /*    Text("\(toRoman(numero: item+1))")
-                                            .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
-                                            .font(.texto1())
-                                            .foregroundColor(.black)
-                                            .padding(.horizontal, 8)*/
+                                   
                                         HStack {
                                             Text("\(compromisosUniversidadViewModel.compromisos![item].compromiso.reemplazo())")
                                                 .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
-                                                .font(.texto1())
+                                                .font(.texto())
+                                                .multilineTextAlignment(.leading)
                                                 .foregroundColor(.black)
+                                                .padding()
                                             Spacer()
                                             Image(systemName: "chevron.right")
                                                 .font(.texto1())

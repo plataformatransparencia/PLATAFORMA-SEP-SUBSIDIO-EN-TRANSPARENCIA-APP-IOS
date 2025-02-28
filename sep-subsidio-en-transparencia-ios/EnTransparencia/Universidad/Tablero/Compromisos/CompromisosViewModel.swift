@@ -32,10 +32,7 @@ final class CompromisosViewModel: ObservableObject{
                     self.itso = decodedData.itso
                     self.pef = decodedData.pef
                     self.matricula = decodedData.matricula
-                    
                 }
-
-                
             }catch{
                 print("No se pudo completar la peticion. Error: \(error)")
             }
