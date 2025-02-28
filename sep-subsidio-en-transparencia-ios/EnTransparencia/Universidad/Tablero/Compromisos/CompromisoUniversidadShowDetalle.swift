@@ -57,7 +57,8 @@ struct CompromisoUniversidadShowDetalle :View {
                                     label: {
                                    
                                         HStack {
-                                            Text("\(compromisosUniversidadViewModel.compromisos![item].compromiso.reemplazo())")
+                                            let text = "\(compromisosUniversidadViewModel.compromisos![item].compromiso.reemplazo())"
+                                            Text( text )
                                                 .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                                 .font(.texto())
                                                 .multilineTextAlignment(.leading)
@@ -79,4 +80,6 @@ struct CompromisoUniversidadShowDetalle :View {
             .navigationBarHidden(true)
         }
     }
+    
+   
 }

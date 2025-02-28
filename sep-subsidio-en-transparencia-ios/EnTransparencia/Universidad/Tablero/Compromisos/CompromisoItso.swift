@@ -20,7 +20,7 @@ struct CompromisoItso: View {
             },
             label: {
                 HStack{
-                    Text("Informes Itso")
+                    Text("Informes ITSO")
                         .fixedSize(horizontal: false, vertical: true)
                         .font(.texto1())
                         .foregroundColor(.black)
