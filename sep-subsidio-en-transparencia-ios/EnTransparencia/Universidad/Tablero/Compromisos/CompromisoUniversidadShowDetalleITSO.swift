@@ -22,7 +22,6 @@ struct CompromisoUniversidadShowDetalleITSO :View {
     
     var body: some View{
             NavigationView{
-               
                 VStack{
                     HStack{
                         VStack{
@@ -47,7 +46,7 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                                 .background(Color.white)
                             //Selección de informes
                             if (CompromisoItsoVM.itso.isEmpty) {
-                                ProgressView("Cargando ... ")	
+                                ProgressView("Cargando ... ")
                             }else{
                                 
                                 List(CompromisoItsoVM.itso){ compromiso in
