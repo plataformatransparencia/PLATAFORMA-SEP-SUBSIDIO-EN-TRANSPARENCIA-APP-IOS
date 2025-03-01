@@ -76,19 +76,13 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                                             }.padding([.top,.trailing, .bottom])
                                             .frame(maxWidth: .infinity, maxHeight: 150)
                                         }).listRowSeparator(.hidden)
-                                        
-                                    
-                                
-                                    
                                     
                                 }.listStyle(PlainListStyle())
                                     .padding()
-                                
-                               
-                                
+
+                            
                             }
-                            
-                            
+                        
                         }
                     }
                 }
