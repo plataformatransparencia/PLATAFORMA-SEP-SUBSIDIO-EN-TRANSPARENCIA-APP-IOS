@@ -79,8 +79,6 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                                     
                                 }.listStyle(PlainListStyle())
                                     .padding()
-
-                            
                             }
                         
                         }
