@@ -75,7 +75,7 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                                             }.padding([.top,.trailing, .bottom])
                                             .frame(maxWidth: .infinity, maxHeight: 150)
                                             .contentShape(Rectangle())
-                                        }).listRowSeparator(.hidden)
+                                        }.listRowSeparator(.hidden)
                                         .listRowInsets(EdgeInsets())
                                        
                                     
