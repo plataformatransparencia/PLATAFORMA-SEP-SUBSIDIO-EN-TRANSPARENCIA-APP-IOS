@@ -16,6 +16,10 @@ struct CompromisoUniversidadShowDetalleITSO :View {
     let subsidio: String
     let tipo: String
     
+    
+    
+   
+    
     var body: some View{
         VStack{
             NavigationView{
@@ -41,44 +45,45 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                                         .font(.titulo())
                                         .bold()
                                     Spacer()
-                                }.onAppear(){
-                                   
-                                    CompromisoItsoVM.loadCompromisos(anio: self.anio,
-                                                                         id: self.id,
-                                                                         subsidio: self.subsidio,
-                                                                         tipo: self.tipo)
-                                   
-                                }
-                                .padding([.horizontal,.top])
+                                
+                            }.padding([.horizontal,.top])
                                 .background(Color.white)
                                 //Selección de informes
                                 if (CompromisoItsoVM.itso.isEmpty) {
-                                    ProgressView("Cargando ... ")
+                                    ProgressView("Cargando ... ")	
                                 }else{
-                                    ForEach(0..<CompromisoItsoVM.itso.count,
-                                            id:\.self){ item in
+                                    
+                                    List(CompromisoItsoVM.itso){ compromiso in
+                                        HStack{
+                                            Text(compromiso.compromiso)
+                                        }
+                                        
+                                    }
+                                   
+                                   /* List(CompromisoItsoVM.itso ){ compromisoM in
                                         NavigationLink(
                                             destination: DetalleCompromiso(
-                                                CompromisoItsoVM
-                                                    .compromisos[item]
-                                                    .compromiso.reemplazo(),
-                                                cumplimiento:
-                                                    CompromisoItsoVM
-                                                    .itso[item]
-                                                    .cumplimiento,
-                                                fecha:
-                                                    CompromisoItsoVM
-                                                    .itso[item]
-                                                    .fecha,
-                                                observacion:
-                                                    CompromisoItsoVM
-                                                    .itso[item]
-                                                    .observacion
-                                                
-                                            )
-                                            
-                                        )
-                                    }
+                                                compromiso: compromisoM.compromiso,
+                                                cumplimiento: compromisoM.cumplimiento,
+                                                fecha: compromisoM.fecha,
+                                                observacion: compromisoM.observacion
+                                            ),
+                                            label:{
+                                                HStack{
+                                                    Text(compromisoM.compromiso )
+                                                        .fixedSize(horizontal: false, vertical: true)
+                                                        .font(.texto1())
+                                                        .foregroundColor(.black)
+                                                    Spacer()
+                                                    Image(systemName: "chevron.right")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color("gris1"))
+                                                    
+                                                }.padding([.top,.trailing, .bottom])
+                                                    .frame(maxWidth: .infinity, maxHeight: 150)
+                                            })
+                                        
+                                    }*/
                                     
                                 }
                                 

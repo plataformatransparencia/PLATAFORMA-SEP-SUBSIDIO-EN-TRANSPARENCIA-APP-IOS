@@ -34,7 +34,7 @@ final class CompromisosViewModel: ObservableObject{
                     self.matricula = decodedData.matricula
                 }
             }catch{
-                print("No se pudo completar la peticion. Error: \(error)")
+                print("No se pudo completar la petición. Error: \(error)")
             }
         }.resume()
     }

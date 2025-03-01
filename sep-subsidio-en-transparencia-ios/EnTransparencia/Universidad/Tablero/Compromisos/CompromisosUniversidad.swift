@@ -35,7 +35,7 @@ struct CompromisosUniversidad: View {
                             Spacer()
                             
                         }.onAppear{
-                            print("Año: \(self.anio) Id: \(self.id) tipo: \(self.tipo)   subsidio: \(self.subsidio)")
+                           
                             
                             if (self.anio < 2025 )
                             {
