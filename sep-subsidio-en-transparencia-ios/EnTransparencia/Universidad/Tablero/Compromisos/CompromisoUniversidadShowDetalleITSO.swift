@@ -23,7 +23,7 @@ struct CompromisoUniversidadShowDetalleITSO :View {
     var body: some View{
             NavigationView{
                
-                    ScrollView(showsIndicators: false){
+                    
                         HStack{
                             VStack{
                                 HStack{
@@ -87,7 +87,7 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                                 
                             }
                         }
-                    }
+                    
                 
             }.navigationViewStyle(StackNavigationViewStyle())
                 .navigationBarHidden(true)
