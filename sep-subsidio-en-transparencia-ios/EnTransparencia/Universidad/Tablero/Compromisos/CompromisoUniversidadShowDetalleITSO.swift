@@ -22,10 +22,7 @@ struct CompromisoUniversidadShowDetalleITSO :View {
     
     var body: some View{
             NavigationView{
-                
-                ZStack{
-                    Color.white
-                        .edgesIgnoringSafeArea(.all)
+               
                     ScrollView(showsIndicators: false){
                         HStack{
                             VStack{
@@ -91,7 +88,7 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                             }
                         }
                     }
-                }
+                
             }.navigationViewStyle(StackNavigationViewStyle())
                 .navigationBarHidden(true)
             
