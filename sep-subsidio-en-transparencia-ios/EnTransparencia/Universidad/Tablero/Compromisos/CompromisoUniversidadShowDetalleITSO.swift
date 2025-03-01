@@ -75,39 +75,16 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                                             
                                             }.padding([.top,.trailing, .bottom])
                                             .frame(maxWidth: .infinity, maxHeight: 150)
-                                        })
+                                        }).listRowSeparator(.hidden)
+                                        
+                                    
                                 
-                                //        Text(compromiso.compromiso)
-                                //      .listRowSeparator(.hidden)
                                     
                                     
                                 }.listStyle(PlainListStyle())
                                     .padding()
                                 
-                                /* List(CompromisoItsoVM.itso ){ compromisoM in
-                                 NavigationLink(
-                                 destination: DetalleCompromiso(
-                                 compromiso: compromisoM.compromiso,
-                                 cumplimiento: compromisoM.cumplimiento,
-                                 fecha: compromisoM.fecha,
-                                 observacion: compromisoM.observacion
-                                 ),
-                                 label:{
-                                 HStack{
-                                 Text(compromisoM.compromiso )
-                                 .fixedSize(horizontal: false, vertical: true)
-                                 .font(.texto1())
-                                 .foregroundColor(.black)
-                                 Spacer()
-                                 Image(systemName: "chevron.right")
-                                 .font(.texto1())
-                                 .foregroundColor(Color("gris1"))
-                                 
-                                 }.padding([.top,.trailing, .bottom])
-                                 .frame(maxWidth: .infinity, maxHeight: 150)
-                                 })
-                                 
-                                 }*/
+                               
                                 
                             }
                             
