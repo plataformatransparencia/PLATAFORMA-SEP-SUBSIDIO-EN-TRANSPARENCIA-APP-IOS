@@ -54,9 +54,31 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                             }else{
                                 
                                 List(CompromisoItsoVM.itso){ compromiso in
-                                    
-                                        Text(compromiso.compromiso)
-                                        .listRowSeparator(.hidden)
+                                
+                                    NavigationLink(
+                                        destination: DetalleCompromiso(
+                                            compromiso: compromiso.compromiso,
+                                            cumplimiento: compromiso.cumplimiento,
+                                            fecha: compromiso.fecha,
+                                            observacion: compromiso.observacion
+                                            ),
+                                        label: {
+                                            HStack{
+                                            Text(compromiso.compromiso )
+                                            .fixedSize(horizontal: false, vertical: true)
+                                            .font(.texto1())
+                                            .foregroundColor(.black)
+                                            Spacer()
+                                            Image(systemName: "chevron.right")
+                                            .font(.texto1())
+                                            .foregroundColor(Color("gris1"))
+                                            
+                                            }.padding([.top,.trailing, .bottom])
+                                            .frame(maxWidth: .infinity, maxHeight: 150)
+                                        })
+                                
+                                //        Text(compromiso.compromiso)
+                                //      .listRowSeparator(.hidden)
                                     
                                     
                                 }.listStyle(PlainListStyle())
