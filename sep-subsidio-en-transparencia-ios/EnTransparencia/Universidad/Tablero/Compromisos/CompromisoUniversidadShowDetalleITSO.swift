@@ -45,8 +45,12 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                             }.padding([.horizontal,.top])
                                 .background(Color.white)
                             //Selección de informes
+                            //Invocando contenido de la lista
                             if (CompromisoItsoVM.itso.isEmpty) {
                                 ProgressView("Cargando ... ")
+                                    .onAppear(){
+                                        CompromisoItsoVM.loadCompromisos(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+                                    }
                             }else{
                                 
                                 List(CompromisoItsoVM.itso){ compromiso in
@@ -54,7 +58,7 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                                         Text(compromiso.compromiso)
                                     }
                                     
-                                }
+                                }.listStyle(PlainListStyle())
                                 
                                 /* List(CompromisoItsoVM.itso ){ compromisoM in
                                  NavigationLink(
