@@ -54,11 +54,13 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                             }else{
                                 
                                 List(CompromisoItsoVM.itso){ compromiso in
-                                    HStack{
+                                    
                                         Text(compromiso.compromiso)
-                                    }
+                                        .listRowSeparator(.hidden)
+                                    
                                     
                                 }.listStyle(PlainListStyle())
+                                    .padding()
                                 
                                 /* List(CompromisoItsoVM.itso ){ compromisoM in
                                  NavigationLink(
