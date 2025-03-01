@@ -23,71 +23,71 @@ struct CompromisoUniversidadShowDetalleITSO :View {
     var body: some View{
             NavigationView{
                
-                    
-                        HStack{
-                            VStack{
-                                HStack{
-                                    Button(
-                                        action: {
-                                            self.presentationMode.wrappedValue.dismiss()
-                                        },
-                                        label:{
-                                            Image(systemName: "chevron.left")
-                                                .font(.titulo())
-                                                .foregroundColor(Color("gris1"))
-                                        })
-                                    Spacer()
-                                    Text(TITULO_INFORMES_ITSO)
-                                        .foregroundColor(Color("rosita"))
-                                        .font(.titulo())
-                                        .bold()
-                                    Spacer()
+                VStack{
+                    HStack{
+                        VStack{
+                            HStack{
+                                Button(
+                                    action: {
+                                        self.presentationMode.wrappedValue.dismiss()
+                                    },
+                                    label:{
+                                        Image(systemName: "chevron.left")
+                                            .font(.titulo())
+                                            .foregroundColor(Color("gris1"))
+                                    })
+                                Spacer()
+                                Text(TITULO_INFORMES_ITSO)
+                                    .foregroundColor(Color("rosita"))
+                                    .font(.titulo())
+                                    .bold()
+                                Spacer()
                                 
                             }.padding([.horizontal,.top])
                                 .background(Color.white)
-                                //Selección de informes
-                                if (CompromisoItsoVM.itso.isEmpty) {
-                                    ProgressView("Cargando ... ")	
-                                }else{
-                                    
-                                    List(CompromisoItsoVM.itso){ compromiso in
-                                        HStack{
-                                            Text(compromiso.compromiso)
-                                        }
-                                        
+                            //Selección de informes
+                            if (CompromisoItsoVM.itso.isEmpty) {
+                                ProgressView("Cargando ... ")	
+                            }else{
+                                
+                                List(CompromisoItsoVM.itso){ compromiso in
+                                    HStack{
+                                        Text(compromiso.compromiso)
                                     }
-                                   
-                                   /* List(CompromisoItsoVM.itso ){ compromisoM in
-                                        NavigationLink(
-                                            destination: DetalleCompromiso(
-                                                compromiso: compromisoM.compromiso,
-                                                cumplimiento: compromisoM.cumplimiento,
-                                                fecha: compromisoM.fecha,
-                                                observacion: compromisoM.observacion
-                                            ),
-                                            label:{
-                                                HStack{
-                                                    Text(compromisoM.compromiso )
-                                                        .fixedSize(horizontal: false, vertical: true)
-                                                        .font(.texto1())
-                                                        .foregroundColor(.black)
-                                                    Spacer()
-                                                    Image(systemName: "chevron.right")
-                                                        .font(.texto1())
-                                                        .foregroundColor(Color("gris1"))
-                                                    
-                                                }.padding([.top,.trailing, .bottom])
-                                                    .frame(maxWidth: .infinity, maxHeight: 150)
-                                            })
-                                        
-                                    }*/
                                     
                                 }
                                 
+                                /* List(CompromisoItsoVM.itso ){ compromisoM in
+                                 NavigationLink(
+                                 destination: DetalleCompromiso(
+                                 compromiso: compromisoM.compromiso,
+                                 cumplimiento: compromisoM.cumplimiento,
+                                 fecha: compromisoM.fecha,
+                                 observacion: compromisoM.observacion
+                                 ),
+                                 label:{
+                                 HStack{
+                                 Text(compromisoM.compromiso )
+                                 .fixedSize(horizontal: false, vertical: true)
+                                 .font(.texto1())
+                                 .foregroundColor(.black)
+                                 Spacer()
+                                 Image(systemName: "chevron.right")
+                                 .font(.texto1())
+                                 .foregroundColor(Color("gris1"))
+                                 
+                                 }.padding([.top,.trailing, .bottom])
+                                 .frame(maxWidth: .infinity, maxHeight: 150)
+                                 })
+                                 
+                                 }*/
                                 
                             }
+                            
+                            
                         }
-                    
+                    }
+                }
                 
             }.navigationViewStyle(StackNavigationViewStyle())
                 .navigationBarHidden(true)
