@@ -54,15 +54,15 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                             }else{
                                 
                                 List(CompromisoItsoVM.itso){ compromiso in
-                                
+                            
                                     NavigationLink(
                                         destination: DetalleCompromiso(
                                             compromiso: compromiso.compromiso,
                                             cumplimiento: compromiso.cumplimiento,
                                             fecha: compromiso.fecha,
                                             observacion: compromiso.observacion
-                                            ),
-                                        label: {
+                                            ))
+                                         {
                                             HStack{
                                             Text(compromiso.compromiso )
                                             .fixedSize(horizontal: false, vertical: true)
@@ -72,12 +72,16 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                                             Image(systemName: "chevron.right")
                                             .font(.texto1())
                                             .foregroundColor(Color("gris1"))
-                                            
                                             }.padding([.top,.trailing, .bottom])
                                             .frame(maxWidth: .infinity, maxHeight: 150)
+                                            .contentShape(Rectangle())
                                         }).listRowSeparator(.hidden)
+                                        .listRowInsets(EdgeInsets())
+                                       
+                                    
                                     
                                 }.listStyle(PlainListStyle())
+                                    .buttonStyle(PlainButtonStyle())
                                     .padding()
                             }
                         
