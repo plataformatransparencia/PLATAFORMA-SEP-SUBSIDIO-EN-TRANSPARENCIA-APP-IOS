@@ -21,8 +21,8 @@ struct CompromisoUniversidadShowDetalleITSO :View {
    
     
     var body: some View{
-        VStack{
             NavigationView{
+                
                 ZStack{
                     Color.white
                         .edgesIgnoringSafeArea(.all)
@@ -94,8 +94,8 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                 }
             }.navigationViewStyle(StackNavigationViewStyle())
                 .navigationBarHidden(true)
-                
-        }
+            
+        
     }
 }
 
