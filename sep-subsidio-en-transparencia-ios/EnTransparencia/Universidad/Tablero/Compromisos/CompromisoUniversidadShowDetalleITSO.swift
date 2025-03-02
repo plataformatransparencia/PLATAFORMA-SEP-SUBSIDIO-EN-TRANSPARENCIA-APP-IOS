@@ -17,88 +17,71 @@ struct CompromisoUniversidadShowDetalleITSO :View {
     let tipo: String
     
     var body: some View{
-        NavigationView{
-            VStack{
-                HStack{
-                    VStack{
+        VStack{
+            NavigationView{
+                ZStack{
+                    Color.white
+                        .ignoresSafeArea(edges: .all)
+                    ScrollView(showsIndicators:false){
                         HStack{
-                            Button(
-                                action: {
-                                    self.presentationMode.wrappedValue.dismiss()
-                                },
-                                label:{
-                                    Image(systemName: "chevron.left")
+                            VStack{
+                                HStack{
+                                    Button {
+                                        self.presentationMode.wrappedValue.dismiss()
+                                    } label: {
+                                        Image(systemName: "chevron.left")
+                                            .font(.titulo())
+                                            .foregroundColor(Color("gris1"))
+                                    }
+                                    Spacer()
+                                    Text(TITULO_INFORMES_ITSO)
+                                        .foregroundColor(Color("rosita"))
                                         .font(.titulo())
-                                        .foregroundColor(Color("gris1"))
-                                })
+                                        .bold()
+                                    Spacer()
+                                }
+                            }
                             Spacer()
-                            Text(TITULO_INFORMES_ITSO)
-                                .foregroundColor(Color("rosita"))
-                                .font(.titulo())
-                                .bold()
-                            Spacer()
-                            
-                        }.padding([.horizontal,.top])
-                            .background(Color.white)
-                        //Selección de informes
-                        //Invocando contenido de la lista
-                        if (CompromisoItsoVM.itso.isEmpty) {
-                            ProgressView("Cargando ... ")
-                                .onAppear(){
-                                    CompromisoItsoVM.loadCompromisos(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+                        }
+                        if (CompromisoItsoVM.itso.isEmpty){
+                            ProgressView("Cargando ...")
+                                .onAppear {
+                                    CompromisoItsoVM.loadCompromisos(anio:self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
                                 }
                         }else{
-                            List{
-                                ForEach(CompromisoItsoVM.itso){compromiso in
-                                    CompromisoRow(compromiso: compromiso)
-                                }
-                            }.listStyle(PlainListStyle()) //Quita bordes extra
+                            ForEach(CompromisoItsoVM.itso){ compromiso in
+                                NavigationLink(
+                                    destination: DetalleCompromiso(
+                                        compromiso: compromiso.compromiso,
+                                        cumplimiento: compromiso.cumplimiento,
+                                        fecha: compromiso.fecha,
+                                        observacion: compromiso.observacion
+                                    ),
+                                    label:{
+                                        HStack{
+                                            Text(compromiso.compromiso )
+                                                .fixedSize(horizontal: false, vertical: true)
+                                                .font(.texto())
+                                                .multilineTextAlignment(.leading)
+                                                .foregroundColor(.black)
+                                                .padding()
+                                            Spacer()
+                                            Image(systemName: "chevron.right")
+                                                .font(.texto1())
+                                                .foregroundColor(Color("gris1"))
+                                        }.padding([.top,.trailing,.bottom])
+                                            .frame(maxWidth: .infinity,maxHeight: 150)
+                                    }
+                                )
+                                
+                            }
                         }
-                        
-                    }
+                    }.navigationBarHidden(true)
                 }
-            }.edgesIgnoringSafeArea(.bottom)
-            
-        }.navigationViewStyle(StackNavigationViewStyle())
-            .navigationBarHidden(true)
+            }.navigationViewStyle(StackNavigationViewStyle())
+                .navigationBarHidden(true)
+        }
     }
 }
 
 
-struct CompromisoRow:View{
-    let compromiso: CompromisoM
-    var body: some View{
-        NavigationLink(destination: DetalleCompromiso(
-            compromiso: compromiso.compromiso,
-            cumplimiento: compromiso.cumplimiento,
-            fecha: compromiso.fecha,
-            observacion: compromiso.observacion )){
-                HStack{
-                    Text(compromiso.compromiso )
-                        .fixedSize(horizontal: false, vertical: true)
-                        .font(.texto1())
-                        .foregroundColor(.black)
-                    Spacer()
-                    Image(systemName: "chevron.right")
-                        .font(.texto1())
-                        .foregroundColor(.gray)
-                }.padding()
-                    .frame(maxWidth: .infinity)
-                    .background(Color(Color.white))
-            }.buttonStyle(PlainButtonStyle())
-    }
-}
-
-/*     .fixedSize(horizontal: false, vertical: true)
- .font(.texto1())
- .foregroundColor(.black)
- Spacer()
- Image(systemName: "chevron.right")
- .font(.texto1())
- .foregroundColor(Color("gris1"))
- }.padding([.top,.trailing, .bottom])
- .frame(maxWidth: .infinity, maxHeight: 150)
- .contentShape(Rectangle())
- }.listRowSeparator(.hidden)
- .listRowInsets(EdgeInsets())
- .buttonStyle(PlainButtonStyle())*/
