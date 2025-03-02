@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4718CCC72D7415A00065DF60 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4718CCC62D7415A00065DF60 /* File.txt */; };
+		471A86AC2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A86AB2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift */; };
 		478EF67F2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */; };
 		479C118B2D6904D900CF9BF1 /* CompromisoItso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */; };
 		479C118D2D69055000CF9BF1 /* CompromisoPef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118C2D69055000CF9BF1 /* CompromisoPef.swift */; };
@@ -143,6 +144,7 @@
 /* Begin PBXFileReference section */
 		3525F6275EBDF70868928F9E /* Pods-EnTransparencia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.debug.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.debug.xcconfig"; sourceTree = "<group>"; };
 		4718CCC62D7415A00065DF60 /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
+		471A86AB2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleCompromisoItsoPef.swift; sourceTree = "<group>"; };
 		478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoUniversidadShowDetalle.swift; sourceTree = "<group>"; };
 		479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoItso.swift; sourceTree = "<group>"; };
 		479C118C2D69055000CF9BF1 /* CompromisoPef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoPef.swift; sourceTree = "<group>"; };
@@ -602,6 +604,7 @@
 			isa = PBXGroup;
 			children = (
 				C1EC3BC72603E2ED00D37428 /* DetalleCompromiso.swift */,
+				471A86AB2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift */,
 				C1F085A7260292A800B1C7C7 /* CompromisosUniversidad.swift */,
 				47BDFF2B2D66A07800132C07 /* CompromisoInforme.swift */,
 				479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */,
@@ -959,6 +962,7 @@
 				C155E117262E322C0059DE89 /* InformeTrimestralRC.swift in Sources */,
 				C1D82FB4273F0B5F00AF2AAC /* TableroEstatal.swift in Sources */,
 				C1DE9F50261E88850067E2E9 /* CompromisosData.swift in Sources */,
+				471A86AC2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift in Sources */,
 				C1DAE9D9261F930C0014E286 /* Referencias.swift in Sources */,
 				C1F8536A25EF11E0009EB9C9 /* GridView.swift in Sources */,
 				C11289A32608F6CB00A51F2A /* TableroCumplimientoEstatal.swift in Sources */,

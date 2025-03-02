@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct DetalleCompromiso: View {
+struct DetalleCompromisoItsoPef: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     @State var compromiso: String
     @State var cumplimiento: String
@@ -78,8 +78,3 @@ struct DetalleCompromiso: View {
     }
 }
 
-struct DetalleCompromiso_Previews: PreviewProvider {
-    static var previews: some View {
-        DetalleCompromiso(compromiso: "sksssjsj", cumplimiento: "kskskssk", fecha: "jajajaj", observacion: "jajajaj")
-    }
-}

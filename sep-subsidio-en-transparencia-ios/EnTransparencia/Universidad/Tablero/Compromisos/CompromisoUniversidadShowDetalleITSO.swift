@@ -71,6 +71,9 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                                                 .foregroundColor(Color("gris1"))
                                         }.padding([.top,.trailing,.bottom])
                                             .frame(maxWidth: .infinity,maxHeight: 150)
+                                            .onAppear(){
+                                                print("Fecha \(compromiso.fecha)")
+                                            }
                                     }
                                 )
                                 

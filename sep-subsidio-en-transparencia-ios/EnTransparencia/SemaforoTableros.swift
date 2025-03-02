@@ -844,6 +844,211 @@ struct SemaforoTableroInformesEO: View {
         
     }
 }
+
+struct SemaforoTablerosItsoPef: View {
+    @State var cumplimiento: String
+    @State var fecha: String
+    @State var textoColumna1: String
+    @State var textoColumna2: String
+    var body: some View {
+        VStack{
+            HStack {
+                VStack(alignment: .center){
+                    HStack{
+                        VStack{
+                            Text("\(self.textoColumna1)")
+                                .foregroundColor(Color("rosita"))
+                                .font(.texto1())
+                                .bold()
+                                .padding(.bottom)
+                            switch self.cumplimiento {
+                            case "Cumple":
+                                Circle()
+                                    .foregroundColor(Color("Verde"))
+                                    .background(Color("Verde"))
+                                    .frame(width: 20, height: 20)
+                                    .aspectRatio(contentMode: .fit)
+                                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                                    .overlay(Circle().stroke(Color("Verde"),lineWidth: 1))
+                            case "No cumple":
+                                Circle()
+                                    .foregroundColor(Color("Rojo"))
+                                    .background(Color("Rojo"))
+                                    .frame(width: 20, height: 20)
+                                    .aspectRatio(contentMode: .fit)
+                                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                                    .overlay(Circle().stroke(Color("Rojo"),lineWidth: 1))
+                            case "En revisión":
+                                Circle()
+                                    .foregroundColor(Color("Amarillo"))
+                                    .background(Color("Amarillo"))
+                                    .frame(width: 20, height: 20)
+                                    .aspectRatio(contentMode: .fit)
+                                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                                    .overlay(Circle().stroke(Color("Amarillo"),lineWidth: 1))
+                            case "En Proceso":
+                                Circle()
+                                    .foregroundColor(Color("dorado"))
+                                    .background(Color("dorado"))
+                                    .frame(width: 20, height: 20)
+                                    .aspectRatio(contentMode: .fit)
+                                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                                    .overlay(Circle().stroke(Color("Amarillo"),lineWidth: 1))
+                            case "Incompleta":
+                                Circle()
+                                    .foregroundColor(Color("Amarillo"))
+                                    .background(Color("Amarillo"))
+                                    .frame(width: 20, height: 20)
+                                    .aspectRatio(contentMode: .fit)
+                                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                                    .overlay(Circle().stroke(Color("Amarillo"),lineWidth: 1))
+                            case "Extemporánea":
+                                Circle()
+                                    .foregroundColor(Color("Amarillo"))
+                                    .background(Color("Amarillo"))
+                                    .frame(width: 20, height: 20)
+                                    .aspectRatio(contentMode: .fit)
+                                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                                    .overlay(Circle().stroke(Color("Amarillo"),lineWidth: 1))
+
+                            case "Complementada":
+                                Circle()
+                                    .foregroundColor(Color("Amarillo"))
+                                    .background(Color("Amarillo"))
+                                    .frame(width: 20, height: 20)
+                                    .aspectRatio(contentMode: .fit)
+                                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                                    .overlay(Circle().stroke(Color("Amarillo"),lineWidth: 1))
+
+                            default:
+                                Circle()
+                                    .foregroundColor(.white)
+                                    .background(Color.white)
+                                    .frame(width: UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad ? 40 : 20, height: UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad ? 40 : 20)
+                                    .aspectRatio(contentMode: .fit)
+                                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                                    .overlay(Circle().stroke(Color.white,lineWidth: 1))
+                            }
+                        }
+                        Divider()
+                            .background(Color("grisClaro"))
+                            .frame(height: 95)
+                        VStack{
+                            Text("\(self.textoColumna2)")
+                                .foregroundColor(Color("rosita"))
+                                .font(.texto1())
+                                .bold()
+                                .padding(.bottom)
+                            Text("\(self.fecha)")
+                                .font(.texto())
+                                .foregroundColor(.black)
+                                .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+                                .multilineTextAlignment(.center)
+                        }
+                    }.padding()
+                    .frame(height: 95)
+                    .border(Color("grisClaro"))
+                }
+            }
+            VStack(alignment: .center){
+                HStack{
+                    Circle()
+                        .foregroundColor(Color("Verde"))
+                        .background(Color("Verde"))
+                        .frame(width: 12, height: 12)
+                        .aspectRatio(contentMode: .fit)
+                        .clipShape(Circle())
+                        .overlay(Circle().stroke(Color("Verde"),lineWidth: 1))
+                    Text("Cupmle")
+                        .font(.texto2())
+                        .foregroundColor(.black)
+                        .fixedSize(horizontal: true, vertical: false)
+                    
+                    Circle()
+                        .foregroundColor(Color("Rojo"))
+                        .background(Color("Rojo"))
+                        .frame(width: 12, height: 12)
+                        .aspectRatio(contentMode: .fit)
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .overlay(Circle().stroke(Color("Rojo"),lineWidth: 1))
+                    Text("No cumple")
+                        .font(.texto2())
+                        .foregroundColor(.black)
+                        .fixedSize(horizontal: true, vertical: false)
+                    
+                    Circle()
+                        .foregroundColor(Color("Amarillo"))
+                        .background(Color("Amarillo"))
+                        .frame(width: 12, height: 12)
+                        .aspectRatio(contentMode: .fit)
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .overlay(Circle().stroke(Color("Amarillo"),lineWidth: 1))
+                    Text("En revisión")
+                        .font(.texto2())
+                        .foregroundColor(.black)
+                        .padding(.leading, 5)
+                        .fixedSize(horizontal: true, vertical: false)
+                    
+                    Circle()
+                        .foregroundColor(Color("Amarillo"))
+                        .background(Color("Amarillo"))
+                        .frame(width: 12, height: 12)
+                        .aspectRatio(contentMode: .fit)
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .overlay(Circle().stroke(Color("Amarillo"),lineWidth: 1))
+                    Text("En Proceso")
+                        .font(.texto2())
+                        .foregroundColor(.black)
+                        .padding(.leading, 5)
+                        .fixedSize(horizontal: true, vertical: false)
+                    
+                    Circle()
+                        .foregroundColor(Color("Amarillo"))
+                        .background(Color("Amarillo"))
+                        .frame(width: 12, height: 12)
+                        .aspectRatio(contentMode: .fit)
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .overlay(Circle().stroke(Color("Amarillo"),lineWidth: 1))
+                    Text("Incompleta")
+                        .font(.texto2())
+                        .foregroundColor(.black)
+                        .padding(.leading, 5)
+                        .fixedSize(horizontal: true, vertical: false)
+                    
+                    Circle()
+                        .foregroundColor(Color("Amarillo"))
+                        .background(Color("Amarillo"))
+                        .frame(width: 12, height: 12)
+                        .aspectRatio(contentMode: .fit)
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .overlay(Circle().stroke(Color("Amarillo"),lineWidth: 1))
+                    Text("Extemporánea")
+                        .font(.texto2())
+                        .foregroundColor(.black)
+                        .padding(.leading, 5)
+                        .fixedSize(horizontal: true, vertical: false)
+                    
+                    Circle()
+                        .foregroundColor(Color("Amarillo"))
+                        .background(Color("Amarillo"))
+                        .frame(width: 12, height: 12)
+                        .aspectRatio(contentMode: .fit)
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .overlay(Circle().stroke(Color("Amarillo"),lineWidth: 1))
+                    Text("Complementada")
+                        .font(.texto2())
+                        .foregroundColor(.black)
+                        .padding(.leading, 5)
+                        .fixedSize(horizontal: true, vertical: false)
+                    
+                }.padding([.top, .bottom])
+            }
+        }
+        
+    }
+}
+
+
 struct SemaforoTableroInformesItsoPef: View {
     @State var cumplimiento : String
     var body: some View {
@@ -876,7 +1081,7 @@ struct SemaforoTableroInformesItsoPef: View {
                         .overlay(Circle().stroke(Color("Amarillo"),lineWidth: 1))
                 case "En Proceso":
                     Circle()
-                        .foregroundColor(Color(""))
+                        .foregroundColor(Color("dorado"))
                         .background(Color("dorado"))
                         .frame(width: UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad ? 25 : 15, height: UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad ? 25 : 15)
                         .aspectRatio(contentMode: .fit)
