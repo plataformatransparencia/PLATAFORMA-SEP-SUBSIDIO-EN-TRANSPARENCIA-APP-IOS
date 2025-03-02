@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4718CCC72D7415A00065DF60 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4718CCC62D7415A00065DF60 /* File.txt */; };
 		478EF67F2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */; };
 		479C118B2D6904D900CF9BF1 /* CompromisoItso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */; };
 		479C118D2D69055000CF9BF1 /* CompromisoPef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118C2D69055000CF9BF1 /* CompromisoPef.swift */; };
@@ -22,6 +23,7 @@
 		78A3CC6228357BE8000A7B31 /* ActividadesEntregasDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */; };
 		78A55B082AD8AAB800735363 /* MontosBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D82BCC26277B8B0010FD26 /* MontosBarChartView.swift */; };
 		78D19BFF2D70FF1F00964E76 /* CompromisoUniversidadShowDetalleITSO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D19BFE2D70FF1F00964E76 /* CompromisoUniversidadShowDetalleITSO.swift */; };
+		B14A6CCB014FF20483ED11F9 /* libPods-EnTransparencia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 963893D30D8582D2E4793365 /* libPods-EnTransparencia.a */; };
 		C103F4D52625FA89007DAA9B /* DetalleProgramas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103F4D42625FA89007DAA9B /* DetalleProgramas.swift */; };
 		C103F4D926260981007DAA9B /* MinistracionEstatalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103F4D826260981007DAA9B /* MinistracionEstatalData.swift */; };
 		C104E7B52768FDA200282373 /* TableroFederal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C104E7B42768FDA200282373 /* TableroFederal.swift */; };
@@ -106,7 +108,6 @@
 		C1F8536525EEDBDB009EB9C9 /* GridCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8536425EEDBDB009EB9C9 /* GridCellView.swift */; };
 		C1F8536A25EF11E0009EB9C9 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8536925EF11E0009EB9C9 /* GridView.swift */; };
 		C1FE6C47260BAEC9005168F7 /* ObjectUniversidades.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE6C46260BAEC9005168F7 /* ObjectUniversidades.swift */; };
-		C631FE7A5CA3FB65DAE5D481 /* libPods-EnTransparencia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E051B5C05A1CDFF30D5E7AB4 /* libPods-EnTransparencia.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,13 +141,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		40407E8849B3ABCCF8B654BA /* Pods-EnTransparencia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.debug.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.debug.xcconfig"; sourceTree = "<group>"; };
+		3525F6275EBDF70868928F9E /* Pods-EnTransparencia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.debug.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.debug.xcconfig"; sourceTree = "<group>"; };
+		4718CCC62D7415A00065DF60 /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
 		478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoUniversidadShowDetalle.swift; sourceTree = "<group>"; };
 		479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoItso.swift; sourceTree = "<group>"; };
 		479C118C2D69055000CF9BF1 /* CompromisoPef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoPef.swift; sourceTree = "<group>"; };
 		479C118E2D69059A00CF9BF1 /* CompromisoMatricula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoMatricula.swift; sourceTree = "<group>"; };
 		47BDFF2B2D66A07800132C07 /* CompromisoInforme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoInforme.swift; sourceTree = "<group>"; };
-		6EC3779284CA6824B5623175 /* Pods-EnTransparencia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.release.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.release.xcconfig"; sourceTree = "<group>"; };
 		782654CF2C5A9D1D00AD5B0C /* DetallePoliticas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallePoliticas.swift; sourceTree = "<group>"; };
 		782654D12C5AA08400AD5B0C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		78526E2729845D95000C4D55 /* CompromisosVertientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosVertientes.swift; sourceTree = "<group>"; };
@@ -155,6 +156,8 @@
 		78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCompromisosListaPresupuesto.swift; sourceTree = "<group>"; };
 		78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActividadesEntregasDetalle.swift; sourceTree = "<group>"; };
 		78D19BFE2D70FF1F00964E76 /* CompromisoUniversidadShowDetalleITSO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompromisoUniversidadShowDetalleITSO.swift; sourceTree = "<group>"; };
+		86F62E3F0DD4E852175D3E2D /* Pods-EnTransparencia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.release.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.release.xcconfig"; sourceTree = "<group>"; };
+		963893D30D8582D2E4793365 /* libPods-EnTransparencia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnTransparencia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C103F4D42625FA89007DAA9B /* DetalleProgramas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProgramas.swift; sourceTree = "<group>"; };
 		C103F4D826260981007DAA9B /* MinistracionEstatalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinistracionEstatalData.swift; sourceTree = "<group>"; };
 		C104E7B42768FDA200282373 /* TableroFederal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroFederal.swift; sourceTree = "<group>"; };
@@ -247,7 +250,6 @@
 		C1F8536425EEDBDB009EB9C9 /* GridCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCellView.swift; sourceTree = "<group>"; };
 		C1F8536925EF11E0009EB9C9 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		C1FE6C46260BAEC9005168F7 /* ObjectUniversidades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectUniversidades.swift; sourceTree = "<group>"; };
-		E051B5C05A1CDFF30D5E7AB4 /* libPods-EnTransparencia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnTransparencia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,7 +257,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C631FE7A5CA3FB65DAE5D481 /* libPods-EnTransparencia.a in Frameworks */,
+				B14A6CCB014FF20483ED11F9 /* libPods-EnTransparencia.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +278,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E2000F86CA54870F0018D58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				963893D30D8582D2E4793365 /* libPods-EnTransparencia.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		78011C1F2D6D471400596799 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +299,7 @@
 			isa = PBXGroup;
 			children = (
 				782654CF2C5A9D1D00AD5B0C /* DetallePoliticas.swift */,
+				4718CCC62D7415A00065DF60 /* File.txt */,
 				782654D12C5AA08400AD5B0C /* SwiftUIView.swift */,
 			);
 			name = Politica;
@@ -297,18 +308,10 @@
 		923FF8DB923193B8DD72E20A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				40407E8849B3ABCCF8B654BA /* Pods-EnTransparencia.debug.xcconfig */,
-				6EC3779284CA6824B5623175 /* Pods-EnTransparencia.release.xcconfig */,
+				3525F6275EBDF70868928F9E /* Pods-EnTransparencia.debug.xcconfig */,
+				86F62E3F0DD4E852175D3E2D /* Pods-EnTransparencia.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		A1F60CE7DF252E911F1E46B5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E051B5C05A1CDFF30D5E7AB4 /* libPods-EnTransparencia.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C104E7A82768FAC000282373 /* SubsidioOrdinario */ = {
@@ -630,7 +633,7 @@
 				C1B6D72925E71CB400340FF3 /* EnTransparenciaUITests */,
 				C1B6D70B25E71CAD00340FF3 /* Products */,
 				923FF8DB923193B8DD72E20A /* Pods */,
-				A1F60CE7DF252E911F1E46B5 /* Frameworks */,
+				6E2000F86CA54870F0018D58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -757,12 +760,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1B6D72F25E71CB400340FF3 /* Build configuration list for PBXNativeTarget "EnTransparencia" */;
 			buildPhases = (
-				2558A8472EFF2DE4038956F7 /* [CP] Check Pods Manifest.lock */,
+				C16D25E0B046330F9DFFD11C /* [CP] Check Pods Manifest.lock */,
 				C1B6D70625E71CAD00340FF3 /* Sources */,
 				C1B6D70725E71CAD00340FF3 /* Frameworks */,
 				C1B6D70825E71CAD00340FF3 /* Resources */,
 				78A3CC5E283576EE000A7B31 /* Embed Frameworks */,
-				E11A4A86F78BCCEA4EF021B1 /* [CP] Copy Pods Resources */,
+				09ED18AD58F13DF2B04520DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -856,6 +859,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4718CCC72D7415A00065DF60 /* File.txt in Resources */,
 				C1DFEB5226139A94007A1668 /* SilverTheme.json in Resources */,
 				C1B6D71525E71CB300340FF3 /* Preview Assets.xcassets in Resources */,
 				C1B6D71225E71CB300340FF3 /* Assets.xcassets in Resources */,
@@ -880,7 +884,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2558A8472EFF2DE4038956F7 /* [CP] Check Pods Manifest.lock */ = {
+		09ED18AD58F13DF2B04520DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C16D25E0B046330F9DFFD11C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -900,23 +921,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E11A4A86F78BCCEA4EF021B1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1182,7 +1186,7 @@
 		};
 		C1B6D73025E71CB400340FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40407E8849B3ABCCF8B654BA /* Pods-EnTransparencia.debug.xcconfig */;
+			baseConfigurationReference = 3525F6275EBDF70868928F9E /* Pods-EnTransparencia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1210,7 +1214,7 @@
 		};
 		C1B6D73125E71CB400340FF3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EC3779284CA6824B5623175 /* Pods-EnTransparencia.release.xcconfig */;
+			baseConfigurationReference = 86F62E3F0DD4E852175D3E2D /* Pods-EnTransparencia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

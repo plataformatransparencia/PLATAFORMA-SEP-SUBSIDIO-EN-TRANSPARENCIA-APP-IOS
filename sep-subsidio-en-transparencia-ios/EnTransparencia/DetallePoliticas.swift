@@ -123,7 +123,7 @@ struct DetallePoliticas: View {
                                         .padding(.top,10)
                                     Link("subsidiotransparencia@nube.sep.gob.mx", destination: URL(string: "mailto:subsidiotransparencia@nube.sep.gob.mx")!)
                                         .foregroundColor(Color("dorado"))
-                                        .accentColor(Color("dorado"))
+    //                                    .accentColor(Color("dorado"))
                                     
                                         .padding(.top,10)
                                 }

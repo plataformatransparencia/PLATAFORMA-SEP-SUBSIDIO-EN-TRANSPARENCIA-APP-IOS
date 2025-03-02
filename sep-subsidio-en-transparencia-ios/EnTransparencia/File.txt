@@ -1,0 +1,1 @@
+Module map file '/Users/armando/Library/Developer/Xcode/DerivedData/EnTransparencia-anyufeiwcdbusocfgrskknzfyfdu/Build/Products/Debug-iphonesimulator/DGCharts/DGCharts.modulemap' not found
