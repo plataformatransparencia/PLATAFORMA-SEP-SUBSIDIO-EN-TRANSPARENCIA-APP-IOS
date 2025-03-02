@@ -51,7 +51,7 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                         }else{
                             ForEach(CompromisoItsoVM.itso){ compromiso in
                                 NavigationLink(
-                                    destination: DetalleCompromiso(
+                                    destination: DetalleCompromisoItsoPef(
                                         compromiso: compromiso.compromiso,
                                         cumplimiento: compromiso.cumplimiento,
                                         fecha: compromiso.fecha,

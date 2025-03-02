@@ -24,7 +24,7 @@ struct DetalleCompromisoItsoPef: View {
                                             .foregroundColor(Color("gris1"))
                                     })
                                     Spacer()
-                                    Text("Compromiso")
+                                    Text(TITULO_INFORMES_ITSO)
                                         .foregroundColor(Color("rosita"))
                                         .font(.titulo())
                                         .bold()
@@ -35,7 +35,7 @@ struct DetalleCompromisoItsoPef: View {
                         }.padding([.horizontal, .top])
                         HStack{
                             VStack(alignment: .leading){
-                                Text("Compromiso")
+                                Text("Informe")
                                     .foregroundColor(Color("rosita"))
                                     .font(.texto1())
                                     .bold()
@@ -50,7 +50,7 @@ struct DetalleCompromisoItsoPef: View {
                             }
                         }.padding()
                             
-                        SemaforoTablerosEO(cumplimiento: self.cumplimiento, fecha: self.fecha, textoColumna1: "Cumplimiento", textoColumna2: "Fecha de ejecución")
+                     //   SemaforoTablerosItsoPef(cumplimiento: self.cumplimiento, fecha: self.fecha, textoColumna1: "Cumplimiento", textoColumna2: "Fecha de ejecución")
                         if self.observacion != ""{
                             HStack{
                                 VStack(alignment: .leading){
