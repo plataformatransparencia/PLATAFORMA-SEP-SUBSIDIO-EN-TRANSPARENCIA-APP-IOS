@@ -57,13 +57,17 @@ struct CompromisoUniversidadShowDetalle :View {
                                     label: {
                                    
                                         HStack {
-                                            let text = "\(compromisosUniversidadViewModel.compromisos![item].compromiso.reemplazo())"
-                                            Text( text )
+                                            let texto = "\(compromisosUniversidadViewModel.compromisos![item].compromiso.reemplazo())"
+                                            HTML2Text(htmlString: texto){ text in
+                                            AnyView( //Se asegura que el retorno sea de tipo concreto
+                                                text
                                                 .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                                 .font(.texto())
                                                 .multilineTextAlignment(.leading)
                                                 .foregroundColor(.black)
                                                 .padding()
+                                                )
+                                            }
                                             Spacer()
                                             Image(systemName: "chevron.right")
                                                 .font(.texto1())

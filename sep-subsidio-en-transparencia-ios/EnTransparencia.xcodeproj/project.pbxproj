@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4718CCC72D7415A00065DF60 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4718CCC62D7415A00065DF60 /* File.txt */; };
 		471A86AC2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A86AB2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift */; };
+		47497B1D2D74D8150086E7B7 /* HTML2Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47497B1C2D74D7FA0086E7B7 /* HTML2Text.swift */; };
 		478EF67F2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */; };
 		479C118B2D6904D900CF9BF1 /* CompromisoItso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */; };
 		479C118D2D69055000CF9BF1 /* CompromisoPef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118C2D69055000CF9BF1 /* CompromisoPef.swift */; };
@@ -145,6 +146,7 @@
 		3525F6275EBDF70868928F9E /* Pods-EnTransparencia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.debug.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.debug.xcconfig"; sourceTree = "<group>"; };
 		4718CCC62D7415A00065DF60 /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
 		471A86AB2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleCompromisoItsoPef.swift; sourceTree = "<group>"; };
+		47497B1C2D74D7FA0086E7B7 /* HTML2Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTML2Text.swift; sourceTree = "<group>"; };
 		478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoUniversidadShowDetalle.swift; sourceTree = "<group>"; };
 		479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoItso.swift; sourceTree = "<group>"; };
 		479C118C2D69055000CF9BF1 /* CompromisoPef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoPef.swift; sourceTree = "<group>"; };
@@ -468,6 +470,7 @@
 		C119718D275A89D500ECBEAB /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				47497B1C2D74D7FA0086E7B7 /* HTML2Text.swift */,
 				C1126EF52624E89500052D1D /* CustomVideo.swift */,
 				C1B250E02653309500E53069 /* LargeValueFormatter.swift */,
 				C13130BB260A788800160CEC /* PieChart.swift */,
@@ -936,6 +939,7 @@
 				782268FD2ADDEC1800690C7E /* PieChart.swift in Sources */,
 				78A55B082AD8AAB800735363 /* MontosBarChartView.swift in Sources */,
 				C11971AA275A90F200ECBEAB /* FiltroViewModel.swift in Sources */,
+				47497B1D2D74D8150086E7B7 /* HTML2Text.swift in Sources */,
 				C110A719274C19A800793A6B /* ListaAcciones.swift in Sources */,
 				C1B6D75F25E7233700340FF3 /* ViewRouter.swift in Sources */,
 				78A3CC6228357BE8000A7B31 /* ActividadesEntregasDetalle.swift in Sources */,
