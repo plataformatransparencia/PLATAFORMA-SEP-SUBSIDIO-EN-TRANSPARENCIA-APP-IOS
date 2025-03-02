@@ -8,10 +8,17 @@
 import SwiftUI
 
 struct CompromisoPef: View {
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    @State var anio: Int
+    @State var id: String
+    @State var subsidio: String
+    @State var tipo: String
     var body: some View {
         NavigationLink(
             destination: {
-                TestListView()
+                
+                CompromisoUniversidadShowDetalleITSO(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo,tipoInforme: "pef")
+
             },
             label: {
                 HStack{
@@ -33,15 +40,4 @@ struct CompromisoPef: View {
 
 
 
-
-struct TestListView: View {
-    let items = ["Elemento 1", "Elemento 2", "Elemento 3", "Elemento 4", "Elemento 5"]
-    var body: some View {
-        List(items,id: \.self){item in
-            Text(item)
-            
-        }.navigationTitle(Text("Lista de Pruebas"))
-    }
-    
-}
 

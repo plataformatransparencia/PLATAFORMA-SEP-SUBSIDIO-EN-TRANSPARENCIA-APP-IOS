@@ -8,10 +8,15 @@
 import SwiftUI
 
 struct CompromisoMatricula: View {
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    @State var anio: Int
+    @State var id: String
+    @State var subsidio: String
+    @State var tipo: String
     var body: some View {
         NavigationLink(
             destination: {
-                TestListView()
+                CompromisoUniversidadShowDetalleITSO(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo,tipoInforme: "matricula")
             },
             label: {
                 HStack{

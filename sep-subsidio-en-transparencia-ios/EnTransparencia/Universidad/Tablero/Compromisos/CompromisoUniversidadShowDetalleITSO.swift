@@ -15,6 +15,7 @@ struct CompromisoUniversidadShowDetalleITSO :View {
     let id: String
     let subsidio: String
     let tipo: String
+    let tipoInforme: String
     
     var body: some View{
         VStack{
@@ -34,10 +35,32 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                                             .foregroundColor(Color("gris1"))
                                     }
                                     Spacer()
-                                    Text(TITULO_INFORMES_ITSO)
-                                        .foregroundColor(Color("rosita"))
-                                        .font(.titulo())
-                                        .bold()
+                                    switch(tipoInforme){
+                                    case "itso":
+                                        Text(TITULO_INFORMES_ITSO)
+                                            .foregroundColor(Color("rosita"))
+                                            .font(.titulo())
+                                            .bold()
+                                        
+                                    case "pef":
+                                        Text(TITULO_INFORMES_PEF)
+                                            .foregroundColor(Color("rosita"))
+                                            .font(.titulo())
+                                            .bold()
+                                        
+                                    case "matricula":
+                                        Text(TITULO_INFORMES_MATRICULA)
+                                            .foregroundColor(Color("rosita"))
+                                            .font(.titulo())
+                                            .bold()
+                                    default:
+                                        Text("Informe no seleccionado")
+                                            .foregroundColor(Color("rosita"))
+                                            .font(.titulo())
+                                            .bold()
+                                        
+                                    }
+                                    
                                     Spacer()
                                 }
                             }
@@ -49,33 +72,107 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                                     CompromisoItsoVM.loadCompromisos(anio:self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
                                 }
                         }else{
-                            ForEach(CompromisoItsoVM.itso){ compromiso in
-                                NavigationLink(
-                                    destination: DetalleCompromisoItsoPef(
-                                        compromiso: compromiso.compromiso,
-                                        cumplimiento: compromiso.cumplimiento,
-                                        fecha: compromiso.fecha,
-                                        observacion: compromiso.observacion
-                                    ),
-                                    label:{
-                                        HStack{
-                                            Text(compromiso.compromiso )
-                                                .fixedSize(horizontal: false, vertical: true)
-                                                .font(.texto())
-                                                .multilineTextAlignment(.leading)
-                                                .foregroundColor(.black)
-                                                .padding()
-                                            Spacer()
-                                            Image(systemName: "chevron.right")
-                                                .font(.texto1())
-                                                .foregroundColor(Color("gris1"))
-                                        }.padding([.top,.trailing,.bottom])
-                                            .frame(maxWidth: .infinity,maxHeight: 150)
-                                            .onAppear(){
-                                                print("Fecha \(compromiso.fecha)")
-                                            }
-                                    }
-                                )
+                            switch(tipoInforme){
+                            case "itso":
+                                ForEach(CompromisoItsoVM.itso){ compromiso in
+                                    NavigationLink(
+                                        destination: DetalleCompromisoItsoPef(
+                                            compromiso: compromiso.compromiso,
+                                            cumplimiento: compromiso.cumplimiento,
+                                            fecha: compromiso.fecha,
+                                            observacion: compromiso.observacion,
+                                            tipoInforme: "itso"
+                                        ),
+                                        label:{
+                                            HStack{
+                                                Text(compromiso.compromiso )
+                                                    .fixedSize(horizontal: false, vertical: true)
+                                                    .font(.texto())
+                                                    .multilineTextAlignment(.leading)
+                                                    .foregroundColor(.black)
+                                                    .padding()
+                                                Spacer()
+                                                Image(systemName: "chevron.right")
+                                                    .font(.texto1())
+                                                    .foregroundColor(Color("gris1"))
+                                            }.padding([.top,.trailing,.bottom])
+                                                .frame(maxWidth: .infinity,maxHeight: 150)
+                                                .onAppear(){
+                                                    print("Fecha \(compromiso.fecha)")
+                                                }
+                                        }
+                                    )
+                                    
+                                }
+
+                            case "pef":
+                                ForEach(CompromisoItsoVM.pef){ compromiso in
+                                    NavigationLink(
+                                        destination: DetalleCompromisoItsoPef(
+                                            compromiso: compromiso.compromiso,
+                                            cumplimiento: compromiso.cumplimiento,
+                                            fecha: compromiso.fecha,
+                                            observacion: compromiso.observacion,
+                                            tipoInforme: "pef"
+                                        ),
+                                        label:{
+                                            HStack{
+                                                Text(compromiso.compromiso )
+                                                    .fixedSize(horizontal: false, vertical: true)
+                                                    .font(.texto())
+                                                    .multilineTextAlignment(.leading)
+                                                    .foregroundColor(.black)
+                                                    .padding()
+                                                Spacer()
+                                                Image(systemName: "chevron.right")
+                                                    .font(.texto1())
+                                                    .foregroundColor(Color("gris1"))
+                                            }.padding([.top,.trailing,.bottom])
+                                                .frame(maxWidth: .infinity,maxHeight: 150)
+                                                .onAppear(){
+                                                    print("Fecha \(compromiso.fecha)")
+                                                }
+                                        }
+                                    )
+                                    
+                                }
+                                
+                                
+                            case "matricula":
+                                ForEach(CompromisoItsoVM.matricula){ compromiso in
+                                    NavigationLink(
+                                        destination: DetalleCompromisoItsoPef(
+                                            compromiso: compromiso.compromiso,
+                                            cumplimiento: compromiso.cumplimiento,
+                                            fecha: compromiso.fecha,
+                                            observacion: compromiso.observacion,
+                                            tipoInforme: "matricula"
+                                        ),
+                                        label:{
+                                            HStack{
+                                                Text(compromiso.compromiso )
+                                                    .fixedSize(horizontal: false, vertical: true)
+                                                    .font(.texto())
+                                                    .multilineTextAlignment(.leading)
+                                                    .foregroundColor(.black)
+                                                    .padding()
+                                                Spacer()
+                                                Image(systemName: "chevron.right")
+                                                    .font(.texto1())
+                                                    .foregroundColor(Color("gris1"))
+                                            }.padding([.top,.trailing,.bottom])
+                                                .frame(maxWidth: .infinity,maxHeight: 150)
+                                                .onAppear(){
+                                                    print("Fecha \(compromiso.fecha)")
+                                                }
+                                        }
+                                    )
+                                    
+                                }
+                            default:
+                                HStack{
+                                    Text("Sin informe a mostrar")
+                                }
                                 
                             }
                         }

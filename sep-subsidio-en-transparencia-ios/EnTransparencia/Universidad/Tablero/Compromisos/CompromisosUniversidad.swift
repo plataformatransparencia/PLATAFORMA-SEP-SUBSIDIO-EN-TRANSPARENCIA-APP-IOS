@@ -79,8 +79,8 @@ struct CompromisosUniversidad: View {
                             
                             CompromisoInforme(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
                             CompromisoItso(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
-                            CompromisoPef()
-                            CompromisoMatricula()
+                            CompromisoPef(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+                            CompromisoMatricula(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
                         }
                         
 

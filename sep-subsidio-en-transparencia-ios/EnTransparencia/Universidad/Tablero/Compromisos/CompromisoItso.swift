@@ -16,7 +16,7 @@ struct CompromisoItso: View {
     var body: some View {
         NavigationLink(
             destination: {
-                CompromisoUniversidadShowDetalleITSO(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+                CompromisoUniversidadShowDetalleITSO(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo,tipoInforme: "itso")
             },
             label: {
                 HStack{

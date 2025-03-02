@@ -6,6 +6,7 @@ struct DetalleCompromisoItsoPef: View {
     @State var cumplimiento: String
     @State var fecha: String
     @State var observacion: String
+    let tipoInforme:String
     var body: some View {
         VStack{
             NavigationView{
@@ -24,11 +25,31 @@ struct DetalleCompromisoItsoPef: View {
                                             .foregroundColor(Color("gris1"))
                                     })
                                     Spacer()
-                                    Text(TITULO_INFORMES_ITSO)
-                                        .foregroundColor(Color("rosita"))
-                                        .font(.titulo())
-                                        .bold()
-                                    Spacer()
+                                    switch(tipoInforme){
+                                    case "itso":
+                                        Text(TITULO_INFORMES_ITSO)
+                                            .foregroundColor(Color("rosita"))
+                                            .font(.titulo())
+                                            .bold()
+                                    case "pef":
+                                        Text(TITULO_INFORMES_PEF)
+                                            .foregroundColor(Color("rosita"))
+                                            .font(.titulo())
+                                            .bold()
+                                    case "matricula":
+                                        Text(TITULO_INFORMES_MATRICULA)
+                                            .foregroundColor(Color("rosita"))
+                                            .font(.titulo())
+                                            .bold()
+                                        
+                                    default:
+                                        Text("Reporte no seleccionado")
+                                            .foregroundColor(Color("rosita"))
+                                            .font(.titulo())
+                                            .bold()
+                                        
+                                    }
+                                                                        Spacer()
                                 }
                             }
                             Spacer()
@@ -50,8 +71,8 @@ struct DetalleCompromisoItsoPef: View {
                             }
                         }.padding()
                             
-                     //   SemaforoTablerosItsoPef(cumplimiento: self.cumplimiento, fecha: self.fecha, textoColumna1: "Cumplimiento", textoColumna2: "Fecha de ejecución")
-                        if self.observacion != ""{
+                        SemaforoTablerosItsoPef(cumplimiento: self.cumplimiento, fecha: self.fecha, textoColumna1: "Cumplimiento", textoColumna2: "Fecha de ejecución")
+                        //if self.observacion != ""{
                             HStack{
                                 VStack(alignment: .leading){
                                     Text("Observaciones")
@@ -68,7 +89,7 @@ struct DetalleCompromisoItsoPef: View {
                                     .padding(.top)
                                 }.padding(.leading)
                             }
-                        }
+                        
                     }
                     .navigationBarHidden(true)
                 }

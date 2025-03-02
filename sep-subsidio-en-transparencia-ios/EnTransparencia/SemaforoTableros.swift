@@ -975,7 +975,8 @@ struct SemaforoTablerosItsoPef: View {
                         .font(.texto2())
                         .foregroundColor(.black)
                         .fixedSize(horizontal: true, vertical: false)
-                    
+                }.padding([.top, .bottom])
+                HStack{
                     Circle()
                         .foregroundColor(Color("Amarillo"))
                         .background(Color("Amarillo"))
@@ -1014,7 +1015,8 @@ struct SemaforoTablerosItsoPef: View {
                         .foregroundColor(.black)
                         .padding(.leading, 5)
                         .fixedSize(horizontal: true, vertical: false)
-                    
+                }.padding([.top,.bottom])
+                HStack{
                     Circle()
                         .foregroundColor(Color("vino"))
                         .background(Color("vino"))
