@@ -73,6 +73,7 @@ let TITULO_DOC_ANEXO_EJECUCION =  "Anexo de ejecución", TITULO_DOC_CONVENIO_MAR
 let TITULO_TABLERO = "Tablero", TITULO_TABLERO_ACCIONES_UNI = "Acciones por Emprender por la Universidad", TITULO_TABLERO_MINISTACION_FDRAL = "Tablero de Cumplimiento de Ministraciones, Aportación Federal: SEP - Estado - Universidad",
     TITULO_TABLERO_MINISTACION_ESTATAL = "Tablero de Cumplimiento de Ministraciones, Aportación Estatal: Estado - Universidad",
     TITULO_TABLERO_ACCIONES_GOB = "Acciones por Emprender por el Gobierno del Estado", TITULO_COMPROMISOS_ESTADO =  "Compromisos del Estado", TITULO_COMPROMISOS_UNI = "Compromisos de la Universidad", TITULO_COMPROMISOS = "Compromisos", TITULO_TABLERO_CUMPLIMIENTO = "Tablero de Cumplimiento", TITULO_ACCIONES_POR_EMPRENDER = "Acciones por Emprender", TITULO_ACCIONES_EMPRENDIDAS = "Acciones Emprendidas",
+    TITULO_DETALLE_TABLERO_ESTATAL = "Transferencia Estado a Univesidad",
     //COMPROMISOS
     TITULO_COMPROMISO_GENERALES="Compromisos generales",
     TITULO_INFORMES_ITSO="Informes ITSO",

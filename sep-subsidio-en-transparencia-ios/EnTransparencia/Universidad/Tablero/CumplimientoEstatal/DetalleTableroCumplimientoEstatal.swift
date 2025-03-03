@@ -42,21 +42,50 @@ struct DetalleTableroCumplimientoEstatal: View {
                             Spacer()
                         }.padding([.horizontal, .bottom, .top])
                         VStack(alignment: .center){
-                            HStack{
-                                Text("Transferencia Estado a Univesidad")
+                            HStack(alignment: .top, spacing: 0){
+                                Text(TITULO_DETALLE_TABLERO_ESTATAL)
                                     .foregroundColor(Color("rosita"))
                                     .font(.texto1())
                                     .bold()
                                     .padding(.bottom)
+                                Text("7")
+                                    .foregroundColor(Color("rosita"))
+                                    .font(.system(size: 10))
+                                    .baselineOffset(5)
+                                    .bold()
                             }
                         }
-                        if (self.anio == 2020 || self.anio == 2021 || self.anio >= 2022) && (self.tipo == "subsidio_ordinario" || self.tipo == ""){
+                        if (self.anio > 2024){
+                            SemaforoTablerosItsoPef(
+                                cumplimiento: self.cumplimiento,
+                                fecha: self.fecha,
+                                textoColumna1: "Cumplimiento",
+                                textoColumna2: "Fecha de ejecución")
+                        }else if (self.anio == 2020 || self.anio == 2021 || self.anio >= 2022) && (self.tipo == "subsidio_ordinario" || self.tipo == ""){
                             SemaforoTableros(cumplimiento: self.cumplimiento, fecha: self.fecha, textoColumna1: "Cumplimiento", textoColumna2: "Fecha de ejecución")
                         }else{
                             SemaforoTablerosEO(cumplimiento: self.cumplimiento, fecha: self.fecha, textoColumna1: "Cumplimiento", textoColumna2: "Fecha de ejecución")
                         }
                         
-                        if self.observacion != ""{
+                        if(self.anio > 2024){
+                            HStack{
+                                VStack(alignment: .leading){
+                                    Text("Observaciones")
+                                        .foregroundColor(Color("rosita"))
+                                        .font(.texto1())
+                                        .bold()
+                                    HStack{
+                                        Text("\(self.observacion)")
+                                            .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+                                            .font(.texto())
+                                            .foregroundColor(.black)
+                                        Spacer()
+                                    }.padding(.bottom, 8)
+                                    .padding(.top)
+                                }.padding(.leading)
+                            }.padding(.leading)
+                        }
+                        else if (self.observacion != "" ){
                             HStack{
                                 VStack(alignment: .leading){
                                     Text("Observaciones")

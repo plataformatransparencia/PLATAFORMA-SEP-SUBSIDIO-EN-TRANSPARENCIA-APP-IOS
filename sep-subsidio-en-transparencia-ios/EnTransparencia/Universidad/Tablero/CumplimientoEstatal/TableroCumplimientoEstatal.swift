@@ -27,7 +27,7 @@ struct TableroCumplimientoEstatal: View {
                                             .foregroundColor(Color("gris1"))
                                     })
                                     Spacer()
-                                    Text("Tablero de cumplimiento de ministraciones, aportación estatal: Estado - Universidad")
+                                    Text(TITULO_TABLERO_MINISTACION_ESTATAL)
                                         .foregroundColor(Color("rosita"))
                                         .font(.titulo())
                                         .bold()
