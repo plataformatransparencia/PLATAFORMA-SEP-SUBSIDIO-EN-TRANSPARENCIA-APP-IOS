@@ -54,13 +54,22 @@ struct DetalleTableroCumplimientoFederal: View {
                                 }
                             }.padding(.leading)
                         }
-                        if (self.anio == 2020 || self.anio == 2021 || self.anio >= 2022) && (self.tipo == "subsidio_ordinario" || self.tipo == ""){
+                        if( self.anio > 2024){
+                            SemaforoTablerosItsoPef(
+                                cumplimiento: self.sepEstadoCumplimiento,
+                                fecha: self.sepEstadoFecha,
+                                textoColumna1: "Cumplimiento",
+                                textoColumna2: "Fecha de ejecución"
+                            )
+                            
+                        }
+                        else if (self.anio == 2020 || self.anio == 2021 || self.anio >= 2022) && (self.tipo == "subsidio_ordinario" || self.tipo == ""){
                             SemaforoTableros(cumplimiento: self.sepEstadoCumplimiento, fecha: self.sepEstadoFecha, textoColumna1: "Cumplimiento", textoColumna2: "Fecha de ejecución")
                         }else{
                             SemaforoTablerosEO(cumplimiento: self.sepEstadoCumplimiento, fecha: self.sepEstadoFecha, textoColumna1: "Cumplimiento", textoColumna2: "Fecha de ejecución")
                         }
                         
-                        if self.sepEstadoObservacion != ""{
+                        if (self.sepEstadoObservacion != ""  || self.anio > 2024 ){
                             HStack{
                                 VStack(alignment: .leading){
                                     Text("Observaciones")
@@ -81,21 +90,45 @@ struct DetalleTableroCumplimientoFederal: View {
                         }
                         HStack {
                             VStack(alignment: .leading){
-                                HStack{
-                                    Text("Transferencia Estado a Universidad")
-                                        .foregroundColor(Color("rosita"))
-                                        .font(.texto1())
-                                        .bold()
-                                        .padding(.bottom)
+                                HStack(alignment: .top, spacing: 0){
+                                    if(self.anio > 2024 ){
+                                        Text("Transferencia Estado a Universidad")
+                                            .foregroundColor(Color("rosita"))
+                                            .font(.texto1())
+                                            .bold()
+                                            .padding(.bottom)
+                                        Text("7,8")
+                                            .font(.system(size: 10))
+                                            .baselineOffset(5)
+                                            .foregroundColor(Color("rosita"))
+                                            .bold()
+                                        
+                                    }else{
+                                        Text("Transferencia Estado a Universidad")
+                                            .foregroundColor(Color("rosita"))
+                                            .font(.texto1())
+                                            .bold()
+                                            .padding(.bottom)
+                                    }
                                 }
                             }.padding(.leading)
                         }
-                        if (self.anio == 2020 || self.anio == 2021 || self.anio >= 2022) && (self.tipo == "subsidio_ordinario" || self.tipo == ""){
+                        if(self.anio > 2024){
+                            
+                            SemaforoTablerosItsoPef(
+                                cumplimiento: self.estadoUniversidadCumplimiento,
+                                fecha: self.estadoUniversidadFecha,
+                                textoColumna1: "Cumplimiento",
+                                textoColumna2: "Fecha de ejecución"
+                            )
+                            
+                        }
+                        else if (self.anio == 2020 || self.anio == 2021 || self.anio >= 2022) && (self.tipo == "subsidio_ordinario" || self.tipo == ""){
                             SemaforoTableros(cumplimiento: self.estadoUniversidadCumplimiento, fecha: self.estadoUniversidadFecha, textoColumna1: "Cumplimiento", textoColumna2: "Fecha de ejecución")
                         }else{
                             SemaforoTablerosEO(cumplimiento: self.estadoUniversidadCumplimiento, fecha: self.estadoUniversidadFecha, textoColumna1: "Cumplimiento", textoColumna2: "Fecha de ejecución")
                         }
-                        if self.estadoUniversidadObservacion != ""{
+                            if (self.estadoUniversidadObservacion != ""  || self.anio > 2024) {
                             HStack{
                                 VStack(alignment: .leading){
                                     Text("Observaciones")
