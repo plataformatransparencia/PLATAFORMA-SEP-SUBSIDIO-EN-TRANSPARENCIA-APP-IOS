@@ -76,7 +76,7 @@ struct CompromisoUniversidadShowDetalle :View {
                                                 .foregroundColor(Color("gris1"))
                                             
                                         }.padding([.top,.trailing,.bottom])
-                                        .frame(maxWidth: .infinity, maxHeight: 150)
+                                        .frame(maxWidth: .infinity, maxHeight: 250)
                                     })
                             }
                         }

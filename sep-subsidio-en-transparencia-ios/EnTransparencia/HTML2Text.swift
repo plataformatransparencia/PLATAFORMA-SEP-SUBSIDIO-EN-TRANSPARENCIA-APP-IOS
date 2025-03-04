@@ -6,7 +6,7 @@
 //
 import SwiftUI
 import UIKit
-
+//Last code Correct
 struct HTMLText: View {
     let htmlString: String
     let alignment: TextAlignment
@@ -14,17 +14,11 @@ struct HTMLText: View {
     var body: some View {
         if let attributedString = parseHTML(htmlString) {
             Text(AttributedString(attributedString))
-                .font(Font.custom("texto()", size: 20))
                 .multilineTextAlignment(alignment)
-                .foregroundColor(Color(.black))
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .padding()
         } else {
             Text("Error al cargar el texto")
-                .font(Font.custom("texto()", size: 20))
                 .multilineTextAlignment(alignment)
-                .foregroundColor(Color(.black))
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .padding()
         }
     }
@@ -32,14 +26,40 @@ struct HTMLText: View {
     private func parseHTML(_ html: String) -> NSAttributedString? {
         guard let data = html.data(using: .utf8) else { return nil }
         
-        return try? NSAttributedString(
+        guard let attributedString = try? NSMutableAttributedString(
             data: data,
             options: [
                 .documentType: NSAttributedString.DocumentType.html,
                 .characterEncoding: String.Encoding.utf8.rawValue
             ],
             documentAttributes: nil
-        )
+        ) else {
+            return nil
+        }
+
+        // **Recorrer los estilos existentes y cambiar solo la fuente**
+        attributedString.enumerateAttribute(.font, in: NSRange(location: 0, length: attributedString.length), options: []) { value, range, _ in
+            if let oldFont = value as? UIFont {
+                var newFontDescriptor = oldFont.fontDescriptor
+                
+                // **Detectar si la fuente es bold o italic y aplicar la nueva fuente correctamente**
+                let isBold = oldFont.fontDescriptor.symbolicTraits.contains(.traitBold)
+                let isItalic = oldFont.fontDescriptor.symbolicTraits.contains(.traitItalic)
+                
+                if isBold {
+                    newFontDescriptor = newFontDescriptor.withSymbolicTraits(.traitBold) ?? newFontDescriptor
+                }
+                if isItalic {
+                    newFontDescriptor = newFontDescriptor.withSymbolicTraits(.traitItalic) ?? newFontDescriptor
+                }
+
+                // **Asignar la fuente correcta manteniendo los estilos**
+                let newFont = UIFont(descriptor: newFontDescriptor, size: 18)
+                attributedString.addAttribute(.font, value: newFont, range: range)
+            }
+        }
+
+        return attributedString
     }
 }
 

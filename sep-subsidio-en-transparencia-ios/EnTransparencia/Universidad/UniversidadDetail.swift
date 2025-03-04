@@ -462,6 +462,7 @@ struct UniversidadDetail: View {
                         .padding()
                         HStack{
                             VStack{
+                                
                                 if self.subsidioSeleccionadokey == "subsidio_extraordinario" && self.id != "32"{
                                     VStack{
                                         ForEach(universidadDetailViewModel.subsidioExtra.filter{$0.value != "La revisión del cumplimiento de los compromisos ha sido realizada por la Asociación Mexicana de Órganos de Control y Vigilancia en Instituciones de Educación Superior (AMOCVIES)."}, id: \.key){key, value in
@@ -489,6 +490,11 @@ struct UniversidadDetail: View {
                                 }
                                 HStack{
                                     VStack(alignment: .leading){
+                                        HStack{
+                                            Text(NOTA_MONTO_MINISTRACIONES)
+                                        }
+                                        
+                                        
                                         if universidadDetailViewModel.anexoEjecucion != ""{
                                             BotonDocumentos(documento: universidadDetailViewModel.anexoEjecucion, titulo: TITULO_DOC_ANEXO_EJECUCION, anio: self.anio)
                                         }

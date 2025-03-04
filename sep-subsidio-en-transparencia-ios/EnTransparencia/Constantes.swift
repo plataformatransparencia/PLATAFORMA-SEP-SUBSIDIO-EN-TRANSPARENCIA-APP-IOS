@@ -84,8 +84,10 @@ let TITULO_TABLERO = "Tablero", TITULO_TABLERO_ACCIONES_UNI = "Acciones por Empr
     TIPO_EDO = "estado",
     TIPO_EMPRENDIDAS = "emprendidas",
     TIPO_TABLERO = "tablero"
+    
 
 //REFERENCIAS ANEXO EJECUCIÓN
 let TITULO_REFERENCIA_ANEXO_EJE = "Referencia de acuerdo al anexo de ejecución", TITULO_OTRAS_REF = "Otras referencias", TITULO_REF = "Referencias"
 
-
+//NOTA especial Universidades
+let NOTA_MONTO_MINISTRACIONES = "Nota: El monto total de las ministraciones expresadas en esta tabla puede diferir de la suma establecida en el Anexo de Ejecución debido al redondeo."
