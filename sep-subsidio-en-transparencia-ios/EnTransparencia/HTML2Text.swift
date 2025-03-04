@@ -14,14 +14,14 @@ struct HTMLText: View {
     var body: some View {
         if let attributedString = parseHTML(htmlString) {
             Text(AttributedString(attributedString))
-                .font(.texto())
+                .font(Font.custom("texto()", size: 20))
                 .multilineTextAlignment(alignment)
                 .foregroundColor(Color(.black))
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .padding()
         } else {
             Text("Error al cargar el texto")
-                .font(.texto())
+                .font(Font.custom("texto()", size: 20))
                 .multilineTextAlignment(alignment)
                 .foregroundColor(Color(.black))
                 .frame(maxWidth: .infinity, maxHeight: .infinity)

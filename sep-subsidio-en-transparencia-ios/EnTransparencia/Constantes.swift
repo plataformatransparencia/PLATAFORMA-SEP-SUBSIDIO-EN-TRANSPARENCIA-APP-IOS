@@ -70,7 +70,7 @@ let TITULO_MONTO_TOTAL = "Monto Total", TITULO_MONTO_FEDERAL = "Monto Federal", 
 let TITULO_DOC_ANEXO_EJECUCION =  "Anexo de ejecución", TITULO_DOC_CONVENIO_MARCO_COLAB =  "Convenio Marco de Colaboración", TITULO_DOC_CONVENIO = "Convenio",TITULO_DOC_MODIF_CALENDARIO = "Modificación de Calendario", TITULO_DOC_OFI_CALENDARIO = "Oficio de Calendario", TITULO_DOC_PLAN_AUSTERIDAD = "Plan de austeridad", TITULO_DOC_CONVENIO_VER_A = "Convenio Vertiente A",  TITULO_DOC_CONVENIO_VER_B = "Convenio Vertiente B", TITULO_DOC_CONVENIO_VER_C = "Convenio Vertiente C"
 
 //TABLERO
-let TITULO_TABLERO = "Tablero", TITULO_TABLERO_ACCIONES_UNI = "Acciones por Emprender por la Universidad", TITULO_TABLERO_MINISTACION_FDRAL = "Tablero de Cumplimiento de Ministraciones, Aportación Federal: SEP - Estado - Universidad",
+let TITULO_TABLERO = "Tablero", TITULO_TABLERO_ACCIONES_UNI = "Acciones por Emprender por la Universidad", TITULO_TABLERO_MINISTACION_FEDERAL = "Tablero de Cumplimiento de Ministraciones, Aportación Federal: SEP - Estado - Universidad",
     TITULO_TABLERO_MINISTACION_ESTATAL = "Tablero de Cumplimiento de Ministraciones, Aportación Estatal: Estado - Universidad",
     TITULO_TABLERO_ACCIONES_GOB = "Acciones por Emprender por el Gobierno del Estado", TITULO_COMPROMISOS_ESTADO =  "Compromisos del Estado", TITULO_COMPROMISOS_UNI = "Compromisos de la Universidad", TITULO_COMPROMISOS = "Compromisos", TITULO_TABLERO_CUMPLIMIENTO = "Tablero de Cumplimiento", TITULO_ACCIONES_POR_EMPRENDER = "Acciones por Emprender", TITULO_ACCIONES_EMPRENDIDAS = "Acciones Emprendidas",
     TITULO_DETALLE_TABLERO_ESTATAL = "Transferencia Estado a Univesidad",

@@ -32,7 +32,7 @@ struct CompromisosUniversidad: View {
                                     Spacer()
                                 }
                             }
-                            Spacer()
+                          Spacer()
                             
                         }.onAppear{
                            

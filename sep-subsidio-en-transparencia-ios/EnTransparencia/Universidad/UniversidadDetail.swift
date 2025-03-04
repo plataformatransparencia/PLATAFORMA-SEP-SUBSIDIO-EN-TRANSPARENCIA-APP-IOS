@@ -564,9 +564,9 @@ struct UniversidadDetail: View {
                                                         .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                                 }).padding(.bottom, 5)
                                             NavigationLink(
-                                                destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FDRAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
+                                                destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FEDERAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
                                                 label: {
-                                                    Text(TITULO_TABLERO_MINISTACION_FDRAL)
+                                                    Text(TITULO_TABLERO_MINISTACION_FEDERAL)
                                                         .font(.texto1())
                                                         .foregroundColor(Color("rosita"))
                                                         .multilineTextAlignment(.leading)
@@ -597,9 +597,9 @@ struct UniversidadDetail: View {
                                                     .foregroundColor(Color("rosita"))
                                             }).padding(.bottom, 5)
                                         NavigationLink(
-                                            destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FDRAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
+                                            destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FEDERAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
                                             label: {
-                                                Text(TITULO_TABLERO_MINISTACION_FDRAL)
+                                                Text(TITULO_TABLERO_MINISTACION_FEDERAL)
                                                     .font(.texto1())
                                                     .foregroundColor(Color("rosita"))
                                                     .multilineTextAlignment(.leading)
@@ -629,9 +629,9 @@ struct UniversidadDetail: View {
                                                         .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                                 }).padding(.bottom, 5)
                                             NavigationLink(
-                                                destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FDRAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
+                                                destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FEDERAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
                                                 label: {
-                                                    Text(TITULO_TABLERO_MINISTACION_FDRAL)
+                                                    Text(TITULO_TABLERO_MINISTACION_FEDERAL)
                                                         .font(.texto1())
                                                         .foregroundColor(Color("rosita"))
                                                         .multilineTextAlignment(.leading)
@@ -658,9 +658,9 @@ struct UniversidadDetail: View {
                                                         .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                                 }).padding(.bottom, 5)
                                             NavigationLink(
-                                                destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FDRAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
+                                                destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FEDERAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
                                                 label: {
-                                                    Text(TITULO_TABLERO_MINISTACION_FDRAL)
+                                                    Text(TITULO_TABLERO_MINISTACION_FEDERAL)
                                                         .font(.texto1())
                                                         .foregroundColor(Color("rosita"))
                                                         .multilineTextAlignment(.leading)
@@ -712,9 +712,9 @@ struct UniversidadDetail: View {
                                             }).padding(.bottom, 5)
                                         
                                         NavigationLink(
-                                            destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FDRAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
+                                            destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FEDERAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
                                             label: {
-                                                Text(TITULO_TABLERO_MINISTACION_FDRAL)
+                                                Text(TITULO_TABLERO_MINISTACION_FEDERAL)
                                                     .font(.texto1())
                                                     .foregroundColor(Color("rosita"))
                                                     .multilineTextAlignment(.leading)
@@ -806,7 +806,7 @@ struct UniversidadDetail: View {
                                     NavigationLink(
                                         destination: TableroCumplimientoFederal(anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
                                         label: {
-                                            Text(TITULO_TABLERO_MINISTACION_FDRAL)
+                                            Text(TITULO_TABLERO_MINISTACION_FEDERAL)
                                                 .font(.texto1())
                                                 .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                                 .foregroundColor(Color("rosita"))

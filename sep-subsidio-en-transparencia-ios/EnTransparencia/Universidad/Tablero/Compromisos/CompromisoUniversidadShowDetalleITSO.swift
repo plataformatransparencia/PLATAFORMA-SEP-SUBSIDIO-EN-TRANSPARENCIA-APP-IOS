@@ -95,8 +95,8 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                                                 Image(systemName: "chevron.right")
                                                     .font(.texto1())
                                                     .foregroundColor(Color("gris1"))
-                                            }.padding([.top,.trailing,.bottom])
-                                                .frame(maxWidth: .infinity,maxHeight: 150)
+                                            }.padding([.top, .trailing])
+                                                .frame(maxWidth: .infinity,maxHeight: 70)
                                                 .onAppear(){
                                                     print("Fecha \(compromiso.fecha)")
                                                 }
@@ -128,7 +128,7 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                                                     .font(.texto1())
                                                     .foregroundColor(Color("gris1"))
                                             }.padding([.top,.trailing,.bottom])
-                                                .frame(maxWidth: .infinity,maxHeight: 150)
+                                                .frame(maxWidth: .infinity,maxHeight: 70)
                                                 .onAppear(){
                                                     print("Fecha \(compromiso.fecha)")
                                                 }
@@ -161,7 +161,7 @@ struct CompromisoUniversidadShowDetalleITSO :View {
                                                     .font(.texto1())
                                                     .foregroundColor(Color("gris1"))
                                             }.padding([.top,.trailing,.bottom])
-                                                .frame(maxWidth: .infinity,maxHeight: 150)
+                                                .frame(maxWidth: .infinity,maxHeight: 70)
                                                 .onAppear(){
                                                     print("Fecha \(compromiso.fecha)")
                                                 }
