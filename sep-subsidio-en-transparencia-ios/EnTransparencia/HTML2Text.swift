@@ -4,44 +4,43 @@
 //
 //  Created by Armando Rodríguez on 02/03/25.
 //
-
 import SwiftUI
+import UIKit
 
-struct HTML2Text:View {
+struct HTMLText: View {
     let htmlString: String
-    var textModifier: (Text) -> AnyView // Se usa AnyView para evitar problemas de inferencia
-        
-    init(htmlString: String, @ViewBuilder textModifier: @escaping (Text) -> some View = {  AnyView($0) } ) {
-            self.htmlString = htmlString
-            self.textModifier = {  AnyView( textModifier($0) ) } //Se convierte a AnyView
-        }
+    let alignment: TextAlignment
     
     var body: some View {
-        if let attributedString = parseHTML(htmlString){
-            textModifier(  Text(attributedString))
-        }else{
-            textModifier( Text(htmlString))
+        if let attributedString = parseHTML(htmlString) {
+            Text(AttributedString(attributedString))
+                .font(.texto())
+                .multilineTextAlignment(alignment)
+                .foregroundColor(Color(.black))
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .padding()
+        } else {
+            Text("Error al cargar el texto")
+                .font(.texto())
+                .multilineTextAlignment(alignment)
+                .foregroundColor(Color(.black))
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .padding()
         }
     }
     
-    
-    
-    
-    func parseHTML(_ html: String) -> AttributedString? {
-        guard let data = html.data(using: .utf8) else {
-            return nil
-        }
+    private func parseHTML(_ html: String) -> NSAttributedString? {
+        guard let data = html.data(using: .utf8) else { return nil }
         
-        do{
-            let options: [NSAttributedString.DocumentReadingOptionKey:Any] = [
+        return try? NSAttributedString(
+            data: data,
+            options: [
                 .documentType: NSAttributedString.DocumentType.html,
                 .characterEncoding: String.Encoding.utf8.rawValue
-            ]
-            let attributedString = try NSAttributedString(data: data, options: options, documentAttributes: nil)
-            return AttributedString(attributedString)
-        }catch{
-            print("Error al convertir HTML: \(error)")
-            return nil
-        }
+            ],
+            documentAttributes: nil
+        )
     }
 }
+
+

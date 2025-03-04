@@ -58,7 +58,9 @@ struct CompromisoUniversidadShowDetalle :View {
                                    
                                         HStack {
                                             let texto = "\(compromisosUniversidadViewModel.compromisos![item].compromiso.reemplazo())"
-                                            HTML2Text(htmlString: texto){ text in
+                                            HTMLText(htmlString: texto, alignment: .leading)
+                                            
+                                            /*HTML2Text(htmlString: texto){ text in
                                             AnyView( //Se asegura que el retorno sea de tipo concreto
                                                 text
                                                 .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
@@ -67,7 +69,7 @@ struct CompromisoUniversidadShowDetalle :View {
                                                 .foregroundColor(.black)
                                                 .padding()
                                                 )
-                                            }
+                                            }*/
                                             Spacer()
                                             Image(systemName: "chevron.right")
                                                 .font(.texto1())
