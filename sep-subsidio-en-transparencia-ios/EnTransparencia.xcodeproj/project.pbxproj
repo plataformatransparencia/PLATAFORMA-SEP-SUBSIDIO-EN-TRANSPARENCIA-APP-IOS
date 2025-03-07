@@ -10,11 +10,13 @@
 		4718CCC72D7415A00065DF60 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4718CCC62D7415A00065DF60 /* File.txt */; };
 		471A86AC2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A86AB2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift */; };
 		47497B1D2D74D8150086E7B7 /* HTML2Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47497B1C2D74D7FA0086E7B7 /* HTML2Text.swift */; };
+		4785765A2D7B93C800ADBE5A /* FontListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478576592D7B93BD00ADBE5A /* FontListView.swift */; };
 		478EF67F2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */; };
 		479C118B2D6904D900CF9BF1 /* CompromisoItso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */; };
 		479C118D2D69055000CF9BF1 /* CompromisoPef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118C2D69055000CF9BF1 /* CompromisoPef.swift */; };
 		479C118F2D69059A00CF9BF1 /* CompromisoMatricula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118E2D69059A00CF9BF1 /* CompromisoMatricula.swift */; };
 		47BDFF2C2D66A07800132C07 /* CompromisoInforme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BDFF2B2D66A07800132C07 /* CompromisoInforme.swift */; };
+		4D95629BDBACE9DF74B31EB4 /* libPods-EnTransparencia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 984F769949F86FBEFF4A8931 /* libPods-EnTransparencia.a */; };
 		782268FD2ADDEC1800690C7E /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13130BB260A788800160CEC /* PieChart.swift */; };
 		782654D02C5A9D1D00AD5B0C /* DetallePoliticas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782654CF2C5A9D1D00AD5B0C /* DetallePoliticas.swift */; };
 		782654D22C5AA08400AD5B0C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782654D12C5AA08400AD5B0C /* SwiftUIView.swift */; };
@@ -25,7 +27,6 @@
 		78A3CC6228357BE8000A7B31 /* ActividadesEntregasDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */; };
 		78A55B082AD8AAB800735363 /* MontosBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D82BCC26277B8B0010FD26 /* MontosBarChartView.swift */; };
 		78D19BFF2D70FF1F00964E76 /* CompromisoUniversidadShowDetalleITSO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D19BFE2D70FF1F00964E76 /* CompromisoUniversidadShowDetalleITSO.swift */; };
-		B14A6CCB014FF20483ED11F9 /* libPods-EnTransparencia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 963893D30D8582D2E4793365 /* libPods-EnTransparencia.a */; };
 		C103F4D52625FA89007DAA9B /* DetalleProgramas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103F4D42625FA89007DAA9B /* DetalleProgramas.swift */; };
 		C103F4D926260981007DAA9B /* MinistracionEstatalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103F4D826260981007DAA9B /* MinistracionEstatalData.swift */; };
 		C104E7B52768FDA200282373 /* TableroFederal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C104E7B42768FDA200282373 /* TableroFederal.swift */; };
@@ -143,15 +144,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3525F6275EBDF70868928F9E /* Pods-EnTransparencia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.debug.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.debug.xcconfig"; sourceTree = "<group>"; };
 		4718CCC62D7415A00065DF60 /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
 		471A86AB2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleCompromisoItsoPef.swift; sourceTree = "<group>"; };
 		47497B1C2D74D7FA0086E7B7 /* HTML2Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTML2Text.swift; sourceTree = "<group>"; };
+		478576592D7B93BD00ADBE5A /* FontListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontListView.swift; sourceTree = "<group>"; };
 		478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoUniversidadShowDetalle.swift; sourceTree = "<group>"; };
 		479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoItso.swift; sourceTree = "<group>"; };
 		479C118C2D69055000CF9BF1 /* CompromisoPef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoPef.swift; sourceTree = "<group>"; };
 		479C118E2D69059A00CF9BF1 /* CompromisoMatricula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoMatricula.swift; sourceTree = "<group>"; };
 		47BDFF2B2D66A07800132C07 /* CompromisoInforme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoInforme.swift; sourceTree = "<group>"; };
+		4F4AEBA35D89E9636BD35818 /* Pods-EnTransparencia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.debug.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.debug.xcconfig"; sourceTree = "<group>"; };
+		69697CCE1DFA8EBDB3835981 /* Pods-EnTransparencia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.release.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.release.xcconfig"; sourceTree = "<group>"; };
 		782654CF2C5A9D1D00AD5B0C /* DetallePoliticas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallePoliticas.swift; sourceTree = "<group>"; };
 		782654D12C5AA08400AD5B0C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		78526E2729845D95000C4D55 /* CompromisosVertientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosVertientes.swift; sourceTree = "<group>"; };
@@ -160,8 +163,7 @@
 		78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCompromisosListaPresupuesto.swift; sourceTree = "<group>"; };
 		78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActividadesEntregasDetalle.swift; sourceTree = "<group>"; };
 		78D19BFE2D70FF1F00964E76 /* CompromisoUniversidadShowDetalleITSO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompromisoUniversidadShowDetalleITSO.swift; sourceTree = "<group>"; };
-		86F62E3F0DD4E852175D3E2D /* Pods-EnTransparencia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.release.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.release.xcconfig"; sourceTree = "<group>"; };
-		963893D30D8582D2E4793365 /* libPods-EnTransparencia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnTransparencia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		984F769949F86FBEFF4A8931 /* libPods-EnTransparencia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnTransparencia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C103F4D42625FA89007DAA9B /* DetalleProgramas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProgramas.swift; sourceTree = "<group>"; };
 		C103F4D826260981007DAA9B /* MinistracionEstatalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinistracionEstatalData.swift; sourceTree = "<group>"; };
 		C104E7B42768FDA200282373 /* TableroFederal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroFederal.swift; sourceTree = "<group>"; };
@@ -261,7 +263,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B14A6CCB014FF20483ED11F9 /* libPods-EnTransparencia.a in Frameworks */,
+				4D95629BDBACE9DF74B31EB4 /* libPods-EnTransparencia.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +284,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6E2000F86CA54870F0018D58 /* Frameworks */ = {
+		3287B52C5A22B6A03158AE30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				963893D30D8582D2E4793365 /* libPods-EnTransparencia.a */,
+				984F769949F86FBEFF4A8931 /* libPods-EnTransparencia.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -312,8 +314,8 @@
 		923FF8DB923193B8DD72E20A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3525F6275EBDF70868928F9E /* Pods-EnTransparencia.debug.xcconfig */,
-				86F62E3F0DD4E852175D3E2D /* Pods-EnTransparencia.release.xcconfig */,
+				4F4AEBA35D89E9636BD35818 /* Pods-EnTransparencia.debug.xcconfig */,
+				69697CCE1DFA8EBDB3835981 /* Pods-EnTransparencia.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -470,6 +472,7 @@
 		C119718D275A89D500ECBEAB /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				478576592D7B93BD00ADBE5A /* FontListView.swift */,
 				47497B1C2D74D7FA0086E7B7 /* HTML2Text.swift */,
 				C1126EF52624E89500052D1D /* CustomVideo.swift */,
 				C1B250E02653309500E53069 /* LargeValueFormatter.swift */,
@@ -639,7 +642,7 @@
 				C1B6D72925E71CB400340FF3 /* EnTransparenciaUITests */,
 				C1B6D70B25E71CAD00340FF3 /* Products */,
 				923FF8DB923193B8DD72E20A /* Pods */,
-				6E2000F86CA54870F0018D58 /* Frameworks */,
+				3287B52C5A22B6A03158AE30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -766,12 +769,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1B6D72F25E71CB400340FF3 /* Build configuration list for PBXNativeTarget "EnTransparencia" */;
 			buildPhases = (
-				C16D25E0B046330F9DFFD11C /* [CP] Check Pods Manifest.lock */,
+				B942061228969A16F36D8EB5 /* [CP] Check Pods Manifest.lock */,
 				C1B6D70625E71CAD00340FF3 /* Sources */,
 				C1B6D70725E71CAD00340FF3 /* Frameworks */,
 				C1B6D70825E71CAD00340FF3 /* Resources */,
 				78A3CC5E283576EE000A7B31 /* Embed Frameworks */,
-				09ED18AD58F13DF2B04520DA /* [CP] Copy Pods Resources */,
+				80547250C344604F4F8C15C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -890,7 +893,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		09ED18AD58F13DF2B04520DA /* [CP] Copy Pods Resources */ = {
+		80547250C344604F4F8C15C3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -907,7 +910,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C16D25E0B046330F9DFFD11C /* [CP] Check Pods Manifest.lock */ = {
+		B942061228969A16F36D8EB5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1027,6 +1030,7 @@
 				C12147392763F49900ADD846 /* LoadingView.swift in Sources */,
 				C13130B8260A782D00160CEC /* Grafica.swift in Sources */,
 				C1DFEB582613ADC0007A1668 /* UniversidadDetailData.swift in Sources */,
+				4785765A2D7B93C800ADBE5A /* FontListView.swift in Sources */,
 				C12C0980265D96C4007E921C /* MarkerWindow.swift in Sources */,
 				782654D02C5A9D1D00AD5B0C /* DetallePoliticas.swift in Sources */,
 				C1E661F4276004E800F21C59 /* UtilsTableroTrimestres.swift in Sources */,
@@ -1194,26 +1198,30 @@
 		};
 		C1B6D73025E71CB400340FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3525F6275EBDF70868928F9E /* Pods-EnTransparencia.debug.xcconfig */;
+			baseConfigurationReference = 4F4AEBA35D89E9636BD35818 /* Pods-EnTransparencia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 71;
 				DEVELOPMENT_ASSET_PATHS = "\"EnTransparencia/Preview Content\"";
-				DEVELOPMENT_TEAM = MYY8YFL9J8;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = MYY8YFL9J8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = EnTransparencia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Subsidio En Transparencia";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.58;
+				MARKETING_VERSION = 1.59;
 				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparencia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = EnTransparenciaProduccion2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = 2025EnTransparencia;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1222,26 +1230,30 @@
 		};
 		C1B6D73125E71CB400340FF3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86F62E3F0DD4E852175D3E2D /* Pods-EnTransparencia.release.xcconfig */;
+			baseConfigurationReference = 69697CCE1DFA8EBDB3835981 /* Pods-EnTransparencia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 71;
 				DEVELOPMENT_ASSET_PATHS = "\"EnTransparencia/Preview Content\"";
-				DEVELOPMENT_TEAM = MYY8YFL9J8;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = MYY8YFL9J8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = EnTransparencia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Subsidio En Transparencia";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.58;
+				MARKETING_VERSION = 1.59;
 				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparencia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = EnTransparenciaProduccion2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = 2025EnTransparencia;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

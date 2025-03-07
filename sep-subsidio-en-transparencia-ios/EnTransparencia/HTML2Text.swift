@@ -40,23 +40,22 @@ struct HTMLText: View {
         // **Recorrer los estilos existentes y cambiar solo la fuente**
         attributedString.enumerateAttribute(.font, in: NSRange(location: 0, length: attributedString.length), options: []) { value, range, _ in
             if let oldFont = value as? UIFont {
-                var newFontDescriptor = oldFont.fontDescriptor
-                
-                // **Detectar si la fuente es bold o italic y aplicar la nueva fuente correctamente**
-                let isBold = oldFont.fontDescriptor.symbolicTraits.contains(.traitBold)
-                let isItalic = oldFont.fontDescriptor.symbolicTraits.contains(.traitItalic)
-                
-                if isBold {
-                    newFontDescriptor = newFontDescriptor.withSymbolicTraits(.traitBold) ?? newFontDescriptor
-                }
-                if isItalic {
-                    newFontDescriptor = newFontDescriptor.withSymbolicTraits(.traitItalic) ?? newFontDescriptor
-                }
-
-                // **Asignar la fuente correcta manteniendo los estilos**
-                let newFont = UIFont(descriptor: newFontDescriptor, size: 18)
-                attributedString.addAttribute(.font, value: newFont, range: range)
-            }
+                           let isBold = oldFont.fontDescriptor.symbolicTraits.contains(.traitBold)
+                           let isItalic = oldFont.fontDescriptor.symbolicTraits.contains(.traitItalic)
+                           
+                           var fontName = "Montserrat"
+                           if isBold && isItalic {
+                               fontName = "Montserrat"
+                           } else if isBold {
+                               fontName = "Montserrat"
+                           } else if isItalic {
+                               fontName = "Montserrat"
+                           }
+                           
+                           if let newFont = UIFont(name: fontName, size: 16) {
+                               attributedString.addAttribute(.font, value: newFont, range: range)
+                           }
+                       }
         }
 
         return attributedString
