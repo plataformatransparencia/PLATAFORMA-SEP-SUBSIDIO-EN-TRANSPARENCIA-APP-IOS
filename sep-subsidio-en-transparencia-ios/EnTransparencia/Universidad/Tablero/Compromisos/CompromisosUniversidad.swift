@@ -76,14 +76,13 @@ struct CompromisosUniversidad: View {
                         
                         if(self.anio >= 2025  )
                         {
-                            /*
+                            
                             CompromisoInforme(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
                             CompromisoItso(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
                             CompromisoPef(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
                             CompromisoMatricula(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
-                             */
-                            Text("Esta es la fuente Montserrat")
-                                .font(.custom("Monts", size: 20))
+                            
+                            
                         }
                         
 

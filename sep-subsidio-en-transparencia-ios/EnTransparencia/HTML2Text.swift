@@ -43,16 +43,16 @@ struct HTMLText: View {
                            let isBold = oldFont.fontDescriptor.symbolicTraits.contains(.traitBold)
                            let isItalic = oldFont.fontDescriptor.symbolicTraits.contains(.traitItalic)
                            
-                           var fontName = "Montserrat"
+                           var fontName = "NotoSans-Regular"
                            if isBold && isItalic {
-                               fontName = "Montserrat"
+                               fontName = "NotoSans-Medium"
                            } else if isBold {
-                               fontName = "Montserrat"
+                               fontName = "NotoSans-Bold"
                            } else if isItalic {
-                               fontName = "Montserrat"
+                               fontName = "NotoSans-Italic"
                            }
                            
-                           if let newFont = UIFont(name: fontName, size: 16) {
+                           if let newFont = UIFont(name: fontName, size: 14) {
                                attributedString.addAttribute(.font, value: newFont, range: range)
                            }
                        }

@@ -11,6 +11,13 @@
 		471A86AC2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A86AB2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift */; };
 		47497B1D2D74D8150086E7B7 /* HTML2Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47497B1C2D74D7FA0086E7B7 /* HTML2Text.swift */; };
 		4785765A2D7B93C800ADBE5A /* FontListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478576592D7B93BD00ADBE5A /* FontListView.swift */; };
+		478576692D7BADEE00ADBE5A /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 478576672D7BADEE00ADBE5A /* NotoSans-Medium.ttf */; };
+		4785766A2D7BADEE00ADBE5A /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 478576632D7BADEE00ADBE5A /* NotoSans-Bold.ttf */; };
+		4785766B2D7BADEE00ADBE5A /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 478576642D7BADEE00ADBE5A /* NotoSans-Italic.ttf */; };
+		4785766C2D7BADEE00ADBE5A /* NotoSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 478576662D7BADEE00ADBE5A /* NotoSans-LightItalic.ttf */; };
+		4785766D2D7BADEE00ADBE5A /* NotoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 478576652D7BADEE00ADBE5A /* NotoSans-Light.ttf */; };
+		4785766E2D7BADEE00ADBE5A /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 478576682D7BADEE00ADBE5A /* NotoSans-Regular.ttf */; };
+		4785766F2D7BADEE00ADBE5A /* NotoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 478576622D7BADEE00ADBE5A /* NotoSans-Black.ttf */; };
 		478EF67F2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */; };
 		479C118B2D6904D900CF9BF1 /* CompromisoItso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */; };
 		479C118D2D69055000CF9BF1 /* CompromisoPef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118C2D69055000CF9BF1 /* CompromisoPef.swift */; };
@@ -148,6 +155,13 @@
 		471A86AB2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleCompromisoItsoPef.swift; sourceTree = "<group>"; };
 		47497B1C2D74D7FA0086E7B7 /* HTML2Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTML2Text.swift; sourceTree = "<group>"; };
 		478576592D7B93BD00ADBE5A /* FontListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontListView.swift; sourceTree = "<group>"; };
+		478576622D7BADEE00ADBE5A /* NotoSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Black.ttf"; sourceTree = "<group>"; };
+		478576632D7BADEE00ADBE5A /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		478576642D7BADEE00ADBE5A /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		478576652D7BADEE00ADBE5A /* NotoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Light.ttf"; sourceTree = "<group>"; };
+		478576662D7BADEE00ADBE5A /* NotoSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		478576672D7BADEE00ADBE5A /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Medium.ttf"; sourceTree = "<group>"; };
+		478576682D7BADEE00ADBE5A /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 		478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoUniversidadShowDetalle.swift; sourceTree = "<group>"; };
 		479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoItso.swift; sourceTree = "<group>"; };
 		479C118C2D69055000CF9BF1 /* CompromisoPef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoPef.swift; sourceTree = "<group>"; };
@@ -290,6 +304,20 @@
 				984F769949F86FBEFF4A8931 /* libPods-EnTransparencia.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4785765B2D7BAAB400ADBE5A /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				478576622D7BADEE00ADBE5A /* NotoSans-Black.ttf */,
+				478576632D7BADEE00ADBE5A /* NotoSans-Bold.ttf */,
+				478576642D7BADEE00ADBE5A /* NotoSans-Italic.ttf */,
+				478576652D7BADEE00ADBE5A /* NotoSans-Light.ttf */,
+				478576662D7BADEE00ADBE5A /* NotoSans-LightItalic.ttf */,
+				478576672D7BADEE00ADBE5A /* NotoSans-Medium.ttf */,
+				478576682D7BADEE00ADBE5A /* NotoSans-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 		78011C1F2D6D471400596799 /* ViewModels */ = {
@@ -668,6 +696,7 @@
 				C1B6D71125E71CB300340FF3 /* Assets.xcassets */,
 				C1B6D71625E71CB300340FF3 /* Info.plist */,
 				C1B6D71325E71CB300340FF3 /* Preview Content */,
+				4785765B2D7BAAB400ADBE5A /* fonts */,
 			);
 			path = EnTransparencia;
 			sourceTree = "<group>";
@@ -870,6 +899,13 @@
 			files = (
 				4718CCC72D7415A00065DF60 /* File.txt in Resources */,
 				C1DFEB5226139A94007A1668 /* SilverTheme.json in Resources */,
+				478576692D7BADEE00ADBE5A /* NotoSans-Medium.ttf in Resources */,
+				4785766A2D7BADEE00ADBE5A /* NotoSans-Bold.ttf in Resources */,
+				4785766B2D7BADEE00ADBE5A /* NotoSans-Italic.ttf in Resources */,
+				4785766C2D7BADEE00ADBE5A /* NotoSans-LightItalic.ttf in Resources */,
+				4785766D2D7BADEE00ADBE5A /* NotoSans-Light.ttf in Resources */,
+				4785766E2D7BADEE00ADBE5A /* NotoSans-Regular.ttf in Resources */,
+				4785766F2D7BADEE00ADBE5A /* NotoSans-Black.ttf in Resources */,
 				C1B6D71525E71CB300340FF3 /* Preview Assets.xcassets in Resources */,
 				C1B6D71225E71CB300340FF3 /* Assets.xcassets in Resources */,
 				C12C097C265D967E007E921C /* MarkerWindow.xib in Resources */,
