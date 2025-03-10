@@ -844,14 +844,14 @@ struct UniversidadDetail: View {
                         if(anio >= 2025)//Referencias
                         {
                             VStack{
-                                VStack(alignment: .leading){
+                                VStack(alignment: .center){
                                     HStack{
                                         Text(TITULO_REFERENCIAS_NUMERALIA)
                                             .foregroundColor(.black)
                                             .font(.titulo())
                                             .bold()
                                             .multilineTextAlignment(.center)
-                                        Spacer()
+                                            .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                     }.padding(.bottom,8)
                                         .padding(.top, 8)
                                         .padding(.leading)
@@ -880,7 +880,7 @@ struct UniversidadDetail: View {
                                         .bold()
                                         .multilineTextAlignment(.center)
                                         .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
-                                }.padding(.bottom,8)
+                                }.padding([.bottom, .top],12 )
                                 .padding(.leading)
                             }
                             VStack(alignment: .leading){
