@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4718CCC72D7415A00065DF60 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4718CCC62D7415A00065DF60 /* File.txt */; };
+		471A86AC2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471A86AB2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift */; };
+		47497B1D2D74D8150086E7B7 /* HTML2Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47497B1C2D74D7FA0086E7B7 /* HTML2Text.swift */; };
+		4785765A2D7B93C800ADBE5A /* FontListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478576592D7B93BD00ADBE5A /* FontListView.swift */; };
+		478576692D7BADEE00ADBE5A /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 478576672D7BADEE00ADBE5A /* NotoSans-Medium.ttf */; };
+		4785766A2D7BADEE00ADBE5A /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 478576632D7BADEE00ADBE5A /* NotoSans-Bold.ttf */; };
+		4785766B2D7BADEE00ADBE5A /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 478576642D7BADEE00ADBE5A /* NotoSans-Italic.ttf */; };
+		4785766C2D7BADEE00ADBE5A /* NotoSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 478576662D7BADEE00ADBE5A /* NotoSans-LightItalic.ttf */; };
+		4785766D2D7BADEE00ADBE5A /* NotoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 478576652D7BADEE00ADBE5A /* NotoSans-Light.ttf */; };
+		4785766E2D7BADEE00ADBE5A /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 478576682D7BADEE00ADBE5A /* NotoSans-Regular.ttf */; };
+		4785766F2D7BADEE00ADBE5A /* NotoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 478576622D7BADEE00ADBE5A /* NotoSans-Black.ttf */; };
+		478EF67F2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */; };
+		479C118B2D6904D900CF9BF1 /* CompromisoItso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */; };
+		479C118D2D69055000CF9BF1 /* CompromisoPef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118C2D69055000CF9BF1 /* CompromisoPef.swift */; };
+		479C118F2D69059A00CF9BF1 /* CompromisoMatricula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C118E2D69059A00CF9BF1 /* CompromisoMatricula.swift */; };
+		47BDFF2C2D66A07800132C07 /* CompromisoInforme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BDFF2B2D66A07800132C07 /* CompromisoInforme.swift */; };
+		4D95629BDBACE9DF74B31EB4 /* libPods-EnTransparencia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 984F769949F86FBEFF4A8931 /* libPods-EnTransparencia.a */; };
 		782268FD2ADDEC1800690C7E /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13130BB260A788800160CEC /* PieChart.swift */; };
 		782654D02C5A9D1D00AD5B0C /* DetallePoliticas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782654CF2C5A9D1D00AD5B0C /* DetallePoliticas.swift */; };
 		782654D22C5AA08400AD5B0C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782654D12C5AA08400AD5B0C /* SwiftUIView.swift */; };
 		78526E2829845D95000C4D55 /* CompromisosVertientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78526E2729845D95000C4D55 /* CompromisosVertientes.swift */; };
+		78A0B67D2D6FD6BD004BF0B0 /* CompromisosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0B67C2D6FD6BD004BF0B0 /* CompromisosViewModel.swift */; };
 		78A330362988592900675FB5 /* TableroCumplimientoPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */; };
 		78A330382988817700675FB5 /* TableroCompromisosListaPresupuesto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */; };
 		78A3CC6228357BE8000A7B31 /* ActividadesEntregasDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */; };
 		78A55B082AD8AAB800735363 /* MontosBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D82BCC26277B8B0010FD26 /* MontosBarChartView.swift */; };
+		78D19BFF2D70FF1F00964E76 /* CompromisoUniversidadShowDetalleITSO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D19BFE2D70FF1F00964E76 /* CompromisoUniversidadShowDetalleITSO.swift */; };
 		C103F4D52625FA89007DAA9B /* DetalleProgramas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103F4D42625FA89007DAA9B /* DetalleProgramas.swift */; };
 		C103F4D926260981007DAA9B /* MinistracionEstatalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103F4D826260981007DAA9B /* MinistracionEstatalData.swift */; };
 		C104E7B52768FDA200282373 /* TableroFederal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C104E7B42768FDA200282373 /* TableroFederal.swift */; };
@@ -99,7 +118,6 @@
 		C1F8536525EEDBDB009EB9C9 /* GridCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8536425EEDBDB009EB9C9 /* GridCellView.swift */; };
 		C1F8536A25EF11E0009EB9C9 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8536925EF11E0009EB9C9 /* GridView.swift */; };
 		C1FE6C47260BAEC9005168F7 /* ObjectUniversidades.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE6C46260BAEC9005168F7 /* ObjectUniversidades.swift */; };
-		D53DC411AAF8F9AF247692FE /* libPods-EnTransparencia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D196EA9165537AEAA9ACC10A /* libPods-EnTransparencia.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,14 +151,33 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4718CCC62D7415A00065DF60 /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
+		471A86AB2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleCompromisoItsoPef.swift; sourceTree = "<group>"; };
+		47497B1C2D74D7FA0086E7B7 /* HTML2Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTML2Text.swift; sourceTree = "<group>"; };
+		478576592D7B93BD00ADBE5A /* FontListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontListView.swift; sourceTree = "<group>"; };
+		478576622D7BADEE00ADBE5A /* NotoSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Black.ttf"; sourceTree = "<group>"; };
+		478576632D7BADEE00ADBE5A /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		478576642D7BADEE00ADBE5A /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		478576652D7BADEE00ADBE5A /* NotoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Light.ttf"; sourceTree = "<group>"; };
+		478576662D7BADEE00ADBE5A /* NotoSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		478576672D7BADEE00ADBE5A /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Medium.ttf"; sourceTree = "<group>"; };
+		478576682D7BADEE00ADBE5A /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoUniversidadShowDetalle.swift; sourceTree = "<group>"; };
+		479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoItso.swift; sourceTree = "<group>"; };
+		479C118C2D69055000CF9BF1 /* CompromisoPef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoPef.swift; sourceTree = "<group>"; };
+		479C118E2D69059A00CF9BF1 /* CompromisoMatricula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoMatricula.swift; sourceTree = "<group>"; };
+		47BDFF2B2D66A07800132C07 /* CompromisoInforme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisoInforme.swift; sourceTree = "<group>"; };
+		4F4AEBA35D89E9636BD35818 /* Pods-EnTransparencia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.debug.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.debug.xcconfig"; sourceTree = "<group>"; };
+		69697CCE1DFA8EBDB3835981 /* Pods-EnTransparencia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.release.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.release.xcconfig"; sourceTree = "<group>"; };
 		782654CF2C5A9D1D00AD5B0C /* DetallePoliticas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallePoliticas.swift; sourceTree = "<group>"; };
 		782654D12C5AA08400AD5B0C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		78526E2729845D95000C4D55 /* CompromisosVertientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosVertientes.swift; sourceTree = "<group>"; };
+		78A0B67C2D6FD6BD004BF0B0 /* CompromisosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompromisosViewModel.swift; sourceTree = "<group>"; };
 		78A330352988592900675FB5 /* TableroCumplimientoPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCumplimientoPresupuesto.swift; sourceTree = "<group>"; };
 		78A330372988817700675FB5 /* TableroCompromisosListaPresupuesto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroCompromisosListaPresupuesto.swift; sourceTree = "<group>"; };
 		78A3CC6128357BE8000A7B31 /* ActividadesEntregasDetalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActividadesEntregasDetalle.swift; sourceTree = "<group>"; };
-		7D4A9A09DD63CF8CFF69DEDE /* Pods-EnTransparencia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.release.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.release.xcconfig"; sourceTree = "<group>"; };
-		842EBE8AB826F7B79412B436 /* Pods-EnTransparencia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnTransparencia.debug.xcconfig"; path = "Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia.debug.xcconfig"; sourceTree = "<group>"; };
+		78D19BFE2D70FF1F00964E76 /* CompromisoUniversidadShowDetalleITSO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompromisoUniversidadShowDetalleITSO.swift; sourceTree = "<group>"; };
+		984F769949F86FBEFF4A8931 /* libPods-EnTransparencia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnTransparencia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C103F4D42625FA89007DAA9B /* DetalleProgramas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProgramas.swift; sourceTree = "<group>"; };
 		C103F4D826260981007DAA9B /* MinistracionEstatalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinistracionEstatalData.swift; sourceTree = "<group>"; };
 		C104E7B42768FDA200282373 /* TableroFederal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableroFederal.swift; sourceTree = "<group>"; };
@@ -233,7 +270,6 @@
 		C1F8536425EEDBDB009EB9C9 /* GridCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCellView.swift; sourceTree = "<group>"; };
 		C1F8536925EF11E0009EB9C9 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		C1FE6C46260BAEC9005168F7 /* ObjectUniversidades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectUniversidades.swift; sourceTree = "<group>"; };
-		D196EA9165537AEAA9ACC10A /* libPods-EnTransparencia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnTransparencia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,7 +277,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D53DC411AAF8F9AF247692FE /* libPods-EnTransparencia.a in Frameworks */,
+				4D95629BDBACE9DF74B31EB4 /* libPods-EnTransparencia.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,18 +298,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E286E971CCD3F795366E32E /* Frameworks */ = {
+		3287B52C5A22B6A03158AE30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D196EA9165537AEAA9ACC10A /* libPods-EnTransparencia.a */,
+				984F769949F86FBEFF4A8931 /* libPods-EnTransparencia.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4785765B2D7BAAB400ADBE5A /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				478576622D7BADEE00ADBE5A /* NotoSans-Black.ttf */,
+				478576632D7BADEE00ADBE5A /* NotoSans-Bold.ttf */,
+				478576642D7BADEE00ADBE5A /* NotoSans-Italic.ttf */,
+				478576652D7BADEE00ADBE5A /* NotoSans-Light.ttf */,
+				478576662D7BADEE00ADBE5A /* NotoSans-LightItalic.ttf */,
+				478576672D7BADEE00ADBE5A /* NotoSans-Medium.ttf */,
+				478576682D7BADEE00ADBE5A /* NotoSans-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		78011C1F2D6D471400596799 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C1E6620F276026C500F21C59 /* UniversidadDetailViewModel.swift */,
+				C1586BDF2614E08400736E05 /* ViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		782654CE2C5A9C6700AD5B0C /* Politica */ = {
 			isa = PBXGroup;
 			children = (
 				782654CF2C5A9D1D00AD5B0C /* DetallePoliticas.swift */,
+				4718CCC62D7415A00065DF60 /* File.txt */,
 				782654D12C5AA08400AD5B0C /* SwiftUIView.swift */,
 			);
 			name = Politica;
@@ -282,8 +342,8 @@
 		923FF8DB923193B8DD72E20A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				842EBE8AB826F7B79412B436 /* Pods-EnTransparencia.debug.xcconfig */,
-				7D4A9A09DD63CF8CFF69DEDE /* Pods-EnTransparencia.release.xcconfig */,
+				4F4AEBA35D89E9636BD35818 /* Pods-EnTransparencia.debug.xcconfig */,
+				69697CCE1DFA8EBDB3835981 /* Pods-EnTransparencia.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -369,7 +429,6 @@
 				C11971A8275A907600ECBEAB /* Filtro */,
 				C116A03927599EAB00E4750F /* Menu */,
 				C116A03227599B4600E4750F /* Contacto */,
-				C1586BDF2614E08400736E05 /* ViewModel.swift */,
 				C1B6D70F25E71CAD00340FF3 /* ContentView.swift */,
 			);
 			name = Views;
@@ -441,6 +500,8 @@
 		C119718D275A89D500ECBEAB /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				478576592D7B93BD00ADBE5A /* FontListView.swift */,
+				47497B1C2D74D7FA0086E7B7 /* HTML2Text.swift */,
 				C1126EF52624E89500052D1D /* CustomVideo.swift */,
 				C1B250E02653309500E53069 /* LargeValueFormatter.swift */,
 				C13130BB260A788800160CEC /* PieChart.swift */,
@@ -577,7 +638,15 @@
 			isa = PBXGroup;
 			children = (
 				C1EC3BC72603E2ED00D37428 /* DetalleCompromiso.swift */,
+				471A86AB2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift */,
 				C1F085A7260292A800B1C7C7 /* CompromisosUniversidad.swift */,
+				47BDFF2B2D66A07800132C07 /* CompromisoInforme.swift */,
+				479C118A2D6904D900CF9BF1 /* CompromisoItso.swift */,
+				479C118C2D69055000CF9BF1 /* CompromisoPef.swift */,
+				479C118E2D69059A00CF9BF1 /* CompromisoMatricula.swift */,
+				478EF67E2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift */,
+				78D19BFE2D70FF1F00964E76 /* CompromisoUniversidadShowDetalleITSO.swift */,
+				78A0B67C2D6FD6BD004BF0B0 /* CompromisosViewModel.swift */,
 			);
 			name = SubsidioOrdinario;
 			sourceTree = "<group>";
@@ -601,7 +670,7 @@
 				C1B6D72925E71CB400340FF3 /* EnTransparenciaUITests */,
 				C1B6D70B25E71CAD00340FF3 /* Products */,
 				923FF8DB923193B8DD72E20A /* Pods */,
-				1E286E971CCD3F795366E32E /* Frameworks */,
+				3287B52C5A22B6A03158AE30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -618,6 +687,7 @@
 		C1B6D70C25E71CAD00340FF3 /* EnTransparencia */ = {
 			isa = PBXGroup;
 			children = (
+				78011C1F2D6D471400596799 /* ViewModels */,
 				C119718D275A89D500ECBEAB /* Utils */,
 				C116A0312759995E00E4750F /* Views */,
 				C1FE6C45260BAE5C005168F7 /* Model */,
@@ -626,6 +696,7 @@
 				C1B6D71125E71CB300340FF3 /* Assets.xcassets */,
 				C1B6D71625E71CB300340FF3 /* Info.plist */,
 				C1B6D71325E71CB300340FF3 /* Preview Content */,
+				4785765B2D7BAAB400ADBE5A /* fonts */,
 			);
 			path = EnTransparencia;
 			sourceTree = "<group>";
@@ -661,7 +732,6 @@
 			children = (
 				C1EC3BD726041AE600D37428 /* Tablero */,
 				C18D74DA25F963C70056C20A /* UniversidadDetail.swift */,
-				C1E6620F276026C500F21C59 /* UniversidadDetailViewModel.swift */,
 			);
 			path = Universidad;
 			sourceTree = "<group>";
@@ -728,12 +798,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1B6D72F25E71CB400340FF3 /* Build configuration list for PBXNativeTarget "EnTransparencia" */;
 			buildPhases = (
-				A3F46304E257C239284735DE /* [CP] Check Pods Manifest.lock */,
+				B942061228969A16F36D8EB5 /* [CP] Check Pods Manifest.lock */,
 				C1B6D70625E71CAD00340FF3 /* Sources */,
 				C1B6D70725E71CAD00340FF3 /* Frameworks */,
 				C1B6D70825E71CAD00340FF3 /* Resources */,
-				7F3346D0B9152D6AB66BF5C1 /* [CP] Copy Pods Resources */,
 				78A3CC5E283576EE000A7B31 /* Embed Frameworks */,
+				80547250C344604F4F8C15C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -827,7 +897,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4718CCC72D7415A00065DF60 /* File.txt in Resources */,
 				C1DFEB5226139A94007A1668 /* SilverTheme.json in Resources */,
+				478576692D7BADEE00ADBE5A /* NotoSans-Medium.ttf in Resources */,
+				4785766A2D7BADEE00ADBE5A /* NotoSans-Bold.ttf in Resources */,
+				4785766B2D7BADEE00ADBE5A /* NotoSans-Italic.ttf in Resources */,
+				4785766C2D7BADEE00ADBE5A /* NotoSans-LightItalic.ttf in Resources */,
+				4785766D2D7BADEE00ADBE5A /* NotoSans-Light.ttf in Resources */,
+				4785766E2D7BADEE00ADBE5A /* NotoSans-Regular.ttf in Resources */,
+				4785766F2D7BADEE00ADBE5A /* NotoSans-Black.ttf in Resources */,
 				C1B6D71525E71CB300340FF3 /* Preview Assets.xcassets in Resources */,
 				C1B6D71225E71CB300340FF3 /* Assets.xcassets in Resources */,
 				C12C097C265D967E007E921C /* MarkerWindow.xib in Resources */,
@@ -851,7 +929,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7F3346D0B9152D6AB66BF5C1 /* [CP] Copy Pods Resources */ = {
+		80547250C344604F4F8C15C3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -868,7 +946,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnTransparencia/Pods-EnTransparencia-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A3F46304E257C239284735DE /* [CP] Check Pods Manifest.lock */ = {
+		B942061228969A16F36D8EB5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -900,6 +978,7 @@
 				782268FD2ADDEC1800690C7E /* PieChart.swift in Sources */,
 				78A55B082AD8AAB800735363 /* MontosBarChartView.swift in Sources */,
 				C11971AA275A90F200ECBEAB /* FiltroViewModel.swift in Sources */,
+				47497B1D2D74D8150086E7B7 /* HTML2Text.swift in Sources */,
 				C110A719274C19A800793A6B /* ListaAcciones.swift in Sources */,
 				C1B6D75F25E7233700340FF3 /* ViewRouter.swift in Sources */,
 				78A3CC6228357BE8000A7B31 /* ActividadesEntregasDetalle.swift in Sources */,
@@ -915,6 +994,7 @@
 				C1B6D71025E71CAD00340FF3 /* ContentView.swift in Sources */,
 				C1DD4579260C0FA500FD7AEF /* Filtros.swift in Sources */,
 				C11971B0275A928000ECBEAB /* DropDownAnios.swift in Sources */,
+				479C118F2D69059A00CF9BF1 /* CompromisoMatricula.swift in Sources */,
 				C13064AC273AFC4500058B04 /* AccionesEmprender.swift in Sources */,
 				C104E7B52768FDA200282373 /* TableroFederal.swift in Sources */,
 				C1D82FB8273F1B6D00AF2AAC /* ListaMontos.swift in Sources */,
@@ -925,6 +1005,7 @@
 				C155E117262E322C0059DE89 /* InformeTrimestralRC.swift in Sources */,
 				C1D82FB4273F0B5F00AF2AAC /* TableroEstatal.swift in Sources */,
 				C1DE9F50261E88850067E2E9 /* CompromisosData.swift in Sources */,
+				471A86AC2D742FDC00E4633A /* DetalleCompromisoItsoPef.swift in Sources */,
 				C1DAE9D9261F930C0014E286 /* Referencias.swift in Sources */,
 				C1F8536A25EF11E0009EB9C9 /* GridView.swift in Sources */,
 				C11289A32608F6CB00A51F2A /* TableroCumplimientoEstatal.swift in Sources */,
@@ -940,9 +1021,11 @@
 				C1E661FA2760058900F21C59 /* TableroCumplimientoViewModel.swift in Sources */,
 				C1F210D52761542F004CAD7D /* AccionesEmprenderViewModel.swift in Sources */,
 				C1319E41275EDBCB0004F36C /* TableroCumplimientoFederalViewModel.swift in Sources */,
+				78A0B67D2D6FD6BD004BF0B0 /* CompromisosViewModel.swift in Sources */,
 				C1515264279748120095490F /* Constantes.swift in Sources */,
 				C11AE34F27861C4D0071E78A /* ListaEtapas.swift in Sources */,
 				C1DD4575260BDC6100FD7AEF /* ImageLoader.swift in Sources */,
+				479C118D2D69055000CF9BF1 /* CompromisoPef.swift in Sources */,
 				C1280E44273C45A700E51BDB /* Compromisos.swift in Sources */,
 				C1126EF62624E89600052D1D /* CustomVideo.swift in Sources */,
 				C1126EDF2624A0D000052D1D /* ProgramasData.swift in Sources */,
@@ -959,11 +1042,14 @@
 				C11971B6275A935500ECBEAB /* DropDownSubsidioExtraordinario.swift in Sources */,
 				C104E7B92769251600282373 /* DetalleTableroFederal.swift in Sources */,
 				C1808A57261247CE00D2777C /* AppEnTransparencia.swift in Sources */,
+				479C118B2D6904D900CF9BF1 /* CompromisoItso.swift in Sources */,
+				47BDFF2C2D66A07800132C07 /* CompromisoInforme.swift in Sources */,
 				C1126EDB26249ED800052D1D /* ConocePlataformaData.swift in Sources */,
 				C155E113262E32170059DE89 /* InformeTrimestralSO.swift in Sources */,
 				C116A0452759A36E00E4750F /* DetallePlataformaViewModel.swift in Sources */,
 				C13064B1273AFCB100058B04 /* AccionesEmprenderDetalle.swift in Sources */,
 				C1D82FBC273F20E900AF2AAC /* MontoDetalle.swift in Sources */,
+				478EF67F2D6944CA0068297A /* CompromisoUniversidadShowDetalle.swift in Sources */,
 				C1FE6C47260BAEC9005168F7 /* ObjectUniversidades.swift in Sources */,
 				C1586BE02614E08400736E05 /* ViewModel.swift in Sources */,
 				78526E2829845D95000C4D55 /* CompromisosVertientes.swift in Sources */,
@@ -971,6 +1057,7 @@
 				C1808A62261253FD00D2777C /* AppDelegate.swift in Sources */,
 				78A330362988592900675FB5 /* TableroCumplimientoPresupuesto.swift in Sources */,
 				C155E109262DF3970059DE89 /* MinistracionFederalData.swift in Sources */,
+				78D19BFF2D70FF1F00964E76 /* CompromisoUniversidadShowDetalleITSO.swift in Sources */,
 				C1F8536525EEDBDB009EB9C9 /* GridCellView.swift in Sources */,
 				C1F8535D25EED6D0009EB9C9 /* SearchTextFieldView.swift in Sources */,
 				C116A03427599B6E00E4750F /* ContactoViewModel.swift in Sources */,
@@ -979,6 +1066,7 @@
 				C12147392763F49900ADD846 /* LoadingView.swift in Sources */,
 				C13130B8260A782D00160CEC /* Grafica.swift in Sources */,
 				C1DFEB582613ADC0007A1668 /* UniversidadDetailData.swift in Sources */,
+				4785765A2D7B93C800ADBE5A /* FontListView.swift in Sources */,
 				C12C0980265D96C4007E921C /* MarkerWindow.swift in Sources */,
 				782654D02C5A9D1D00AD5B0C /* DetallePoliticas.swift in Sources */,
 				C1E661F4276004E800F21C59 /* UtilsTableroTrimestres.swift in Sources */,
@@ -1146,26 +1234,30 @@
 		};
 		C1B6D73025E71CB400340FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 842EBE8AB826F7B79412B436 /* Pods-EnTransparencia.debug.xcconfig */;
+			baseConfigurationReference = 4F4AEBA35D89E9636BD35818 /* Pods-EnTransparencia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 71;
 				DEVELOPMENT_ASSET_PATHS = "\"EnTransparencia/Preview Content\"";
-				DEVELOPMENT_TEAM = MYY8YFL9J8;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = MYY8YFL9J8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = EnTransparencia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Subsidio En Transparencia";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.58;
+				MARKETING_VERSION = 1.59.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparencia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = EnTransparenciaProduccion2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = 2025EnTransparencia;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1174,26 +1266,30 @@
 		};
 		C1B6D73125E71CB400340FF3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D4A9A09DD63CF8CFF69DEDE /* Pods-EnTransparencia.release.xcconfig */;
+			baseConfigurationReference = 69697CCE1DFA8EBDB3835981 /* Pods-EnTransparencia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 71;
 				DEVELOPMENT_ASSET_PATHS = "\"EnTransparencia/Preview Content\"";
-				DEVELOPMENT_TEAM = MYY8YFL9J8;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = MYY8YFL9J8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = EnTransparencia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Subsidio En Transparencia";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.58;
+				MARKETING_VERSION = 1.59.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Sep.DGESUI.EnTransparencia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = EnTransparenciaProduccion2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = 2025EnTransparencia;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

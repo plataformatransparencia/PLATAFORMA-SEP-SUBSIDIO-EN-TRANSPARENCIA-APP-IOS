@@ -65,3 +65,27 @@ struct CumplimientosEntregas: Codable{
 }
 
 
+//Nuevo modelo para tablero Informes itso, pef, matricula
+
+struct CompromisoM: Codable, Identifiable{
+    let id = UUID()
+    let compromiso: String
+    let cumplimiento: String
+    let fecha: String
+    let observacion: String
+    
+    enum CodingKeys:String, CodingKey {
+        case compromiso, cumplimiento, fecha, observacion
+    }
+    
+    
+}
+
+struct DatosCompromisos: Codable{
+    let compromisos: [CompromisoM]
+    let itso:[CompromisoM]
+    let pef:[CompromisoM]
+    let matricula: [CompromisoM]
+}
+
+

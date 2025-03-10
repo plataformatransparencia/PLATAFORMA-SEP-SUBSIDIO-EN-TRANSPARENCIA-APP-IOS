@@ -40,15 +40,19 @@ struct DetalleCompromiso: View {
                                     .font(.texto1())
                                     .bold()
                                 HStack{
+                                    /*
                                     Text("\(self.compromiso)")
                                         .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                         .font(.texto1())
                                         .foregroundColor(.black)
+                                     */
+                                    HTMLText(htmlString: self.compromiso, alignment: .leading  )
                                     Spacer()
                                 }.padding(.bottom, 8)
                                 .padding(.top)
                             }
                         }.padding()
+                            
                         SemaforoTablerosEO(cumplimiento: self.cumplimiento, fecha: self.fecha, textoColumna1: "Cumplimiento", textoColumna2: "Fecha de ejecución")
                         if self.observacion != ""{
                             HStack{

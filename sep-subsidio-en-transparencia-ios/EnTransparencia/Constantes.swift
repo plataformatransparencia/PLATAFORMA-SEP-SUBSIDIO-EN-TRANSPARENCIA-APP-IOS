@@ -70,16 +70,24 @@ let TITULO_MONTO_TOTAL = "Monto Total", TITULO_MONTO_FEDERAL = "Monto Federal", 
 let TITULO_DOC_ANEXO_EJECUCION =  "Anexo de ejecución", TITULO_DOC_CONVENIO_MARCO_COLAB =  "Convenio Marco de Colaboración", TITULO_DOC_CONVENIO = "Convenio",TITULO_DOC_MODIF_CALENDARIO = "Modificación de Calendario", TITULO_DOC_OFI_CALENDARIO = "Oficio de Calendario", TITULO_DOC_PLAN_AUSTERIDAD = "Plan de austeridad", TITULO_DOC_CONVENIO_VER_A = "Convenio Vertiente A",  TITULO_DOC_CONVENIO_VER_B = "Convenio Vertiente B", TITULO_DOC_CONVENIO_VER_C = "Convenio Vertiente C"
 
 //TABLERO
-let TITULO_TABLERO = "Tablero", TITULO_TABLERO_ACCIONES_UNI = "Acciones por Emprender por la Universidad", TITULO_TABLERO_MINISTACION_FDRAL = "Tablero de Cumplimiento de Ministraciones, Aportación Federal: SEP - Estado - Universidad",
+let TITULO_TABLERO = "Tablero", TITULO_TABLERO_ACCIONES_UNI = "Acciones por Emprender por la Universidad", TITULO_TABLERO_MINISTACION_FEDERAL = "Tablero de Cumplimiento de Ministraciones, Aportación Federal: SEP - Estado - Universidad",
     TITULO_TABLERO_MINISTACION_ESTATAL = "Tablero de Cumplimiento de Ministraciones, Aportación Estatal: Estado - Universidad",
     TITULO_TABLERO_ACCIONES_GOB = "Acciones por Emprender por el Gobierno del Estado", TITULO_COMPROMISOS_ESTADO =  "Compromisos del Estado", TITULO_COMPROMISOS_UNI = "Compromisos de la Universidad", TITULO_COMPROMISOS = "Compromisos", TITULO_TABLERO_CUMPLIMIENTO = "Tablero de Cumplimiento", TITULO_ACCIONES_POR_EMPRENDER = "Acciones por Emprender", TITULO_ACCIONES_EMPRENDIDAS = "Acciones Emprendidas",
+    TITULO_DETALLE_TABLERO_ESTATAL = "Transferencia Estado a Univesidad",
+    //COMPROMISOS
+    TITULO_COMPROMISO_GENERALES="Compromisos generales",
+    TITULO_INFORMES_ITSO="Informes ITSO",
+    TITULO_INFORMES_PEF="Informes PEF",
+    TITULO_INFORMES_MATRICULA="Informes Matrícula Auditada",
     //TIPOS DE PARAMETROS
     TIPO_UNI = "universidad",
     TIPO_EDO = "estado",
     TIPO_EMPRENDIDAS = "emprendidas",
     TIPO_TABLERO = "tablero"
+    
 
 //REFERENCIAS ANEXO EJECUCIÓN
 let TITULO_REFERENCIA_ANEXO_EJE = "Referencia de acuerdo al anexo de ejecución", TITULO_OTRAS_REF = "Otras referencias", TITULO_REF = "Referencias"
 
-
+//NOTA especial Universidades
+let NOTA_MONTO_MINISTRACIONES = "Nota: El monto total de las ministraciones expresadas en esta tabla puede diferir de la suma establecida en el Anexo de Ejecución debido al redondeo."

@@ -167,8 +167,10 @@ struct UniversidadDetail: View {
                                             }.foregroundColor(Color("dorado"))
                                             .padding(.bottom, 3)
                                         }
-                                        if universidadDetailViewModel.planAusteridad != ""{
-                                            BotonDocumentos(documento: universidadDetailViewModel.planAusteridad, titulo: TITULO_DOC_PLAN_AUSTERIDAD, anio: self.anio)
+                                        if(anio < 2025){
+                                            if universidadDetailViewModel.planAusteridad != ""{
+                                                BotonDocumentos(documento: universidadDetailViewModel.planAusteridad, titulo: TITULO_DOC_PLAN_AUSTERIDAD, anio: self.anio)
+                                            }
                                         }
                                     }
                                     Spacer()
@@ -180,6 +182,7 @@ struct UniversidadDetail: View {
                                         .bold()
                                     Spacer()
                                 }.padding(.bottom, 7)
+                                //Condición de despliegue según el año
                                 if self.anio == 2018 && self.subsidioSeleccionadokey == "subsidio_extraordinario"{
                                     LazyVGrid(columns:
                                                 [
@@ -194,7 +197,7 @@ struct UniversidadDetail: View {
                                                     itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.federationOwnershipPercentage))) + "%", texto: TITULO_PPF_EX)
                                                     itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.stateOwnershipPercentage))) + "%", texto: TITILO_PPE_EX)
                                                 })
-                                }else{
+                                }else if (anio < 2025){
                                     LazyVGrid(columns:
                                                 [
                                                     GridItem(.flexible(minimum: 350, maximum: 350), spacing: 3)
@@ -234,33 +237,77 @@ struct UniversidadDetail: View {
                                                         itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.stateOwnershipPercentage))) + "%", texto: TITULO_PPE)
                                                     }
                                                 })
+                                }else{
+                                    
+                                    LazyVGrid(columns:
+                                                [
+                                                    GridItem(.flexible(minimum: 350, maximum: 350), spacing: 3)
+                                                ],spacing: 3, content: {
+                                                    
+                                                    if(universidadDetailViewModel.higherEducationEnrolment == 0 &&
+                                                       universidadDetailViewModel.highSchoolEnrolment == 0 &&
+                                                       universidadDetailViewModel.enrolmentTotal == 0 &&
+                                                       universidadDetailViewModel.fullTimeProfessorsTotal == 0 &&
+                                                       universidadDetailViewModel.desirableProfileProfessor == 0 &&
+                                                       universidadDetailViewModel.nationalSystemResearchersProfessor == 0 &&
+                                                       universidadDetailViewModel.studentAllowance == 0){
+                                                    HStack{
+                                                        if universidadDetailViewModel.anexoEjecucion != ""{
+                                                            Text(CONSOLIDACION)
+                                                                .foregroundColor(.black)
+                                                                .font(.titulo())
+                                                                .bold()
+                                                        }else{
+                                                            Text(PROCESO)
+                                                                .foregroundColor(.black)
+                                                                .font(.titulo())
+                                                                .bold()
+                                                        }
+                                                        }.padding(.bottom, 7)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.federationOwnershipPercentage))) + "%", texto: TITULO_PPF)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.stateOwnershipPercentage))) + "%", texto: TITULO_PPE)
+                                                    }else{
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.higherEducationEnrolment))), texto: TITULO_MEST)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.highSchoolEnrolment))), texto: TITULO_MEMST)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.enrolmentTotal))), texto: TITULO_MT)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.fullTimeProfessorsTotal))), texto: TITULO_TPTC)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.desirableProfileProfessor))), texto: TITULO_TPTCPDV)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.nationalSystemResearchersProfessor))), texto: TITULO_PSNIV)
+                                                        itemNumeralia(monto: "", texto: TITULO_SAFYE) //No mostrar monto para estudiantes
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.federationOwnershipPercentage))) + "%", texto: TITULO_PPF)
+                                                        itemNumeralia(monto: String(formatResultForRegion(basedOn: String(universidadDetailViewModel.stateOwnershipPercentage))) + "%", texto: TITULO_PPE)
+                                                    }
+                                                })
                                 }
                             }.padding(.leading)
                         }.background(Color.white)
                         .padding(.top, 8)
-                        VStack{
-                            VStack(alignment: .leading){
-                                HStack{
-                                    Text(TITULO_REFERENCIAS_NUMERALIA)
-                                        .foregroundColor(.black)
-                                        .font(.titulo())
-                                        .bold()
-                                        .multilineTextAlignment(.center)
-                                    Spacer()
-                                }.padding(.bottom,8)
-                                .padding(.top, 8)
-                                .padding(.leading)
-                            }
-                            VStack(alignment: .leading){
-                                ForEach(universidadDetailViewModel.numeralia.sorted(by: >).reversed(), id: \.key){key, value in
+                        if(anio < 2025)//Referencias
+                        {
+                            VStack{
+                                VStack(alignment: .leading){
                                     HStack{
-                                        Text("\(key)")
-                                        Text("\(value)")
-                                    }.foregroundColor(.black)
-                                    .font(.texto())
-                                    .padding(.horizontal)
-                                    .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
-                                    
+                                        Text(TITULO_REFERENCIAS_NUMERALIA)
+                                            .foregroundColor(.black)
+                                            .font(.titulo())
+                                            .bold()
+                                            .multilineTextAlignment(.center)
+                                        Spacer()
+                                    }.padding(.bottom,8)
+                                        .padding(.top, 8)
+                                        .padding(.leading)
+                                }
+                                VStack(alignment: .leading){
+                                    ForEach(universidadDetailViewModel.numeralia.sorted(by: >).reversed(), id: \.key){key, value in
+                                        HStack{
+                                            Text("\(key)")
+                                            Text("\(value)")
+                                        }.foregroundColor(.black)
+                                            .font(.texto())
+                                            .padding(.horizontal)
+                                            .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+                                        
+                                    }
                                 }
                             }
                         }
@@ -415,6 +462,7 @@ struct UniversidadDetail: View {
                         .padding()
                         HStack{
                             VStack{
+                                
                                 if self.subsidioSeleccionadokey == "subsidio_extraordinario" && self.id != "32"{
                                     VStack{
                                         ForEach(universidadDetailViewModel.subsidioExtra.filter{$0.value != "La revisión del cumplimiento de los compromisos ha sido realizada por la Asociación Mexicana de Órganos de Control y Vigilancia en Instituciones de Educación Superior (AMOCVIES)."}, id: \.key){key, value in
@@ -442,6 +490,11 @@ struct UniversidadDetail: View {
                                 }
                                 HStack{
                                     VStack(alignment: .leading){
+                                        HStack{
+                                            Text(NOTA_MONTO_MINISTRACIONES)
+                                        }
+                                        
+                                        
                                         if universidadDetailViewModel.anexoEjecucion != ""{
                                             BotonDocumentos(documento: universidadDetailViewModel.anexoEjecucion, titulo: TITULO_DOC_ANEXO_EJECUCION, anio: self.anio)
                                         }
@@ -474,6 +527,11 @@ struct UniversidadDetail: View {
                                         
                                         if universidadDetailViewModel.oficioCalendario != ""{
                                             BotonDocumentos(documento: universidadDetailViewModel.oficioCalendario, titulo: TITULO_DOC_OFI_CALENDARIO, anio: self.anio)
+                                        }
+                                        if(anio >= 2025){
+                                            if universidadDetailViewModel.planAusteridad != ""{
+                                                BotonDocumentos(documento: universidadDetailViewModel.planAusteridad, titulo: TITULO_DOC_PLAN_AUSTERIDAD, anio: self.anio)
+                                            }
                                         }
                                     }
                                     Spacer()
@@ -512,9 +570,9 @@ struct UniversidadDetail: View {
                                                         .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                                 }).padding(.bottom, 5)
                                             NavigationLink(
-                                                destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FDRAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
+                                                destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FEDERAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
                                                 label: {
-                                                    Text(TITULO_TABLERO_MINISTACION_FDRAL)
+                                                    Text(TITULO_TABLERO_MINISTACION_FEDERAL)
                                                         .font(.texto1())
                                                         .foregroundColor(Color("rosita"))
                                                         .multilineTextAlignment(.leading)
@@ -545,9 +603,9 @@ struct UniversidadDetail: View {
                                                     .foregroundColor(Color("rosita"))
                                             }).padding(.bottom, 5)
                                         NavigationLink(
-                                            destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FDRAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
+                                            destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FEDERAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
                                             label: {
-                                                Text(TITULO_TABLERO_MINISTACION_FDRAL)
+                                                Text(TITULO_TABLERO_MINISTACION_FEDERAL)
                                                     .font(.texto1())
                                                     .foregroundColor(Color("rosita"))
                                                     .multilineTextAlignment(.leading)
@@ -577,9 +635,9 @@ struct UniversidadDetail: View {
                                                         .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                                 }).padding(.bottom, 5)
                                             NavigationLink(
-                                                destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FDRAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
+                                                destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FEDERAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
                                                 label: {
-                                                    Text(TITULO_TABLERO_MINISTACION_FDRAL)
+                                                    Text(TITULO_TABLERO_MINISTACION_FEDERAL)
                                                         .font(.texto1())
                                                         .foregroundColor(Color("rosita"))
                                                         .multilineTextAlignment(.leading)
@@ -606,9 +664,9 @@ struct UniversidadDetail: View {
                                                         .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                                 }).padding(.bottom, 5)
                                             NavigationLink(
-                                                destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FDRAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
+                                                destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FEDERAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
                                                 label: {
-                                                    Text(TITULO_TABLERO_MINISTACION_FDRAL)
+                                                    Text(TITULO_TABLERO_MINISTACION_FEDERAL)
                                                         .font(.texto1())
                                                         .foregroundColor(Color("rosita"))
                                                         .multilineTextAlignment(.leading)
@@ -660,9 +718,9 @@ struct UniversidadDetail: View {
                                             }).padding(.bottom, 5)
                                         
                                         NavigationLink(
-                                            destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FDRAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
+                                            destination: TableroFederal(tituloTablero: TITULO_TABLERO_MINISTACION_FEDERAL, anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
                                             label: {
-                                                Text(TITULO_TABLERO_MINISTACION_FDRAL)
+                                                Text(TITULO_TABLERO_MINISTACION_FEDERAL)
                                                     .font(.texto1())
                                                     .foregroundColor(Color("rosita"))
                                                     .multilineTextAlignment(.leading)
@@ -754,7 +812,7 @@ struct UniversidadDetail: View {
                                     NavigationLink(
                                         destination: TableroCumplimientoFederal(anio: self.anio, id: self.id, tipo: self.subsidioSeleccionadokey),
                                         label: {
-                                            Text(TITULO_TABLERO_MINISTACION_FDRAL)
+                                            Text(TITULO_TABLERO_MINISTACION_FEDERAL)
                                                 .font(.texto1())
                                                 .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                                 .foregroundColor(Color("rosita"))
@@ -783,6 +841,36 @@ struct UniversidadDetail: View {
                             }.padding(.leading)
                         }.background(Color.white)
                         
+                        if(anio >= 2025)//Referencias
+                        {
+                            VStack{
+                                VStack(alignment: .center){
+                                    HStack{
+                                        Text(TITULO_REFERENCIAS_NUMERALIA)
+                                            .foregroundColor(.black)
+                                            .font(.titulo())
+                                            .bold()
+                                            .multilineTextAlignment(.center)
+                                            .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+                                    }.padding(.bottom,8)
+                                        .padding(.top, 8)
+                                        .padding(.leading)
+                                }
+                                VStack(alignment: .leading){
+                                    ForEach(universidadDetailViewModel.numeralia.sorted(by: >).reversed(), id: \.key){key, value in
+                                        HStack{
+                                            Text("\(key)")
+                                            Text("\(value)")
+                                        }.foregroundColor(.black)
+                                            .font(.texto())
+                                            .padding(.horizontal)
+                                            .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+                                        
+                                    }
+                                }
+                            }
+                        }
+                        
                         if self.subsidioSeleccionadokey == "subsidio_ordinario" ||  self.subsidioSeleccionadokey == ""{
                             VStack(alignment: .center){
                                 HStack{
@@ -792,7 +880,7 @@ struct UniversidadDetail: View {
                                         .bold()
                                         .multilineTextAlignment(.center)
                                         .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
-                                }.padding(.bottom,8)
+                                }.padding([.bottom, .top],12 )
                                 .padding(.leading)
                             }
                             VStack(alignment: .leading){
@@ -808,14 +896,16 @@ struct UniversidadDetail: View {
                                 }
                             }
                             VStack(alignment: .leading ){
-                                HStack{
-                                    Text(TITULO_OTRAS_REF)
-                                        .foregroundColor(.black)
-                                        .font(.titulo())
-                                        .bold()
-                                    Spacer()
-                                }.padding(.bottom,8)
-                                .padding(.leading)
+                                if(anio < 2025){ //Eliminate title "Otras referencias"
+                                    HStack{
+                                        Text(TITULO_OTRAS_REF)
+                                            .foregroundColor(.black)
+                                            .font(.titulo())
+                                            .bold()
+                                        Spacer()
+                                    }.padding(.bottom,8)
+                                        .padding(.leading)
+                                }
                             }
                             VStack(alignment: .leading){
                                 ForEach(universidadDetailViewModel.otras.sorted(by: <), id: \.key){key, value in

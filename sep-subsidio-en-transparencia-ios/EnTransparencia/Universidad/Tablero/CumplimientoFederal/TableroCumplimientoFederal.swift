@@ -67,6 +67,7 @@ struct TableroCumplimientoFederal: View {
                                         NavigationLink(destination: DetalleTableroCumplimientoFederal(mes: "Marzo", sepEstadoCumplimiento: tableroCumplimientoFederalViewModel.sepEstadoCumplimientoMarzo ?? "", sepEstadoFecha: tableroCumplimientoFederalViewModel.sepEstadoFechaCumplimientoMarzo ?? "", sepEstadoObservacion: tableroCumplimientoFederalViewModel.sepEstadoObservacionCumplimientoMarzo ?? "", estadoUniversidadCumplimiento: tableroCumplimientoFederalViewModel.estadoUniversidadCumplimientoMarzo ?? "", estadoUniversidadFecha: tableroCumplimientoFederalViewModel.estadoUniversidadFechaCumplimientoMarzo ?? "", estadoUniversidadObservacion: tableroCumplimientoFederalViewModel.estadoUniversidadObservacionCumplimientoMarzo ?? "", anio: self.anio, tipo: self.tipo)) {
                                             SemaforoTablero(mes: "Marzo", cumplimiento: tableroCumplimientoFederalViewModel.sepEstadoCumplimientoMarzo ?? "", monto: tableroCumplimientoFederalViewModel.montoMarzo ?? 0.0)
                                         }
+                                        if( self.anio < 2025 ){
                                         NavigationLink(destination: InformeTrimestralSO(cumplimiento: tableroCumplimientoFederalViewModel.subsidioOrdinarioTrimestre1Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.subsidioOrdinarioTrimestre1Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
                                             HStack{
                                                 Text("Informe Trimestral de Subsidio Ordinario").font(.texto1())
@@ -80,19 +81,22 @@ struct TableroCumplimientoFederal: View {
                                             .padding(.leading, 40)
                                             .padding(.top)
                                         }
-                                        NavigationLink(destination: InformeTrimestralRC(cumplimiento: tableroCumplimientoFederalViewModel.rendicionCuentasTrimestre1Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.rendicionCuentasTrimestre1Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
-                                            HStack{
-                                                Text("Informe de Rendición de Cuentas")
-                                                    .font(.texto1())
-                                                    .foregroundColor(Color(.black))
-                                                    .padding(.bottom, 3)
-                                                Spacer()
-                                                Image(systemName: "chevron.right")
-                                                    .font(.texto1())
-                                                    .foregroundColor(Color("gris1"))
-                                            }.padding(.bottom, 7)
-                                            .padding(.leading, 40)
-                                            .padding(.top)
+                                        
+                                        
+                                            NavigationLink(destination: InformeTrimestralRC(cumplimiento: tableroCumplimientoFederalViewModel.rendicionCuentasTrimestre1Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.rendicionCuentasTrimestre1Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
+                                                HStack{
+                                                    Text("Informe de Rendición de Cuentas")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color(.black))
+                                                        .padding(.bottom, 3)
+                                                    Spacer()
+                                                    Image(systemName: "chevron.right")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color("gris1"))
+                                                }.padding(.bottom, 7)
+                                                    .padding(.leading, 40)
+                                                    .padding(.top)
+                                            }
                                         }
                                     }
                                 }
@@ -125,6 +129,7 @@ struct TableroCumplimientoFederal: View {
                                         NavigationLink(destination: DetalleTableroCumplimientoFederal(mes: "Junio", sepEstadoCumplimiento: tableroCumplimientoFederalViewModel.sepEstadoCumplimientoJunio ?? "", sepEstadoFecha: tableroCumplimientoFederalViewModel.sepEstadoFechaCumplimientoJunio ?? "", sepEstadoObservacion: tableroCumplimientoFederalViewModel.sepEstadoObservacionCumplimientoJunio ?? "", estadoUniversidadCumplimiento: tableroCumplimientoFederalViewModel.estadoUniversidadCumplimientoJunio ?? "", estadoUniversidadFecha: tableroCumplimientoFederalViewModel.estadoUniversidadFechaCumplimientoJunio ?? "", estadoUniversidadObservacion: tableroCumplimientoFederalViewModel.estadoUniversidadObservacionCumplimientoJunio ?? "", anio: self.anio, tipo: self.tipo)) {
                                             SemaforoTablero(mes: "Junio", cumplimiento: tableroCumplimientoFederalViewModel.sepEstadoCumplimientoJunio ?? "", monto: tableroCumplimientoFederalViewModel.montoJunio ?? 0.0)
                                         }
+                                        if (self.anio < 2025){
                                         NavigationLink(destination: InformeTrimestralSO(cumplimiento: tableroCumplimientoFederalViewModel.subsidioOrdinarioTrimestre2Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.subsidioOrdinarioTrimestre2Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
                                             HStack{
                                                 Text("Informe Trimestral de Subsidio Ordinario")
@@ -139,34 +144,37 @@ struct TableroCumplimientoFederal: View {
                                             .padding(.leading, 40)
                                             .padding(.top)
                                         }
-                                        NavigationLink(destination: InformeTrimestralRC(cumplimiento: tableroCumplimientoFederalViewModel.rendicionCuentasTrimestre2Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.rendicionCuentasTrimestre2Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
-                                            HStack{
-                                                Text("Informe de Rendición de Cuentas")
-                                                    .font(.texto1())
-                                                    .foregroundColor(Color(.black))
-                                                    .padding(.bottom, 3)
-                                                Spacer()
-                                                Image(systemName: "chevron.right")
-                                                    .font(.texto1())
-                                                    .foregroundColor(Color("gris1"))
-                                            }.padding(.bottom, 7)
-                                            .padding(.leading, 40)
-                                            .padding(.top)
+                                      
+                                            NavigationLink(destination: InformeTrimestralRC(cumplimiento: tableroCumplimientoFederalViewModel.rendicionCuentasTrimestre2Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.rendicionCuentasTrimestre2Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
+                                                HStack{
+                                                    Text("Informe de Rendición de Cuentas")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color(.black))
+                                                        .padding(.bottom, 3)
+                                                    Spacer()
+                                                    Image(systemName: "chevron.right")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color("gris1"))
+                                                }.padding(.bottom, 7)
+                                                    .padding(.leading, 40)
+                                                    .padding(.top)
+                                            }
+                                            NavigationLink(destination: InformeSemestralMA(cumplimiento: tableroCumplimientoFederalViewModel.matriculaSemestre1Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.matriculaSemestre1Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
+                                                HStack{
+                                                    Text("Informe Semestral de Matrícula Auditada")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color(.black))
+                                                        .padding(.bottom, 3)
+                                                    Spacer()
+                                                    Image(systemName: "chevron.right")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color("gris1"))
+                                                }.padding(.bottom, 7)
+                                                    .padding(.leading, 40)
+                                                    .padding(.top)
+                                            }
                                         }
-                                        NavigationLink(destination: InformeSemestralMA(cumplimiento: tableroCumplimientoFederalViewModel.matriculaSemestre1Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.matriculaSemestre1Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
-                                            HStack{
-                                                Text("Informe Semestral de Matrícula Auditada")
-                                                    .font(.texto1())
-                                                    .foregroundColor(Color(.black))
-                                                    .padding(.bottom, 3)
-                                                Spacer()
-                                                Image(systemName: "chevron.right")
-                                                    .font(.texto1())
-                                                    .foregroundColor(Color("gris1"))
-                                            }.padding(.bottom, 7)
-                                            .padding(.leading, 40)
-                                            .padding(.top)
-                                        }
+                                        
                                     }
                                 }
                             }.padding()
@@ -198,33 +206,37 @@ struct TableroCumplimientoFederal: View {
                                         NavigationLink(destination: DetalleTableroCumplimientoFederal(mes: "Septiembre", sepEstadoCumplimiento: tableroCumplimientoFederalViewModel.sepEstadoCumplimientoSeptiembre ?? "", sepEstadoFecha: tableroCumplimientoFederalViewModel.sepEstadoFechaCumplimientoSeptiembre ?? "", sepEstadoObservacion: tableroCumplimientoFederalViewModel.sepEstadoObservacionCumplimientoSeptiembre ?? "", estadoUniversidadCumplimiento: tableroCumplimientoFederalViewModel.estadoUniversidadCumplimientoSeptiembre ?? "", estadoUniversidadFecha: tableroCumplimientoFederalViewModel.estadoUniversidadFechaCumplimientoSeptiembre ?? "", estadoUniversidadObservacion: tableroCumplimientoFederalViewModel.estadoUniversidadObservacionCumplimientoSeptiembre ?? "", anio: self.anio, tipo: self.tipo)) {
                                             SemaforoTablero(mes: "Septiembre", cumplimiento: tableroCumplimientoFederalViewModel.sepEstadoCumplimientoSeptiembre ?? "", monto: tableroCumplimientoFederalViewModel.montoSeptiembre ?? 0.0)
                                         }
-                                        NavigationLink(destination: InformeTrimestralSO(cumplimiento: tableroCumplimientoFederalViewModel.subsidioOrdinarioTrimestre3Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.subsidioOrdinarioTrimestre3Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
-                                            HStack{
-                                                Text("Informe Trimestral de Subsidio Ordinario")
-                                                    .font(.texto1())
-                                                    .foregroundColor(Color(.black))
-                                                    .padding(.bottom, 3)
-                                                Spacer()
-                                                Image(systemName: "chevron.right")
-                                                    .font(.texto1())
-                                                    .foregroundColor(Color("gris1"))
-                                            }.padding(.bottom, 7)
-                                            .padding(.leading, 40)
-                                            .padding(.top)
-                                        }
-                                        NavigationLink(destination: InformeTrimestralRC(cumplimiento: tableroCumplimientoFederalViewModel.rendicionCuentasTrimestre3Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.rendicionCuentasTrimestre3Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
-                                            HStack{
-                                                Text("Informe de Rendición de Cuentas ")
-                                                    .font(.texto1())
-                                                    .foregroundColor(Color(.black))
-                                                    .padding(.bottom, 3)
-                                                Spacer()
-                                                Image(systemName: "chevron.right")
-                                                    .font(.texto1())
-                                                    .foregroundColor(Color("gris1"))
-                                            }.padding(.bottom, 7)
-                                            .padding(.leading, 40)
-                                            .padding(.top)
+                                        
+                                        if(self.anio < 2025)
+                                        {
+                                            NavigationLink(destination: InformeTrimestralSO(cumplimiento: tableroCumplimientoFederalViewModel.subsidioOrdinarioTrimestre3Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.subsidioOrdinarioTrimestre3Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
+                                                HStack{
+                                                    Text("Informe Trimestral de Subsidio Ordinario")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color(.black))
+                                                        .padding(.bottom, 3)
+                                                    Spacer()
+                                                    Image(systemName: "chevron.right")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color("gris1"))
+                                                }.padding(.bottom, 7)
+                                                    .padding(.leading, 40)
+                                                    .padding(.top)
+                                            }
+                                            NavigationLink(destination: InformeTrimestralRC(cumplimiento: tableroCumplimientoFederalViewModel.rendicionCuentasTrimestre3Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.rendicionCuentasTrimestre3Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
+                                                HStack{
+                                                    Text("Informe de Rendición de Cuentas ")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color(.black))
+                                                        .padding(.bottom, 3)
+                                                    Spacer()
+                                                    Image(systemName: "chevron.right")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color("gris1"))
+                                                }.padding(.bottom, 7)
+                                                    .padding(.leading, 40)
+                                                    .padding(.top)
+                                            }
                                         }
                                     }
                                 }
@@ -257,47 +269,51 @@ struct TableroCumplimientoFederal: View {
                                         NavigationLink(destination: DetalleTableroCumplimientoFederal(mes: "Diciembre", sepEstadoCumplimiento: tableroCumplimientoFederalViewModel.sepEstadoCumplimientoDiciembre ?? "", sepEstadoFecha: tableroCumplimientoFederalViewModel.sepEstadoFechaCumplimientoDiciembre ?? "", sepEstadoObservacion: tableroCumplimientoFederalViewModel.sepEstadoObservacionCumplimientoDiciembre ?? "", estadoUniversidadCumplimiento: tableroCumplimientoFederalViewModel.estadoUniversidadCumplimientoDiciembre ?? "", estadoUniversidadFecha: tableroCumplimientoFederalViewModel.estadoUniversidadFechaCumplimientoDiciembre ?? "", estadoUniversidadObservacion: tableroCumplimientoFederalViewModel.estadoUniversidadObservacionCumplimientoDiciembre ?? "", anio: self.anio, tipo: self.tipo)) {
                                             SemaforoTablero(mes: "Diciembre", cumplimiento: tableroCumplimientoFederalViewModel.sepEstadoCumplimientoDiciembre ?? "", monto: tableroCumplimientoFederalViewModel.montoDiciembre ?? 0.0)
                                         }
-                                        NavigationLink(destination: InformeTrimestralSO(cumplimiento: tableroCumplimientoFederalViewModel.subsidioOrdinarioTrimestre4Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.subsidioOrdinarioTrimestre4Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
-                                            HStack{
-                                                Text("Informe Trimestral de Subsidio Ordinario")
-                                                    .font(.texto1())
-                                                    .foregroundColor(Color(.black))
-                                                    .padding(.bottom, 3)
-                                                Spacer()
-                                                Image(systemName: "chevron.right")
-                                                    .font(.texto1())
-                                                    .foregroundColor(Color("gris1"))
-                                            }.padding(.bottom, 7)
-                                            .padding(.leading, 40)
-                                            .padding(.top)
-                                        }
-                                        NavigationLink(destination: InformeTrimestralRC(cumplimiento: tableroCumplimientoFederalViewModel.rendicionCuentasTrimestre4Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.rendicionCuentasTrimestre4Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
-                                            HStack{
-                                                Text("Informe de Rendición de Cuentas")
-                                                    .font(.texto1())
-                                                    .foregroundColor(Color(.black))
-                                                    .padding(.bottom, 3)
-                                                Spacer()
-                                                Image(systemName: "chevron.right")
-                                                    .font(.texto1())
-                                                    .foregroundColor(Color("gris1"))
-                                            }.padding(.bottom, 7)
-                                            .padding(.leading, 40)
-                                            .padding(.top)
-                                        }
-                                        NavigationLink(destination: InformeSemestralMA(cumplimiento: tableroCumplimientoFederalViewModel.matriculaSemestre2Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.matriculaSemestre2Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
-                                            HStack{
-                                                Text("Informe Semestral de Matrícula Auditada")
-                                                    .font(.texto1())
-                                                    .foregroundColor(Color(.black))
-                                                    .padding(.bottom, 3)
-                                                Spacer()
-                                                Image(systemName: "chevron.right")
-                                                    .font(.texto1())
-                                                    .foregroundColor(Color("gris1"))
-                                            }.padding(.bottom, 7)
-                                            .padding(.leading, 40)
-                                            .padding(.top)
+                                        
+                                        if (self.anio < 2025)
+                                        {
+                                            NavigationLink(destination: InformeTrimestralSO(cumplimiento: tableroCumplimientoFederalViewModel.subsidioOrdinarioTrimestre4Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.subsidioOrdinarioTrimestre4Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
+                                                HStack{
+                                                    Text("Informe Trimestral de Subsidio Ordinario")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color(.black))
+                                                        .padding(.bottom, 3)
+                                                    Spacer()
+                                                    Image(systemName: "chevron.right")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color("gris1"))
+                                                }.padding(.bottom, 7)
+                                                    .padding(.leading, 40)
+                                                    .padding(.top)
+                                            }
+                                            NavigationLink(destination: InformeTrimestralRC(cumplimiento: tableroCumplimientoFederalViewModel.rendicionCuentasTrimestre4Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.rendicionCuentasTrimestre4Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
+                                                HStack{
+                                                    Text("Informe de Rendición de Cuentas")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color(.black))
+                                                        .padding(.bottom, 3)
+                                                    Spacer()
+                                                    Image(systemName: "chevron.right")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color("gris1"))
+                                                }.padding(.bottom, 7)
+                                                    .padding(.leading, 40)
+                                                    .padding(.top)
+                                            }
+                                            NavigationLink(destination: InformeSemestralMA(cumplimiento: tableroCumplimientoFederalViewModel.matriculaSemestre2Cumplimiento ?? "", observacion: tableroCumplimientoFederalViewModel.matriculaSemestre2Observacion ?? "", anio: self.anio, tipo: self.tipo)) {
+                                                HStack{
+                                                    Text("Informe Semestral de Matrícula Auditada")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color(.black))
+                                                        .padding(.bottom, 3)
+                                                    Spacer()
+                                                    Image(systemName: "chevron.right")
+                                                        .font(.texto1())
+                                                        .foregroundColor(Color("gris1"))
+                                                }.padding(.bottom, 7)
+                                                    .padding(.leading, 40)
+                                                    .padding(.top)
+                                            }
                                         }
                                     }
                                 }

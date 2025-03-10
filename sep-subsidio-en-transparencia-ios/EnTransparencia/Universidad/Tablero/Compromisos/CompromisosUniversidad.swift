@@ -25,26 +25,32 @@ struct CompromisosUniversidad: View {
                                             .foregroundColor(Color("gris1"))
                                     })
                                     Spacer()
-                                    Text("Compromisos de la Universidad")
+                                    Text(TITULO_COMPROMISOS_UNI)
                                         .foregroundColor(Color("rosita"))
                                         .font(.titulo())
                                         .bold()
                                     Spacer()
                                 }
                             }
-                            Spacer()
+                          Spacer()
+                            
                         }.onAppear{
-                            compromisosUniversidadViewModel.loadComprmisos(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+                           
+                            
+                            if (self.anio < 2025 )
+                            {
+                             compromisosUniversidadViewModel.loadComprmisos(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+                            }
                         }
                         .padding([.horizontal, .top])
                         .background(Color.white)
-                        
+               
                         if compromisosUniversidadViewModel.compromisos != nil {
                             ForEach(0..<compromisosUniversidadViewModel.compromisos!.count, id: \.self){item in
                                 NavigationLink(
                                     destination: DetalleCompromiso(compromiso: compromisosUniversidadViewModel.compromisos![item].compromiso.reemplazo(),
                                         cumplimiento: compromisosUniversidadViewModel.compromisos![item].cumplimiento!,
-                                        fecha: compromisosUniversidadViewModel.compromisos![item].fecha!,
+                                         fecha: compromisosUniversidadViewModel.compromisos![item].fecha!,
                                         observacion: compromisosUniversidadViewModel.compromisos![item].observacion!),
                                     label: {
                                         Text("\(toRoman(numero: item+1))")
@@ -67,6 +73,19 @@ struct CompromisosUniversidad: View {
                                     })
                             }
                         }
+                        
+                        if(self.anio >= 2025  )
+                        {
+                            
+                            CompromisoInforme(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+                            CompromisoItso(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+                            CompromisoPef(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+                            CompromisoMatricula(anio: self.anio, id: self.id, subsidio: self.subsidio, tipo: self.tipo)
+                            
+                            
+                        }
+                        
+
                     }.navigationBarHidden(true)
                 }
             }.navigationViewStyle(StackNavigationViewStyle())

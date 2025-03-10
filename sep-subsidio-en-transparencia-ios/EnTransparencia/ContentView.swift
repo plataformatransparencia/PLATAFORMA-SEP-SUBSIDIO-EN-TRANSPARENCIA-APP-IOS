@@ -124,7 +124,7 @@ struct TopBar: View {
         
     }
 }
-
+/*
 extension Font{
     
     static func montserrat(size: Int) -> Font {
@@ -141,5 +141,24 @@ extension Font{
     }
     static func texto2() -> Font {
         return Font.custom("Montserrat", size: UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad ? 22 : 12)
+    }
+}
+*/
+extension Font{
+    
+    static func montserrat(size: Int) -> Font {
+        return Font.custom("NotoSans-Regular", size: CGFloat(size))
+    }
+    static func titulo() -> Font {
+        return Font.custom("NotoSans-Regular", size: UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad ? 30 : 18)
+    }
+    static func texto() -> Font {
+        return Font.custom("NotoSans-Regular", size: UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad ? 25 : 13)
+    }
+    static func texto1() -> Font {
+        return Font.custom("NotoSans-Regular", size: UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad ? 28 : 16)
+    }
+    static func texto2() -> Font {
+        return Font.custom("NotoSans-Regular", size: UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad ? 22 : 10)
     }
 }
